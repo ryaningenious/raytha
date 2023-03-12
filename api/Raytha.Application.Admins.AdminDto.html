@@ -1,0 +1,546 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class AdminDto
+ </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class AdminDto
+ ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Raytha.Application.Admins.AdminDto">
+
+
+  <h1 id="Raytha_Application_Admins_AdminDto" data-uid="Raytha.Application.Admins.AdminDto" class="text-break">Class AdminDto
+</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><a class="xref" href="Raytha.Application.Common.Models.BaseEntityDto.html">BaseEntityDto</a></div>
+    <div class="level2"><a class="xref" href="Raytha.Application.Common.Models.BaseAuditableEntityDto.html">BaseAuditableEntityDto</a></div>
+    <div class="level3"><a class="xref" href="Raytha.Application.Common.Models.BaseFullAuditableEntityDto.html">BaseFullAuditableEntityDto</a></div>
+    <div class="level4"><span class="xref">AdminDto</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Raytha.Application.Common.Models.IBaseEntityDto.html">IBaseEntityDto</a></div>
+    <div><span class="xref">System.IEquatable&lt;T&gt;</span>&lt;<a class="xref" href="Raytha.Application.Common.Models.BaseEntityDto.html">BaseEntityDto</a>&gt;</div>
+    <div><span class="xref">System.IEquatable&lt;T&gt;</span>&lt;<a class="xref" href="Raytha.Application.Common.Models.BaseAuditableEntityDto.html">BaseAuditableEntityDto</a>&gt;</div>
+    <div><span class="xref">System.IEquatable&lt;T&gt;</span>&lt;<a class="xref" href="Raytha.Application.Common.Models.BaseFullAuditableEntityDto.html">BaseFullAuditableEntityDto</a>&gt;</div>
+    <div><span class="xref">System.IEquatable&lt;T&gt;</span>&lt;<a class="xref" href="Raytha.Application.Admins.AdminDto.html">AdminDto</a>&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Raytha.Application.Common.Models.BaseFullAuditableEntityDto.html#Raytha_Application_Common_Models_BaseFullAuditableEntityDto_DeleterUserId">BaseFullAuditableEntityDto.DeleterUserId</a>
+    </div>
+    <div>
+      <a class="xref" href="Raytha.Application.Common.Models.BaseFullAuditableEntityDto.html#Raytha_Application_Common_Models_BaseFullAuditableEntityDto_DeletionTime">BaseFullAuditableEntityDto.DeletionTime</a>
+    </div>
+    <div>
+      <a class="xref" href="Raytha.Application.Common.Models.BaseFullAuditableEntityDto.html#Raytha_Application_Common_Models_BaseFullAuditableEntityDto_IsDeleted">BaseFullAuditableEntityDto.IsDeleted</a>
+    </div>
+    <div>
+      <a class="xref" href="Raytha.Application.Common.Models.BaseAuditableEntityDto.html#Raytha_Application_Common_Models_BaseAuditableEntityDto_CreationTime">BaseAuditableEntityDto.CreationTime</a>
+    </div>
+    <div>
+      <a class="xref" href="Raytha.Application.Common.Models.BaseAuditableEntityDto.html#Raytha_Application_Common_Models_BaseAuditableEntityDto_CreatorUserId">BaseAuditableEntityDto.CreatorUserId</a>
+    </div>
+    <div>
+      <a class="xref" href="Raytha.Application.Common.Models.BaseAuditableEntityDto.html#Raytha_Application_Common_Models_BaseAuditableEntityDto_LastModifierUserId">BaseAuditableEntityDto.LastModifierUserId</a>
+    </div>
+    <div>
+      <a class="xref" href="Raytha.Application.Common.Models.BaseAuditableEntityDto.html#Raytha_Application_Common_Models_BaseAuditableEntityDto_LastModificationTime">BaseAuditableEntityDto.LastModificationTime</a>
+    </div>
+    <div>
+      <a class="xref" href="Raytha.Application.Common.Models.BaseEntityDto.html#Raytha_Application_Common_Models_BaseEntityDto_Id">BaseEntityDto.Id</a>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object)</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <span class="xref">Raytha</span>.<a class="xref" href="Raytha.Application.html">Application</a>.<a class="xref" href="Raytha.Application.Admins.html">Admins</a></h6>
+  <h6><strong>Assembly</strong>: Raytha.Application.dll</h6>
+  <h5 id="Raytha_Application_Admins_AdminDto_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public record AdminDto : BaseFullAuditableEntityDto, IBaseEntityDto, IEquatable&lt;BaseEntityDto&gt;, IEquatable&lt;BaseAuditableEntityDto&gt;, IEquatable&lt;BaseFullAuditableEntityDto&gt;, IEquatable&lt;AdminDto&gt;</code></pre>
+  </div>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_Admins_AdminDto_EmailAddress.md&amp;value=---%0Auid%3A%20Raytha.Application.Admins.AdminDto.EmailAddress%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/Admins/AdminDto.cs/#L16">View Source</a>
+  </span>
+  <a id="Raytha_Application_Admins_AdminDto_EmailAddress_" data-uid="Raytha.Application.Admins.AdminDto.EmailAddress*"></a>
+  <h4 id="Raytha_Application_Admins_AdminDto_EmailAddress" data-uid="Raytha.Application.Admins.AdminDto.EmailAddress">EmailAddress</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string EmailAddress { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_Admins_AdminDto_FirstName.md&amp;value=---%0Auid%3A%20Raytha.Application.Admins.AdminDto.FirstName%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/Admins/AdminDto.cs/#L14">View Source</a>
+  </span>
+  <a id="Raytha_Application_Admins_AdminDto_FirstName_" data-uid="Raytha.Application.Admins.AdminDto.FirstName*"></a>
+  <h4 id="Raytha_Application_Admins_AdminDto_FirstName" data-uid="Raytha.Application.Admins.AdminDto.FirstName">FirstName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string FirstName { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_Admins_AdminDto_FullName.md&amp;value=---%0Auid%3A%20Raytha.Application.Admins.AdminDto.FullName%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/Admins/AdminDto.cs/#L17">View Source</a>
+  </span>
+  <a id="Raytha_Application_Admins_AdminDto_FullName_" data-uid="Raytha.Application.Admins.AdminDto.FullName*"></a>
+  <h4 id="Raytha_Application_Admins_AdminDto_FullName" data-uid="Raytha.Application.Admins.AdminDto.FullName">FullName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string FullName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_Admins_AdminDto_IsActive.md&amp;value=---%0Auid%3A%20Raytha.Application.Admins.AdminDto.IsActive%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/Admins/AdminDto.cs/#L10">View Source</a>
+  </span>
+  <a id="Raytha_Application_Admins_AdminDto_IsActive_" data-uid="Raytha.Application.Admins.AdminDto.IsActive*"></a>
+  <h4 id="Raytha_Application_Admins_AdminDto_IsActive" data-uid="Raytha.Application.Admins.AdminDto.IsActive">IsActive</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsActive { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_Admins_AdminDto_IsAdmin.md&amp;value=---%0Auid%3A%20Raytha.Application.Admins.AdminDto.IsAdmin%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/Admins/AdminDto.cs/#L21">View Source</a>
+  </span>
+  <a id="Raytha_Application_Admins_AdminDto_IsAdmin_" data-uid="Raytha.Application.Admins.AdminDto.IsAdmin*"></a>
+  <h4 id="Raytha_Application_Admins_AdminDto_IsAdmin" data-uid="Raytha.Application.Admins.AdminDto.IsAdmin">IsAdmin</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsAdmin { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_Admins_AdminDto_LastLoggedInTime.md&amp;value=---%0Auid%3A%20Raytha.Application.Admins.AdminDto.LastLoggedInTime%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/Admins/AdminDto.cs/#L11">View Source</a>
+  </span>
+  <a id="Raytha_Application_Admins_AdminDto_LastLoggedInTime_" data-uid="Raytha.Application.Admins.AdminDto.LastLoggedInTime*"></a>
+  <h4 id="Raytha_Application_Admins_AdminDto_LastLoggedInTime" data-uid="Raytha.Application.Admins.AdminDto.LastLoggedInTime">LastLoggedInTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime? LastLoggedInTime { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span>?</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_Admins_AdminDto_LastName.md&amp;value=---%0Auid%3A%20Raytha.Application.Admins.AdminDto.LastName%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/Admins/AdminDto.cs/#L15">View Source</a>
+  </span>
+  <a id="Raytha_Application_Admins_AdminDto_LastName_" data-uid="Raytha.Application.Admins.AdminDto.LastName*"></a>
+  <h4 id="Raytha_Application_Admins_AdminDto_LastName" data-uid="Raytha.Application.Admins.AdminDto.LastName">LastName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string LastName { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_Admins_AdminDto_RecentlyAccessedViews.md&amp;value=---%0Auid%3A%20Raytha.Application.Admins.AdminDto.RecentlyAccessedViews%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/Admins/AdminDto.cs/#L25">View Source</a>
+  </span>
+  <a id="Raytha_Application_Admins_AdminDto_RecentlyAccessedViews_" data-uid="Raytha.Application.Admins.AdminDto.RecentlyAccessedViews*"></a>
+  <h4 id="Raytha_Application_Admins_AdminDto_RecentlyAccessedViews" data-uid="Raytha.Application.Admins.AdminDto.RecentlyAccessedViews">RecentlyAccessedViews</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;RecentlyAccessedView&gt; RecentlyAccessedViews { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;<span class="xref">RecentlyAccessedView</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_Admins_AdminDto_Roles.md&amp;value=---%0Auid%3A%20Raytha.Application.Admins.AdminDto.Roles%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/Admins/AdminDto.cs/#L23">View Source</a>
+  </span>
+  <a id="Raytha_Application_Admins_AdminDto_Roles_" data-uid="Raytha.Application.Admins.AdminDto.Roles*"></a>
+  <h4 id="Raytha_Application_Admins_AdminDto_Roles" data-uid="Raytha.Application.Admins.AdminDto.Roles">Roles</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;RoleDto&gt; Roles { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;<a class="xref" href="Raytha.Application.Roles.RoleDto.html">RoleDto</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_Admins_AdminDto_GetProjection.md&amp;value=---%0Auid%3A%20Raytha.Application.Admins.AdminDto.GetProjection%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/Admins/AdminDto.cs/#L27">View Source</a>
+  </span>
+  <a id="Raytha_Application_Admins_AdminDto_GetProjection_" data-uid="Raytha.Application.Admins.AdminDto.GetProjection*"></a>
+  <h4 id="Raytha_Application_Admins_AdminDto_GetProjection" data-uid="Raytha.Application.Admins.AdminDto.GetProjection">GetProjection()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Expression&lt;Func&lt;User, AdminDto&gt;&gt; GetProjection()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression&lt;TDelegate&gt;</span>&lt;<span class="xref">Func</span>&lt;<span class="xref">Raytha.Domain.Entities.User</span>, <a class="xref" href="Raytha.Application.Admins.AdminDto.html">AdminDto</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_Admins_AdminDto_GetProjection_Raytha_Domain_Entities_User_.md&amp;value=---%0Auid%3A%20Raytha.Application.Admins.AdminDto.GetProjection(Raytha.Domain.Entities.User)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/Admins/AdminDto.cs/#L32">View Source</a>
+  </span>
+  <a id="Raytha_Application_Admins_AdminDto_GetProjection_" data-uid="Raytha.Application.Admins.AdminDto.GetProjection*"></a>
+  <h4 id="Raytha_Application_Admins_AdminDto_GetProjection_Raytha_Domain_Entities_User_" data-uid="Raytha.Application.Admins.AdminDto.GetProjection(Raytha.Domain.Entities.User)">GetProjection(User)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AdminDto GetProjection(User entity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Raytha.Domain.Entities.User</span></td>
+        <td><span class="parametername">entity</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Raytha.Application.Admins.AdminDto.html">AdminDto</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Raytha.Application.Common.Models.IBaseEntityDto.html">IBaseEntityDto</a>
+  </div>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_Admins_AdminDto.md&amp;value=---%0Auid%3A%20Raytha.Application.Admins.AdminDto%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/Admins/AdminDto.cs/#L8" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <a class="github-button" href="https://github.com/RaythaHQ/raytha" data-size="large" aria-label="Follow">Follow</a>
+        <script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
+      </footer>    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
