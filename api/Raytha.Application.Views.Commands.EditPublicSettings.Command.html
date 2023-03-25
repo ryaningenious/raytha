@@ -12,7 +12,7 @@
  ">
     
       <link rel="shortcut icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
       <link rel="stylesheet" href="../styles/main.css">
       <meta property="docfx:navrel" content="../toc.html">
@@ -77,19 +77,19 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">object</span></div>
-    <div class="level1"><a class="xref" href="Raytha.Application.Common.Models.LoggableRequest-1.html">LoggableRequest</a>&lt;<a class="xref" href="Raytha.Application.Common.Models.CommandResponseDto-1.html">CommandResponseDto</a>&lt;<span class="xref">CSharpVitamins.ShortGuid</span>&gt;&gt;</div>
-    <div class="level2"><a class="xref" href="Raytha.Application.Common.Models.LoggableEntityRequest-1.html">LoggableEntityRequest</a>&lt;<a class="xref" href="Raytha.Application.Common.Models.CommandResponseDto-1.html">CommandResponseDto</a>&lt;<span class="xref">CSharpVitamins.ShortGuid</span>&gt;&gt;</div>
+    <div class="level1"><a class="xref" href="Raytha.Application.Common.Models.LoggableRequest-1.html">LoggableRequest</a>&lt;<a class="xref" href="Raytha.Application.Common.Models.CommandResponseDto-1.html">CommandResponseDto</a>&lt;<span class="xref">ShortGuid</span>&gt;&gt;</div>
+    <div class="level2"><a class="xref" href="Raytha.Application.Common.Models.LoggableEntityRequest-1.html">LoggableEntityRequest</a>&lt;<a class="xref" href="Raytha.Application.Common.Models.CommandResponseDto-1.html">CommandResponseDto</a>&lt;<span class="xref">ShortGuid</span>&gt;&gt;</div>
     <div class="level3"><span class="xref">EditPublicSettings.Command</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><span class="xref">MediatR.IRequest&lt;TResponse&gt;</span>&lt;<a class="xref" href="Raytha.Application.Common.Models.CommandResponseDto-1.html">CommandResponseDto</a>&lt;<span class="xref">CSharpVitamins.ShortGuid</span>&gt;&gt;</div>
-    <div><span class="xref">MediatR.IBaseRequest</span></div>
+    <div><span class="xref">IRequest</span>&lt;<a class="xref" href="Raytha.Application.Common.Models.CommandResponseDto-1.html">CommandResponseDto</a>&lt;<span class="xref">ShortGuid</span>&gt;&gt;</div>
+    <div><span class="xref">IBaseRequest</span></div>
     <div><a class="xref" href="Raytha.Application.Common.Models.ILoggableRequest.html">ILoggableRequest</a></div>
-    <div><span class="xref">System.IEquatable&lt;T&gt;</span>&lt;<a class="xref" href="Raytha.Application.Common.Models.LoggableRequest-1.html">LoggableRequest</a>&lt;<a class="xref" href="Raytha.Application.Common.Models.CommandResponseDto-1.html">CommandResponseDto</a>&lt;<span class="xref">CSharpVitamins.ShortGuid</span>&gt;&gt;&gt;</div>
+    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="Raytha.Application.Common.Models.LoggableRequest-1.html">LoggableRequest</a>&lt;<a class="xref" href="Raytha.Application.Common.Models.CommandResponseDto-1.html">CommandResponseDto</a>&lt;<span class="xref">ShortGuid</span>&gt;&gt;&gt;</div>
     <div><a class="xref" href="Raytha.Application.Common.Models.ILoggableEntityRequest.html">ILoggableEntityRequest</a></div>
-    <div><span class="xref">System.IEquatable&lt;T&gt;</span>&lt;<a class="xref" href="Raytha.Application.Common.Models.LoggableEntityRequest-1.html">LoggableEntityRequest</a>&lt;<a class="xref" href="Raytha.Application.Common.Models.CommandResponseDto-1.html">CommandResponseDto</a>&lt;<span class="xref">CSharpVitamins.ShortGuid</span>&gt;&gt;&gt;</div>
-    <div><span class="xref">System.IEquatable&lt;T&gt;</span>&lt;<a class="xref" href="Raytha.Application.Views.Commands.EditPublicSettings.html">EditPublicSettings</a>.<a class="xref" href="Raytha.Application.Views.Commands.EditPublicSettings.Command.html">Command</a>&gt;</div>
+    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="Raytha.Application.Common.Models.LoggableEntityRequest-1.html">LoggableEntityRequest</a>&lt;<a class="xref" href="Raytha.Application.Common.Models.CommandResponseDto-1.html">CommandResponseDto</a>&lt;<span class="xref">ShortGuid</span>&gt;&gt;&gt;</div>
+    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="Raytha.Application.Views.Commands.EditPublicSettings.html">EditPublicSettings</a>.<a class="xref" href="Raytha.Application.Views.Commands.EditPublicSettings.Command.html">Command</a>&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -145,7 +145,7 @@
     <pre><code class="lang-csharp hljs">public int DefaultNumberOfItemsPerPage { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -175,7 +175,7 @@
     <pre><code class="lang-csharp hljs">public bool IgnoreClientFilterAndSortQueryParams { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -205,7 +205,7 @@
     <pre><code class="lang-csharp hljs">public bool IsPublished { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -235,7 +235,7 @@
     <pre><code class="lang-csharp hljs">public int MaxNumberOfItemsPerPage { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -265,7 +265,7 @@
     <pre><code class="lang-csharp hljs">public string RoutePath { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -295,7 +295,7 @@
     <pre><code class="lang-csharp hljs">public ShortGuid TemplateId { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -304,7 +304,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">CSharpVitamins.ShortGuid</span></td>
+        <td><span class="xref">ShortGuid</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -359,7 +359,7 @@
         <script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
       </footer>    </div>
 
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../styles/docfx.js"></script>
     <script type="text/javascript" src="../styles/main.js"></script>
   </body>

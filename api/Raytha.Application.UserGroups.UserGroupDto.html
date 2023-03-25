@@ -12,7 +12,7 @@
  ">
     
       <link rel="shortcut icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
       <link rel="stylesheet" href="../styles/main.css">
       <meta property="docfx:navrel" content="../toc.html">
@@ -84,9 +84,9 @@
   <div class="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="Raytha.Application.Common.Models.IBaseEntityDto.html">IBaseEntityDto</a></div>
-    <div><span class="xref">System.IEquatable&lt;T&gt;</span>&lt;<a class="xref" href="Raytha.Application.Common.Models.BaseEntityDto.html">BaseEntityDto</a>&gt;</div>
-    <div><span class="xref">System.IEquatable&lt;T&gt;</span>&lt;<a class="xref" href="Raytha.Application.Common.Models.BaseAuditableEntityDto.html">BaseAuditableEntityDto</a>&gt;</div>
-    <div><span class="xref">System.IEquatable&lt;T&gt;</span>&lt;<a class="xref" href="Raytha.Application.UserGroups.UserGroupDto.html">UserGroupDto</a>&gt;</div>
+    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="Raytha.Application.Common.Models.BaseEntityDto.html">BaseEntityDto</a>&gt;</div>
+    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="Raytha.Application.Common.Models.BaseAuditableEntityDto.html">BaseAuditableEntityDto</a>&gt;</div>
+    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="Raytha.Application.UserGroups.UserGroupDto.html">UserGroupDto</a>&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -151,7 +151,7 @@
     <pre><code class="lang-csharp hljs">public string DeveloperName { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -181,7 +181,7 @@
     <pre><code class="lang-csharp hljs">public string Label { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -213,7 +213,7 @@
     <pre><code class="lang-csharp hljs">public static Expression&lt;Func&lt;UserGroup, UserGroupDto&gt;&gt; GetProjection()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -222,7 +222,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression&lt;TDelegate&gt;</span>&lt;<span class="xref">Func</span>&lt;<span class="xref">Raytha.Domain.Entities.UserGroup</span>, <a class="xref" href="Raytha.Application.UserGroups.UserGroupDto.html">UserGroupDto</a>&gt;&gt;</td>
+        <td><span class="xref">Expression</span>&lt;<span class="xref">Func</span>&lt;<span class="xref">UserGroup</span>, <a class="xref" href="Raytha.Application.UserGroups.UserGroupDto.html">UserGroupDto</a>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -243,7 +243,7 @@
     <pre><code class="lang-csharp hljs">public static UserGroupDto GetProjection(UserGroup entity)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -253,14 +253,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Raytha.Domain.Entities.UserGroup</span></td>
+        <td><span class="xref">UserGroup</span></td>
         <td><span class="parametername">entity</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -315,7 +315,7 @@
         <script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
       </footer>    </div>
 
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../styles/docfx.js"></script>
     <script type="text/javascript" src="../styles/main.js"></script>
   </body>

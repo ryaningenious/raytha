@@ -12,7 +12,7 @@
  ">
     
       <link rel="shortcut icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
       <link rel="stylesheet" href="../styles/main.css">
       <meta property="docfx:navrel" content="../toc.html">
@@ -77,16 +77,16 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">object</span></div>
-    <div class="level1"><a class="xref" href="Raytha.Application.Common.Models.LoggableRequest-1.html">LoggableRequest</a>&lt;<a class="xref" href="Raytha.Application.Common.Models.CommandResponseDto-1.html">CommandResponseDto</a>&lt;<span class="xref">CSharpVitamins.ShortGuid</span>&gt;&gt;</div>
+    <div class="level1"><a class="xref" href="Raytha.Application.Common.Models.LoggableRequest-1.html">LoggableRequest</a>&lt;<a class="xref" href="Raytha.Application.Common.Models.CommandResponseDto-1.html">CommandResponseDto</a>&lt;<span class="xref">ShortGuid</span>&gt;&gt;</div>
     <div class="level2"><span class="xref">CreateAuthenticationScheme.Command</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><span class="xref">MediatR.IRequest&lt;TResponse&gt;</span>&lt;<a class="xref" href="Raytha.Application.Common.Models.CommandResponseDto-1.html">CommandResponseDto</a>&lt;<span class="xref">CSharpVitamins.ShortGuid</span>&gt;&gt;</div>
-    <div><span class="xref">MediatR.IBaseRequest</span></div>
+    <div><span class="xref">IRequest</span>&lt;<a class="xref" href="Raytha.Application.Common.Models.CommandResponseDto-1.html">CommandResponseDto</a>&lt;<span class="xref">ShortGuid</span>&gt;&gt;</div>
+    <div><span class="xref">IBaseRequest</span></div>
     <div><a class="xref" href="Raytha.Application.Common.Models.ILoggableRequest.html">ILoggableRequest</a></div>
-    <div><span class="xref">System.IEquatable&lt;T&gt;</span>&lt;<a class="xref" href="Raytha.Application.Common.Models.LoggableRequest-1.html">LoggableRequest</a>&lt;<a class="xref" href="Raytha.Application.Common.Models.CommandResponseDto-1.html">CommandResponseDto</a>&lt;<span class="xref">CSharpVitamins.ShortGuid</span>&gt;&gt;&gt;</div>
-    <div><span class="xref">System.IEquatable&lt;T&gt;</span>&lt;<a class="xref" href="Raytha.Application.AuthenticationSchemes.Commands.CreateAuthenticationScheme.html">CreateAuthenticationScheme</a>.<a class="xref" href="Raytha.Application.AuthenticationSchemes.Commands.CreateAuthenticationScheme.Command.html">Command</a>&gt;</div>
+    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="Raytha.Application.Common.Models.LoggableRequest-1.html">LoggableRequest</a>&lt;<a class="xref" href="Raytha.Application.Common.Models.CommandResponseDto-1.html">CommandResponseDto</a>&lt;<span class="xref">ShortGuid</span>&gt;&gt;&gt;</div>
+    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="Raytha.Application.AuthenticationSchemes.Commands.CreateAuthenticationScheme.html">CreateAuthenticationScheme</a>.<a class="xref" href="Raytha.Application.AuthenticationSchemes.Commands.CreateAuthenticationScheme.Command.html">Command</a>&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -139,7 +139,7 @@
     <pre><code class="lang-csharp hljs">public string AuthenticationSchemeType { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -169,7 +169,7 @@
     <pre><code class="lang-csharp hljs">public string DeveloperName { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -199,7 +199,7 @@
     <pre><code class="lang-csharp hljs">public bool IsEnabledForAdmins { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -229,7 +229,7 @@
     <pre><code class="lang-csharp hljs">public bool IsEnabledForUsers { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -260,7 +260,7 @@
 public string JwtSecretKey { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -290,7 +290,7 @@ public string JwtSecretKey { get; init; }</code></pre>
     <pre><code class="lang-csharp hljs">public bool JwtUseHighSecurity { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -320,7 +320,7 @@ public string JwtSecretKey { get; init; }</code></pre>
     <pre><code class="lang-csharp hljs">public string Label { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -350,7 +350,7 @@ public string JwtSecretKey { get; init; }</code></pre>
     <pre><code class="lang-csharp hljs">public string LoginButtonText { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -381,7 +381,7 @@ public string JwtSecretKey { get; init; }</code></pre>
 public string SamlCertificate { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -412,7 +412,7 @@ public string SamlCertificate { get; init; }</code></pre>
 public string SamlIdpEntityId { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -442,7 +442,7 @@ public string SamlIdpEntityId { get; init; }</code></pre>
     <pre><code class="lang-csharp hljs">public string SignInUrl { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -472,7 +472,7 @@ public string SamlIdpEntityId { get; init; }</code></pre>
     <pre><code class="lang-csharp hljs">public string SignOutUrl { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -530,7 +530,7 @@ public string SamlIdpEntityId { get; init; }</code></pre>
         <script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
       </footer>    </div>
 
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../styles/docfx.js"></script>
     <script type="text/javascript" src="../styles/main.js"></script>
   </body>
