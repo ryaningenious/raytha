@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Configure advanced file storage for Raytha </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Configure advanced file storage for Raytha ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="configure-advanced-file-storage-for-raytha">Configure advanced file storage for Raytha</h1>
+
+<p>By default, Raytha uses the local file system and the directory specified in <code>/src/Raytha.Web/appsettings.json</code>. This is a convenient way to get up and running quickly on your local development environment. However, in production, it is best practice to use Azure Blob or an S3-compatible storage provider.</p>
+<h2 id="common-settings">Common settings</h2>
+<p>Regardless of your storage provider, some environment variables are set. Here are the default settings:</p>
+<pre><code>  &quot;FILE_STORAGE_PROVIDER&quot;: &quot;Local&quot;,
+  &quot;FILE_STORAGE_MAX_FILE_SIZE&quot;: 20000000,
+  &quot;FILE_STORAGE_MAX_TOTAL_DISK_SPACE&quot;: 1000000000,
+  &quot;FILE_STORAGE_ALLOWED_MIMETYPES&quot;: &quot;text/*,image/*,video/*,audio/*,application/pdf&quot;,
+  &quot;FILE_STORAGE_USE_DIRECT_UPLOAD_TO_CLOUD&quot;: true,
+</code></pre>
+<p>The variables are described as follows:</p>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FILE_STORAGE_PROVIDER</td>
+<td>Options can be <code>Local</code>, <code>AzureBlob</code>, or <code>S3</code></td>
+</tr>
+<tr>
+<td>FILE_STORAGE_MAX_FILE_SIZE</td>
+<td>Specified as the number of bytes</td>
+</tr>
+<tr>
+<td>FILE_STORAGE_MAX_TOTAL_DISK_SPACE</td>
+<td>Specified as the number of bytes</td>
+</tr>
+<tr>
+<td>FILE_STORAGE_ALLOWED_MIMETYPES</td>
+<td>Can give a specific mimetype, or use wildcard matches</td>
+</tr>
+<tr>
+<td>FILE_STORAGE_USE_DIRECT_UPLOAD_TO_CLOUD</td>
+<td>Recommended set to true if using <code>AzureBlob</code> or <code>S3</code>.</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Note: If you set <code>FILE_STORAGE_USE_DIRECT_UPLOAD_TO_CLOUD</code> to <code>true</code>, you should properly configure CORS on your buckets for this to work.</p>
+</blockquote>
+<h2 id="local-file-system">Local file system</h2>
+<p>To use the local file system, make sure the <code>FILE_STORAGE_PROVIDER</code> environment variable is set to <code>Local</code>.</p>
+<p>Also set the following Environment Variable whose value will be your local file system directory:</p>
+<pre><code> &quot;FILE_STORAGE_LOCAL_DIRECTORY&quot;: &quot;user-uploads&quot;
+</code></pre>
+<blockquote>
+<p>Note: If you use local file storage in production, you may not be able to accept file uploads larger than 25 MB due to Kestrel server limits and other possible issues.</p>
+</blockquote>
+<h2 id="azure-blob-storage">Azure blob storage</h2>
+<p>To use azure blob storage, make sure the <code>FILE_STORAGE_PROVIDER</code> environment variable is set to <code>AzureBlob</code>.</p>
+<p>You are required to set your Azure Blob connection string and provide the container name. Setting a custom domain is optional. If you plan to <a href="https://raytha.com/blog/Setup-custom-domain-on-Azure-Blob-Storage-behind-reverse-proxy">have your files at a custom domain</a> such as files.mydomain.com, provide the domain in the environment variable.</p>
+<pre><code>  &quot;FILE_STORAGE_AZUREBLOB_CONNECTION_STRING&quot;: &quot;&quot;,
+  &quot;FILE_STORAGE_AZUREBLOB_CONTAINER&quot;: &quot;&quot;,
+  &quot;FILE_STORAGE_AZUREBLOB_CUSTOM_DOMAIN&quot;: &quot;&quot;,
+</code></pre>
+<h2 id="s3-compatible-storage">S3-compatible storage</h2>
+<p>To use an s3-compatible storage provider, make sure the <code>FILE_STORAGE_PROVIDER</code> environment variable is set to <code>S3</code>.</p>
+<p>You must set all four of the following environment variables:</p>
+<pre><code>  &quot;FILE_STORAGE_S3_ACCESS_KEY&quot;: &quot;&quot;,
+  &quot;FILE_STORAGE_S3_SECRET_KEY&quot;: &quot;&quot;,
+  &quot;FILE_STORAGE_S3_SERVICE_URL&quot;: &quot;&quot;,
+  &quot;FILE_STORAGE_S3_BUCKET&quot;: &quot;&quot;,
+</code></pre>
+<p>For AWS, their service URL format follows the format of <strong>s3.[region].amazonaws.com</strong>.</p>
+<p>Replace [region] with the code for the specific region:</p>
+<ul>
+<li>US East (N. Virginia): us-east-1</li>
+<li>US East (Ohio): us-east-2</li>
+<li>US West (N. California): us-west-1</li>
+<li>US West (Oregon): us-west-2</li>
+</ul>
+<p>Therefore, for example, the service URL for Amazon S3 in the US West (Oregon) region would be <code>s3.us-west-2.amazonaws.com</code>.</p>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/docfx_project/articles/filestorage.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <a class="github-button" href="https://github.com/RaythaHQ/raytha" data-size="large" aria-label="Follow">Follow</a>
+        <script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
+      </footer>    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

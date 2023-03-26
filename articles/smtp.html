@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Configure Raytha to send emails </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Configure Raytha to send emails ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="configure-raytha-to-send-emails">Configure Raytha to send emails</h1>
+
+<h2 id="configuring-smtp-server-for-raytha">Configuring SMTP server for Raytha</h2>
+<p>If you are running Raytha on your local development environment, you can use a tool such as <a href="https://github.com/ChangemakerStudios/Papercut-SMTP">Papercut SMTP</a>. Papercut SMTP is a desktop client that can accept emails at the default SMTP settings as shown in your <code>/src/Raytha.Web/appsettings.json</code> file.</p>
+<p>You can configure your appsettings.json file by providing the following information:</p>
+<pre><code>  &quot;SMTP_HOST&quot;: &quot;127.0.0.1&quot;,
+  &quot;SMTP_PORT&quot;: 25,
+  &quot;SMTP_USERNAME&quot;: &quot;&quot;,
+  &quot;SMTP_PASSWORD&quot;: &quot;&quot;,
+</code></pre>
+<ul>
+<li>SMTP_HOST: The IP address or hostname of the SMTP server you wish to use. In the case of local development with Papercut SMTP, use &quot;127.0.0.1&quot;.</li>
+<li>SMTP_PORT: The port number of the SMTP server. In the case of local development with Papercut SMTP, use the default port number 25.</li>
+<li>SMTP_USERNAME and SMTP_PASSWORD: The credentials required to authenticate with the SMTP server. Leave these fields blank if your SMTP server does not require authentication.</li>
+</ul>
+<p>When deploying Raytha to production, it is recommended to use a proper transactional email service. Some popular transactional email services are <a href="https://sendgrid.com">Sendgrid</a> and <a href="https://www.mailgun.com/">Mailgun</a>. These services offer greater reliability and scalability, as well as more advanced features such as email tracking and analytics.</p>
+<h2 id="using-sendgrid">Using Sendgrid</h2>
+<p>Sendgrid credentials will commonly appear similar to the below:</p>
+<pre><code>&quot;SMTP_HOST&quot;: &quot;smtp.sendgrid.net&quot;,
+&quot;SMTP_PORT&quot;: 587,
+&quot;SMTP_USERNAME&quot;: &quot;apikey&quot;,
+&quot;SMTP_PASSWORD&quot;: &quot;SG.xxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&quot;,
+</code></pre>
+<p>And <code>SMTP_PASSWORD</code> will be your Sendgrid api key.</p>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/docfx_project/articles/smtp.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <a class="github-button" href="https://github.com/RaythaHQ/raytha" data-size="large" aria-label="Follow">Follow</a>
+        <script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
+      </footer>    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
