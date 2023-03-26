@@ -6418,17 +6418,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/pathbase.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/pathbase.html",
-          "hash": "hJmu8C4pm3di5Z/1ftPj4FHtAZY76jNm/S+kkyrT6Ps="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "articles/saml.md",
       "output": {
         ".html": {
@@ -6455,7 +6444,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/templates.html",
-          "hash": "iq25updTO97ZIwTLr6rpQuwhKkPKebGeADFPYfxioHA="
+          "hash": "lpiZDAXL9ol7S5wARxqvAFSMH7kZmBFQlEnJIEUMSkU="
         }
       },
       "version": ""
@@ -6467,6 +6456,66 @@
         ".html": {
           "relative_path": "articles/toc.html",
           "hash": "BQzWmU2ect6dKDvIIo8T3x4qGqjaU6CI1k8AOMOkF9s="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/templates_insertvariable.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/templates_insertvariable.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/templates_layout.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/templates_layout.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/templates_listitems.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/templates_listitems.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/templates_listviewsettings.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/templates_listviewsettings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/templates_parent.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/templates_parent.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/templates_publish_listview.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/templates_publish_listview.png"
         }
       },
       "version": ""

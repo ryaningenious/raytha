@@ -69,14 +69,211 @@
 <h1 id="build-custom-raytha-templates">Build custom Raytha templates</h1>
 
 <h2 id="migrate-a-static-site-to-a-cms">Migrate a static site to a CMS</h2>
-<p>(embed youtube video)</p>
+<p>We highly recommend watching our YouTube video where we demonstrate the process of migrating a static website hosted on Github Pages to the Raytha platform. By following along with the video, you can gain valuable insights and learn how to successfully migrate your own website.</p>
+<p><a href="https://www.youtube.com/watch?v=6iXkLkaWH6Q"><img src="https://img.youtube.com/vi/6iXkLkaWH6Q/0.jpg" alt="Migrate a static site - youtube"></a></p>
 <h2 id="understanding-parentchild-templates">Understanding parent/child templates</h2>
-<p>{% renderbody %}
-limitation of 5 child templates</p>
-<h2 id="detail-view-vs-list-view-templates">Detail view vs List view templates</h2>
+<p>To effectively build Raytha templates, it's important to grasp the concept of creating a layout template that can be inherited by other templates. By default, all users are given a <code>_Layout</code> parent template.</p>
+<img class="inline-img" src="../images/templates_layout.png">
+<p>When you create or modify a Raytha template, it's important to understand that you can choose to inherit from a parent template and also specify whether the template you're creating will serve as a parent to other templates.</p>
+<p>In case you are creating a parent template, make sure to include the <code>{% renderbody %}</code> tag in your HTML code, otherwise, an error will be thrown. This tag is essential as it indicates where the content of the child template will be rendered.</p>
+<img class="inline-img" src="../images/templates_parent.png">
+<blockquote>
+<p>Note: There is a depth limit for inheretence of 5 levels deep.</p>
+</blockquote>
 <h2 id="explanation-of-variables">Explanation of variables</h2>
-<p>{{ Target }} v {{ Target.Items }}</p>
-<p>using special variables</p>
+<p>To get the most out of Raytha templates, it's essential to understand the role of variables. With Raytha, variables and liquid syntax allow for full flexibility in rendering the content types you have configured. To insert a variable, simply open the template you want to edit and click on the &quot;Insert variable&quot; button. From there, you can search for the desired variable and copy and paste it into the template editor. By mastering variables and liquid syntax, you can take full control of your templates and achieve the desired rendering for your content.</p>
+<img class="inline-img" src="../images/templates_insertvariable.png">
+<p>There are many variables available to you. Below are some of the common ones you might find yourself using regularly.</p>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Type</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>QueryParams</td>
+<td>Key-Value</td>
+<td>{{ QueryParams['yourParam'] }}</td>
+</tr>
+<tr>
+<td>PathBase</td>
+<td>String</td>
+<td>If site is hosted at a /route</td>
+</tr>
+<tr>
+<td>CurrentUser.IsAuthenticated</td>
+<td>Boolean</td>
+<td></td>
+</tr>
+<tr>
+<td>CurrentUser.IsAdmin</td>
+<td>Boolean</td>
+<td></td>
+</tr>
+<tr>
+<td>CurrentUser.Roles</td>
+<td>Array</td>
+<td></td>
+</tr>
+<tr>
+<td>CurrentUser.UserGroups</td>
+<td>Array</td>
+<td></td>
+</tr>
+<tr>
+<td>CurrentUser.LastModificationTime</td>
+<td>Date</td>
+<td></td>
+</tr>
+<tr>
+<td>CurrentUser.UserId</td>
+<td>String</td>
+<td></td>
+</tr>
+<tr>
+<td>CurrentUser.FirstName</td>
+<td>String</td>
+<td></td>
+</tr>
+<tr>
+<td>CurrentUser.LastName</td>
+<td>String</td>
+<td></td>
+</tr>
+<tr>
+<td>CurrentUser.EmailAddress</td>
+<td>String</td>
+<td></td>
+</tr>
+<tr>
+<td>CurrentOrganization.OrganizationName</td>
+<td>String</td>
+<td></td>
+</tr>
+<tr>
+<td>ContentType.LabelPlural</td>
+<td>String</td>
+<td></td>
+</tr>
+<tr>
+<td>ContentType.LabelSingular</td>
+<td>String</td>
+<td></td>
+</tr>
+<tr>
+<td>ContentType.DeveloperName</td>
+<td>String</td>
+<td></td>
+</tr>
+<tr>
+<td>ContentType.Description</td>
+<td>String</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>The <code>Target</code> variable is a crucial component in Raytha templates, as it is linked to the content being rendered. Its value is either the list of content items if the template is a list view or the individual content item if the template is a detail view. More information about how Target is used in each context will be provided below.</p>
+<h2 id="detail-view-vs-list-view-templates">Detail view vs List view templates</h2>
+<p>In Raytha, every page that is publicly rendered either points to an individual content item or a list view of a content type. We refer to these as detail views and list views, respectively.</p>
+<h3 id="list-views">List views</h3>
+<p>You can have multiple list views and they are configurable in your content type where you can publish or unpublish a list view.</p>
+<img class="inline-img" src="../images/templates_publish_listview.png">
+<p>To set the properties of a list view in Raytha, you can specify various options such as the template it should use, the route path, its publication status, and default pagination settings. Additionally, you can choose to ignore any search, filter, or sort parameters specified in query parameters from the public side and only use the view's specified configuration.</p>
+<img class="inline-img" src="../images/templates_listviewsettings.png">
+<blockquote>
+<p>Note: You can also set a list view as a home page if you want to.</p>
+</blockquote>
+<p>To optimize your list view templates, you can incorporate variables that allow you to iterate through a list of items using the <code>Target.Items</code> variable. When used in conjunction with the <code>item.PrimaryField</code> and <code>item.RoutePath</code> variables within a for-loop, this technique is particularly effective. In addition, it's common to access the <code>PublishedContent</code> attribute to gain access to each content item's fields via their developer name.</p>
+<img class="inline-img" src="../images/templates_listitems.png">
+<p>The code to loop through with liquid will be:</p>
+<pre><code>{% for item in Target.Items %}
+    &lt;div class=&quot;ud-single-blog&quot;&gt;
+    &lt;div class=&quot;ud-blog-content&quot;&gt;
+        &lt;span class=&quot;ud-blog-date&quot;&gt;{{ item.CreationTime | date: &quot;%b %d, %Y&quot; }}&lt;/span&gt;
+        &lt;h2 class=&quot;ud-blog-title&quot;&gt;
+        &lt;a href=&quot;/{{ item.RoutePath }}&quot;&gt;
+            {{ item.PrimaryField }}
+        &lt;/a&gt;
+        &lt;/h2&gt;
+        {% if item.PublishedContent.content %}
+        &lt;div class=&quot;ud-blog-desc&quot;&gt;
+            {{ item.PublishedContent.content | strip_html | truncate: 280, &quot;...&quot; }}
+            &lt;a href=&quot;/{{ item.RoutePath }}&quot;&gt;read more&lt;/a&gt;
+        &lt;/div&gt;
+        {% endif %}
+    &lt;/div&gt;
+    &lt;/div&gt;
+    {% unless forloop.last %}&lt;hr/&gt;{% endunless %}
+{% endfor %}
+</code></pre>
+<p>It is also common to have pagination on a list view. You can see an example below.</p>
+<pre><code>&lt;nav aria-label=&quot;page navigation&quot; class=&quot;py-4&quot;&gt;
+    {% if Target.TotalCount == 1 %}
+    &lt;p&gt;{{ Target.TotalCount }} result&lt;/p&gt;
+    {% else %}
+    &lt;p&gt;{{ Target.TotalCount }} results&lt;/p&gt;
+    {% endif %}
+    &lt;ul class=&quot;pagination&quot;&gt;
+    &lt;li class=&quot;page-item {% if Target.PreviousDisabledCss %}disabled{% endif %}&quot;&gt;
+        &lt;a href=&quot;/{{ Target.RoutePath }}?pageNumber={{ Target.PageNumber | minus: 1 }}&quot; class=&quot;page-link&quot;&gt;
+            «
+        &lt;/a&gt;
+    &lt;/li&gt;
+    {% if Target.FirstVisiblePageNumber &gt; 1 %}
+        &lt;li class=&quot;page-item disabled&quot;&gt;
+        &lt;a class=&quot;page-link&quot;&gt;...&lt;/a&gt;
+        &lt;/li&gt;
+    {% endif %}
+    {% for i in (Target.FirstVisiblePageNumber..Target.LastVisiblePageNumber) %}
+        &lt;li class=&quot;page-item {% if Target.PageNumber == i %}active{% endif %}&quot;&gt;
+        &lt;a href=&quot;/{{ Target.RoutePath }}?pageNumber={{ i }}&quot; class=&quot;page-link&quot;&gt;{{ i }}&lt;/a&gt;
+        &lt;/li&gt;
+    {% endfor %}
+
+    {% if Target.LastVisiblePageNumber &lt; Target.TotalPages %}
+        &lt;li class=&quot;page-item disabled&quot;&gt;
+        &lt;a class=&quot;page-link&quot;&gt;...&lt;/a&gt;
+        &lt;/li&gt;
+    {% endif %}
+    &lt;li class=&quot;page-item {% if Target.NextDisabledCss %}disabled{% endif %}&quot;&gt;
+        &lt;a href=&quot;/{{ Target.RoutePath }}?pageNumber={{ Target.PageNumber | plus: 1 }}&quot; class=&quot;page-link&quot;&gt;
+            »
+        &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;
+</code></pre>
+<h3 id="detail-views">Detail views</h3>
+<p>In a detail view, the <code>Target</code> variable directly points to the content item, allowing you to easily reference attributes such as <code>Target.PrimaryField</code> or <code>Target.PublishedContent.content.Value</code>.</p>
+<p>When referencing a custom content field, there are often two child attributes available: <code>.Text</code> and <code>.Value</code>. In many cases, they may be the same, but sometimes they differ. For instance, on a Checkbox field type, Value will be a liquid boolean type, while Text will be the string representation of &quot;true&quot; or &quot;false&quot;. Similarly, for the multiple select field type, Value is an array type, while Text is a string of joined values.</p>
+<p>One notable difference is the one-to-one relationship field. In the example below, <code>author_1</code> custom field is a one-to-one relationship to an Author content type. <code>{{ Target.PublishedContent.author_1 }}</code> by itself will output the primary field of the related content type. However, if you want to reference other fields, you can dig deeper by calling the PublishedContent attribute <code>{{ Target.PublishedContent.author_1.PublishedContent.twitter_handle.Text }}</code></p>
+<p>It might be useful to link to the detail view of a related content item with: <code>{{ Target.PublishedContent.author_1.RoutePath }}</code></p>
+<p>A more fleshed out example is below.</p>
+<pre><code>{% if Target.PublishedContent.hide_author_bio.Value == false %}
+&lt;hr/&gt;
+&lt;div class=&quot;card mb-3&quot; style=&quot;max-width: 100%;&quot;&gt;
+    &lt;div class=&quot;row g-0&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;
+            &lt;img src=&quot;{{ Target.PublishedContent.author_1.PublishedContent.profile_pic.Value | raytha_attachment_url }}&quot; class=&quot;img-fluid rounded-start&quot; alt=&quot;picture of the author&quot;&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-md-8&quot;&gt;
+            &lt;div class=&quot;card-body&quot;&gt;
+            &lt;h5 class=&quot;card-title&quot;&gt;{{ Target.PublishedContent.author_1 }} {% if Target.PublishedContent.author_1.PublishedContent.twitter_handle.Text %}&lt;span&gt;&lt;a href=&quot;https://twitter.com/{{ Target.PublishedContent.author_1.PublishedContent.twitter_handle.Text }}&quot; target=&quot;_blank&quot;&gt;@{{ Target.PublishedContent.author_1.PublishedContent.twitter_handle.Text }}&lt;/a&gt;{% endif %}&lt;/h5&gt;
+            
+            &lt;p class=&quot;card-text&quot;&gt;{{ Target.PublishedContent.author_1.PublishedContent.bio.Text }}&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+{% endif %}
+</code></pre>
+<blockquote>
+<p>Note: A current limitation is that access to the content inside variables of a related content type only go 1 level deep.</p>
+</blockquote>
+<h2 id="raythas-custom-liquid-filters">Raytha's custom liquid filters</h2>
 </article>
           </div>
 
