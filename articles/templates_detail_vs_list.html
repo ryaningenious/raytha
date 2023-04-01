@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Detail view vs list view templates </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Detail view vs list view templates ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.min.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/RaythaHQ/raytha/blob/docfx/docfx_project/articles/templates_detail_vs_list.md/#L1">
+
+      <script type="text/javascript" src="../styles/docfx.min.js"></script>
+      <script type="text/javascript" src="../styles/main.js"></script>
+  </head>
+
+  <body data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <form class="d-flex ms-auto" role="search" id="search">
+              <i class="bi bi-search"></i>
+              <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="detail-view-vs-list-view-templates">Detail view vs list view templates</h1>
+
+<p>In Raytha, every page that is publicly rendered either points to an individual content item or a list view of a content type. We refer to these as detail views and list views, respectively.</p>
+<h2 id="list-views">List views</h2>
+<p>When you click on a Content Type in the admin panel of Raytha, you are looking at a list view. Below is an example of a user navigating the list view settings:</p>
+<img class="inline-img" src="../images/templates_listviewanimation.gif">
+<p>With a list view, you can:</p>
+<ul>
+<li>Publish the list view (make it publicly accessible)</li>
+<li>Set a list view as the home page</li>
+<li>Define the default pagination settings</li>
+<li>Set the url route, such as /posts</li>
+<li>Set a pre-defined filter conditions</li>
+<li>Set a sort order of the items</li>
+<li>Choose which columns appear and are searchable</li>
+<li><strong>Choose which template the list view will use to render its items</strong></li>
+</ul>
+<p>You can create multiple list views on a content type and publish some and not publish others. Each list view can use its own template. For example, you may want to one list view that shows a standard directory of items, while another list view renders a dynamic map.</p>
+<p><a href="https://www.youtube.com/watch?v=yTLwPvAjbCM"><img src="https://img.youtube.com/vi/yTLwPvAjbCM/0.jpg" alt="Create a restaurant directory with a location map"></a></p>
+<h3 id="configure-a-list-views-settings">Configure a list view's settings</h3>
+<p>To set the properties of a list view in Raytha, you can specify various options such as the template it should use, the route path, its publication status, and default pagination settings. Additionally, you can choose to ignore any search, filter, or sort parameters specified in query parameters from the public side and only use the view's specified configuration.</p>
+<img class="inline-img" src="../images/templates_publish_listview.png">
+<img class="inline-img" src="../images/templates_listviewsettings.png">
+<blockquote>
+<p>Note: You can also set a list view as a home page if you want to.</p>
+</blockquote>
+<h3 id="using-the-target-variable-in-list-view-template">Using the Target variable in list view template</h3>
+<p>To optimize your list view templates, you can incorporate variables that allow you to iterate through a list of items using the <code>Target.Items</code> variable. When used in conjunction with the <code>item.PrimaryField</code> and <code>item.RoutePath</code> variables within a for-loop, this technique is particularly effective. In addition, it's common to access the <code>PublishedContent</code> attribute to gain access to each content item's fields via their developer name.</p>
+<img class="inline-img" src="../images/templates_listitems.png">
+<p>The code to loop through with liquid will be:</p>
+<pre><code>{% for item in Target.Items %}
+    &lt;div class=&quot;ud-single-blog&quot;&gt;
+    &lt;div class=&quot;ud-blog-content&quot;&gt;
+        &lt;span class=&quot;ud-blog-date&quot;&gt;{{ item.CreationTime | date: &quot;%b %d, %Y&quot; }}&lt;/span&gt;
+        &lt;h2 class=&quot;ud-blog-title&quot;&gt;
+        &lt;a href=&quot;/{{ item.RoutePath }}&quot;&gt;
+            {{ item.PrimaryField }}
+        &lt;/a&gt;
+        &lt;/h2&gt;
+        {% if item.PublishedContent.content %}
+        &lt;div class=&quot;ud-blog-desc&quot;&gt;
+            {{ item.PublishedContent.content | strip_html | truncate: 280, &quot;...&quot; }}
+            &lt;a href=&quot;/{{ item.RoutePath }}&quot;&gt;read more&lt;/a&gt;
+        &lt;/div&gt;
+        {% endif %}
+    &lt;/div&gt;
+    &lt;/div&gt;
+    {% unless forloop.last %}&lt;hr/&gt;{% endunless %}
+{% endfor %}
+</code></pre>
+<p>It is also common to have pagination on a list view. You can see an example below.</p>
+<pre><code>&lt;nav aria-label=&quot;page navigation&quot; class=&quot;py-4&quot;&gt;
+    {% if Target.TotalCount == 1 %}
+    &lt;p&gt;{{ Target.TotalCount }} result&lt;/p&gt;
+    {% else %}
+    &lt;p&gt;{{ Target.TotalCount }} results&lt;/p&gt;
+    {% endif %}
+    &lt;ul class=&quot;pagination&quot;&gt;
+    &lt;li class=&quot;page-item {% if Target.PreviousDisabledCss %}disabled{% endif %}&quot;&gt;
+        &lt;a href=&quot;/{{ Target.RoutePath }}?pageNumber={{ Target.PageNumber | minus: 1 }}&quot; class=&quot;page-link&quot;&gt;
+            «
+        &lt;/a&gt;
+    &lt;/li&gt;
+    {% if Target.FirstVisiblePageNumber &gt; 1 %}
+        &lt;li class=&quot;page-item disabled&quot;&gt;
+        &lt;a class=&quot;page-link&quot;&gt;...&lt;/a&gt;
+        &lt;/li&gt;
+    {% endif %}
+    {% for i in (Target.FirstVisiblePageNumber..Target.LastVisiblePageNumber) %}
+        &lt;li class=&quot;page-item {% if Target.PageNumber == i %}active{% endif %}&quot;&gt;
+        &lt;a href=&quot;/{{ Target.RoutePath }}?pageNumber={{ i }}&quot; class=&quot;page-link&quot;&gt;{{ i }}&lt;/a&gt;
+        &lt;/li&gt;
+    {% endfor %}
+
+    {% if Target.LastVisiblePageNumber &lt; Target.TotalPages %}
+        &lt;li class=&quot;page-item disabled&quot;&gt;
+        &lt;a class=&quot;page-link&quot;&gt;...&lt;/a&gt;
+        &lt;/li&gt;
+    {% endif %}
+    &lt;li class=&quot;page-item {% if Target.NextDisabledCss %}disabled{% endif %}&quot;&gt;
+        &lt;a href=&quot;/{{ Target.RoutePath }}?pageNumber={{ Target.PageNumber | plus: 1 }}&quot; class=&quot;page-link&quot;&gt;
+            »
+        &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;
+</code></pre>
+<h3 id="using-odata-for-filtering-and-searching">Using OData for filtering and searching</h3>
+<p>One of the powerful aspects of Raytha's templating system is that it makes use of OData so that you can output any subset of the content type you are looking to pull.</p>
+<p>[docs coming soon]</p>
+<h2 id="detail-views">Detail views</h2>
+<p>A detail view is tied an individual content item. You can change which template detail view a content item uses by opening that content item's settings as shown below.</p>
+<img class="inline-img" src="../images/templates_setdetailview.png">
+<p>In a detail view, the <code>Target</code> variable directly points to the content item, allowing you to easily reference attributes such as <code>Target.PrimaryField</code> or <code>Target.PublishedContent.content.Value</code>.</p>
+<p>When referencing a custom content field, there are often two child attributes available: <code>.Text</code> and <code>.Value</code>. In many cases, they may be the same, but sometimes they differ. For instance, on a Checkbox field type, Value will be a liquid boolean type, while Text will be the string representation of &quot;true&quot; or &quot;false&quot;. Similarly, for the multiple select field type, Value is an array type, while Text is a string of joined values.</p>
+<p>One notable difference is the one-to-one relationship field. In the example below, <code>author_1</code> custom field is a one-to-one relationship to an Author content type. <code>{{ Target.PublishedContent.author_1 }}</code> by itself will output the primary field of the related content type. However, if you want to reference other fields, you can dig deeper by calling the PublishedContent attribute <code>{{ Target.PublishedContent.author_1.PublishedContent.twitter_handle.Text }}</code></p>
+<p>It might be useful to link to the detail view of a related content item with: <code>{{ Target.PublishedContent.author_1.RoutePath }}</code></p>
+<p>A more fleshed out example is below.</p>
+<pre><code>{% if Target.PublishedContent.hide_author_bio.Value == false %}
+&lt;hr/&gt;
+&lt;div class=&quot;card mb-3&quot; style=&quot;max-width: 100%;&quot;&gt;
+    &lt;div class=&quot;row g-0&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;
+            &lt;img src=&quot;{{ Target.PublishedContent.author_1.PublishedContent.profile_pic.Value | raytha_attachment_url }}&quot; class=&quot;img-fluid rounded-start&quot; alt=&quot;picture of the author&quot;&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-md-8&quot;&gt;
+            &lt;div class=&quot;card-body&quot;&gt;
+            &lt;h5 class=&quot;card-title&quot;&gt;{{ Target.PublishedContent.author_1 }} {% if Target.PublishedContent.author_1.PublishedContent.twitter_handle.Text %}&lt;span&gt;&lt;a href=&quot;https://twitter.com/{{ Target.PublishedContent.author_1.PublishedContent.twitter_handle.Text }}&quot; target=&quot;_blank&quot;&gt;@{{ Target.PublishedContent.author_1.PublishedContent.twitter_handle.Text }}&lt;/a&gt;{% endif %}&lt;/h5&gt;
+            
+            &lt;p class=&quot;card-text&quot;&gt;{{ Target.PublishedContent.author_1.PublishedContent.bio.Text }}&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+{% endif %}
+</code></pre>
+<blockquote>
+<p>Note: A current limitation is that access to the content inside variables of a related content type only go 1 level deep. To acquire more items from your database, see <a href="/articles/templates_custom_funcs.html">functions and filters</a>.</p>
+</blockquote>
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/RaythaHQ/raytha/blob/docfx/docfx_project/articles/templates_detail_vs_list.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

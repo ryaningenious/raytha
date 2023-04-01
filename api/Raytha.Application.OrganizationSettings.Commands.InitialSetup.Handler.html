@@ -1,459 +1,561 @@
 ﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
 <html>
-
   <head>
     <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <title>Class InitialSetup.Handler
  </title>
-      <meta name="viewport" content="width=device-width">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class InitialSetup.Handler
  ">
-    
-      <link rel="shortcut icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
-      <link rel="stylesheet" href="../styles/docfx.css">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.min.css">
       <link rel="stylesheet" href="../styles/main.css">
-      <meta property="docfx:navrel" content="../toc.html">
-      <meta property="docfx:tocrel" content="toc.html">
-    
-    
-    
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler.md&amp;value=---%0Auid%3A%20Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+
+      <script type="text/javascript" src="../styles/docfx.min.js"></script>
+      <script type="text/javascript" src="../styles/main.js"></script>
   </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
 
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
-              </a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
-            </div>
-          </div>
-        </nav>
-
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
+  <body data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <form class="d-flex ms-auto" role="search" id="search">
+              <i class="bi bi-search"></i>
+              <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+            </form>
           </div>
         </div>
-      </header>
-      <div role="main" class="container body-content hide-when-search">
+      </nav>
+    </header>
 
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
           </div>
-        </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler">
-
-
-  <h1 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler" class="text-break">Class InitialSetup.Handler
-</h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">object</span></div>
-    <div class="level1"><span class="xref">InitialSetup.Handler</span></div>
-  </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">IRequestHandler</span>&lt;<a class="xref" href="Raytha.Application.OrganizationSettings.Commands.InitialSetup.html">InitialSetup</a>.<a class="xref" href="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Command.html">Command</a>, <a class="xref" href="Raytha.Application.Common.Models.CommandResponseDto-1.html">CommandResponseDto</a>&lt;<span class="xref">ShortGuid</span>&gt;&gt;</div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">object.Equals(object)</span>
-    </div>
-    <div>
-      <span class="xref">object.Equals(object, object)</span>
-    </div>
-    <div>
-      <span class="xref">object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">object.ReferenceEquals(object, object)</span>
-    </div>
-    <div>
-      <span class="xref">object.ToString()</span>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <span class="xref">Raytha</span>.<a class="xref" href="Raytha.Application.html">Application</a>.<a class="xref" href="Raytha.Application.OrganizationSettings.html">OrganizationSettings</a>.<a class="xref" href="Raytha.Application.OrganizationSettings.Commands.html">Commands</a></h6>
-  <h6><strong>Assembly</strong>: Raytha.Application.dll</h6>
-  <h5 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class InitialSetup.Handler : IRequestHandler&lt;InitialSetup.Command, CommandResponseDto&lt;ShortGuid&gt;&gt;</code></pre>
-  </div>
-  <h3 id="constructors">Constructors
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler__ctor_Raytha_Application_Common_Interfaces_IRaythaDbContext_Raytha_Application_Common_Interfaces_IEmailer_.md&amp;value=---%0Auid%3A%20Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.%23ctor(Raytha.Application.Common.Interfaces.IRaythaDbContext%2CRaytha.Application.Common.Interfaces.IEmailer)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L92">View Source</a>
-  </span>
-  <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler__ctor_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.#ctor*"></a>
-  <h4 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler__ctor_Raytha_Application_Common_Interfaces_IRaythaDbContext_Raytha_Application_Common_Interfaces_IEmailer_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.#ctor(Raytha.Application.Common.Interfaces.IRaythaDbContext,Raytha.Application.Common.Interfaces.IEmailer)">Handler(IRaythaDbContext, IEmailer)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Handler(IRaythaDbContext db, IEmailer emailer)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Raytha.Application.Common.Interfaces.IRaythaDbContext.html">IRaythaDbContext</a></td>
-        <td><span class="parametername">db</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Raytha.Application.Common.Interfaces.IEmailer.html">IEmailer</a></td>
-        <td><span class="parametername">emailer</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_Handle_Raytha_Application_OrganizationSettings_Commands_InitialSetup_Command_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.Handle(Raytha.Application.OrganizationSettings.Commands.InitialSetup.Command%2CSystem.Threading.CancellationToken)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L97">View Source</a>
-  </span>
-  <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_Handle_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.Handle*"></a>
-  <h4 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_Handle_Raytha_Application_OrganizationSettings_Commands_InitialSetup_Command_System_Threading_CancellationToken_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.Handle(Raytha.Application.OrganizationSettings.Commands.InitialSetup.Command,System.Threading.CancellationToken)">Handle(Command, CancellationToken)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;CommandResponseDto&lt;ShortGuid&gt;&gt; Handle(InitialSetup.Command request, CancellationToken cancellationToken)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Raytha.Application.OrganizationSettings.Commands.InitialSetup.html">InitialSetup</a>.<a class="xref" href="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Command.html">Command</a></td>
-        <td><span class="parametername">request</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">CancellationToken</span></td>
-        <td><span class="parametername">cancellationToken</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span>&lt;<a class="xref" href="Raytha.Application.Common.Models.CommandResponseDto-1.html">CommandResponseDto</a>&lt;<span class="xref">ShortGuid</span>&gt;&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultAuthentications.md&amp;value=---%0Auid%3A%20Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultAuthentications%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L379">View Source</a>
-  </span>
-  <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultAuthentications_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultAuthentications*"></a>
-  <h4 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultAuthentications" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultAuthentications">InsertDefaultAuthentications()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void InsertDefaultAuthentications()</code></pre>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultContentTypeFields.md&amp;value=---%0Auid%3A%20Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultContentTypeFields%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L199">View Source</a>
-  </span>
-  <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultContentTypeFields_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultContentTypeFields*"></a>
-  <h4 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultContentTypeFields" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultContentTypeFields">InsertDefaultContentTypeFields()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void InsertDefaultContentTypeFields()</code></pre>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultContentTypes.md&amp;value=---%0Auid%3A%20Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultContentTypes%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L246">View Source</a>
-  </span>
-  <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultContentTypes_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultContentTypes*"></a>
-  <h4 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultContentTypes" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultContentTypes">InsertDefaultContentTypes()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void InsertDefaultContentTypes()</code></pre>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultEmailTemplates.md&amp;value=---%0Auid%3A%20Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultEmailTemplates%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L359">View Source</a>
-  </span>
-  <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultEmailTemplates_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultEmailTemplates*"></a>
-  <h4 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultEmailTemplates" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultEmailTemplates">InsertDefaultEmailTemplates()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void InsertDefaultEmailTemplates()</code></pre>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultPages.md&amp;value=---%0Auid%3A%20Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultPages%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L409">View Source</a>
-  </span>
-  <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultPages_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultPages*"></a>
-  <h4 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultPages" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultPages">InsertDefaultPages()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void InsertDefaultPages()</code></pre>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultPosts.md&amp;value=---%0Auid%3A%20Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultPosts%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L478">View Source</a>
-  </span>
-  <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultPosts_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultPosts*"></a>
-  <h4 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultPosts" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultPosts">InsertDefaultPosts()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void InsertDefaultPosts()</code></pre>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultRolesAndSuperAdmin_Raytha_Application_OrganizationSettings_Commands_InitialSetup_Command_.md&amp;value=---%0Auid%3A%20Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultRolesAndSuperAdmin(Raytha.Application.OrganizationSettings.Commands.InitialSetup.Command)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L138">View Source</a>
-  </span>
-  <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultRolesAndSuperAdmin_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultRolesAndSuperAdmin*"></a>
-  <h4 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultRolesAndSuperAdmin_Raytha_Application_OrganizationSettings_Commands_InitialSetup_Command_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultRolesAndSuperAdmin(Raytha.Application.OrganizationSettings.Commands.InitialSetup.Command)">InsertDefaultRolesAndSuperAdmin(Command)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void InsertDefaultRolesAndSuperAdmin(InitialSetup.Command request)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Raytha.Application.OrganizationSettings.Commands.InitialSetup.html">InitialSetup</a>.<a class="xref" href="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Command.html">Command</a></td>
-        <td><span class="parametername">request</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultViews.md&amp;value=---%0Auid%3A%20Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultViews%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L513">View Source</a>
-  </span>
-  <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultViews_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultViews*"></a>
-  <h4 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultViews" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultViews">InsertDefaultViews()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void InsertDefaultViews()</code></pre>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultWebTemplates.md&amp;value=---%0Auid%3A%20Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultWebTemplates%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L273">View Source</a>
-  </span>
-  <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultWebTemplates_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultWebTemplates*"></a>
-  <h4 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultWebTemplates" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultWebTemplates">InsertDefaultWebTemplates()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void InsertDefaultWebTemplates()</code></pre>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertOrganizationSettings_Raytha_Application_OrganizationSettings_Commands_InitialSetup_Command_.md&amp;value=---%0Auid%3A%20Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertOrganizationSettings(Raytha.Application.OrganizationSettings.Commands.InitialSetup.Command)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L118">View Source</a>
-  </span>
-  <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertOrganizationSettings_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertOrganizationSettings*"></a>
-  <h4 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertOrganizationSettings_Raytha_Application_OrganizationSettings_Commands_InitialSetup_Command_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertOrganizationSettings(Raytha.Application.OrganizationSettings.Commands.InitialSetup.Command)">InsertOrganizationSettings(Command)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void InsertOrganizationSettings(InitialSetup.Command request)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Raytha.Application.OrganizationSettings.Commands.InitialSetup.html">InitialSetup</a>.<a class="xref" href="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Command.html">Command</a></td>
-        <td><span class="parametername">request</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_SetHomePage.md&amp;value=---%0Auid%3A%20Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.SetHomePage%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L564">View Source</a>
-  </span>
-  <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_SetHomePage_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.SetHomePage*"></a>
-  <h4 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_SetHomePage" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.SetHomePage">SetHomePage()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void SetHomePage()</code></pre>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_SetPrimaryFieldsOnContentTypes.md&amp;value=---%0Auid%3A%20Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.SetPrimaryFieldsOnContentTypes%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L555">View Source</a>
-  </span>
-  <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_SetPrimaryFieldsOnContentTypes_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.SetPrimaryFieldsOnContentTypes*"></a>
-  <h4 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_SetPrimaryFieldsOnContentTypes" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.SetPrimaryFieldsOnContentTypes">SetPrimaryFieldsOnContentTypes()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void SetPrimaryFieldsOnContentTypes()</code></pre>
-  </div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">MediatR.IRequestHandler&lt;TRequest, TResponse&gt;</span>
-  </div>
-</article>
-          </div>
-
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler.md&amp;value=---%0Auid%3A%20Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L66" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
-                <div></div>
-              </nav>
-            </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
           </div>
         </div>
       </div>
-      <footer>
-        <a class="github-button" href="https://github.com/RaythaHQ/raytha" data-size="large" aria-label="Follow">Follow</a>
-        <script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
-      </footer>    </div>
 
-    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler">
+
+
+
+  <h1 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler" class="text-break">
+    Class InitialSetup.Handler
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><span class="xref">Raytha</span>.<a class="xref" href="Raytha.Application.html">Application</a>.<a class="xref" href="Raytha.Application.OrganizationSettings.html">OrganizationSettings</a>.<a class="xref" href="Raytha.Application.OrganizationSettings.Commands.html">Commands</a></dd></dl>
+    <dl><dt>Assembly</dt><dd>Raytha.Application.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class InitialSetup.Handler : IRequestHandler&lt;InitialSetup.Command, CommandResponseDto&lt;ShortGuid&gt;&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">InitialSetup.Handler</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IRequestHandler</span>&lt;<a class="xref" href="Raytha.Application.OrganizationSettings.Commands.InitialSetup.html">InitialSetup</a>.<a class="xref" href="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Command.html">Command</a>, <a class="xref" href="Raytha.Application.Common.Models.CommandResponseDto-1.html">CommandResponseDto</a>&lt;<span class="xref">ShortGuid</span>&gt;&gt;</div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler__ctor_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.#ctor*"></a>
+
+  <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler__ctor_Raytha_Application_Common_Interfaces_IRaythaDbContext_Raytha_Application_Common_Interfaces_IEmailer_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.#ctor(Raytha.Application.Common.Interfaces.IRaythaDbContext,Raytha.Application.Common.Interfaces.IEmailer)">
+  Handler(IRaythaDbContext, IEmailer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Handler(IRaythaDbContext db, IEmailer emailer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>db</code> <a class="xref" href="Raytha.Application.Common.Interfaces.IRaythaDbContext.html">IRaythaDbContext</a></dt>
+    <dd></dd>
+    <dt><code>emailer</code> <a class="xref" href="Raytha.Application.Common.Interfaces.IEmailer.html">IEmailer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_Handle_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.Handle*"></a>
+
+  <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_Handle_Raytha_Application_OrganizationSettings_Commands_InitialSetup_Command_System_Threading_CancellationToken_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.Handle(Raytha.Application.OrganizationSettings.Commands.InitialSetup.Command,System.Threading.CancellationToken)">
+  Handle(Command, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;CommandResponseDto&lt;ShortGuid&gt;&gt; Handle(InitialSetup.Command request, CancellationToken cancellationToken)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="Raytha.Application.OrganizationSettings.Commands.InitialSetup.html">InitialSetup</a>.<a class="xref" href="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Command.html">Command</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Raytha.Application.Common.Models.CommandResponseDto-1.html">CommandResponseDto</a>&lt;<span class="xref">ShortGuid</span>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultAuthentications_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultAuthentications*"></a>
+
+  <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultAuthentications" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultAuthentications">
+  InsertDefaultAuthentications()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L379"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void InsertDefaultAuthentications()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultContentTypeFields_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultContentTypeFields*"></a>
+
+  <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultContentTypeFields" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultContentTypeFields">
+  InsertDefaultContentTypeFields()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L199"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void InsertDefaultContentTypeFields()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultContentTypes_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultContentTypes*"></a>
+
+  <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultContentTypes" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultContentTypes">
+  InsertDefaultContentTypes()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L246"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void InsertDefaultContentTypes()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultEmailTemplates_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultEmailTemplates*"></a>
+
+  <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultEmailTemplates" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultEmailTemplates">
+  InsertDefaultEmailTemplates()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L359"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void InsertDefaultEmailTemplates()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultPages_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultPages*"></a>
+
+  <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultPages" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultPages">
+  InsertDefaultPages()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L409"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void InsertDefaultPages()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultPosts_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultPosts*"></a>
+
+  <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultPosts" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultPosts">
+  InsertDefaultPosts()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L478"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void InsertDefaultPosts()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultRolesAndSuperAdmin_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultRolesAndSuperAdmin*"></a>
+
+  <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultRolesAndSuperAdmin_Raytha_Application_OrganizationSettings_Commands_InitialSetup_Command_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultRolesAndSuperAdmin(Raytha.Application.OrganizationSettings.Commands.InitialSetup.Command)">
+  InsertDefaultRolesAndSuperAdmin(Command)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void InsertDefaultRolesAndSuperAdmin(InitialSetup.Command request)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="Raytha.Application.OrganizationSettings.Commands.InitialSetup.html">InitialSetup</a>.<a class="xref" href="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Command.html">Command</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultViews_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultViews*"></a>
+
+  <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultViews" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultViews">
+  InsertDefaultViews()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L513"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void InsertDefaultViews()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultWebTemplates_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultWebTemplates*"></a>
+
+  <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultWebTemplates" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultWebTemplates">
+  InsertDefaultWebTemplates()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L273"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void InsertDefaultWebTemplates()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertOrganizationSettings_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertOrganizationSettings*"></a>
+
+  <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertOrganizationSettings_Raytha_Application_OrganizationSettings_Commands_InitialSetup_Command_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertOrganizationSettings(Raytha.Application.OrganizationSettings.Commands.InitialSetup.Command)">
+  InsertOrganizationSettings(Command)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void InsertOrganizationSettings(InitialSetup.Command request)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="Raytha.Application.OrganizationSettings.Commands.InitialSetup.html">InitialSetup</a>.<a class="xref" href="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Command.html">Command</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_SetHomePage_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.SetHomePage*"></a>
+
+  <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_SetHomePage" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.SetHomePage">
+  SetHomePage()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L564"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetHomePage()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_SetPrimaryFieldsOnContentTypes_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.SetPrimaryFieldsOnContentTypes*"></a>
+
+  <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_SetPrimaryFieldsOnContentTypes" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.SetPrimaryFieldsOnContentTypes">
+  SetPrimaryFieldsOnContentTypes()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L555"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetPrimaryFieldsOnContentTypes()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler.md&amp;value=---%0Auid%3A%20Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
+        </div>
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

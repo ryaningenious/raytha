@@ -1,656 +1,667 @@
 ﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
 <html>
-
   <head>
     <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <title>Class ContentItem_RenderModel
  </title>
-      <meta name="viewport" content="width=device-width">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class ContentItem_RenderModel
  ">
-    
-      <link rel="shortcut icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
-      <link rel="stylesheet" href="../styles/docfx.css">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.min.css">
       <link rel="stylesheet" href="../styles/main.css">
-      <meta property="docfx:navrel" content="../toc.html">
-      <meta property="docfx:tocrel" content="toc.html">
-    
-    
-    
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_ContentItems_ContentItem_RenderModel.md&amp;value=---%0Auid%3A%20Raytha.Application.ContentItems.ContentItem_RenderModel%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+
+      <script type="text/javascript" src="../styles/docfx.min.js"></script>
+      <script type="text/javascript" src="../styles/main.js"></script>
   </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
 
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
-              </a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
-            </div>
-          </div>
-        </nav>
-
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
+  <body data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <form class="d-flex ms-auto" role="search" id="search">
+              <i class="bi bi-search"></i>
+              <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+            </form>
           </div>
         </div>
-      </header>
-      <div role="main" class="container body-content hide-when-search">
+      </nav>
+    </header>
 
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
           </div>
-        </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel">
-
-
-  <h1 id="Raytha_Application_ContentItems_ContentItem_RenderModel" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel" class="text-break">Class ContentItem_RenderModel
-</h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">object</span></div>
-    <div class="level1"><span class="xref">ContentItem_RenderModel</span></div>
-  </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="Raytha.Application.Common.Interfaces.IInsertTemplateVariable.html">IInsertTemplateVariable</a></div>
-    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="Raytha.Application.ContentItems.ContentItem_RenderModel.html">ContentItem_RenderModel</a>&gt;</div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">object.Equals(object)</span>
-    </div>
-    <div>
-      <span class="xref">object.Equals(object, object)</span>
-    </div>
-    <div>
-      <span class="xref">object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">object.ReferenceEquals(object, object)</span>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <span class="xref">Raytha</span>.<a class="xref" href="Raytha.Application.html">Application</a>.<a class="xref" href="Raytha.Application.ContentItems.html">ContentItems</a></h6>
-  <h6><strong>Assembly</strong>: Raytha.Application.dll</h6>
-  <h5 id="Raytha_Application_ContentItems_ContentItem_RenderModel_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public record ContentItem_RenderModel : IInsertTemplateVariable, IEquatable&lt;ContentItem_RenderModel&gt;</code></pre>
-  </div>
-  <h3 id="properties">Properties
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_ContentItems_ContentItem_RenderModel_ContentType.md&amp;value=---%0Auid%3A%20Raytha.Application.ContentItems.ContentItem_RenderModel.ContentType%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L20">View Source</a>
-  </span>
-  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_ContentType_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.ContentType*"></a>
-  <h4 id="Raytha_Application_ContentItems_ContentItem_RenderModel_ContentType" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.ContentType">ContentType</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ContentType_RenderModel? ContentType { get; init; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Raytha.Application.ContentTypes.ContentType_RenderModel.html">ContentType_RenderModel</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_ContentItems_ContentItem_RenderModel_CreationTime.md&amp;value=---%0Auid%3A%20Raytha.Application.ContentItems.ContentItem_RenderModel.CreationTime%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L17">View Source</a>
-  </span>
-  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_CreationTime_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.CreationTime*"></a>
-  <h4 id="Raytha_Application_ContentItems_ContentItem_RenderModel_CreationTime" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.CreationTime">CreationTime</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DateTime CreationTime { get; init; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">DateTime</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_ContentItems_ContentItem_RenderModel_CreatorUser.md&amp;value=---%0Auid%3A%20Raytha.Application.ContentItems.ContentItem_RenderModel.CreatorUser%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L15">View Source</a>
-  </span>
-  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_CreatorUser_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.CreatorUser*"></a>
-  <h4 id="Raytha_Application_ContentItems_ContentItem_RenderModel_CreatorUser" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.CreatorUser">CreatorUser</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AuditableUser_RenderModel? CreatorUser { get; init; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Raytha.Application.Common.Models.RenderModels.AuditableUser_RenderModel.html">AuditableUser_RenderModel</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_ContentItems_ContentItem_RenderModel_Id.md&amp;value=---%0Auid%3A%20Raytha.Application.ContentItems.ContentItem_RenderModel.Id%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L14">View Source</a>
-  </span>
-  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_Id_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.Id*"></a>
-  <h4 id="Raytha_Application_ContentItems_ContentItem_RenderModel_Id" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.Id">Id</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Id { get; init; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">string</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_ContentItems_ContentItem_RenderModel_LastModificationTime.md&amp;value=---%0Auid%3A%20Raytha.Application.ContentItems.ContentItem_RenderModel.LastModificationTime%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L18">View Source</a>
-  </span>
-  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_LastModificationTime_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.LastModificationTime*"></a>
-  <h4 id="Raytha_Application_ContentItems_ContentItem_RenderModel_LastModificationTime" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.LastModificationTime">LastModificationTime</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DateTime? LastModificationTime { get; init; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">DateTime</span>?</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_ContentItems_ContentItem_RenderModel_LastModifierUser.md&amp;value=---%0Auid%3A%20Raytha.Application.ContentItems.ContentItem_RenderModel.LastModifierUser%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L16">View Source</a>
-  </span>
-  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_LastModifierUser_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.LastModifierUser*"></a>
-  <h4 id="Raytha_Application_ContentItems_ContentItem_RenderModel_LastModifierUser" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.LastModifierUser">LastModifierUser</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AuditableUser_RenderModel? LastModifierUser { get; init; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Raytha.Application.Common.Models.RenderModels.AuditableUser_RenderModel.html">AuditableUser_RenderModel</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_ContentItems_ContentItem_RenderModel_PrimaryField.md&amp;value=---%0Auid%3A%20Raytha.Application.ContentItems.ContentItem_RenderModel.PrimaryField%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L21">View Source</a>
-  </span>
-  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_PrimaryField_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.PrimaryField*"></a>
-  <h4 id="Raytha_Application_ContentItems_ContentItem_RenderModel_PrimaryField" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.PrimaryField">PrimaryField</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string PrimaryField { get; init; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">string</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_ContentItems_ContentItem_RenderModel_PublishedContent.md&amp;value=---%0Auid%3A%20Raytha.Application.ContentItems.ContentItem_RenderModel.PublishedContent%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L22">View Source</a>
-  </span>
-  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_PublishedContent_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.PublishedContent*"></a>
-  <h4 id="Raytha_Application_ContentItems_ContentItem_RenderModel_PublishedContent" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.PublishedContent">PublishedContent</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public dynamic PublishedContent { get; init; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">dynamic</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_ContentItems_ContentItem_RenderModel_RoutePath.md&amp;value=---%0Auid%3A%20Raytha.Application.ContentItems.ContentItem_RenderModel.RoutePath%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L23">View Source</a>
-  </span>
-  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_RoutePath_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.RoutePath*"></a>
-  <h4 id="Raytha_Application_ContentItems_ContentItem_RenderModel_RoutePath" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.RoutePath">RoutePath</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string RoutePath { get; init; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">string</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_ContentItems_ContentItem_RenderModel_Template.md&amp;value=---%0Auid%3A%20Raytha.Application.ContentItems.ContentItem_RenderModel.Template%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L19">View Source</a>
-  </span>
-  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_Template_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.Template*"></a>
-  <h4 id="Raytha_Application_ContentItems_ContentItem_RenderModel_Template" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.Template">Template</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string? Template { get; init; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">string</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_ContentItems_ContentItem_RenderModel_GetDeveloperNames.md&amp;value=---%0Auid%3A%20Raytha.Application.ContentItems.ContentItem_RenderModel.GetDeveloperNames%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L51">View Source</a>
-  </span>
-  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_GetDeveloperNames_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.GetDeveloperNames*"></a>
-  <h4 id="Raytha_Application_ContentItems_ContentItem_RenderModel_GetDeveloperNames" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.GetDeveloperNames">GetDeveloperNames()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;string&gt; GetDeveloperNames()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">string</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_ContentItems_ContentItem_RenderModel_GetProjection.md&amp;value=---%0Auid%3A%20Raytha.Application.ContentItems.ContentItem_RenderModel.GetProjection%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L25">View Source</a>
-  </span>
-  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_GetProjection_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.GetProjection*"></a>
-  <h4 id="Raytha_Application_ContentItems_ContentItem_RenderModel_GetProjection" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.GetProjection">GetProjection()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Expression&lt;Func&lt;ContentItemDto, ContentItem_RenderModel&gt;&gt; GetProjection()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Expression</span>&lt;<span class="xref">Func</span>&lt;<a class="xref" href="Raytha.Application.ContentItems.ContentItemDto.html">ContentItemDto</a>, <a class="xref" href="Raytha.Application.ContentItems.ContentItem_RenderModel.html">ContentItem_RenderModel</a>&gt;&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_ContentItems_ContentItem_RenderModel_GetProjection_Raytha_Application_ContentItems_ContentItemDto_.md&amp;value=---%0Auid%3A%20Raytha.Application.ContentItems.ContentItem_RenderModel.GetProjection(Raytha.Application.ContentItems.ContentItemDto)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L29">View Source</a>
-  </span>
-  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_GetProjection_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.GetProjection*"></a>
-  <h4 id="Raytha_Application_ContentItems_ContentItem_RenderModel_GetProjection_Raytha_Application_ContentItems_ContentItemDto_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.GetProjection(Raytha.Application.ContentItems.ContentItemDto)">GetProjection(ContentItemDto)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ContentItem_RenderModel GetProjection(ContentItemDto entity)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Raytha.Application.ContentItems.ContentItemDto.html">ContentItemDto</a></td>
-        <td><span class="parametername">entity</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Raytha.Application.ContentItems.ContentItem_RenderModel.html">ContentItem_RenderModel</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_ContentItems_ContentItem_RenderModel_GetTemplateVariables.md&amp;value=---%0Auid%3A%20Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariables%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L69">View Source</a>
-  </span>
-  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_GetTemplateVariables_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariables*"></a>
-  <h4 id="Raytha_Application_ContentItems_ContentItem_RenderModel_GetTemplateVariables" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariables">GetTemplateVariables()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;KeyValuePair&lt;string, string&gt;&gt; GetTemplateVariables()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">KeyValuePair</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_ContentItems_ContentItem_RenderModel_GetTemplateVariablesAsForEachLiquidSyntax.md&amp;value=---%0Auid%3A%20Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L77">View Source</a>
-  </span>
-  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_GetTemplateVariablesAsForEachLiquidSyntax_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax*"></a>
-  <h4 id="Raytha_Application_ContentItems_ContentItem_RenderModel_GetTemplateVariablesAsForEachLiquidSyntax" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax">GetTemplateVariablesAsForEachLiquidSyntax()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string GetTemplateVariablesAsForEachLiquidSyntax()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">string</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_ContentItems_ContentItem_RenderModel_ToString.md&amp;value=---%0Auid%3A%20Raytha.Application.ContentItems.ContentItem_RenderModel.ToString%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L46">View Source</a>
-  </span>
-  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_ToString_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.ToString*"></a>
-  <h4 id="Raytha_Application_ContentItems_ContentItem_RenderModel_ToString" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.ToString">ToString()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">string</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">object.ToString()</span></div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="Raytha.Application.Common.Interfaces.IInsertTemplateVariable.html">IInsertTemplateVariable</a>
-  </div>
-  <div>
-      <span class="xref">System.IEquatable&lt;T&gt;</span>
-  </div>
-</article>
-          </div>
-
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_ContentItems_ContentItem_RenderModel.md&amp;value=---%0Auid%3A%20Raytha.Application.ContentItems.ContentItem_RenderModel%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L12" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
-                <div></div>
-              </nav>
-            </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
           </div>
         </div>
       </div>
-      <footer>
-        <a class="github-button" href="https://github.com/RaythaHQ/raytha" data-size="large" aria-label="Follow">Follow</a>
-        <script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
-      </footer>    </div>
 
-    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel">
+
+
+
+  <h1 id="Raytha_Application_ContentItems_ContentItem_RenderModel" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel" class="text-break">
+    Class ContentItem_RenderModel
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><span class="xref">Raytha</span>.<a class="xref" href="Raytha.Application.html">Application</a>.<a class="xref" href="Raytha.Application.ContentItems.html">ContentItems</a></dd></dl>
+    <dl><dt>Assembly</dt><dd>Raytha.Application.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public record ContentItem_RenderModel : IInsertTemplateVariable, IEquatable&lt;ContentItem_RenderModel&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ContentItem_RenderModel</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Raytha.Application.Common.Interfaces.IInsertTemplateVariable.html">IInsertTemplateVariable</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Raytha.Application.ContentItems.ContentItem_RenderModel.html">ContentItem_RenderModel</a>&gt;</div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_ContentType_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.ContentType*"></a>
+
+  <h3 id="Raytha_Application_ContentItems_ContentItem_RenderModel_ContentType" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.ContentType">
+  ContentType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ContentType_RenderModel? ContentType { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.ContentTypes.ContentType_RenderModel.html">ContentType_RenderModel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_CreationTime_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.CreationTime*"></a>
+
+  <h3 id="Raytha_Application_ContentItems_ContentItem_RenderModel_CreationTime" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.CreationTime">
+  CreationTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime CreationTime { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_CreatorUser_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.CreatorUser*"></a>
+
+  <h3 id="Raytha_Application_ContentItems_ContentItem_RenderModel_CreatorUser" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.CreatorUser">
+  CreatorUser
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AuditableUser_RenderModel? CreatorUser { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.Common.Models.RenderModels.AuditableUser_RenderModel.html">AuditableUser_RenderModel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_Id_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.Id*"></a>
+
+  <h3 id="Raytha_Application_ContentItems_ContentItem_RenderModel_Id" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Id { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_LastModificationTime_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.LastModificationTime*"></a>
+
+  <h3 id="Raytha_Application_ContentItems_ContentItem_RenderModel_LastModificationTime" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.LastModificationTime">
+  LastModificationTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime? LastModificationTime { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_LastModifierUser_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.LastModifierUser*"></a>
+
+  <h3 id="Raytha_Application_ContentItems_ContentItem_RenderModel_LastModifierUser" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.LastModifierUser">
+  LastModifierUser
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AuditableUser_RenderModel? LastModifierUser { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.Common.Models.RenderModels.AuditableUser_RenderModel.html">AuditableUser_RenderModel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_PrimaryField_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.PrimaryField*"></a>
+
+  <h3 id="Raytha_Application_ContentItems_ContentItem_RenderModel_PrimaryField" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.PrimaryField">
+  PrimaryField
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PrimaryField { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_PublishedContent_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.PublishedContent*"></a>
+
+  <h3 id="Raytha_Application_ContentItems_ContentItem_RenderModel_PublishedContent" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.PublishedContent">
+  PublishedContent
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public dynamic PublishedContent { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">dynamic</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_RoutePath_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.RoutePath*"></a>
+
+  <h3 id="Raytha_Application_ContentItems_ContentItem_RenderModel_RoutePath" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.RoutePath">
+  RoutePath
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string RoutePath { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_Template_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.Template*"></a>
+
+  <h3 id="Raytha_Application_ContentItems_ContentItem_RenderModel_Template" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.Template">
+  Template
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Template { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_GetDeveloperNames_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.GetDeveloperNames*"></a>
+
+  <h3 id="Raytha_Application_ContentItems_ContentItem_RenderModel_GetDeveloperNames" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.GetDeveloperNames">
+  GetDeveloperNames()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;string&gt; GetDeveloperNames()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_GetProjection_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.GetProjection*"></a>
+
+  <h3 id="Raytha_Application_ContentItems_ContentItem_RenderModel_GetProjection" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.GetProjection">
+  GetProjection()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Expression&lt;Func&lt;ContentItemDto, ContentItem_RenderModel&gt;&gt; GetProjection()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Raytha.Application.ContentItems.ContentItemDto.html">ContentItemDto</a>, <a class="xref" href="Raytha.Application.ContentItems.ContentItem_RenderModel.html">ContentItem_RenderModel</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_GetProjection_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.GetProjection*"></a>
+
+  <h3 id="Raytha_Application_ContentItems_ContentItem_RenderModel_GetProjection_Raytha_Application_ContentItems_ContentItemDto_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.GetProjection(Raytha.Application.ContentItems.ContentItemDto)">
+  GetProjection(ContentItemDto)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ContentItem_RenderModel GetProjection(ContentItemDto entity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entity</code> <a class="xref" href="Raytha.Application.ContentItems.ContentItemDto.html">ContentItemDto</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.ContentItems.ContentItem_RenderModel.html">ContentItem_RenderModel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_GetTemplateVariables_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariables*"></a>
+
+  <h3 id="Raytha_Application_ContentItems_ContentItem_RenderModel_GetTemplateVariables" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariables">
+  GetTemplateVariables()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;KeyValuePair&lt;string, string&gt;&gt; GetTemplateVariables()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_GetTemplateVariablesAsForEachLiquidSyntax_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax*"></a>
+
+  <h3 id="Raytha_Application_ContentItems_ContentItem_RenderModel_GetTemplateVariablesAsForEachLiquidSyntax" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax">
+  GetTemplateVariablesAsForEachLiquidSyntax()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetTemplateVariablesAsForEachLiquidSyntax()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_ContentItems_ContentItem_RenderModel_ToString_" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.ToString*"></a>
+
+  <h3 id="Raytha_Application_ContentItems_ContentItem_RenderModel_ToString" data-uid="Raytha.Application.ContentItems.ContentItem_RenderModel.ToString">
+  ToString()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/docfx/src/Raytha.Application/ContentItems/RenderModels.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/RaythaHQ/raytha/new/docfx/apiSpec/new?filename=Raytha_Application_ContentItems_ContentItem_RenderModel.md&amp;value=---%0Auid%3A%20Raytha.Application.ContentItems.ContentItem_RenderModel%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
+        </div>
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

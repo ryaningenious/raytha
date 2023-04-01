@@ -1,0 +1,213 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Build custom Raytha templates </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Build custom Raytha templates ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.min.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/RaythaHQ/raytha/blob/docfx/docfx_project/articles/templates_intro.md/#L1">
+
+      <script type="text/javascript" src="../styles/docfx.min.js"></script>
+      <script type="text/javascript" src="../styles/main.js"></script>
+  </head>
+
+  <body data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <form class="d-flex ms-auto" role="search" id="search">
+              <i class="bi bi-search"></i>
+              <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="build-custom-raytha-templates">Build custom Raytha templates</h1>
+
+<h2 id="migrate-a-static-site-to-a-cms">Migrate a static site to a CMS</h2>
+<p>We highly recommend watching our YouTube video where we demonstrate the process of migrating a static website hosted on Github Pages to the Raytha platform. By following along with the video, you can gain valuable insights and learn how to successfully migrate your own website.</p>
+<p><a href="https://www.youtube.com/watch?v=6iXkLkaWH6Q"><img src="https://img.youtube.com/vi/6iXkLkaWH6Q/0.jpg" alt="Migrate a static site - youtube"></a></p>
+<h2 id="introduction-to-raytha-templates">Introduction to Raytha templates</h2>
+<p>Raytha templates are built using the Liquid syntax, which is a popular templating language that utilizes the widely-used <a href="https://github.com/sebastienros/fluid">.NET Fluid library</a> for rendering. Liquid is a well-established templating engine that powers many Shopify websites, making it a trusted and reliable option for developers.</p>
+<p>To view the liquid syntax in more detail, you can refer to the official Shopify documentation available at <a href="https://shopify.github.io/liquid/basics/introduction/">https://shopify.github.io/liquid/basics/introduction/</a>.</p>
+<p>Out of the box, Raytha provides a basic template that serves as a starting point for developers who want to dive straight into the development process. However, if you prefer to create your own custom template from scratch, you have the flexibility to do so.</p>
+<p>Raytha's liquid templates are stored in the database, and can be easily modified by accessing the Templates section in the Raytha Admin panel. To access this section, simply click on the Templates sidebar as shown in the image below:</p>
+<img class="inline-img" src="../images/templates_sidebar.png">
+<h2 id="understanding-parentchild-templates">Understanding parent/child templates</h2>
+<p>To effectively build Raytha templates, it's important to grasp the concept of creating a layout template that can be inherited by other templates. By default, all users are given a <code>_Layout</code> parent template.</p>
+<img class="inline-img" src="../images/templates_layout.png">
+<p>When you create or modify a Raytha template, it's important to understand that you can choose to inherit from a parent template and also specify whether the template you're creating will serve as a parent to other templates.</p>
+<p>In case you are creating a parent template, make sure to include the <code>{% renderbody %}</code> tag in your HTML code, otherwise, an error will be thrown. This tag is essential as it indicates where the content of the child template will be rendered.</p>
+<img class="inline-img" src="../images/templates_parent.png">
+<blockquote>
+<p>Note: There is a depth limit for inheretence of 5 levels deep.</p>
+</blockquote>
+<h2 id="explanation-of-variables">Explanation of variables</h2>
+<p>To get the most out of Raytha templates, it's essential to understand the role of variables. With Raytha, variables and liquid syntax allow for full flexibility in rendering the content types you have configured. To insert a variable, simply open the template you want to edit and click on the &quot;Insert variable&quot; button. From there, you can search for the desired variable and copy and paste it into the template editor. By mastering variables and liquid syntax, you can take full control of your templates and achieve the desired rendering for your content.</p>
+<img class="inline-img" src="../images/templates_insertvariable.png">
+<p>There are many variables available to you. Below are some of the common ones you might find yourself using regularly.</p>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Type</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>QueryParams</td>
+<td>Key-Value</td>
+<td>{{ QueryParams['yourParam'] }}</td>
+</tr>
+<tr>
+<td>PathBase</td>
+<td>String</td>
+<td>If site is hosted at a /route</td>
+</tr>
+<tr>
+<td>CurrentUser.IsAuthenticated</td>
+<td>Boolean</td>
+<td></td>
+</tr>
+<tr>
+<td>CurrentUser.IsAdmin</td>
+<td>Boolean</td>
+<td></td>
+</tr>
+<tr>
+<td>CurrentUser.Roles</td>
+<td>Array</td>
+<td></td>
+</tr>
+<tr>
+<td>CurrentUser.UserGroups</td>
+<td>Array</td>
+<td></td>
+</tr>
+<tr>
+<td>CurrentUser.LastModificationTime</td>
+<td>Date</td>
+<td></td>
+</tr>
+<tr>
+<td>CurrentUser.UserId</td>
+<td>String</td>
+<td></td>
+</tr>
+<tr>
+<td>CurrentUser.FirstName</td>
+<td>String</td>
+<td></td>
+</tr>
+<tr>
+<td>CurrentUser.LastName</td>
+<td>String</td>
+<td></td>
+</tr>
+<tr>
+<td>CurrentUser.EmailAddress</td>
+<td>String</td>
+<td></td>
+</tr>
+<tr>
+<td>CurrentOrganization.OrganizationName</td>
+<td>String</td>
+<td></td>
+</tr>
+<tr>
+<td>ContentType.LabelPlural</td>
+<td>String</td>
+<td></td>
+</tr>
+<tr>
+<td>ContentType.LabelSingular</td>
+<td>String</td>
+<td></td>
+</tr>
+<tr>
+<td>ContentType.DeveloperName</td>
+<td>String</td>
+<td></td>
+</tr>
+<tr>
+<td>ContentType.Description</td>
+<td>String</td>
+<td></td>
+</tr>
+<tr>
+<td>Target</td>
+<td>Object</td>
+<td></td>
+</tr>
+<tr>
+<td>Target.Items</td>
+<td>Array</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>The <code>Target</code> variable is a crucial component in Raytha templates, as it is linked to the content being rendered. Its value is either the list of content items if the template is a list view or the individual content item if the template is a detail view. More information about how Target is used in each context is described in the <a href="/articles/templates_detail_vs_list.html">detail vs list views article</a>.</p>
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/RaythaHQ/raytha/blob/docfx/docfx_project/articles/templates_intro.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

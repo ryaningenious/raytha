@@ -1,64 +1,68 @@
 ﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
 <html>
-
   <head>
     <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <title>Raytha </title>
-      <meta name="viewport" content="width=device-width">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Raytha ">
-    
-      <link rel="shortcut icon" href="favicon.ico">
-      <link rel="stylesheet" href="styles/docfx.vendor.min.css">
-      <link rel="stylesheet" href="styles/docfx.css">
+      
+      <link rel="icon" href="favicon.ico">
+      <link rel="stylesheet" href="styles/docfx.min.css">
       <link rel="stylesheet" href="styles/main.css">
-      <meta property="docfx:navrel" content="toc.html">
-      <meta property="docfx:tocrel" content="toc.html">
-    
-    
-    
+      <meta name="docfx:navrel" content="toc.html">
+      <meta name="docfx:tocrel" content="articles/toc.html">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/RaythaHQ/raytha/blob/docfx/docfx_project/index.md/#L1">
+
+      <script type="text/javascript" src="styles/docfx.min.js"></script>
+      <script type="text/javascript" src="styles/main.js"></script>
   </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
 
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-
-              <a class="navbar-brand" href="index.html">
-                <img id="logo" class="svg" src="logo.svg" alt="">
-              </a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
-            </div>
-          </div>
-        </nav>
-
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
+  <body data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <form class="d-flex ms-auto" role="search" id="search">
+              <i class="bi bi-search"></i>
+              <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+            </form>
           </div>
         </div>
-      </header>
-      <div role="main" class="container body-content hide-when-search">
-        <div class="article row grid">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="">
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
 <h1 id="raytha"><a href="https://raytha.com">Raytha</a></h1>
 
 <p><a href="https://choosealicense.com/licenses/mit/"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License"></a></p>
@@ -75,7 +79,7 @@
 <p><a href="https://raytha.com">Learn more about Raytha on our website.</a> and the <a href="https://www.youtube.com/channel/UCuQtF2WwODs2DfZ4pV-2SfA">Raytha Youtube channel</a>.</p>
 <h2 id="developer-docs">Developer Docs</h2>
 <p>This site contains documentation for .NET developers. If you are an administrator looking to learn how to use the platform as a user, please view the <a href="https://raytha.com/user-guide">User Guides</a>.</p>
-<p>If you are a developer, <a href="/articles/installation">start getting up and running quickly</a></p>
+<p>If you are a developer, <a href="/articles/installation.html">start getting up and running quickly</a></p>
 <h2 id="what-does-raytha-excel-at">What does Raytha excel at?</h2>
 <p>Raytha CMS is an ideal platform when you need to build a .NET web application with CleanArchitecture principles that also require login/authentication/RBAC. The platform comes with built-in features like audit logs, content management, and a UI pattern, allowing developers to focus on writing code rather than building common features from scratch.</p>
 <p>Some of the key benefits of using Raytha CMS include:</p>
@@ -102,32 +106,24 @@
 <p>We welcome contributions in the form of feature requests, bug reports, pull requests, or thoughtful discussions in the GitHub discussions and issue tracker. Please see the <a href="https://github.com/RaythaHQ/raytha/blob/main/CONTRIBUTING.md">CONTRIBUTING</a> document for more information.</p>
 <p>Raytha was founded by Zack Schwartz <a href="https://twitter.com/apexdodge">@apexdodge</a></p>
 </article>
-          </div>
 
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/RaythaHQ/raytha/blob/docfx/docfx_project/index.md/#L1" class="contribution-link">Improve this Doc</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
-                <div></div>
-              </nav>
-            </div>
-          </div>
+        <div class="contribution d-print-none">
+          <a href="https://github.com/RaythaHQ/raytha/blob/docfx/docfx_project/index.md/#L1" class="edit-link">Edit this page</a>
         </div>
       </div>
-      <footer>
-        <a class="github-button" href="https://github.com/RaythaHQ/raytha" data-size="large" aria-label="Follow">Follow</a>
-        <script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
-      </footer>    </div>
 
-    <script type="text/javascript" src="styles/docfx.vendor.min.js"></script>
-    <script type="text/javascript" src="styles/docfx.js"></script>
-    <script type="text/javascript" src="styles/main.js"></script>
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
