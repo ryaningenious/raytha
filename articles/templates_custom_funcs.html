@@ -15,11 +15,19 @@
       
       <meta name="docfx:docurl" content="https://github.com/RaythaHQ/raytha/blob/main/docfx_project/articles/templates_custom_funcs.md/#L1">
 
+      <script>
+        MathJax = {
+          options: {
+            processHtmlClass: ['tex2jax_process', 'math']
+          }
+        };
+      </script>
+
       <script type="text/javascript" src="../styles/docfx.min.js"></script>
       <script type="text/javascript" src="../styles/main.js"></script>
   </head>
 
-  <body data-layout="" data-yaml-mime="">
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
@@ -69,37 +77,68 @@
 <h2 id="functions">Functions</h2>
 <p>Note that every time you call one of these functions, you are making a call to the database, so having many of these run on your template at once may result in performance issues.</p>
 <h3 id="get_content_item_by_idcontentitemid">get_content_item_by_id(contentItemId)</h3>
-<p>You can use this function to make a call to the database to get the details for a single content item by its id.</p>
-<p>Usage:</p>
+<p>Retrieve details for a single content item by its id.</p>
+<p>Example usage:</p>
 <pre><code>{% assign other_related_item = get_content_item_by_id(Target.PublishedContent.related_item.PublishedContent.another_related_item)}
 
 {{ other_related_item.PrimaryField }}
 </code></pre>
-<h3 id="get_content_itemscontenttype-developer_name-filter-odata-orderby-odata-pagenumber-int-pagesize-int">get_content_items(ContentType: developer_name, Filter: odata, OrderBy: odata, PageNumber: int, PageSize: int)</h3>
-<p>This function will acquire the items for the given <code>ContentType</code> (required). The other parameters are optional.</p>
-<pre><code>{% assign over_five_yrs = get_content_items(ContentType: &quot;posts&quot;, Filter: &quot;age &gt; 5&quot;, OrderBy: &quot;PrimaryField asc&quot;, PageNumber: 1, PageSize: 10)}
+<h3 id="get_content_itemscontenttypedeveloper_name-filterodata-orderbyodata-pagenumber1-pagesize25">get_content_items(ContentType='developer_name', Filter='odata', OrderBy='odata', PageNumber=1, PageSize=25)</h3>
+<p>Retrieve the items for the given <code>ContentType</code> (required). The other parameters are optional. You can filter, sort, and paginate on these items by following the OData syntax as described <a href="/articles/templates_odata.html">in OData with Templates</a>.</p>
+<p>Example usage:</p>
+<pre><code>{% assign filter = &quot;contains(user_guide,'&quot; | append: Target.PrimaryField | append: &quot;')&quot; %}
+{% assign items = get_content_items(ContentType='posts', Filter=filter, OrderBy=&quot;order_to_appear_in_user_guide asc&quot;, PageSize=25) %}
 
-{% for item in over_five_yrs.Items %}
-    {{ item.PrimaryField }}
+{% if items.TotalCount &gt; 0 %}
+&lt;div id=&quot;articles&quot;&gt;
+    &lt;h2&gt;Table of Contents&lt;/h2&gt;   
+    &lt;ol&gt;
+    {% for item in items.Items %}
+        &lt;li&gt;&lt;a href=&quot;{{ PathBase }}/{{ item.RoutePath }}&quot; target=&quot;_blank&quot;&gt;{{ item.PrimaryField }}&lt;/a&gt;&lt;/li&gt;
+    {% endfor %}
+    &lt;/ol&gt;
+&lt;/div&gt;
+{% endif %}
+</code></pre>
+<h3 id="get_content_type_by_developer_namecontenttypedevelopername">get_content_type_by_developer_name(contentTypeDeveloperName)</h3>
+<p>Retrieve details and field definitions of a content type by passing in the content type developer name.</p>
+<p>Example usage:</p>
+<pre><code>{% assign contentType = get_content_type_by_developer_name('posts') %}
+{% assign categoriesField = contentType.ContentTypeFields | where: &quot;DeveloperName&quot;, &quot;categories&quot; | first %}
+{% for choice in categoriesField.Choices %}
+	&lt;a href=&quot;{{ PathBase }}/{{ category.DeveloperName }}&quot;&gt;{{ choice.Label }}&lt;/a&gt;
 {% endfor %}
 </code></pre>
 <h2 id="filters">Filters</h2>
-<h3 id="raytha_attachment_url">raytha_attachment_url</h3>
-<p>This filter will take the value and output the rendered url that redirects to the attachment's URL.</p>
-<p>Usage:</p>
-<pre><code>{{ Target.PublishedContent.attachment.Value | raytha_attachment_url }}
+<h3 id="attachment_redirect_url">attachment_redirect_url</h3>
+<p>Output a url that is relative to the current website such as yourdomain.com/raytha/media-items/objectkey/{key}.</p>
+<p>Example usage:</p>
+<pre><code>{{ Target.PublishedContent.attachment.Value | attachment_redirect_url }}
 </code></pre>
+<blockquote>
+<p>Note: This rendered url does a 302 redirect to the file on the file storage provider and generates a pre-signed or SaS url in the process. This allows your storage bucket to remain completely private. However, if you have a lot of attachment urls on your page, you are increasing the number of requests your website must serve to redirect to these files.</p>
+</blockquote>
+<h3 id="attachment_public_url">attachment_public_url</h3>
+<p>Output the url directly to the file on your file storage provider.</p>
+<p>Example usage:</p>
+<pre><code>{{ Target.PublishedContent.attachment.Value | attachment_public_url }}
+</code></pre>
+<blockquote>
+<p>Note: These urls will be the direct file on your file storage provider, but does not generate a presigned URL request or SaS url. Therefore, to use this filter, your storage bucket must be set to allow anonymous read-access on blobs.</p>
+</blockquote>
+<h3 id="raytha_attachment_url-deprecated">raytha_attachment_url (deprecated)</h3>
+<p>Renamed to <code>attachment_redirect_url</code>. To be removed in v1.0.6</p>
 <h3 id="organization_time">organization_time</h3>
-<p>This filter will take the value and convert it to the timezone that is set in the system's organization settings. This is useful when using variables <code>CreationTime</code> and <code>LastModificationTime</code>.</p>
-<p>Usage:</p>
+<p>Take the value and convert it to the timezone that is set in the system's organization settings. This is useful when using variables <code>CreationTime</code> and <code>LastModificationTime</code>.</p>
+<p>Example usage:</p>
 <pre><code>{{{ item.CreationTime | organization_time | date: '%c' }}
 </code></pre>
 <blockquote>
 <p>Note: The above example also uses the <code>date</code> filter which comes with the Fluid parser engine. <a href="https://ruby-doc.org/core-3.0.0/Time.html#method-i-strftime">You can use strftime for formatting</a>.</p>
 </blockquote>
 <h3 id="groupby-publishedcontentdeveloper_name">groupby: &quot;PublishedContent.developer_name&quot;</h3>
-<p>This will perform a groupby operation on an array of items, most commonly used with <code>Target.Items</code> and key on the PublishedContent.developer_name attribute. The output will be a dictionary of <code>key</code> and <code>items</code> as demonstrated below.</p>
-<p>Usage:</p>
+<p>Perform a groupby operation on an array of items, most commonly used with <code>Target.Items</code> and key on the PublishedContent.developer_name attribute. The output will be a dictionary of <code>key</code> and <code>items</code> as demonstrated below.</p>
+<p>Example usage:</p>
 <pre><code>{% assign grouped_items = Target.Items | groupby: &quot;PublishedContent.developer_name&quot; %}
 {% for grouped_item in grouped_items %}
     {{ grouped_item.key }}
@@ -109,8 +148,8 @@
 {% endfor %}
 </code></pre>
 <h3 id="json">json</h3>
-<p>If you want to &quot;stringify&quot; any of the objects that come out of the rendering engine, you can apply the <code>json</code> filter. This might be useful during development if you are looking to see what the attributes are on the objects so that you can pull them out.</p>
-<p>Usage:</p>
+<p>&quot;Stringify&quot; any of the objects that come out of the rendering engine. This might be useful during development if you are looking to see what the attributes are on the objects so that you can pull them out.</p>
+<p>Example usage:</p>
 <pre><code>{{ Target | json }}
 </code></pre>
 </article>

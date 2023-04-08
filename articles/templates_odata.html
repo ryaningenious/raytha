@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Using OData with Raytha liquid templates </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Using OData with Raytha liquid templates ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.min.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/RaythaHQ/raytha/blob/main/docfx_project/articles/templates_odata.md/#L1">
+
+      <script>
+        MathJax = {
+          options: {
+            processHtmlClass: ['tex2jax_process', 'math']
+          }
+        };
+      </script>
+
+      <script type="text/javascript" src="../styles/docfx.min.js"></script>
+      <script type="text/javascript" src="../styles/main.js"></script>
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <form class="d-flex ms-auto" role="search" id="search">
+              <i class="bi bi-search"></i>
+              <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="using-odata-with-raytha-liquid-templates">Using OData with Raytha liquid templates</h1>
+
+<p>OData (Open Data Protocol) is a standardized protocol that provides a powerful filtering language that allows clients to retrieve only the data they need. The filtering system is based on a standardized syntax and supports a wide range of filter conditions, including comparison operators, logical operators, functions, and parentheses for grouping conditions. Clients can filter data based on multiple criteria, such as date ranges, numeric values, or string patterns, and can also perform complex queries with nested conditions.</p>
+<p>You can learn more about <a href="https://learn.microsoft.com/en-us/dynamics-nav/using-filter-expressions-in-odata-uris">OData syntax on Microsoft's documentation</a>.</p>
+<p>Raytha's list view engine applies the OData standard to filtering and sorting on data within Raytha content types.</p>
+<p>When you <a href="https://raytha.com/user-guide/modify-create-and-publish-a-list-view">create a view in the Raytha admin portal</a>, Raytha is storing an OData filter query and runs that for you when you visit the List View on the public site. This is the &quot;base&quot; filter, but Raytha gives you the ability to layer additional filters and sorting on top of this base.</p>
+<p>There may be a case where you do not this functionality enabled. You can disable the public odata filtering by going into the public settings for the list view and checking the box for <code>Ignore client side filter and sort query parameters</code></p>
+<img class="inline-img" src="../images/templates_ignorefilter.png">
+<h2 id="filter">Filter</h2>
+<p>Take the Raytha blog list view: <a href="https://raytha.com/blog">https://raytha.com/blog</a>. You can apply OData filters to this view. Raytha will first apply the filter set on the view in the admin portal's settings, and then <em>also</em> apply any additional filter specified in the url's <code>filter</code> query parameter.</p>
+<p>This feature is immensely helpful if you want to create a sidebar menu that filters on categories, for example.</p>
+<p>Below are some examples:</p>
+<ul>
+<li><a href="https://raytha.com/blog?filter=PrimaryField%20eq%20%27Release%20of%20v1.0.4%27">https://raytha.com/blog?filter=PrimaryField eq 'Release of v1.0.4'</a></li>
+<li><a href="https://raytha.com/blog?filter=CreationTime%20lt%20%273/1/2023%27">https://raytha.com/blog?filter=CreationTime lt '3/1/2023'</a></li>
+<li><a href="https://raytha.com/blog?filter=CreationTime%20lt%20%273/1/2023%27%20and%20youtube_video%20ne%20%27%27">https://raytha.com/blog?filter=CreationTime lt '3/1/2023' and youtube_video ne ''</a></li>
+<li><a href="https://raytha.com/blog?filter=((CreationTime%20lt%20%273/1/2023%27%20and%20youtube_video%20ne%20%27%27)%20or%20hide_author_bio%20eq%20%27true%27)">https://raytha.com/blog?filter=((CreationTime lt '3/1/2023' and youtube_video ne '') or hide_author_bio eq 'true')</a></li>
+<li><a href="https://raytha.com/blog?filter=contains(title,%20%27open%20source%27)">https://raytha.com/blog?filter=contains(title, 'open source')</a></li>
+</ul>
+<p>As you can see, you can use parantheses to effectively have sub-queries, and compare any field on the content type.</p>
+<p>The system fields you can filter on are:</p>
+<ul>
+<li>PrimaryField</li>
+<li>CreationTime</li>
+<li>LastModificationTime</li>
+<li>IsPublished</li>
+<li>IsDraft</li>
+</ul>
+<p>Supported OData Operators in Raytha:</p>
+<ul>
+<li>and, or</li>
+<li>eq, ne, lt, lte, gt, gte</li>
+<li>contains(field, '...'), starstwith(field, '...'), endswith(field, '...')</li>
+</ul>
+<p>You can also use <code>null</code> to test for null values such <code>category ne null</code>.</p>
+<h2 id="order-by">Order By</h2>
+<p>By using the <code>orderby</code> query parameter with the <code>asc</code> or <code>desc</code> direction. And you can sort on multiple properties via comma separated clauses. This will override what is set on the view in the admin portal.</p>
+<p>Some examples:</p>
+<ul>
+<li><a href="https://raytha.com/blog?orderby=title%20asc">https://raytha.com/blog?orderby=title asc</a></li>
+<li><a href="https://raytha.com/blog?orderby=youtube_video%20desc,CreationTime%20asc">https://raytha.com/blog?orderby=youtube_video desc,CreationTime asc</a></li>
+</ul>
+<h2 id="pagination">Pagination</h2>
+<p>Use the <code>pageSize</code> and <code>pageNumber</code> query parameters to run through pagination of a list view.</p>
+<p>Some examples:</p>
+<ul>
+<li><a href="https://raytha.com/blog?pageSize=1&amp;pageNumber=2">https://raytha.com/blog?pageSize=1&amp;pageNumber=2</a></li>
+<li><a href="https://raytha.com/blog?pageSize=5">https://raytha.com/blog?pageSize=5</a></li>
+</ul>
+<h2 id="search">Search</h2>
+<p>On the admin portal, you can run an open search on your list view which will only search on the columns that you have chosen to display on that view.</p>
+<img class="inline-img" src="../images/templates_odatasearch.png">
+<p>This functionality flows out to the public view.</p>
+<p>Example:</p>
+<ul>
+<li><a href="https://raytha.com/blog?search=release">https://raytha.com/blog?search=release</a></li>
+</ul>
+<blockquote>
+<p>Note: If you want to search on columns that are not selected for the view in the admin portal, then you should construct an OData filter using the contains() function described above.</p>
+</blockquote>
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/RaythaHQ/raytha/blob/main/docfx_project/articles/templates_odata.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

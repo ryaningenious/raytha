@@ -3703,15 +3703,15 @@ references:
   fullName.vb: Raytha.Application.Common.Interfaces.IFileStorageProvider.GetDownloadUrlAsync(String, Date, Boolean)
   nameWithType: IFileStorageProvider.GetDownloadUrlAsync(string, DateTime, bool)
   nameWithType.vb: IFileStorageProvider.GetDownloadUrlAsync(String, Date, Boolean)
-- uid: Raytha.Application.Common.Interfaces.IFileStorageProvider.GetDownloadUrlAsync(System.String,System.String,System.String,System.DateTime,System.Boolean)
-  name: GetDownloadUrlAsync(string, string, string, DateTime, bool)
-  href: api/Raytha.Application.Common.Interfaces.IFileStorageProvider.html#Raytha_Application_Common_Interfaces_IFileStorageProvider_GetDownloadUrlAsync_System_String_System_String_System_String_System_DateTime_System_Boolean_
-  commentId: M:Raytha.Application.Common.Interfaces.IFileStorageProvider.GetDownloadUrlAsync(System.String,System.String,System.String,System.DateTime,System.Boolean)
-  name.vb: GetDownloadUrlAsync(String, String, String, Date, Boolean)
-  fullName: Raytha.Application.Common.Interfaces.IFileStorageProvider.GetDownloadUrlAsync(string, string, string, System.DateTime, bool)
-  fullName.vb: Raytha.Application.Common.Interfaces.IFileStorageProvider.GetDownloadUrlAsync(String, String, String, Date, Boolean)
-  nameWithType: IFileStorageProvider.GetDownloadUrlAsync(string, string, string, DateTime, bool)
-  nameWithType.vb: IFileStorageProvider.GetDownloadUrlAsync(String, String, String, Date, Boolean)
+- uid: Raytha.Application.Common.Interfaces.IFileStorageProvider.GetDownloadUrlAsync(System.String)
+  name: GetDownloadUrlAsync(string)
+  href: api/Raytha.Application.Common.Interfaces.IFileStorageProvider.html#Raytha_Application_Common_Interfaces_IFileStorageProvider_GetDownloadUrlAsync_System_String_
+  commentId: M:Raytha.Application.Common.Interfaces.IFileStorageProvider.GetDownloadUrlAsync(System.String)
+  name.vb: GetDownloadUrlAsync(String)
+  fullName: Raytha.Application.Common.Interfaces.IFileStorageProvider.GetDownloadUrlAsync(string)
+  fullName.vb: Raytha.Application.Common.Interfaces.IFileStorageProvider.GetDownloadUrlAsync(String)
+  nameWithType: IFileStorageProvider.GetDownloadUrlAsync(string)
+  nameWithType.vb: IFileStorageProvider.GetDownloadUrlAsync(String)
 - uid: Raytha.Application.Common.Interfaces.IFileStorageProvider.GetDownloadUrlAsync*
   name: GetDownloadUrlAsync
   href: api/Raytha.Application.Common.Interfaces.IFileStorageProvider.html#Raytha_Application_Common_Interfaces_IFileStorageProvider_GetDownloadUrlAsync_

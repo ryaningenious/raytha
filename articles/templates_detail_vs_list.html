@@ -15,11 +15,19 @@
       
       <meta name="docfx:docurl" content="https://github.com/RaythaHQ/raytha/blob/main/docfx_project/articles/templates_detail_vs_list.md/#L1">
 
+      <script>
+        MathJax = {
+          options: {
+            processHtmlClass: ['tex2jax_process', 'math']
+          }
+        };
+      </script>
+
       <script type="text/javascript" src="../styles/docfx.min.js"></script>
       <script type="text/javascript" src="../styles/main.js"></script>
   </head>
 
-  <body data-layout="" data-yaml-mime="">
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
@@ -151,8 +159,7 @@
 &lt;/nav&gt;
 </code></pre>
 <h3 id="using-odata-for-filtering-and-searching">Using OData for filtering and searching</h3>
-<p>One of the powerful aspects of Raytha's templating system is that it makes use of OData so that you can output any subset of the content type you are looking to pull.</p>
-<p>[docs coming soon]</p>
+<p>One of the powerful aspects of Raytha's templating system is that it makes use of OData so that you can output any subset of the content type you are looking to pull. You can filter, sort, and paginate on these items by following the OData syntax as described <a href="/articles/templates_odata.html">in OData with Templates</a>.</p>
 <h2 id="detail-views">Detail views</h2>
 <p>A detail view is tied an individual content item. You can change which template detail view a content item uses by opening that content item's settings as shown below.</p>
 <img class="inline-img" src="../images/templates_setdetailview.png">
