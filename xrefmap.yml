@@ -3210,6 +3210,64 @@ references:
   commentId: N:Raytha.Application.Common.Interfaces
   fullName: Raytha.Application.Common.Interfaces
   nameWithType: Raytha.Application.Common.Interfaces
+- uid: Raytha.Application.Common.Interfaces.DbSpaceUsed
+  name: DbSpaceUsed
+  href: api/Raytha.Application.Common.Interfaces.DbSpaceUsed.html
+  commentId: T:Raytha.Application.Common.Interfaces.DbSpaceUsed
+  fullName: Raytha.Application.Common.Interfaces.DbSpaceUsed
+  nameWithType: DbSpaceUsed
+- uid: Raytha.Application.Common.Interfaces.DbSpaceUsed.data
+  name: data
+  href: api/Raytha.Application.Common.Interfaces.DbSpaceUsed.html#Raytha_Application_Common_Interfaces_DbSpaceUsed_data
+  commentId: P:Raytha.Application.Common.Interfaces.DbSpaceUsed.data
+  fullName: Raytha.Application.Common.Interfaces.DbSpaceUsed.data
+  nameWithType: DbSpaceUsed.data
+- uid: Raytha.Application.Common.Interfaces.DbSpaceUsed.data*
+  name: data
+  href: api/Raytha.Application.Common.Interfaces.DbSpaceUsed.html#Raytha_Application_Common_Interfaces_DbSpaceUsed_data_
+  commentId: Overload:Raytha.Application.Common.Interfaces.DbSpaceUsed.data
+  isSpec: "True"
+  fullName: Raytha.Application.Common.Interfaces.DbSpaceUsed.data
+  nameWithType: DbSpaceUsed.data
+- uid: Raytha.Application.Common.Interfaces.DbSpaceUsed.database_name
+  name: database_name
+  href: api/Raytha.Application.Common.Interfaces.DbSpaceUsed.html#Raytha_Application_Common_Interfaces_DbSpaceUsed_database_name
+  commentId: P:Raytha.Application.Common.Interfaces.DbSpaceUsed.database_name
+  fullName: Raytha.Application.Common.Interfaces.DbSpaceUsed.database_name
+  nameWithType: DbSpaceUsed.database_name
+- uid: Raytha.Application.Common.Interfaces.DbSpaceUsed.database_name*
+  name: database_name
+  href: api/Raytha.Application.Common.Interfaces.DbSpaceUsed.html#Raytha_Application_Common_Interfaces_DbSpaceUsed_database_name_
+  commentId: Overload:Raytha.Application.Common.Interfaces.DbSpaceUsed.database_name
+  isSpec: "True"
+  fullName: Raytha.Application.Common.Interfaces.DbSpaceUsed.database_name
+  nameWithType: DbSpaceUsed.database_name
+- uid: Raytha.Application.Common.Interfaces.DbSpaceUsed.database_size
+  name: database_size
+  href: api/Raytha.Application.Common.Interfaces.DbSpaceUsed.html#Raytha_Application_Common_Interfaces_DbSpaceUsed_database_size
+  commentId: P:Raytha.Application.Common.Interfaces.DbSpaceUsed.database_size
+  fullName: Raytha.Application.Common.Interfaces.DbSpaceUsed.database_size
+  nameWithType: DbSpaceUsed.database_size
+- uid: Raytha.Application.Common.Interfaces.DbSpaceUsed.database_size*
+  name: database_size
+  href: api/Raytha.Application.Common.Interfaces.DbSpaceUsed.html#Raytha_Application_Common_Interfaces_DbSpaceUsed_database_size_
+  commentId: Overload:Raytha.Application.Common.Interfaces.DbSpaceUsed.database_size
+  isSpec: "True"
+  fullName: Raytha.Application.Common.Interfaces.DbSpaceUsed.database_size
+  nameWithType: DbSpaceUsed.database_size
+- uid: Raytha.Application.Common.Interfaces.DbSpaceUsed.index_size
+  name: index_size
+  href: api/Raytha.Application.Common.Interfaces.DbSpaceUsed.html#Raytha_Application_Common_Interfaces_DbSpaceUsed_index_size
+  commentId: P:Raytha.Application.Common.Interfaces.DbSpaceUsed.index_size
+  fullName: Raytha.Application.Common.Interfaces.DbSpaceUsed.index_size
+  nameWithType: DbSpaceUsed.index_size
+- uid: Raytha.Application.Common.Interfaces.DbSpaceUsed.index_size*
+  name: index_size
+  href: api/Raytha.Application.Common.Interfaces.DbSpaceUsed.html#Raytha_Application_Common_Interfaces_DbSpaceUsed_index_size_
+  commentId: Overload:Raytha.Application.Common.Interfaces.DbSpaceUsed.index_size
+  isSpec: "True"
+  fullName: Raytha.Application.Common.Interfaces.DbSpaceUsed.index_size
+  nameWithType: DbSpaceUsed.index_size
 - uid: Raytha.Application.Common.Interfaces.IContentTypeInRoutePath
   name: IContentTypeInRoutePath
   href: api/Raytha.Application.Common.Interfaces.IContentTypeInRoutePath.html
@@ -3861,6 +3919,19 @@ references:
   isSpec: "True"
   fullName: Raytha.Application.Common.Interfaces.IFileStorageProviderSettings.MaxFileSize
   nameWithType: IFileStorageProviderSettings.MaxFileSize
+- uid: Raytha.Application.Common.Interfaces.IFileStorageProviderSettings.MaxTotalDbSize
+  name: MaxTotalDbSize
+  href: api/Raytha.Application.Common.Interfaces.IFileStorageProviderSettings.html#Raytha_Application_Common_Interfaces_IFileStorageProviderSettings_MaxTotalDbSize
+  commentId: P:Raytha.Application.Common.Interfaces.IFileStorageProviderSettings.MaxTotalDbSize
+  fullName: Raytha.Application.Common.Interfaces.IFileStorageProviderSettings.MaxTotalDbSize
+  nameWithType: IFileStorageProviderSettings.MaxTotalDbSize
+- uid: Raytha.Application.Common.Interfaces.IFileStorageProviderSettings.MaxTotalDbSize*
+  name: MaxTotalDbSize
+  href: api/Raytha.Application.Common.Interfaces.IFileStorageProviderSettings.html#Raytha_Application_Common_Interfaces_IFileStorageProviderSettings_MaxTotalDbSize_
+  commentId: Overload:Raytha.Application.Common.Interfaces.IFileStorageProviderSettings.MaxTotalDbSize
+  isSpec: "True"
+  fullName: Raytha.Application.Common.Interfaces.IFileStorageProviderSettings.MaxTotalDbSize
+  nameWithType: IFileStorageProviderSettings.MaxTotalDbSize
 - uid: Raytha.Application.Common.Interfaces.IFileStorageProviderSettings.MaxTotalDiskSpace
   name: MaxTotalDiskSpace
   href: api/Raytha.Application.Common.Interfaces.IFileStorageProviderSettings.html#Raytha_Application_Common_Interfaces_IFileStorageProviderSettings_MaxTotalDiskSpace
@@ -4418,6 +4489,25 @@ references:
   isSpec: "True"
   fullName: Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.QueryContentItems
   nameWithType: IRaythaDbJsonQueryEngine.QueryContentItems
+- uid: Raytha.Application.Common.Interfaces.IRaythaRawDbInfo
+  name: IRaythaRawDbInfo
+  href: api/Raytha.Application.Common.Interfaces.IRaythaRawDbInfo.html
+  commentId: T:Raytha.Application.Common.Interfaces.IRaythaRawDbInfo
+  fullName: Raytha.Application.Common.Interfaces.IRaythaRawDbInfo
+  nameWithType: IRaythaRawDbInfo
+- uid: Raytha.Application.Common.Interfaces.IRaythaRawDbInfo.GetDatabaseSize
+  name: GetDatabaseSize()
+  href: api/Raytha.Application.Common.Interfaces.IRaythaRawDbInfo.html#Raytha_Application_Common_Interfaces_IRaythaRawDbInfo_GetDatabaseSize
+  commentId: M:Raytha.Application.Common.Interfaces.IRaythaRawDbInfo.GetDatabaseSize
+  fullName: Raytha.Application.Common.Interfaces.IRaythaRawDbInfo.GetDatabaseSize()
+  nameWithType: IRaythaRawDbInfo.GetDatabaseSize()
+- uid: Raytha.Application.Common.Interfaces.IRaythaRawDbInfo.GetDatabaseSize*
+  name: GetDatabaseSize
+  href: api/Raytha.Application.Common.Interfaces.IRaythaRawDbInfo.html#Raytha_Application_Common_Interfaces_IRaythaRawDbInfo_GetDatabaseSize_
+  commentId: Overload:Raytha.Application.Common.Interfaces.IRaythaRawDbInfo.GetDatabaseSize
+  isSpec: "True"
+  fullName: Raytha.Application.Common.Interfaces.IRaythaRawDbInfo.GetDatabaseSize
+  nameWithType: IRaythaRawDbInfo.GetDatabaseSize
 - uid: Raytha.Application.Common.Interfaces.IRelativeUrlBuilder
   name: IRelativeUrlBuilder
   href: api/Raytha.Application.Common.Interfaces.IRelativeUrlBuilder.html
@@ -6938,6 +7028,12 @@ references:
   isSpec: "True"
   fullName: Raytha.Application.Common.Utils.FileStorageUtility.CreateObjectKeyFromIdAndFileName
   nameWithType: FileStorageUtility.CreateObjectKeyFromIdAndFileName
+- uid: Raytha.Application.Common.Utils.FileStorageUtility.DATABASE_MAX_SIZE_CONFIG_NAME
+  name: DATABASE_MAX_SIZE_CONFIG_NAME
+  href: api/Raytha.Application.Common.Utils.FileStorageUtility.html#Raytha_Application_Common_Utils_FileStorageUtility_DATABASE_MAX_SIZE_CONFIG_NAME
+  commentId: F:Raytha.Application.Common.Utils.FileStorageUtility.DATABASE_MAX_SIZE_CONFIG_NAME
+  fullName: Raytha.Application.Common.Utils.FileStorageUtility.DATABASE_MAX_SIZE_CONFIG_NAME
+  nameWithType: FileStorageUtility.DATABASE_MAX_SIZE_CONFIG_NAME
 - uid: Raytha.Application.Common.Utils.FileStorageUtility.DEFAULT_ALLOWED_MIMETYPES
   name: DEFAULT_ALLOWED_MIMETYPES
   href: api/Raytha.Application.Common.Utils.FileStorageUtility.html#Raytha_Application_Common_Utils_FileStorageUtility_DEFAULT_ALLOWED_MIMETYPES
@@ -6962,6 +7058,12 @@ references:
   commentId: F:Raytha.Application.Common.Utils.FileStorageUtility.DEFAULT_MAX_FILE_SIZE
   fullName: Raytha.Application.Common.Utils.FileStorageUtility.DEFAULT_MAX_FILE_SIZE
   nameWithType: FileStorageUtility.DEFAULT_MAX_FILE_SIZE
+- uid: Raytha.Application.Common.Utils.FileStorageUtility.DEFAULT_MAX_TOTAL_DB_SIZE
+  name: DEFAULT_MAX_TOTAL_DB_SIZE
+  href: api/Raytha.Application.Common.Utils.FileStorageUtility.html#Raytha_Application_Common_Utils_FileStorageUtility_DEFAULT_MAX_TOTAL_DB_SIZE
+  commentId: F:Raytha.Application.Common.Utils.FileStorageUtility.DEFAULT_MAX_TOTAL_DB_SIZE
+  fullName: Raytha.Application.Common.Utils.FileStorageUtility.DEFAULT_MAX_TOTAL_DB_SIZE
+  nameWithType: FileStorageUtility.DEFAULT_MAX_TOTAL_DB_SIZE
 - uid: Raytha.Application.Common.Utils.FileStorageUtility.DEFAULT_MAX_TOTAL_DISK_SPACE
   name: DEFAULT_MAX_TOTAL_DISK_SPACE
   href: api/Raytha.Application.Common.Utils.FileStorageUtility.html#Raytha_Application_Common_Utils_FileStorageUtility_DEFAULT_MAX_TOTAL_DISK_SPACE
@@ -11386,6 +11488,19 @@ references:
   commentId: T:Raytha.Application.Dashboard.DashboardDto
   fullName: Raytha.Application.Dashboard.DashboardDto
   nameWithType: DashboardDto
+- uid: Raytha.Application.Dashboard.DashboardDto.DbSize
+  name: DbSize
+  href: api/Raytha.Application.Dashboard.DashboardDto.html#Raytha_Application_Dashboard_DashboardDto_DbSize
+  commentId: P:Raytha.Application.Dashboard.DashboardDto.DbSize
+  fullName: Raytha.Application.Dashboard.DashboardDto.DbSize
+  nameWithType: DashboardDto.DbSize
+- uid: Raytha.Application.Dashboard.DashboardDto.DbSize*
+  name: DbSize
+  href: api/Raytha.Application.Dashboard.DashboardDto.html#Raytha_Application_Dashboard_DashboardDto_DbSize_
+  commentId: Overload:Raytha.Application.Dashboard.DashboardDto.DbSize
+  isSpec: "True"
+  fullName: Raytha.Application.Dashboard.DashboardDto.DbSize
+  nameWithType: DashboardDto.DbSize
 - uid: Raytha.Application.Dashboard.DashboardDto.FileStorageSize
   name: FileStorageSize
   href: api/Raytha.Application.Dashboard.DashboardDto.html#Raytha_Application_Dashboard_DashboardDto_FileStorageSize
@@ -11437,27 +11552,27 @@ references:
   commentId: T:Raytha.Application.Dashboard.Queries.GetDashboardMetrics
   fullName: Raytha.Application.Dashboard.Queries.GetDashboardMetrics
   nameWithType: GetDashboardMetrics
-- uid: Raytha.Application.Dashboard.Queries.GetDashboardMetrics.CSpaceUsed
-  name: GetDashboardMetrics.CSpaceUsed
-  href: api/Raytha.Application.Dashboard.Queries.GetDashboardMetrics.CSpaceUsed.html
-  commentId: T:Raytha.Application.Dashboard.Queries.GetDashboardMetrics.CSpaceUsed
-  fullName: Raytha.Application.Dashboard.Queries.GetDashboardMetrics.CSpaceUsed
-  nameWithType: GetDashboardMetrics.CSpaceUsed
 - uid: Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler
   name: GetDashboardMetrics.Handler
   href: api/Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler.html
   commentId: T:Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler
   fullName: Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler
   nameWithType: GetDashboardMetrics.Handler
-- uid: Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler.#ctor(Raytha.Application.Common.Interfaces.IRaythaDbContext)
-  name: Handler(IRaythaDbContext)
-  href: api/Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler.html#Raytha_Application_Dashboard_Queries_GetDashboardMetrics_Handler__ctor_Raytha_Application_Common_Interfaces_IRaythaDbContext_
-  commentId: M:Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler.#ctor(Raytha.Application.Common.Interfaces.IRaythaDbContext)
-  name.vb: New(IRaythaDbContext)
-  fullName: Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler.Handler(Raytha.Application.Common.Interfaces.IRaythaDbContext)
-  fullName.vb: Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler.New(Raytha.Application.Common.Interfaces.IRaythaDbContext)
-  nameWithType: GetDashboardMetrics.Handler.Handler(IRaythaDbContext)
-  nameWithType.vb: GetDashboardMetrics.Handler.New(IRaythaDbContext)
+- uid: Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler._rawSqlDb
+  name: _rawSqlDb
+  href: api/Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler.html#Raytha_Application_Dashboard_Queries_GetDashboardMetrics_Handler__rawSqlDb
+  commentId: F:Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler._rawSqlDb
+  fullName: Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler._rawSqlDb
+  nameWithType: GetDashboardMetrics.Handler._rawSqlDb
+- uid: Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler.#ctor(Raytha.Application.Common.Interfaces.IRaythaDbContext,Raytha.Application.Common.Interfaces.IRaythaRawDbInfo)
+  name: Handler(IRaythaDbContext, IRaythaRawDbInfo)
+  href: api/Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler.html#Raytha_Application_Dashboard_Queries_GetDashboardMetrics_Handler__ctor_Raytha_Application_Common_Interfaces_IRaythaDbContext_Raytha_Application_Common_Interfaces_IRaythaRawDbInfo_
+  commentId: M:Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler.#ctor(Raytha.Application.Common.Interfaces.IRaythaDbContext,Raytha.Application.Common.Interfaces.IRaythaRawDbInfo)
+  name.vb: New(IRaythaDbContext, IRaythaRawDbInfo)
+  fullName: Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler.Handler(Raytha.Application.Common.Interfaces.IRaythaDbContext, Raytha.Application.Common.Interfaces.IRaythaRawDbInfo)
+  fullName.vb: Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler.New(Raytha.Application.Common.Interfaces.IRaythaDbContext, Raytha.Application.Common.Interfaces.IRaythaRawDbInfo)
+  nameWithType: GetDashboardMetrics.Handler.Handler(IRaythaDbContext, IRaythaRawDbInfo)
+  nameWithType.vb: GetDashboardMetrics.Handler.New(IRaythaDbContext, IRaythaRawDbInfo)
 - uid: Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler.#ctor*
   name: Handler
   href: api/Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler.html#Raytha_Application_Dashboard_Queries_GetDashboardMetrics_Handler__ctor_

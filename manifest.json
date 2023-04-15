@@ -1005,6 +1005,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Common.Interfaces.DbSpaceUsed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Common.Interfaces.DbSpaceUsed.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Raytha.Application.Common.Interfaces.IContentTypeInRoutePath.yml",
       "output": {
         ".html": {
@@ -1099,6 +1109,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Common.Interfaces.IRaythaRawDbInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Common.Interfaces.IRaythaRawDbInfo.html"
         }
       },
       "version": ""
@@ -2609,16 +2629,6 @@
       "output": {
         ".html": {
           "relative_path": "api/Raytha.Application.Dashboard.DashboardDto.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Dashboard.Queries.GetDashboardMetrics.CSpaceUsed.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Raytha.Application.Dashboard.Queries.GetDashboardMetrics.CSpaceUsed.html"
         }
       },
       "version": ""
