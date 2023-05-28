@@ -2859,6 +2859,236 @@ references:
   isSpec: "True"
   fullName: Raytha.Application.AuthenticationSchemes.Queries.GetAuthenticationSchemes.Query.OrderBy
   nameWithType: GetAuthenticationSchemes.Query.OrderBy
+- uid: Raytha.Application.BackgroundTasks
+  name: Raytha.Application.BackgroundTasks
+  href: api/Raytha.Application.BackgroundTasks.html
+  commentId: N:Raytha.Application.BackgroundTasks
+  fullName: Raytha.Application.BackgroundTasks
+  nameWithType: Raytha.Application.BackgroundTasks
+- uid: Raytha.Application.BackgroundTasks.BackgroundTaskDto
+  name: BackgroundTaskDto
+  href: api/Raytha.Application.BackgroundTasks.BackgroundTaskDto.html
+  commentId: T:Raytha.Application.BackgroundTasks.BackgroundTaskDto
+  fullName: Raytha.Application.BackgroundTasks.BackgroundTaskDto
+  nameWithType: BackgroundTaskDto
+- uid: Raytha.Application.BackgroundTasks.BackgroundTaskDto.Args
+  name: Args
+  href: api/Raytha.Application.BackgroundTasks.BackgroundTaskDto.html#Raytha_Application_BackgroundTasks_BackgroundTaskDto_Args
+  commentId: P:Raytha.Application.BackgroundTasks.BackgroundTaskDto.Args
+  fullName: Raytha.Application.BackgroundTasks.BackgroundTaskDto.Args
+  nameWithType: BackgroundTaskDto.Args
+- uid: Raytha.Application.BackgroundTasks.BackgroundTaskDto.Args*
+  name: Args
+  href: api/Raytha.Application.BackgroundTasks.BackgroundTaskDto.html#Raytha_Application_BackgroundTasks_BackgroundTaskDto_Args_
+  commentId: Overload:Raytha.Application.BackgroundTasks.BackgroundTaskDto.Args
+  isSpec: "True"
+  fullName: Raytha.Application.BackgroundTasks.BackgroundTaskDto.Args
+  nameWithType: BackgroundTaskDto.Args
+- uid: Raytha.Application.BackgroundTasks.BackgroundTaskDto.CompletionTime
+  name: CompletionTime
+  href: api/Raytha.Application.BackgroundTasks.BackgroundTaskDto.html#Raytha_Application_BackgroundTasks_BackgroundTaskDto_CompletionTime
+  commentId: P:Raytha.Application.BackgroundTasks.BackgroundTaskDto.CompletionTime
+  fullName: Raytha.Application.BackgroundTasks.BackgroundTaskDto.CompletionTime
+  nameWithType: BackgroundTaskDto.CompletionTime
+- uid: Raytha.Application.BackgroundTasks.BackgroundTaskDto.CompletionTime*
+  name: CompletionTime
+  href: api/Raytha.Application.BackgroundTasks.BackgroundTaskDto.html#Raytha_Application_BackgroundTasks_BackgroundTaskDto_CompletionTime_
+  commentId: Overload:Raytha.Application.BackgroundTasks.BackgroundTaskDto.CompletionTime
+  isSpec: "True"
+  fullName: Raytha.Application.BackgroundTasks.BackgroundTaskDto.CompletionTime
+  nameWithType: BackgroundTaskDto.CompletionTime
+- uid: Raytha.Application.BackgroundTasks.BackgroundTaskDto.CreationTime
+  name: CreationTime
+  href: api/Raytha.Application.BackgroundTasks.BackgroundTaskDto.html#Raytha_Application_BackgroundTasks_BackgroundTaskDto_CreationTime
+  commentId: P:Raytha.Application.BackgroundTasks.BackgroundTaskDto.CreationTime
+  fullName: Raytha.Application.BackgroundTasks.BackgroundTaskDto.CreationTime
+  nameWithType: BackgroundTaskDto.CreationTime
+- uid: Raytha.Application.BackgroundTasks.BackgroundTaskDto.CreationTime*
+  name: CreationTime
+  href: api/Raytha.Application.BackgroundTasks.BackgroundTaskDto.html#Raytha_Application_BackgroundTasks_BackgroundTaskDto_CreationTime_
+  commentId: Overload:Raytha.Application.BackgroundTasks.BackgroundTaskDto.CreationTime
+  isSpec: "True"
+  fullName: Raytha.Application.BackgroundTasks.BackgroundTaskDto.CreationTime
+  nameWithType: BackgroundTaskDto.CreationTime
+- uid: Raytha.Application.BackgroundTasks.BackgroundTaskDto.ErrorMessage
+  name: ErrorMessage
+  href: api/Raytha.Application.BackgroundTasks.BackgroundTaskDto.html#Raytha_Application_BackgroundTasks_BackgroundTaskDto_ErrorMessage
+  commentId: P:Raytha.Application.BackgroundTasks.BackgroundTaskDto.ErrorMessage
+  fullName: Raytha.Application.BackgroundTasks.BackgroundTaskDto.ErrorMessage
+  nameWithType: BackgroundTaskDto.ErrorMessage
+- uid: Raytha.Application.BackgroundTasks.BackgroundTaskDto.ErrorMessage*
+  name: ErrorMessage
+  href: api/Raytha.Application.BackgroundTasks.BackgroundTaskDto.html#Raytha_Application_BackgroundTasks_BackgroundTaskDto_ErrorMessage_
+  commentId: Overload:Raytha.Application.BackgroundTasks.BackgroundTaskDto.ErrorMessage
+  isSpec: "True"
+  fullName: Raytha.Application.BackgroundTasks.BackgroundTaskDto.ErrorMessage
+  nameWithType: BackgroundTaskDto.ErrorMessage
+- uid: Raytha.Application.BackgroundTasks.BackgroundTaskDto.GetProjection
+  name: GetProjection()
+  href: api/Raytha.Application.BackgroundTasks.BackgroundTaskDto.html#Raytha_Application_BackgroundTasks_BackgroundTaskDto_GetProjection
+  commentId: M:Raytha.Application.BackgroundTasks.BackgroundTaskDto.GetProjection
+  fullName: Raytha.Application.BackgroundTasks.BackgroundTaskDto.GetProjection()
+  nameWithType: BackgroundTaskDto.GetProjection()
+- uid: Raytha.Application.BackgroundTasks.BackgroundTaskDto.GetProjection(Raytha.Domain.Entities.BackgroundTask)
+  name: GetProjection(BackgroundTask)
+  href: api/Raytha.Application.BackgroundTasks.BackgroundTaskDto.html#Raytha_Application_BackgroundTasks_BackgroundTaskDto_GetProjection_Raytha_Domain_Entities_BackgroundTask_
+  commentId: M:Raytha.Application.BackgroundTasks.BackgroundTaskDto.GetProjection(Raytha.Domain.Entities.BackgroundTask)
+  fullName: Raytha.Application.BackgroundTasks.BackgroundTaskDto.GetProjection(Raytha.Domain.Entities.BackgroundTask)
+  nameWithType: BackgroundTaskDto.GetProjection(BackgroundTask)
+- uid: Raytha.Application.BackgroundTasks.BackgroundTaskDto.GetProjection*
+  name: GetProjection
+  href: api/Raytha.Application.BackgroundTasks.BackgroundTaskDto.html#Raytha_Application_BackgroundTasks_BackgroundTaskDto_GetProjection_
+  commentId: Overload:Raytha.Application.BackgroundTasks.BackgroundTaskDto.GetProjection
+  isSpec: "True"
+  fullName: Raytha.Application.BackgroundTasks.BackgroundTaskDto.GetProjection
+  nameWithType: BackgroundTaskDto.GetProjection
+- uid: Raytha.Application.BackgroundTasks.BackgroundTaskDto.LastModificationTime
+  name: LastModificationTime
+  href: api/Raytha.Application.BackgroundTasks.BackgroundTaskDto.html#Raytha_Application_BackgroundTasks_BackgroundTaskDto_LastModificationTime
+  commentId: P:Raytha.Application.BackgroundTasks.BackgroundTaskDto.LastModificationTime
+  fullName: Raytha.Application.BackgroundTasks.BackgroundTaskDto.LastModificationTime
+  nameWithType: BackgroundTaskDto.LastModificationTime
+- uid: Raytha.Application.BackgroundTasks.BackgroundTaskDto.LastModificationTime*
+  name: LastModificationTime
+  href: api/Raytha.Application.BackgroundTasks.BackgroundTaskDto.html#Raytha_Application_BackgroundTasks_BackgroundTaskDto_LastModificationTime_
+  commentId: Overload:Raytha.Application.BackgroundTasks.BackgroundTaskDto.LastModificationTime
+  isSpec: "True"
+  fullName: Raytha.Application.BackgroundTasks.BackgroundTaskDto.LastModificationTime
+  nameWithType: BackgroundTaskDto.LastModificationTime
+- uid: Raytha.Application.BackgroundTasks.BackgroundTaskDto.Name
+  name: Name
+  href: api/Raytha.Application.BackgroundTasks.BackgroundTaskDto.html#Raytha_Application_BackgroundTasks_BackgroundTaskDto_Name
+  commentId: P:Raytha.Application.BackgroundTasks.BackgroundTaskDto.Name
+  fullName: Raytha.Application.BackgroundTasks.BackgroundTaskDto.Name
+  nameWithType: BackgroundTaskDto.Name
+- uid: Raytha.Application.BackgroundTasks.BackgroundTaskDto.Name*
+  name: Name
+  href: api/Raytha.Application.BackgroundTasks.BackgroundTaskDto.html#Raytha_Application_BackgroundTasks_BackgroundTaskDto_Name_
+  commentId: Overload:Raytha.Application.BackgroundTasks.BackgroundTaskDto.Name
+  isSpec: "True"
+  fullName: Raytha.Application.BackgroundTasks.BackgroundTaskDto.Name
+  nameWithType: BackgroundTaskDto.Name
+- uid: Raytha.Application.BackgroundTasks.BackgroundTaskDto.NumberOfRetries
+  name: NumberOfRetries
+  href: api/Raytha.Application.BackgroundTasks.BackgroundTaskDto.html#Raytha_Application_BackgroundTasks_BackgroundTaskDto_NumberOfRetries
+  commentId: P:Raytha.Application.BackgroundTasks.BackgroundTaskDto.NumberOfRetries
+  fullName: Raytha.Application.BackgroundTasks.BackgroundTaskDto.NumberOfRetries
+  nameWithType: BackgroundTaskDto.NumberOfRetries
+- uid: Raytha.Application.BackgroundTasks.BackgroundTaskDto.NumberOfRetries*
+  name: NumberOfRetries
+  href: api/Raytha.Application.BackgroundTasks.BackgroundTaskDto.html#Raytha_Application_BackgroundTasks_BackgroundTaskDto_NumberOfRetries_
+  commentId: Overload:Raytha.Application.BackgroundTasks.BackgroundTaskDto.NumberOfRetries
+  isSpec: "True"
+  fullName: Raytha.Application.BackgroundTasks.BackgroundTaskDto.NumberOfRetries
+  nameWithType: BackgroundTaskDto.NumberOfRetries
+- uid: Raytha.Application.BackgroundTasks.BackgroundTaskDto.PercentComplete
+  name: PercentComplete
+  href: api/Raytha.Application.BackgroundTasks.BackgroundTaskDto.html#Raytha_Application_BackgroundTasks_BackgroundTaskDto_PercentComplete
+  commentId: P:Raytha.Application.BackgroundTasks.BackgroundTaskDto.PercentComplete
+  fullName: Raytha.Application.BackgroundTasks.BackgroundTaskDto.PercentComplete
+  nameWithType: BackgroundTaskDto.PercentComplete
+- uid: Raytha.Application.BackgroundTasks.BackgroundTaskDto.PercentComplete*
+  name: PercentComplete
+  href: api/Raytha.Application.BackgroundTasks.BackgroundTaskDto.html#Raytha_Application_BackgroundTasks_BackgroundTaskDto_PercentComplete_
+  commentId: Overload:Raytha.Application.BackgroundTasks.BackgroundTaskDto.PercentComplete
+  isSpec: "True"
+  fullName: Raytha.Application.BackgroundTasks.BackgroundTaskDto.PercentComplete
+  nameWithType: BackgroundTaskDto.PercentComplete
+- uid: Raytha.Application.BackgroundTasks.BackgroundTaskDto.Status
+  name: Status
+  href: api/Raytha.Application.BackgroundTasks.BackgroundTaskDto.html#Raytha_Application_BackgroundTasks_BackgroundTaskDto_Status
+  commentId: P:Raytha.Application.BackgroundTasks.BackgroundTaskDto.Status
+  fullName: Raytha.Application.BackgroundTasks.BackgroundTaskDto.Status
+  nameWithType: BackgroundTaskDto.Status
+- uid: Raytha.Application.BackgroundTasks.BackgroundTaskDto.Status*
+  name: Status
+  href: api/Raytha.Application.BackgroundTasks.BackgroundTaskDto.html#Raytha_Application_BackgroundTasks_BackgroundTaskDto_Status_
+  commentId: Overload:Raytha.Application.BackgroundTasks.BackgroundTaskDto.Status
+  isSpec: "True"
+  fullName: Raytha.Application.BackgroundTasks.BackgroundTaskDto.Status
+  nameWithType: BackgroundTaskDto.Status
+- uid: Raytha.Application.BackgroundTasks.BackgroundTaskDto.StatusInfo
+  name: StatusInfo
+  href: api/Raytha.Application.BackgroundTasks.BackgroundTaskDto.html#Raytha_Application_BackgroundTasks_BackgroundTaskDto_StatusInfo
+  commentId: P:Raytha.Application.BackgroundTasks.BackgroundTaskDto.StatusInfo
+  fullName: Raytha.Application.BackgroundTasks.BackgroundTaskDto.StatusInfo
+  nameWithType: BackgroundTaskDto.StatusInfo
+- uid: Raytha.Application.BackgroundTasks.BackgroundTaskDto.StatusInfo*
+  name: StatusInfo
+  href: api/Raytha.Application.BackgroundTasks.BackgroundTaskDto.html#Raytha_Application_BackgroundTasks_BackgroundTaskDto_StatusInfo_
+  commentId: Overload:Raytha.Application.BackgroundTasks.BackgroundTaskDto.StatusInfo
+  isSpec: "True"
+  fullName: Raytha.Application.BackgroundTasks.BackgroundTaskDto.StatusInfo
+  nameWithType: BackgroundTaskDto.StatusInfo
+- uid: Raytha.Application.BackgroundTasks.BackgroundTaskDto.TaskStep
+  name: TaskStep
+  href: api/Raytha.Application.BackgroundTasks.BackgroundTaskDto.html#Raytha_Application_BackgroundTasks_BackgroundTaskDto_TaskStep
+  commentId: P:Raytha.Application.BackgroundTasks.BackgroundTaskDto.TaskStep
+  fullName: Raytha.Application.BackgroundTasks.BackgroundTaskDto.TaskStep
+  nameWithType: BackgroundTaskDto.TaskStep
+- uid: Raytha.Application.BackgroundTasks.BackgroundTaskDto.TaskStep*
+  name: TaskStep
+  href: api/Raytha.Application.BackgroundTasks.BackgroundTaskDto.html#Raytha_Application_BackgroundTasks_BackgroundTaskDto_TaskStep_
+  commentId: Overload:Raytha.Application.BackgroundTasks.BackgroundTaskDto.TaskStep
+  isSpec: "True"
+  fullName: Raytha.Application.BackgroundTasks.BackgroundTaskDto.TaskStep
+  nameWithType: BackgroundTaskDto.TaskStep
+- uid: Raytha.Application.BackgroundTasks.Queries
+  name: Raytha.Application.BackgroundTasks.Queries
+  href: api/Raytha.Application.BackgroundTasks.Queries.html
+  commentId: N:Raytha.Application.BackgroundTasks.Queries
+  fullName: Raytha.Application.BackgroundTasks.Queries
+  nameWithType: Raytha.Application.BackgroundTasks.Queries
+- uid: Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById
+  name: GetBackgroundTaskById
+  href: api/Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.html
+  commentId: T:Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById
+  fullName: Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById
+  nameWithType: GetBackgroundTaskById
+- uid: Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Handler
+  name: GetBackgroundTaskById.Handler
+  href: api/Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Handler.html
+  commentId: T:Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Handler
+  fullName: Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Handler
+  nameWithType: GetBackgroundTaskById.Handler
+- uid: Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Handler.#ctor(Raytha.Application.Common.Interfaces.IRaythaDbContext)
+  name: Handler(IRaythaDbContext)
+  href: api/Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Handler.html#Raytha_Application_BackgroundTasks_Queries_GetBackgroundTaskById_Handler__ctor_Raytha_Application_Common_Interfaces_IRaythaDbContext_
+  commentId: M:Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Handler.#ctor(Raytha.Application.Common.Interfaces.IRaythaDbContext)
+  name.vb: New(IRaythaDbContext)
+  fullName: Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Handler.Handler(Raytha.Application.Common.Interfaces.IRaythaDbContext)
+  fullName.vb: Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Handler.New(Raytha.Application.Common.Interfaces.IRaythaDbContext)
+  nameWithType: GetBackgroundTaskById.Handler.Handler(IRaythaDbContext)
+  nameWithType.vb: GetBackgroundTaskById.Handler.New(IRaythaDbContext)
+- uid: Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Handler.#ctor*
+  name: Handler
+  href: api/Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Handler.html#Raytha_Application_BackgroundTasks_Queries_GetBackgroundTaskById_Handler__ctor_
+  commentId: Overload:Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Handler.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Handler.Handler
+  fullName.vb: Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Handler.New
+  nameWithType: GetBackgroundTaskById.Handler.Handler
+  nameWithType.vb: GetBackgroundTaskById.Handler.New
+- uid: Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Handler.Handle(Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Query)
+  name: Handle(Query)
+  href: api/Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Handler.html#Raytha_Application_BackgroundTasks_Queries_GetBackgroundTaskById_Handler_Handle_Raytha_Application_BackgroundTasks_Queries_GetBackgroundTaskById_Query_
+  commentId: M:Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Handler.Handle(Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Query)
+  fullName: Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Handler.Handle(Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Query)
+  nameWithType: GetBackgroundTaskById.Handler.Handle(GetBackgroundTaskById.Query)
+- uid: Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Handler.Handle*
+  name: Handle
+  href: api/Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Handler.html#Raytha_Application_BackgroundTasks_Queries_GetBackgroundTaskById_Handler_Handle_
+  commentId: Overload:Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Handler.Handle
+  isSpec: "True"
+  fullName: Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Handler.Handle
+  nameWithType: GetBackgroundTaskById.Handler.Handle
+- uid: Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Query
+  name: GetBackgroundTaskById.Query
+  href: api/Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Query.html
+  commentId: T:Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Query
+  fullName: Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Query
+  nameWithType: GetBackgroundTaskById.Query
 - uid: Raytha.Application.Common.Attributes
   name: Raytha.Application.Common.Attributes
   href: api/Raytha.Application.Common.Attributes.html
@@ -3268,6 +3498,60 @@ references:
   isSpec: "True"
   fullName: Raytha.Application.Common.Interfaces.DbSpaceUsed.index_size
   nameWithType: DbSpaceUsed.index_size
+- uid: Raytha.Application.Common.Interfaces.IBackgroundTaskDb
+  name: IBackgroundTaskDb
+  href: api/Raytha.Application.Common.Interfaces.IBackgroundTaskDb.html
+  commentId: T:Raytha.Application.Common.Interfaces.IBackgroundTaskDb
+  fullName: Raytha.Application.Common.Interfaces.IBackgroundTaskDb
+  nameWithType: IBackgroundTaskDb
+- uid: Raytha.Application.Common.Interfaces.IBackgroundTaskDb.DequeueBackgroundTask
+  name: DequeueBackgroundTask()
+  href: api/Raytha.Application.Common.Interfaces.IBackgroundTaskDb.html#Raytha_Application_Common_Interfaces_IBackgroundTaskDb_DequeueBackgroundTask
+  commentId: M:Raytha.Application.Common.Interfaces.IBackgroundTaskDb.DequeueBackgroundTask
+  fullName: Raytha.Application.Common.Interfaces.IBackgroundTaskDb.DequeueBackgroundTask()
+  nameWithType: IBackgroundTaskDb.DequeueBackgroundTask()
+- uid: Raytha.Application.Common.Interfaces.IBackgroundTaskDb.DequeueBackgroundTask*
+  name: DequeueBackgroundTask
+  href: api/Raytha.Application.Common.Interfaces.IBackgroundTaskDb.html#Raytha_Application_Common_Interfaces_IBackgroundTaskDb_DequeueBackgroundTask_
+  commentId: Overload:Raytha.Application.Common.Interfaces.IBackgroundTaskDb.DequeueBackgroundTask
+  isSpec: "True"
+  fullName: Raytha.Application.Common.Interfaces.IBackgroundTaskDb.DequeueBackgroundTask
+  nameWithType: IBackgroundTaskDb.DequeueBackgroundTask
+- uid: Raytha.Application.Common.Interfaces.IBackgroundTaskQueue
+  name: IBackgroundTaskQueue
+  href: api/Raytha.Application.Common.Interfaces.IBackgroundTaskQueue.html
+  commentId: T:Raytha.Application.Common.Interfaces.IBackgroundTaskQueue
+  fullName: Raytha.Application.Common.Interfaces.IBackgroundTaskQueue
+  nameWithType: IBackgroundTaskQueue
+- uid: Raytha.Application.Common.Interfaces.IBackgroundTaskQueue.DequeueAsync(System.Threading.CancellationToken)
+  name: DequeueAsync(CancellationToken)
+  href: api/Raytha.Application.Common.Interfaces.IBackgroundTaskQueue.html#Raytha_Application_Common_Interfaces_IBackgroundTaskQueue_DequeueAsync_System_Threading_CancellationToken_
+  commentId: M:Raytha.Application.Common.Interfaces.IBackgroundTaskQueue.DequeueAsync(System.Threading.CancellationToken)
+  fullName: Raytha.Application.Common.Interfaces.IBackgroundTaskQueue.DequeueAsync(System.Threading.CancellationToken)
+  nameWithType: IBackgroundTaskQueue.DequeueAsync(CancellationToken)
+- uid: Raytha.Application.Common.Interfaces.IBackgroundTaskQueue.DequeueAsync*
+  name: DequeueAsync
+  href: api/Raytha.Application.Common.Interfaces.IBackgroundTaskQueue.html#Raytha_Application_Common_Interfaces_IBackgroundTaskQueue_DequeueAsync_
+  commentId: Overload:Raytha.Application.Common.Interfaces.IBackgroundTaskQueue.DequeueAsync
+  isSpec: "True"
+  fullName: Raytha.Application.Common.Interfaces.IBackgroundTaskQueue.DequeueAsync
+  nameWithType: IBackgroundTaskQueue.DequeueAsync
+- uid: Raytha.Application.Common.Interfaces.IBackgroundTaskQueue.EnqueueAsync*
+  name: EnqueueAsync
+  href: api/Raytha.Application.Common.Interfaces.IBackgroundTaskQueue.html#Raytha_Application_Common_Interfaces_IBackgroundTaskQueue_EnqueueAsync_
+  commentId: Overload:Raytha.Application.Common.Interfaces.IBackgroundTaskQueue.EnqueueAsync
+  isSpec: "True"
+  fullName: Raytha.Application.Common.Interfaces.IBackgroundTaskQueue.EnqueueAsync
+  nameWithType: IBackgroundTaskQueue.EnqueueAsync
+- uid: Raytha.Application.Common.Interfaces.IBackgroundTaskQueue.EnqueueAsync``1(System.Object,System.Threading.CancellationToken)
+  name: EnqueueAsync<T>(object, CancellationToken)
+  href: api/Raytha.Application.Common.Interfaces.IBackgroundTaskQueue.html#Raytha_Application_Common_Interfaces_IBackgroundTaskQueue_EnqueueAsync__1_System_Object_System_Threading_CancellationToken_
+  commentId: M:Raytha.Application.Common.Interfaces.IBackgroundTaskQueue.EnqueueAsync``1(System.Object,System.Threading.CancellationToken)
+  name.vb: EnqueueAsync(Of T)(Object, CancellationToken)
+  fullName: Raytha.Application.Common.Interfaces.IBackgroundTaskQueue.EnqueueAsync<T>(object, System.Threading.CancellationToken)
+  fullName.vb: Raytha.Application.Common.Interfaces.IBackgroundTaskQueue.EnqueueAsync(Of T)(Object, System.Threading.CancellationToken)
+  nameWithType: IBackgroundTaskQueue.EnqueueAsync<T>(object, CancellationToken)
+  nameWithType.vb: IBackgroundTaskQueue.EnqueueAsync(Of T)(Object, CancellationToken)
 - uid: Raytha.Application.Common.Interfaces.IContentTypeInRoutePath
   name: IContentTypeInRoutePath
   href: api/Raytha.Application.Common.Interfaces.IContentTypeInRoutePath.html
@@ -3730,6 +4014,25 @@ references:
   isSpec: "True"
   fullName: Raytha.Application.Common.Interfaces.IEmailer.SendEmail
   nameWithType: IEmailer.SendEmail
+- uid: Raytha.Application.Common.Interfaces.IExecuteBackgroundTask
+  name: IExecuteBackgroundTask
+  href: api/Raytha.Application.Common.Interfaces.IExecuteBackgroundTask.html
+  commentId: T:Raytha.Application.Common.Interfaces.IExecuteBackgroundTask
+  fullName: Raytha.Application.Common.Interfaces.IExecuteBackgroundTask
+  nameWithType: IExecuteBackgroundTask
+- uid: Raytha.Application.Common.Interfaces.IExecuteBackgroundTask.Execute(System.Guid,System.Text.Json.JsonElement,System.Threading.CancellationToken)
+  name: Execute(Guid, JsonElement, CancellationToken)
+  href: api/Raytha.Application.Common.Interfaces.IExecuteBackgroundTask.html#Raytha_Application_Common_Interfaces_IExecuteBackgroundTask_Execute_System_Guid_System_Text_Json_JsonElement_System_Threading_CancellationToken_
+  commentId: M:Raytha.Application.Common.Interfaces.IExecuteBackgroundTask.Execute(System.Guid,System.Text.Json.JsonElement,System.Threading.CancellationToken)
+  fullName: Raytha.Application.Common.Interfaces.IExecuteBackgroundTask.Execute(System.Guid, System.Text.Json.JsonElement, System.Threading.CancellationToken)
+  nameWithType: IExecuteBackgroundTask.Execute(Guid, JsonElement, CancellationToken)
+- uid: Raytha.Application.Common.Interfaces.IExecuteBackgroundTask.Execute*
+  name: Execute
+  href: api/Raytha.Application.Common.Interfaces.IExecuteBackgroundTask.html#Raytha_Application_Common_Interfaces_IExecuteBackgroundTask_Execute_
+  commentId: Overload:Raytha.Application.Common.Interfaces.IExecuteBackgroundTask.Execute
+  isSpec: "True"
+  fullName: Raytha.Application.Common.Interfaces.IExecuteBackgroundTask.Execute
+  nameWithType: IExecuteBackgroundTask.Execute
 - uid: Raytha.Application.Common.Interfaces.IFileStorageProvider
   name: IFileStorageProvider
   href: api/Raytha.Application.Common.Interfaces.IFileStorageProvider.html
@@ -4152,6 +4455,19 @@ references:
   isSpec: "True"
   fullName: Raytha.Application.Common.Interfaces.IRaythaDbContext.AuthenticationSchemes
   nameWithType: IRaythaDbContext.AuthenticationSchemes
+- uid: Raytha.Application.Common.Interfaces.IRaythaDbContext.BackgroundTasks
+  name: BackgroundTasks
+  href: api/Raytha.Application.Common.Interfaces.IRaythaDbContext.html#Raytha_Application_Common_Interfaces_IRaythaDbContext_BackgroundTasks
+  commentId: P:Raytha.Application.Common.Interfaces.IRaythaDbContext.BackgroundTasks
+  fullName: Raytha.Application.Common.Interfaces.IRaythaDbContext.BackgroundTasks
+  nameWithType: IRaythaDbContext.BackgroundTasks
+- uid: Raytha.Application.Common.Interfaces.IRaythaDbContext.BackgroundTasks*
+  name: BackgroundTasks
+  href: api/Raytha.Application.Common.Interfaces.IRaythaDbContext.html#Raytha_Application_Common_Interfaces_IRaythaDbContext_BackgroundTasks_
+  commentId: Overload:Raytha.Application.Common.Interfaces.IRaythaDbContext.BackgroundTasks
+  isSpec: "True"
+  fullName: Raytha.Application.Common.Interfaces.IRaythaDbContext.BackgroundTasks
+  nameWithType: IRaythaDbContext.BackgroundTasks
 - uid: Raytha.Application.Common.Interfaces.IRaythaDbContext.ContentItemRevisions
   name: ContentItemRevisions
   href: api/Raytha.Application.Common.Interfaces.IRaythaDbContext.html#Raytha_Application_Common_Interfaces_IRaythaDbContext_ContentItemRevisions
@@ -4444,15 +4760,15 @@ references:
   commentId: T:Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine
   fullName: Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine
   nameWithType: IRaythaDbJsonQueryEngine
-- uid: Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.CountContentItems(System.Guid,System.String[],System.String,System.String[])
-  name: CountContentItems(Guid, string[], string, string[])
-  href: api/Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.html#Raytha_Application_Common_Interfaces_IRaythaDbJsonQueryEngine_CountContentItems_System_Guid_System_String___System_String_System_String___
-  commentId: M:Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.CountContentItems(System.Guid,System.String[],System.String,System.String[])
-  name.vb: CountContentItems(Guid, String(), String, String())
-  fullName: Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.CountContentItems(System.Guid, string[], string, string[])
-  fullName.vb: Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.CountContentItems(System.Guid, String(), String, String())
-  nameWithType: IRaythaDbJsonQueryEngine.CountContentItems(Guid, string[], string, string[])
-  nameWithType.vb: IRaythaDbJsonQueryEngine.CountContentItems(Guid, String(), String, String())
+- uid: Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.CountContentItems(System.Guid,System.String[],System.String,System.String[],System.Data.IDbTransaction)
+  name: CountContentItems(Guid, string[], string, string[], IDbTransaction)
+  href: api/Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.html#Raytha_Application_Common_Interfaces_IRaythaDbJsonQueryEngine_CountContentItems_System_Guid_System_String___System_String_System_String___System_Data_IDbTransaction_
+  commentId: M:Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.CountContentItems(System.Guid,System.String[],System.String,System.String[],System.Data.IDbTransaction)
+  name.vb: CountContentItems(Guid, String(), String, String(), IDbTransaction)
+  fullName: Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.CountContentItems(System.Guid, string[], string, string[], System.Data.IDbTransaction)
+  fullName.vb: Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.CountContentItems(System.Guid, String(), String, String(), System.Data.IDbTransaction)
+  nameWithType: IRaythaDbJsonQueryEngine.CountContentItems(Guid, string[], string, string[], IDbTransaction)
+  nameWithType.vb: IRaythaDbJsonQueryEngine.CountContentItems(Guid, String(), String, String(), IDbTransaction)
 - uid: Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.CountContentItems*
   name: CountContentItems
   href: api/Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.html#Raytha_Application_Common_Interfaces_IRaythaDbJsonQueryEngine_CountContentItems_
@@ -4473,15 +4789,31 @@ references:
   isSpec: "True"
   fullName: Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.FirstOrDefault
   nameWithType: IRaythaDbJsonQueryEngine.FirstOrDefault
-- uid: Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.QueryContentItems(System.Guid,System.String[],System.String,System.String[],System.Int32,System.Int32,System.String)
-  name: QueryContentItems(Guid, string[], string, string[], int, int, string)
-  href: api/Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.html#Raytha_Application_Common_Interfaces_IRaythaDbJsonQueryEngine_QueryContentItems_System_Guid_System_String___System_String_System_String___System_Int32_System_Int32_System_String_
-  commentId: M:Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.QueryContentItems(System.Guid,System.String[],System.String,System.String[],System.Int32,System.Int32,System.String)
-  name.vb: QueryContentItems(Guid, String(), String, String(), Integer, Integer, String)
-  fullName: Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.QueryContentItems(System.Guid, string[], string, string[], int, int, string)
-  fullName.vb: Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.QueryContentItems(System.Guid, String(), String, String(), Integer, Integer, String)
-  nameWithType: IRaythaDbJsonQueryEngine.QueryContentItems(Guid, string[], string, string[], int, int, string)
-  nameWithType.vb: IRaythaDbJsonQueryEngine.QueryContentItems(Guid, String(), String, String(), Integer, Integer, String)
+- uid: Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.QueryAllContentItemsAsTransaction(System.Guid,System.String[],System.String,System.String[],System.String)
+  name: QueryAllContentItemsAsTransaction(Guid, string[], string, string[], string)
+  href: api/Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.html#Raytha_Application_Common_Interfaces_IRaythaDbJsonQueryEngine_QueryAllContentItemsAsTransaction_System_Guid_System_String___System_String_System_String___System_String_
+  commentId: M:Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.QueryAllContentItemsAsTransaction(System.Guid,System.String[],System.String,System.String[],System.String)
+  name.vb: QueryAllContentItemsAsTransaction(Guid, String(), String, String(), String)
+  fullName: Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.QueryAllContentItemsAsTransaction(System.Guid, string[], string, string[], string)
+  fullName.vb: Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.QueryAllContentItemsAsTransaction(System.Guid, String(), String, String(), String)
+  nameWithType: IRaythaDbJsonQueryEngine.QueryAllContentItemsAsTransaction(Guid, string[], string, string[], string)
+  nameWithType.vb: IRaythaDbJsonQueryEngine.QueryAllContentItemsAsTransaction(Guid, String(), String, String(), String)
+- uid: Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.QueryAllContentItemsAsTransaction*
+  name: QueryAllContentItemsAsTransaction
+  href: api/Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.html#Raytha_Application_Common_Interfaces_IRaythaDbJsonQueryEngine_QueryAllContentItemsAsTransaction_
+  commentId: Overload:Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.QueryAllContentItemsAsTransaction
+  isSpec: "True"
+  fullName: Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.QueryAllContentItemsAsTransaction
+  nameWithType: IRaythaDbJsonQueryEngine.QueryAllContentItemsAsTransaction
+- uid: Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.QueryContentItems(System.Guid,System.String[],System.String,System.String[],System.Int32,System.Int32,System.String,System.Data.IDbTransaction)
+  name: QueryContentItems(Guid, string[], string, string[], int, int, string, IDbTransaction)
+  href: api/Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.html#Raytha_Application_Common_Interfaces_IRaythaDbJsonQueryEngine_QueryContentItems_System_Guid_System_String___System_String_System_String___System_Int32_System_Int32_System_String_System_Data_IDbTransaction_
+  commentId: M:Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.QueryContentItems(System.Guid,System.String[],System.String,System.String[],System.Int32,System.Int32,System.String,System.Data.IDbTransaction)
+  name.vb: QueryContentItems(Guid, String(), String, String(), Integer, Integer, String, IDbTransaction)
+  fullName: Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.QueryContentItems(System.Guid, string[], string, string[], int, int, string, System.Data.IDbTransaction)
+  fullName.vb: Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.QueryContentItems(System.Guid, String(), String, String(), Integer, Integer, String, System.Data.IDbTransaction)
+  nameWithType: IRaythaDbJsonQueryEngine.QueryContentItems(Guid, string[], string, string[], int, int, string, IDbTransaction)
+  nameWithType.vb: IRaythaDbJsonQueryEngine.QueryContentItems(Guid, String(), String, String(), Integer, Integer, String, IDbTransaction)
 - uid: Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.QueryContentItems*
   name: QueryContentItems
   href: api/Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.html#Raytha_Application_Common_Interfaces_IRaythaDbJsonQueryEngine_QueryContentItems_
@@ -7715,6 +8047,171 @@ references:
   commentId: N:Raytha.Application.ContentItems.Commands
   fullName: Raytha.Application.ContentItems.Commands
   nameWithType: Raytha.Application.ContentItems.Commands
+- uid: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv
+  name: BeginExportContentItemsToCsv
+  href: api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.html
+  commentId: T:Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv
+  fullName: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv
+  nameWithType: BeginExportContentItemsToCsv
+- uid: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask
+  name: BeginExportContentItemsToCsv.BackgroundTask
+  href: api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.html
+  commentId: T:Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask
+  fullName: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask
+  nameWithType: BeginExportContentItemsToCsv.BackgroundTask
+- uid: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.#ctor(Raytha.Application.Common.Interfaces.ICurrentOrganization,Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine,Raytha.Application.Common.Interfaces.IRaythaDbContext,Raytha.Application.Common.Interfaces.IFileStorageProvider,Raytha.Application.ContentItems.FieldValueConverter)
+  name: BackgroundTask(ICurrentOrganization, IRaythaDbJsonQueryEngine, IRaythaDbContext, IFileStorageProvider, FieldValueConverter)
+  href: api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.html#Raytha_Application_ContentItems_Commands_BeginExportContentItemsToCsv_BackgroundTask__ctor_Raytha_Application_Common_Interfaces_ICurrentOrganization_Raytha_Application_Common_Interfaces_IRaythaDbJsonQueryEngine_Raytha_Application_Common_Interfaces_IRaythaDbContext_Raytha_Application_Common_Interfaces_IFileStorageProvider_Raytha_Application_ContentItems_FieldValueConverter_
+  commentId: M:Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.#ctor(Raytha.Application.Common.Interfaces.ICurrentOrganization,Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine,Raytha.Application.Common.Interfaces.IRaythaDbContext,Raytha.Application.Common.Interfaces.IFileStorageProvider,Raytha.Application.ContentItems.FieldValueConverter)
+  name.vb: New(ICurrentOrganization, IRaythaDbJsonQueryEngine, IRaythaDbContext, IFileStorageProvider, FieldValueConverter)
+  fullName: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.BackgroundTask(Raytha.Application.Common.Interfaces.ICurrentOrganization, Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine, Raytha.Application.Common.Interfaces.IRaythaDbContext, Raytha.Application.Common.Interfaces.IFileStorageProvider, Raytha.Application.ContentItems.FieldValueConverter)
+  fullName.vb: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.New(Raytha.Application.Common.Interfaces.ICurrentOrganization, Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine, Raytha.Application.Common.Interfaces.IRaythaDbContext, Raytha.Application.Common.Interfaces.IFileStorageProvider, Raytha.Application.ContentItems.FieldValueConverter)
+  nameWithType: BeginExportContentItemsToCsv.BackgroundTask.BackgroundTask(ICurrentOrganization, IRaythaDbJsonQueryEngine, IRaythaDbContext, IFileStorageProvider, FieldValueConverter)
+  nameWithType.vb: BeginExportContentItemsToCsv.BackgroundTask.New(ICurrentOrganization, IRaythaDbJsonQueryEngine, IRaythaDbContext, IFileStorageProvider, FieldValueConverter)
+- uid: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.#ctor*
+  name: BackgroundTask
+  href: api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.html#Raytha_Application_ContentItems_Commands_BeginExportContentItemsToCsv_BackgroundTask__ctor_
+  commentId: Overload:Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.BackgroundTask
+  fullName.vb: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.New
+  nameWithType: BeginExportContentItemsToCsv.BackgroundTask.BackgroundTask
+  nameWithType.vb: BeginExportContentItemsToCsv.BackgroundTask.New
+- uid: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.Execute(System.Guid,System.Text.Json.JsonElement,System.Threading.CancellationToken)
+  name: Execute(Guid, JsonElement, CancellationToken)
+  href: api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.html#Raytha_Application_ContentItems_Commands_BeginExportContentItemsToCsv_BackgroundTask_Execute_System_Guid_System_Text_Json_JsonElement_System_Threading_CancellationToken_
+  commentId: M:Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.Execute(System.Guid,System.Text.Json.JsonElement,System.Threading.CancellationToken)
+  fullName: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.Execute(System.Guid, System.Text.Json.JsonElement, System.Threading.CancellationToken)
+  nameWithType: BeginExportContentItemsToCsv.BackgroundTask.Execute(Guid, JsonElement, CancellationToken)
+- uid: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.Execute*
+  name: Execute
+  href: api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.html#Raytha_Application_ContentItems_Commands_BeginExportContentItemsToCsv_BackgroundTask_Execute_
+  commentId: Overload:Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.Execute
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.Execute
+  nameWithType: BeginExportContentItemsToCsv.BackgroundTask.Execute
+- uid: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.GetFiltersForView(Raytha.Domain.Entities.View)
+  name: GetFiltersForView(View)
+  href: api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.html#Raytha_Application_ContentItems_Commands_BeginExportContentItemsToCsv_BackgroundTask_GetFiltersForView_Raytha_Domain_Entities_View_
+  commentId: M:Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.GetFiltersForView(Raytha.Domain.Entities.View)
+  fullName: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.GetFiltersForView(Raytha.Domain.Entities.View)
+  nameWithType: BeginExportContentItemsToCsv.BackgroundTask.GetFiltersForView(View)
+- uid: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.GetFiltersForView*
+  name: GetFiltersForView
+  href: api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.html#Raytha_Application_ContentItems_Commands_BeginExportContentItemsToCsv_BackgroundTask_GetFiltersForView_
+  commentId: Overload:Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.GetFiltersForView
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.GetFiltersForView
+  nameWithType: BeginExportContentItemsToCsv.BackgroundTask.GetFiltersForView
+- uid: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.GetSortForView(Raytha.Domain.Entities.View)
+  name: GetSortForView(View)
+  href: api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.html#Raytha_Application_ContentItems_Commands_BeginExportContentItemsToCsv_BackgroundTask_GetSortForView_Raytha_Domain_Entities_View_
+  commentId: M:Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.GetSortForView(Raytha.Domain.Entities.View)
+  fullName: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.GetSortForView(Raytha.Domain.Entities.View)
+  nameWithType: BeginExportContentItemsToCsv.BackgroundTask.GetSortForView(View)
+- uid: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.GetSortForView*
+  name: GetSortForView
+  href: api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.html#Raytha_Application_ContentItems_Commands_BeginExportContentItemsToCsv_BackgroundTask_GetSortForView_
+  commentId: Overload:Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.GetSortForView
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.GetSortForView
+  nameWithType: BeginExportContentItemsToCsv.BackgroundTask.GetSortForView
+- uid: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Command
+  name: BeginExportContentItemsToCsv.Command
+  href: api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Command.html
+  commentId: T:Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Command
+  fullName: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Command
+  nameWithType: BeginExportContentItemsToCsv.Command
+- uid: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Command.ExportOnlyColumnsFromView
+  name: ExportOnlyColumnsFromView
+  href: api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Command.html#Raytha_Application_ContentItems_Commands_BeginExportContentItemsToCsv_Command_ExportOnlyColumnsFromView
+  commentId: P:Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Command.ExportOnlyColumnsFromView
+  fullName: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Command.ExportOnlyColumnsFromView
+  nameWithType: BeginExportContentItemsToCsv.Command.ExportOnlyColumnsFromView
+- uid: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Command.ExportOnlyColumnsFromView*
+  name: ExportOnlyColumnsFromView
+  href: api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Command.html#Raytha_Application_ContentItems_Commands_BeginExportContentItemsToCsv_Command_ExportOnlyColumnsFromView_
+  commentId: Overload:Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Command.ExportOnlyColumnsFromView
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Command.ExportOnlyColumnsFromView
+  nameWithType: BeginExportContentItemsToCsv.Command.ExportOnlyColumnsFromView
+- uid: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Command.ViewId
+  name: ViewId
+  href: api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Command.html#Raytha_Application_ContentItems_Commands_BeginExportContentItemsToCsv_Command_ViewId
+  commentId: P:Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Command.ViewId
+  fullName: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Command.ViewId
+  nameWithType: BeginExportContentItemsToCsv.Command.ViewId
+- uid: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Command.ViewId*
+  name: ViewId
+  href: api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Command.html#Raytha_Application_ContentItems_Commands_BeginExportContentItemsToCsv_Command_ViewId_
+  commentId: Overload:Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Command.ViewId
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Command.ViewId
+  nameWithType: BeginExportContentItemsToCsv.Command.ViewId
+- uid: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Handler
+  name: BeginExportContentItemsToCsv.Handler
+  href: api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Handler.html
+  commentId: T:Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Handler
+  fullName: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Handler
+  nameWithType: BeginExportContentItemsToCsv.Handler
+- uid: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Handler.#ctor(Raytha.Application.Common.Interfaces.IBackgroundTaskQueue,Raytha.Application.Common.Interfaces.IRaythaDbContext,Raytha.Application.Common.Interfaces.IContentTypeInRoutePath)
+  name: Handler(IBackgroundTaskQueue, IRaythaDbContext, IContentTypeInRoutePath)
+  href: api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Handler.html#Raytha_Application_ContentItems_Commands_BeginExportContentItemsToCsv_Handler__ctor_Raytha_Application_Common_Interfaces_IBackgroundTaskQueue_Raytha_Application_Common_Interfaces_IRaythaDbContext_Raytha_Application_Common_Interfaces_IContentTypeInRoutePath_
+  commentId: M:Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Handler.#ctor(Raytha.Application.Common.Interfaces.IBackgroundTaskQueue,Raytha.Application.Common.Interfaces.IRaythaDbContext,Raytha.Application.Common.Interfaces.IContentTypeInRoutePath)
+  name.vb: New(IBackgroundTaskQueue, IRaythaDbContext, IContentTypeInRoutePath)
+  fullName: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Handler.Handler(Raytha.Application.Common.Interfaces.IBackgroundTaskQueue, Raytha.Application.Common.Interfaces.IRaythaDbContext, Raytha.Application.Common.Interfaces.IContentTypeInRoutePath)
+  fullName.vb: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Handler.New(Raytha.Application.Common.Interfaces.IBackgroundTaskQueue, Raytha.Application.Common.Interfaces.IRaythaDbContext, Raytha.Application.Common.Interfaces.IContentTypeInRoutePath)
+  nameWithType: BeginExportContentItemsToCsv.Handler.Handler(IBackgroundTaskQueue, IRaythaDbContext, IContentTypeInRoutePath)
+  nameWithType.vb: BeginExportContentItemsToCsv.Handler.New(IBackgroundTaskQueue, IRaythaDbContext, IContentTypeInRoutePath)
+- uid: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Handler.#ctor*
+  name: Handler
+  href: api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Handler.html#Raytha_Application_ContentItems_Commands_BeginExportContentItemsToCsv_Handler__ctor_
+  commentId: Overload:Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Handler.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Handler.Handler
+  fullName.vb: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Handler.New
+  nameWithType: BeginExportContentItemsToCsv.Handler.Handler
+  nameWithType.vb: BeginExportContentItemsToCsv.Handler.New
+- uid: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Handler.Handle(Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Command,System.Threading.CancellationToken)
+  name: Handle(Command, CancellationToken)
+  href: api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Handler.html#Raytha_Application_ContentItems_Commands_BeginExportContentItemsToCsv_Handler_Handle_Raytha_Application_ContentItems_Commands_BeginExportContentItemsToCsv_Command_System_Threading_CancellationToken_
+  commentId: M:Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Handler.Handle(Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Command,System.Threading.CancellationToken)
+  fullName: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Handler.Handle(Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Command, System.Threading.CancellationToken)
+  nameWithType: BeginExportContentItemsToCsv.Handler.Handle(BeginExportContentItemsToCsv.Command, CancellationToken)
+- uid: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Handler.Handle*
+  name: Handle
+  href: api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Handler.html#Raytha_Application_ContentItems_Commands_BeginExportContentItemsToCsv_Handler_Handle_
+  commentId: Overload:Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Handler.Handle
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Handler.Handle
+  nameWithType: BeginExportContentItemsToCsv.Handler.Handle
+- uid: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Validator
+  name: BeginExportContentItemsToCsv.Validator
+  href: api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Validator.html
+  commentId: T:Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Validator
+  fullName: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Validator
+  nameWithType: BeginExportContentItemsToCsv.Validator
+- uid: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Validator.#ctor
+  name: Validator()
+  href: api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Validator.html#Raytha_Application_ContentItems_Commands_BeginExportContentItemsToCsv_Validator__ctor
+  commentId: M:Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Validator.#ctor
+  name.vb: New()
+  fullName: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Validator.Validator()
+  fullName.vb: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Validator.New()
+  nameWithType: BeginExportContentItemsToCsv.Validator.Validator()
+  nameWithType.vb: BeginExportContentItemsToCsv.Validator.New()
+- uid: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Validator.#ctor*
+  name: Validator
+  href: api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Validator.html#Raytha_Application_ContentItems_Commands_BeginExportContentItemsToCsv_Validator__ctor_
+  commentId: Overload:Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Validator.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Validator.Validator
+  fullName.vb: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Validator.New
+  nameWithType: BeginExportContentItemsToCsv.Validator.Validator
+  nameWithType.vb: BeginExportContentItemsToCsv.Validator.New
 - uid: Raytha.Application.ContentItems.Commands.CreateContentItem
   name: CreateContentItem
   href: api/Raytha.Application.ContentItems.Commands.CreateContentItem.html
@@ -9376,6 +9873,92 @@ references:
   isSpec: "True"
   fullName: Raytha.Application.ContentItems.DeletedContentItemDto.ToString
   nameWithType: DeletedContentItemDto.ToString
+- uid: Raytha.Application.ContentItems.FieldValueConverter
+  name: FieldValueConverter
+  href: api/Raytha.Application.ContentItems.FieldValueConverter.html
+  commentId: T:Raytha.Application.ContentItems.FieldValueConverter
+  fullName: Raytha.Application.ContentItems.FieldValueConverter
+  nameWithType: FieldValueConverter
+- uid: Raytha.Application.ContentItems.FieldValueConverter.#ctor(Raytha.Application.Common.Interfaces.ICurrentOrganization)
+  name: FieldValueConverter(ICurrentOrganization)
+  href: api/Raytha.Application.ContentItems.FieldValueConverter.html#Raytha_Application_ContentItems_FieldValueConverter__ctor_Raytha_Application_Common_Interfaces_ICurrentOrganization_
+  commentId: M:Raytha.Application.ContentItems.FieldValueConverter.#ctor(Raytha.Application.Common.Interfaces.ICurrentOrganization)
+  name.vb: New(ICurrentOrganization)
+  fullName: Raytha.Application.ContentItems.FieldValueConverter.FieldValueConverter(Raytha.Application.Common.Interfaces.ICurrentOrganization)
+  fullName.vb: Raytha.Application.ContentItems.FieldValueConverter.New(Raytha.Application.Common.Interfaces.ICurrentOrganization)
+  nameWithType: FieldValueConverter.FieldValueConverter(ICurrentOrganization)
+  nameWithType.vb: FieldValueConverter.New(ICurrentOrganization)
+- uid: Raytha.Application.ContentItems.FieldValueConverter.#ctor*
+  name: FieldValueConverter
+  href: api/Raytha.Application.ContentItems.FieldValueConverter.html#Raytha_Application_ContentItems_FieldValueConverter__ctor_
+  commentId: Overload:Raytha.Application.ContentItems.FieldValueConverter.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Raytha.Application.ContentItems.FieldValueConverter.FieldValueConverter
+  fullName.vb: Raytha.Application.ContentItems.FieldValueConverter.New
+  nameWithType: FieldValueConverter.FieldValueConverter
+  nameWithType.vb: FieldValueConverter.New
+- uid: Raytha.Application.ContentItems.FieldValueConverter.MapRelatedContentItemValueForField(Raytha.Domain.ValueObjects.FieldTypes.BaseFieldType,System.Object,Raytha.Application.ContentTypes.ContentTypeFieldDto)
+  name: MapRelatedContentItemValueForField(BaseFieldType, dynamic, ContentTypeFieldDto)
+  href: api/Raytha.Application.ContentItems.FieldValueConverter.html#Raytha_Application_ContentItems_FieldValueConverter_MapRelatedContentItemValueForField_Raytha_Domain_ValueObjects_FieldTypes_BaseFieldType_System_Object_Raytha_Application_ContentTypes_ContentTypeFieldDto_
+  commentId: M:Raytha.Application.ContentItems.FieldValueConverter.MapRelatedContentItemValueForField(Raytha.Domain.ValueObjects.FieldTypes.BaseFieldType,System.Object,Raytha.Application.ContentTypes.ContentTypeFieldDto)
+  name.vb: MapRelatedContentItemValueForField(BaseFieldType, Object, ContentTypeFieldDto)
+  fullName: Raytha.Application.ContentItems.FieldValueConverter.MapRelatedContentItemValueForField(Raytha.Domain.ValueObjects.FieldTypes.BaseFieldType, dynamic, Raytha.Application.ContentTypes.ContentTypeFieldDto)
+  fullName.vb: Raytha.Application.ContentItems.FieldValueConverter.MapRelatedContentItemValueForField(Raytha.Domain.ValueObjects.FieldTypes.BaseFieldType, Object, Raytha.Application.ContentTypes.ContentTypeFieldDto)
+  nameWithType: FieldValueConverter.MapRelatedContentItemValueForField(BaseFieldType, dynamic, ContentTypeFieldDto)
+  nameWithType.vb: FieldValueConverter.MapRelatedContentItemValueForField(BaseFieldType, Object, ContentTypeFieldDto)
+- uid: Raytha.Application.ContentItems.FieldValueConverter.MapRelatedContentItemValueForField*
+  name: MapRelatedContentItemValueForField
+  href: api/Raytha.Application.ContentItems.FieldValueConverter.html#Raytha_Application_ContentItems_FieldValueConverter_MapRelatedContentItemValueForField_
+  commentId: Overload:Raytha.Application.ContentItems.FieldValueConverter.MapRelatedContentItemValueForField
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.FieldValueConverter.MapRelatedContentItemValueForField
+  nameWithType: FieldValueConverter.MapRelatedContentItemValueForField
+- uid: Raytha.Application.ContentItems.FieldValueConverter.MapToListItemValues(Raytha.Application.ContentItems.ContentItemDto)
+  name: MapToListItemValues(ContentItemDto)
+  href: api/Raytha.Application.ContentItems.FieldValueConverter.html#Raytha_Application_ContentItems_FieldValueConverter_MapToListItemValues_Raytha_Application_ContentItems_ContentItemDto_
+  commentId: M:Raytha.Application.ContentItems.FieldValueConverter.MapToListItemValues(Raytha.Application.ContentItems.ContentItemDto)
+  fullName: Raytha.Application.ContentItems.FieldValueConverter.MapToListItemValues(Raytha.Application.ContentItems.ContentItemDto)
+  nameWithType: FieldValueConverter.MapToListItemValues(ContentItemDto)
+- uid: Raytha.Application.ContentItems.FieldValueConverter.MapToListItemValues*
+  name: MapToListItemValues
+  href: api/Raytha.Application.ContentItems.FieldValueConverter.html#Raytha_Application_ContentItems_FieldValueConverter_MapToListItemValues_
+  commentId: Overload:Raytha.Application.ContentItems.FieldValueConverter.MapToListItemValues
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.FieldValueConverter.MapToListItemValues
+  nameWithType: FieldValueConverter.MapToListItemValues
+- uid: Raytha.Application.ContentItems.FieldValueConverter.MapValueForChoiceField(Raytha.Domain.ValueObjects.FieldTypes.BaseFieldType,System.Object,Raytha.Application.ContentTypes.ContentTypeFieldDto,Raytha.Domain.Entities.ContentTypeFieldChoice)
+  name: MapValueForChoiceField(BaseFieldType, dynamic, ContentTypeFieldDto, ContentTypeFieldChoice)
+  href: api/Raytha.Application.ContentItems.FieldValueConverter.html#Raytha_Application_ContentItems_FieldValueConverter_MapValueForChoiceField_Raytha_Domain_ValueObjects_FieldTypes_BaseFieldType_System_Object_Raytha_Application_ContentTypes_ContentTypeFieldDto_Raytha_Domain_Entities_ContentTypeFieldChoice_
+  commentId: M:Raytha.Application.ContentItems.FieldValueConverter.MapValueForChoiceField(Raytha.Domain.ValueObjects.FieldTypes.BaseFieldType,System.Object,Raytha.Application.ContentTypes.ContentTypeFieldDto,Raytha.Domain.Entities.ContentTypeFieldChoice)
+  name.vb: MapValueForChoiceField(BaseFieldType, Object, ContentTypeFieldDto, ContentTypeFieldChoice)
+  fullName: Raytha.Application.ContentItems.FieldValueConverter.MapValueForChoiceField(Raytha.Domain.ValueObjects.FieldTypes.BaseFieldType, dynamic, Raytha.Application.ContentTypes.ContentTypeFieldDto, Raytha.Domain.Entities.ContentTypeFieldChoice)
+  fullName.vb: Raytha.Application.ContentItems.FieldValueConverter.MapValueForChoiceField(Raytha.Domain.ValueObjects.FieldTypes.BaseFieldType, Object, Raytha.Application.ContentTypes.ContentTypeFieldDto, Raytha.Domain.Entities.ContentTypeFieldChoice)
+  nameWithType: FieldValueConverter.MapValueForChoiceField(BaseFieldType, dynamic, ContentTypeFieldDto, ContentTypeFieldChoice)
+  nameWithType.vb: FieldValueConverter.MapValueForChoiceField(BaseFieldType, Object, ContentTypeFieldDto, ContentTypeFieldChoice)
+- uid: Raytha.Application.ContentItems.FieldValueConverter.MapValueForChoiceField*
+  name: MapValueForChoiceField
+  href: api/Raytha.Application.ContentItems.FieldValueConverter.html#Raytha_Application_ContentItems_FieldValueConverter_MapValueForChoiceField_
+  commentId: Overload:Raytha.Application.ContentItems.FieldValueConverter.MapValueForChoiceField
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.FieldValueConverter.MapValueForChoiceField
+  nameWithType: FieldValueConverter.MapValueForChoiceField
+- uid: Raytha.Application.ContentItems.FieldValueConverter.MapValueForField(Raytha.Domain.ValueObjects.FieldTypes.BaseFieldType,System.Object,Raytha.Application.ContentTypes.ContentTypeFieldDto)
+  name: MapValueForField(BaseFieldType, dynamic, ContentTypeFieldDto)
+  href: api/Raytha.Application.ContentItems.FieldValueConverter.html#Raytha_Application_ContentItems_FieldValueConverter_MapValueForField_Raytha_Domain_ValueObjects_FieldTypes_BaseFieldType_System_Object_Raytha_Application_ContentTypes_ContentTypeFieldDto_
+  commentId: M:Raytha.Application.ContentItems.FieldValueConverter.MapValueForField(Raytha.Domain.ValueObjects.FieldTypes.BaseFieldType,System.Object,Raytha.Application.ContentTypes.ContentTypeFieldDto)
+  name.vb: MapValueForField(BaseFieldType, Object, ContentTypeFieldDto)
+  fullName: Raytha.Application.ContentItems.FieldValueConverter.MapValueForField(Raytha.Domain.ValueObjects.FieldTypes.BaseFieldType, dynamic, Raytha.Application.ContentTypes.ContentTypeFieldDto)
+  fullName.vb: Raytha.Application.ContentItems.FieldValueConverter.MapValueForField(Raytha.Domain.ValueObjects.FieldTypes.BaseFieldType, Object, Raytha.Application.ContentTypes.ContentTypeFieldDto)
+  nameWithType: FieldValueConverter.MapValueForField(BaseFieldType, dynamic, ContentTypeFieldDto)
+  nameWithType.vb: FieldValueConverter.MapValueForField(BaseFieldType, Object, ContentTypeFieldDto)
+- uid: Raytha.Application.ContentItems.FieldValueConverter.MapValueForField*
+  name: MapValueForField
+  href: api/Raytha.Application.ContentItems.FieldValueConverter.html#Raytha_Application_ContentItems_FieldValueConverter_MapValueForField_
+  commentId: Overload:Raytha.Application.ContentItems.FieldValueConverter.MapValueForField
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.FieldValueConverter.MapValueForField
+  nameWithType: FieldValueConverter.MapValueForField
 - uid: Raytha.Application.ContentItems.Queries
   name: Raytha.Application.ContentItems.Queries
   href: api/Raytha.Application.ContentItems.Queries.html

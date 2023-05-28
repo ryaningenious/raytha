@@ -9,25 +9,28 @@
  ">
       
       <link rel="icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../styles/docfx.min.css">
-      <link rel="stylesheet" href="../styles/main.css">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
       <meta name="docfx:navrel" content="../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
       
+      
+      
       <meta name="docfx:docurl" content="https://github.com/RaythaHQ/raytha/new/main/apiSpec/new?filename=Raytha_Application_Common_Interfaces_IRaythaDbJsonQueryEngine.md&amp;value=---%0Auid%3A%20Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
-
-      <script>
-        MathJax = {
-          options: {
-            processHtmlClass: ['tex2jax_process', 'math']
-          }
-        };
-      </script>
-
-      <script type="text/javascript" src="../styles/docfx.min.js"></script>
-      <script type="text/javascript" src="../styles/main.js"></script>
   </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -76,7 +79,7 @@
 
   <h1 id="Raytha_Application_Common_Interfaces_IRaythaDbJsonQueryEngine" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine" class="text-break">
     Interface IRaythaDbJsonQueryEngine
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaDbJsonQueryEngine.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaDbJsonQueryEngine.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -109,16 +112,16 @@
 
   <a id="Raytha_Application_Common_Interfaces_IRaythaDbJsonQueryEngine_CountContentItems_" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.CountContentItems*"></a>
 
-  <h3 id="Raytha_Application_Common_Interfaces_IRaythaDbJsonQueryEngine_CountContentItems_System_Guid_System_String___System_String_System_String___" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.CountContentItems(System.Guid,System.String[],System.String,System.String[])">
-  CountContentItems(Guid, string[], string, string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaDbJsonQueryEngine.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaDbJsonQueryEngine_CountContentItems_System_Guid_System_String___System_String_System_String___System_Data_IDbTransaction_" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.CountContentItems(System.Guid,System.String[],System.String,System.String[],System.Data.IDbTransaction)">
+  CountContentItems(Guid, string[], string, string[], IDbTransaction)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaDbJsonQueryEngine.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int CountContentItems(Guid contentTypeId, string[] searchOnColumns, string search, string[] filters)</code></pre>
+    <pre><code class="lang-csharp hljs">int CountContentItems(Guid contentTypeId, string[] searchOnColumns, string search, string[] filters, IDbTransaction transaction = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -130,6 +133,8 @@
     <dt><code>search</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
     <dt><code>filters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+    <dt><code>transaction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.idbtransaction">IDbTransaction</a></dt>
     <dd></dd>
   </dl>
 
@@ -153,7 +158,7 @@
 
   <h3 id="Raytha_Application_Common_Interfaces_IRaythaDbJsonQueryEngine_FirstOrDefault_System_Guid_" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.FirstOrDefault(System.Guid)">
   FirstOrDefault(Guid)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaDbJsonQueryEngine.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaDbJsonQueryEngine.cs/#L8"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -185,18 +190,62 @@
 
 
 
-  <a id="Raytha_Application_Common_Interfaces_IRaythaDbJsonQueryEngine_QueryContentItems_" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.QueryContentItems*"></a>
+  <a id="Raytha_Application_Common_Interfaces_IRaythaDbJsonQueryEngine_QueryAllContentItemsAsTransaction_" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.QueryAllContentItemsAsTransaction*"></a>
 
-  <h3 id="Raytha_Application_Common_Interfaces_IRaythaDbJsonQueryEngine_QueryContentItems_System_Guid_System_String___System_String_System_String___System_Int32_System_Int32_System_String_" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.QueryContentItems(System.Guid,System.String[],System.String,System.String[],System.Int32,System.Int32,System.String)">
-  QueryContentItems(Guid, string[], string, string[], int, int, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaDbJsonQueryEngine.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaDbJsonQueryEngine_QueryAllContentItemsAsTransaction_System_Guid_System_String___System_String_System_String___System_String_" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.QueryAllContentItemsAsTransaction(System.Guid,System.String[],System.String,System.String[],System.String)">
+  QueryAllContentItemsAsTransaction(Guid, string[], string, string[], string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaDbJsonQueryEngine.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IEnumerable&lt;ContentItem&gt; QueryContentItems(Guid contentTypeId, string[] searchOnColumns, string search, string[] filters, int pageSize, int pageNumber, string orderBy)</code></pre>
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;ContentItem&gt; QueryAllContentItemsAsTransaction(Guid contentTypeId, string[] searchOnColumns, string search, string[] filters, string orderBy)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contentTypeId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+    <dt><code>searchOnColumns</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+    <dt><code>search</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>filters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+    <dt><code>orderBy</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<span class="xref">ContentItem</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaDbJsonQueryEngine_QueryContentItems_" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.QueryContentItems*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaDbJsonQueryEngine_QueryContentItems_System_Guid_System_String___System_String_System_String___System_Int32_System_Int32_System_String_System_Data_IDbTransaction_" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.QueryContentItems(System.Guid,System.String[],System.String,System.String[],System.Int32,System.Int32,System.String,System.Data.IDbTransaction)">
+  QueryContentItems(Guid, string[], string, string[], int, int, string, IDbTransaction)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaDbJsonQueryEngine.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;ContentItem&gt; QueryContentItems(Guid contentTypeId, string[] searchOnColumns, string search, string[] filters, int pageSize, int pageNumber, string orderBy, IDbTransaction transaction = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -214,6 +263,8 @@
     <dt><code>pageNumber</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd></dd>
     <dt><code>orderBy</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>transaction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.idbtransaction">IDbTransaction</a></dt>
     <dd></dd>
   </dl>
 
@@ -237,7 +288,7 @@
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/RaythaHQ/raytha/new/main/apiSpec/new?filename=Raytha_Application_Common_Interfaces_IRaythaDbJsonQueryEngine.md&amp;value=---%0Auid%3A%20Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
+          <a href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaDbJsonQueryEngine.cs/#L6" class="edit-link">Edit this page</a>
         </div>
 
         

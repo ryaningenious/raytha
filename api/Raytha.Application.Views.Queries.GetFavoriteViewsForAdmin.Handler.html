@@ -9,25 +9,28 @@
  ">
       
       <link rel="icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../styles/docfx.min.css">
-      <link rel="stylesheet" href="../styles/main.css">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
       <meta name="docfx:navrel" content="../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
       
+      
+      
       <meta name="docfx:docurl" content="https://github.com/RaythaHQ/raytha/new/main/apiSpec/new?filename=Raytha_Application_Views_Queries_GetFavoriteViewsForAdmin_Handler.md&amp;value=---%0Auid%3A%20Raytha.Application.Views.Queries.GetFavoriteViewsForAdmin.Handler%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
-
-      <script>
-        MathJax = {
-          options: {
-            processHtmlClass: ['tex2jax_process', 'math']
-          }
-        };
-      </script>
-
-      <script type="text/javascript" src="../styles/docfx.min.js"></script>
-      <script type="text/javascript" src="../styles/main.js"></script>
   </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -191,7 +194,8 @@
   <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Views/Queries/GetFavoriteViewsForAdmin.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Override in a derived class for the handler logic</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -201,13 +205,15 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>request</code> <a class="xref" href="Raytha.Application.Views.Queries.GetFavoriteViewsForAdmin.html">GetFavoriteViewsForAdmin</a>.<a class="xref" href="Raytha.Application.Views.Queries.GetFavoriteViewsForAdmin.Query.html">Query</a></dt>
-    <dd></dd>
+    <dd><p>Request</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="Raytha.Application.Common.Models.IQueryResponseDto-1.html">IQueryResponseDto</a>&lt;<a class="xref" href="Raytha.Application.Common.Models.ListResultDto-1.html">ListResultDto</a>&lt;<a class="xref" href="Raytha.Application.Views.ViewDto.html">ViewDto</a>&gt;&gt;</dt>
-    <dd></dd>
+    <dd><p>Response</p>
+</dd>
   </dl>
 
 
@@ -224,7 +230,7 @@
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/RaythaHQ/raytha/new/main/apiSpec/new?filename=Raytha_Application_Views_Queries_GetFavoriteViewsForAdmin_Handler.md&amp;value=---%0Auid%3A%20Raytha.Application.Views.Queries.GetFavoriteViewsForAdmin.Handler%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
+          <a href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Views/Queries/GetFavoriteViewsForAdmin.cs/#L19" class="edit-link">Edit this page</a>
         </div>
 
         

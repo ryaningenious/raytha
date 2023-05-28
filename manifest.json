@@ -885,6 +885,66 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.BackgroundTasks.BackgroundTaskDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.BackgroundTasks.BackgroundTaskDto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Query.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.Query.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.BackgroundTasks.Queries.GetBackgroundTaskById.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.BackgroundTasks.Queries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.BackgroundTasks.Queries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.BackgroundTasks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.BackgroundTasks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Raytha.Application.Common.Attributes.ExcludePropertyFromOpenApiDocs.yml",
       "output": {
         ".html": {
@@ -1015,6 +1075,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Common.Interfaces.IBackgroundTaskDb.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Common.Interfaces.IBackgroundTaskDb.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Common.Interfaces.IBackgroundTaskQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Common.Interfaces.IBackgroundTaskQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Raytha.Application.Common.Interfaces.IContentTypeInRoutePath.yml",
       "output": {
         ".html": {
@@ -1059,6 +1139,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Raytha.Application.Common.Interfaces.IEmailer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Common.Interfaces.IExecuteBackgroundTask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Common.Interfaces.IExecuteBackgroundTask.html"
         }
       },
       "version": ""
@@ -1585,6 +1675,56 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.BackgroundTask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Validator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Validator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Raytha.Application.ContentItems.Commands.CreateContentItem.Command.yml",
       "output": {
         ".html": {
@@ -1979,6 +2119,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Raytha.Application.ContentItems.DeletedContentItemDto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.ContentItems.FieldValueConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.ContentItems.FieldValueConverter.html"
         }
       },
       "version": ""
@@ -5805,6 +5955,16 @@
         },
         ".json": {
           "relative_path": "apitoc/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/background_tasks.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/background_tasks.html"
         }
       },
       "version": ""
