@@ -3498,6 +3498,19 @@ references:
   isSpec: "True"
   fullName: Raytha.Application.Common.Interfaces.DbSpaceUsed.index_size
   nameWithType: DbSpaceUsed.index_size
+- uid: Raytha.Application.Common.Interfaces.DbSpaceUsed.reserved
+  name: reserved
+  href: api/Raytha.Application.Common.Interfaces.DbSpaceUsed.html#Raytha_Application_Common_Interfaces_DbSpaceUsed_reserved
+  commentId: P:Raytha.Application.Common.Interfaces.DbSpaceUsed.reserved
+  fullName: Raytha.Application.Common.Interfaces.DbSpaceUsed.reserved
+  nameWithType: DbSpaceUsed.reserved
+- uid: Raytha.Application.Common.Interfaces.DbSpaceUsed.reserved*
+  name: reserved
+  href: api/Raytha.Application.Common.Interfaces.DbSpaceUsed.html#Raytha_Application_Common_Interfaces_DbSpaceUsed_reserved_
+  commentId: Overload:Raytha.Application.Common.Interfaces.DbSpaceUsed.reserved
+  isSpec: "True"
+  fullName: Raytha.Application.Common.Interfaces.DbSpaceUsed.reserved
+  nameWithType: DbSpaceUsed.reserved
 - uid: Raytha.Application.Common.Interfaces.IBackgroundTaskDb
   name: IBackgroundTaskDb
   href: api/Raytha.Application.Common.Interfaces.IBackgroundTaskDb.html
