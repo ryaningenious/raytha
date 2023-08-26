@@ -1691,203 +1691,6 @@ references:
   commentId: N:Raytha.Application.AuthenticationSchemes
   fullName: Raytha.Application.AuthenticationSchemes
   nameWithType: Raytha.Application.AuthenticationSchemes
-- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel
-  name: AuthenticationScheme_RenderModel
-  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html
-  commentId: T:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel
-  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel
-  nameWithType: AuthenticationScheme_RenderModel
-- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.DeveloperName
-  name: DeveloperName
-  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_DeveloperName
-  commentId: P:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.DeveloperName
-  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.DeveloperName
-  nameWithType: AuthenticationScheme_RenderModel.DeveloperName
-- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.DeveloperName*
-  name: DeveloperName
-  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_DeveloperName_
-  commentId: Overload:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.DeveloperName
-  isSpec: "True"
-  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.DeveloperName
-  nameWithType: AuthenticationScheme_RenderModel.DeveloperName
-- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.FromPrefix(System.String)
-  name: FromPrefix(string)
-  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_FromPrefix_System_String_
-  commentId: M:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.FromPrefix(System.String)
-  name.vb: FromPrefix(String)
-  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.FromPrefix(string)
-  fullName.vb: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.FromPrefix(String)
-  nameWithType: AuthenticationScheme_RenderModel.FromPrefix(string)
-  nameWithType.vb: AuthenticationScheme_RenderModel.FromPrefix(String)
-- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.FromPrefix*
-  name: FromPrefix
-  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_FromPrefix_
-  commentId: Overload:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.FromPrefix
-  isSpec: "True"
-  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.FromPrefix
-  nameWithType: AuthenticationScheme_RenderModel.FromPrefix
-- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetDeveloperNames
-  name: GetDeveloperNames()
-  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_GetDeveloperNames
-  commentId: M:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetDeveloperNames
-  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetDeveloperNames()
-  nameWithType: AuthenticationScheme_RenderModel.GetDeveloperNames()
-- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetDeveloperNames*
-  name: GetDeveloperNames
-  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_GetDeveloperNames_
-  commentId: Overload:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetDeveloperNames
-  isSpec: "True"
-  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetDeveloperNames
-  nameWithType: AuthenticationScheme_RenderModel.GetDeveloperNames
-- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetProjection
-  name: GetProjection()
-  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_GetProjection
-  commentId: M:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetProjection
-  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetProjection()
-  nameWithType: AuthenticationScheme_RenderModel.GetProjection()
-- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetProjection(Raytha.Application.AuthenticationSchemes.AuthenticationSchemeDto)
-  name: GetProjection(AuthenticationSchemeDto)
-  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_GetProjection_Raytha_Application_AuthenticationSchemes_AuthenticationSchemeDto_
-  commentId: M:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetProjection(Raytha.Application.AuthenticationSchemes.AuthenticationSchemeDto)
-  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetProjection(Raytha.Application.AuthenticationSchemes.AuthenticationSchemeDto)
-  nameWithType: AuthenticationScheme_RenderModel.GetProjection(AuthenticationSchemeDto)
-- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetProjection*
-  name: GetProjection
-  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_GetProjection_
-  commentId: Overload:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetProjection
-  isSpec: "True"
-  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetProjection
-  nameWithType: AuthenticationScheme_RenderModel.GetProjection
-- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetTemplateVariables
-  name: GetTemplateVariables()
-  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_GetTemplateVariables
-  commentId: M:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetTemplateVariables
-  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetTemplateVariables()
-  nameWithType: AuthenticationScheme_RenderModel.GetTemplateVariables()
-- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetTemplateVariables*
-  name: GetTemplateVariables
-  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_GetTemplateVariables_
-  commentId: Overload:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetTemplateVariables
-  isSpec: "True"
-  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetTemplateVariables
-  nameWithType: AuthenticationScheme_RenderModel.GetTemplateVariables
-- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax
-  name: GetTemplateVariablesAsForEachLiquidSyntax()
-  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_GetTemplateVariablesAsForEachLiquidSyntax
-  commentId: M:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax
-  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax()
-  nameWithType: AuthenticationScheme_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax()
-- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax*
-  name: GetTemplateVariablesAsForEachLiquidSyntax
-  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_GetTemplateVariablesAsForEachLiquidSyntax_
-  commentId: Overload:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax
-  isSpec: "True"
-  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax
-  nameWithType: AuthenticationScheme_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax
-- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.Id
-  name: Id
-  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_Id
-  commentId: P:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.Id
-  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.Id
-  nameWithType: AuthenticationScheme_RenderModel.Id
-- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.Id*
-  name: Id
-  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_Id_
-  commentId: Overload:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.Id
-  isSpec: "True"
-  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.Id
-  nameWithType: AuthenticationScheme_RenderModel.Id
-- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsBuiltInAuth
-  name: IsBuiltInAuth
-  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_IsBuiltInAuth
-  commentId: P:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsBuiltInAuth
-  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsBuiltInAuth
-  nameWithType: AuthenticationScheme_RenderModel.IsBuiltInAuth
-- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsBuiltInAuth*
-  name: IsBuiltInAuth
-  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_IsBuiltInAuth_
-  commentId: Overload:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsBuiltInAuth
-  isSpec: "True"
-  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsBuiltInAuth
-  nameWithType: AuthenticationScheme_RenderModel.IsBuiltInAuth
-- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsEnabledForAdmins
-  name: IsEnabledForAdmins
-  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_IsEnabledForAdmins
-  commentId: P:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsEnabledForAdmins
-  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsEnabledForAdmins
-  nameWithType: AuthenticationScheme_RenderModel.IsEnabledForAdmins
-- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsEnabledForAdmins*
-  name: IsEnabledForAdmins
-  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_IsEnabledForAdmins_
-  commentId: Overload:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsEnabledForAdmins
-  isSpec: "True"
-  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsEnabledForAdmins
-  nameWithType: AuthenticationScheme_RenderModel.IsEnabledForAdmins
-- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsEnabledForUsers
-  name: IsEnabledForUsers
-  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_IsEnabledForUsers
-  commentId: P:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsEnabledForUsers
-  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsEnabledForUsers
-  nameWithType: AuthenticationScheme_RenderModel.IsEnabledForUsers
-- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsEnabledForUsers*
-  name: IsEnabledForUsers
-  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_IsEnabledForUsers_
-  commentId: Overload:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsEnabledForUsers
-  isSpec: "True"
-  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsEnabledForUsers
-  nameWithType: AuthenticationScheme_RenderModel.IsEnabledForUsers
-- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.Label
-  name: Label
-  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_Label
-  commentId: P:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.Label
-  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.Label
-  nameWithType: AuthenticationScheme_RenderModel.Label
-- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.Label*
-  name: Label
-  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_Label_
-  commentId: Overload:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.Label
-  isSpec: "True"
-  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.Label
-  nameWithType: AuthenticationScheme_RenderModel.Label
-- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.LoginButtonText
-  name: LoginButtonText
-  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_LoginButtonText
-  commentId: P:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.LoginButtonText
-  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.LoginButtonText
-  nameWithType: AuthenticationScheme_RenderModel.LoginButtonText
-- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.LoginButtonText*
-  name: LoginButtonText
-  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_LoginButtonText_
-  commentId: Overload:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.LoginButtonText
-  isSpec: "True"
-  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.LoginButtonText
-  nameWithType: AuthenticationScheme_RenderModel.LoginButtonText
-- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.SignInUrl
-  name: SignInUrl
-  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_SignInUrl
-  commentId: P:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.SignInUrl
-  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.SignInUrl
-  nameWithType: AuthenticationScheme_RenderModel.SignInUrl
-- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.SignInUrl*
-  name: SignInUrl
-  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_SignInUrl_
-  commentId: Overload:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.SignInUrl
-  isSpec: "True"
-  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.SignInUrl
-  nameWithType: AuthenticationScheme_RenderModel.SignInUrl
-- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.SignOutUrl
-  name: SignOutUrl
-  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_SignOutUrl
-  commentId: P:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.SignOutUrl
-  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.SignOutUrl
-  nameWithType: AuthenticationScheme_RenderModel.SignOutUrl
-- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.SignOutUrl*
-  name: SignOutUrl
-  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_SignOutUrl_
-  commentId: Overload:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.SignOutUrl
-  isSpec: "True"
-  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.SignOutUrl
-  nameWithType: AuthenticationScheme_RenderModel.SignOutUrl
 - uid: Raytha.Application.AuthenticationSchemes.AuthenticationSchemeDto
   name: AuthenticationSchemeDto
   href: api/Raytha.Application.AuthenticationSchemes.AuthenticationSchemeDto.html
@@ -2108,6 +1911,203 @@ references:
   isSpec: "True"
   fullName: Raytha.Application.AuthenticationSchemes.AuthenticationSchemeDto.SignOutUrl
   nameWithType: AuthenticationSchemeDto.SignOutUrl
+- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel
+  name: AuthenticationScheme_RenderModel
+  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html
+  commentId: T:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel
+  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel
+  nameWithType: AuthenticationScheme_RenderModel
+- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.DeveloperName
+  name: DeveloperName
+  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_DeveloperName
+  commentId: P:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.DeveloperName
+  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.DeveloperName
+  nameWithType: AuthenticationScheme_RenderModel.DeveloperName
+- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.DeveloperName*
+  name: DeveloperName
+  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_DeveloperName_
+  commentId: Overload:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.DeveloperName
+  isSpec: "True"
+  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.DeveloperName
+  nameWithType: AuthenticationScheme_RenderModel.DeveloperName
+- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.FromPrefix(System.String)
+  name: FromPrefix(string)
+  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_FromPrefix_System_String_
+  commentId: M:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.FromPrefix(System.String)
+  name.vb: FromPrefix(String)
+  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.FromPrefix(string)
+  fullName.vb: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.FromPrefix(String)
+  nameWithType: AuthenticationScheme_RenderModel.FromPrefix(string)
+  nameWithType.vb: AuthenticationScheme_RenderModel.FromPrefix(String)
+- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.FromPrefix*
+  name: FromPrefix
+  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_FromPrefix_
+  commentId: Overload:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.FromPrefix
+  isSpec: "True"
+  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.FromPrefix
+  nameWithType: AuthenticationScheme_RenderModel.FromPrefix
+- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetDeveloperNames
+  name: GetDeveloperNames()
+  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_GetDeveloperNames
+  commentId: M:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetDeveloperNames
+  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetDeveloperNames()
+  nameWithType: AuthenticationScheme_RenderModel.GetDeveloperNames()
+- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetDeveloperNames*
+  name: GetDeveloperNames
+  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_GetDeveloperNames_
+  commentId: Overload:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetDeveloperNames
+  isSpec: "True"
+  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetDeveloperNames
+  nameWithType: AuthenticationScheme_RenderModel.GetDeveloperNames
+- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetProjection
+  name: GetProjection()
+  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_GetProjection
+  commentId: M:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetProjection
+  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetProjection()
+  nameWithType: AuthenticationScheme_RenderModel.GetProjection()
+- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetProjection(Raytha.Application.AuthenticationSchemes.AuthenticationSchemeDto)
+  name: GetProjection(AuthenticationSchemeDto)
+  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_GetProjection_Raytha_Application_AuthenticationSchemes_AuthenticationSchemeDto_
+  commentId: M:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetProjection(Raytha.Application.AuthenticationSchemes.AuthenticationSchemeDto)
+  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetProjection(Raytha.Application.AuthenticationSchemes.AuthenticationSchemeDto)
+  nameWithType: AuthenticationScheme_RenderModel.GetProjection(AuthenticationSchemeDto)
+- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetProjection*
+  name: GetProjection
+  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_GetProjection_
+  commentId: Overload:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetProjection
+  isSpec: "True"
+  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetProjection
+  nameWithType: AuthenticationScheme_RenderModel.GetProjection
+- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetTemplateVariables
+  name: GetTemplateVariables()
+  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_GetTemplateVariables
+  commentId: M:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetTemplateVariables
+  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetTemplateVariables()
+  nameWithType: AuthenticationScheme_RenderModel.GetTemplateVariables()
+- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetTemplateVariables*
+  name: GetTemplateVariables
+  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_GetTemplateVariables_
+  commentId: Overload:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetTemplateVariables
+  isSpec: "True"
+  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetTemplateVariables
+  nameWithType: AuthenticationScheme_RenderModel.GetTemplateVariables
+- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax
+  name: GetTemplateVariablesAsForEachLiquidSyntax()
+  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_GetTemplateVariablesAsForEachLiquidSyntax
+  commentId: M:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax
+  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax()
+  nameWithType: AuthenticationScheme_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax()
+- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax*
+  name: GetTemplateVariablesAsForEachLiquidSyntax
+  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_GetTemplateVariablesAsForEachLiquidSyntax_
+  commentId: Overload:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax
+  isSpec: "True"
+  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax
+  nameWithType: AuthenticationScheme_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax
+- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.Id
+  name: Id
+  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_Id
+  commentId: P:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.Id
+  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.Id
+  nameWithType: AuthenticationScheme_RenderModel.Id
+- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.Id*
+  name: Id
+  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_Id_
+  commentId: Overload:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.Id
+  isSpec: "True"
+  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.Id
+  nameWithType: AuthenticationScheme_RenderModel.Id
+- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsBuiltInAuth
+  name: IsBuiltInAuth
+  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_IsBuiltInAuth
+  commentId: P:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsBuiltInAuth
+  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsBuiltInAuth
+  nameWithType: AuthenticationScheme_RenderModel.IsBuiltInAuth
+- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsBuiltInAuth*
+  name: IsBuiltInAuth
+  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_IsBuiltInAuth_
+  commentId: Overload:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsBuiltInAuth
+  isSpec: "True"
+  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsBuiltInAuth
+  nameWithType: AuthenticationScheme_RenderModel.IsBuiltInAuth
+- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsEnabledForAdmins
+  name: IsEnabledForAdmins
+  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_IsEnabledForAdmins
+  commentId: P:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsEnabledForAdmins
+  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsEnabledForAdmins
+  nameWithType: AuthenticationScheme_RenderModel.IsEnabledForAdmins
+- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsEnabledForAdmins*
+  name: IsEnabledForAdmins
+  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_IsEnabledForAdmins_
+  commentId: Overload:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsEnabledForAdmins
+  isSpec: "True"
+  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsEnabledForAdmins
+  nameWithType: AuthenticationScheme_RenderModel.IsEnabledForAdmins
+- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsEnabledForUsers
+  name: IsEnabledForUsers
+  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_IsEnabledForUsers
+  commentId: P:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsEnabledForUsers
+  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsEnabledForUsers
+  nameWithType: AuthenticationScheme_RenderModel.IsEnabledForUsers
+- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsEnabledForUsers*
+  name: IsEnabledForUsers
+  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_IsEnabledForUsers_
+  commentId: Overload:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsEnabledForUsers
+  isSpec: "True"
+  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.IsEnabledForUsers
+  nameWithType: AuthenticationScheme_RenderModel.IsEnabledForUsers
+- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.Label
+  name: Label
+  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_Label
+  commentId: P:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.Label
+  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.Label
+  nameWithType: AuthenticationScheme_RenderModel.Label
+- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.Label*
+  name: Label
+  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_Label_
+  commentId: Overload:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.Label
+  isSpec: "True"
+  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.Label
+  nameWithType: AuthenticationScheme_RenderModel.Label
+- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.LoginButtonText
+  name: LoginButtonText
+  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_LoginButtonText
+  commentId: P:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.LoginButtonText
+  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.LoginButtonText
+  nameWithType: AuthenticationScheme_RenderModel.LoginButtonText
+- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.LoginButtonText*
+  name: LoginButtonText
+  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_LoginButtonText_
+  commentId: Overload:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.LoginButtonText
+  isSpec: "True"
+  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.LoginButtonText
+  nameWithType: AuthenticationScheme_RenderModel.LoginButtonText
+- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.SignInUrl
+  name: SignInUrl
+  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_SignInUrl
+  commentId: P:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.SignInUrl
+  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.SignInUrl
+  nameWithType: AuthenticationScheme_RenderModel.SignInUrl
+- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.SignInUrl*
+  name: SignInUrl
+  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_SignInUrl_
+  commentId: Overload:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.SignInUrl
+  isSpec: "True"
+  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.SignInUrl
+  nameWithType: AuthenticationScheme_RenderModel.SignInUrl
+- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.SignOutUrl
+  name: SignOutUrl
+  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_SignOutUrl
+  commentId: P:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.SignOutUrl
+  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.SignOutUrl
+  nameWithType: AuthenticationScheme_RenderModel.SignOutUrl
+- uid: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.SignOutUrl*
+  name: SignOutUrl
+  href: api/Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.html#Raytha_Application_AuthenticationSchemes_AuthenticationScheme_RenderModel_SignOutUrl_
+  commentId: Overload:Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.SignOutUrl
+  isSpec: "True"
+  fullName: Raytha.Application.AuthenticationSchemes.AuthenticationScheme_RenderModel.SignOutUrl
+  nameWithType: AuthenticationScheme_RenderModel.SignOutUrl
 - uid: Raytha.Application.AuthenticationSchemes.Commands
   name: Raytha.Application.AuthenticationSchemes.Commands
   href: api/Raytha.Application.AuthenticationSchemes.Commands.html
@@ -3350,6 +3350,15 @@ references:
   fullName.vb: Raytha.Application.Common.Exceptions.NotFoundException.New()
   nameWithType: NotFoundException.NotFoundException()
   nameWithType.vb: NotFoundException.New()
+- uid: Raytha.Application.Common.Exceptions.NotFoundException.#ctor(System.String)
+  name: NotFoundException(string)
+  href: api/Raytha.Application.Common.Exceptions.NotFoundException.html#Raytha_Application_Common_Exceptions_NotFoundException__ctor_System_String_
+  commentId: M:Raytha.Application.Common.Exceptions.NotFoundException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Raytha.Application.Common.Exceptions.NotFoundException.NotFoundException(string)
+  fullName.vb: Raytha.Application.Common.Exceptions.NotFoundException.New(String)
+  nameWithType: NotFoundException.NotFoundException(string)
+  nameWithType.vb: NotFoundException.New(String)
 - uid: Raytha.Application.Common.Exceptions.NotFoundException.#ctor(System.String,System.Exception)
   name: NotFoundException(string, Exception)
   href: api/Raytha.Application.Common.Exceptions.NotFoundException.html#Raytha_Application_Common_Exceptions_NotFoundException__ctor_System_String_System_Exception_
@@ -3368,15 +3377,6 @@ references:
   fullName.vb: Raytha.Application.Common.Exceptions.NotFoundException.New(String, Object)
   nameWithType: NotFoundException.NotFoundException(string, object)
   nameWithType.vb: NotFoundException.New(String, Object)
-- uid: Raytha.Application.Common.Exceptions.NotFoundException.#ctor(System.String)
-  name: NotFoundException(string)
-  href: api/Raytha.Application.Common.Exceptions.NotFoundException.html#Raytha_Application_Common_Exceptions_NotFoundException__ctor_System_String_
-  commentId: M:Raytha.Application.Common.Exceptions.NotFoundException.#ctor(System.String)
-  name.vb: New(String)
-  fullName: Raytha.Application.Common.Exceptions.NotFoundException.NotFoundException(string)
-  fullName.vb: Raytha.Application.Common.Exceptions.NotFoundException.New(String)
-  nameWithType: NotFoundException.NotFoundException(string)
-  nameWithType.vb: NotFoundException.New(String)
 - uid: Raytha.Application.Common.Exceptions.NotFoundException.#ctor*
   name: NotFoundException
   href: api/Raytha.Application.Common.Exceptions.NotFoundException.html#Raytha_Application_Common_Exceptions_NotFoundException__ctor_
@@ -3565,6 +3565,28 @@ references:
   fullName.vb: Raytha.Application.Common.Interfaces.IBackgroundTaskQueue.EnqueueAsync(Of T)(Object, System.Threading.CancellationToken)
   nameWithType: IBackgroundTaskQueue.EnqueueAsync<T>(object, CancellationToken)
   nameWithType.vb: IBackgroundTaskQueue.EnqueueAsync(Of T)(Object, CancellationToken)
+- uid: Raytha.Application.Common.Interfaces.ICSVService
+  name: ICSVService
+  href: api/Raytha.Application.Common.Interfaces.ICSVService.html
+  commentId: T:Raytha.Application.Common.Interfaces.ICSVService
+  fullName: Raytha.Application.Common.Interfaces.ICSVService
+  nameWithType: ICSVService
+- uid: Raytha.Application.Common.Interfaces.ICSVService.ReadCSV*
+  name: ReadCSV
+  href: api/Raytha.Application.Common.Interfaces.ICSVService.html#Raytha_Application_Common_Interfaces_ICSVService_ReadCSV_
+  commentId: Overload:Raytha.Application.Common.Interfaces.ICSVService.ReadCSV
+  isSpec: "True"
+  fullName: Raytha.Application.Common.Interfaces.ICSVService.ReadCSV
+  nameWithType: ICSVService.ReadCSV
+- uid: Raytha.Application.Common.Interfaces.ICSVService.ReadCSV``1(System.IO.Stream)
+  name: ReadCSV<T>(Stream)
+  href: api/Raytha.Application.Common.Interfaces.ICSVService.html#Raytha_Application_Common_Interfaces_ICSVService_ReadCSV__1_System_IO_Stream_
+  commentId: M:Raytha.Application.Common.Interfaces.ICSVService.ReadCSV``1(System.IO.Stream)
+  name.vb: ReadCSV(Of T)(Stream)
+  fullName: Raytha.Application.Common.Interfaces.ICSVService.ReadCSV<T>(System.IO.Stream)
+  fullName.vb: Raytha.Application.Common.Interfaces.ICSVService.ReadCSV(Of T)(System.IO.Stream)
+  nameWithType: ICSVService.ReadCSV<T>(Stream)
+  nameWithType.vb: ICSVService.ReadCSV(Of T)(Stream)
 - uid: Raytha.Application.Common.Interfaces.IContentTypeInRoutePath
   name: IContentTypeInRoutePath
   href: api/Raytha.Application.Common.Interfaces.IContentTypeInRoutePath.html
@@ -4068,15 +4090,6 @@ references:
   isSpec: "True"
   fullName: Raytha.Application.Common.Interfaces.IFileStorageProvider.DeleteAsync
   nameWithType: IFileStorageProvider.DeleteAsync
-- uid: Raytha.Application.Common.Interfaces.IFileStorageProvider.GetDownloadUrlAsync(System.String,System.DateTime,System.Boolean)
-  name: GetDownloadUrlAsync(string, DateTime, bool)
-  href: api/Raytha.Application.Common.Interfaces.IFileStorageProvider.html#Raytha_Application_Common_Interfaces_IFileStorageProvider_GetDownloadUrlAsync_System_String_System_DateTime_System_Boolean_
-  commentId: M:Raytha.Application.Common.Interfaces.IFileStorageProvider.GetDownloadUrlAsync(System.String,System.DateTime,System.Boolean)
-  name.vb: GetDownloadUrlAsync(String, Date, Boolean)
-  fullName: Raytha.Application.Common.Interfaces.IFileStorageProvider.GetDownloadUrlAsync(string, System.DateTime, bool)
-  fullName.vb: Raytha.Application.Common.Interfaces.IFileStorageProvider.GetDownloadUrlAsync(String, Date, Boolean)
-  nameWithType: IFileStorageProvider.GetDownloadUrlAsync(string, DateTime, bool)
-  nameWithType.vb: IFileStorageProvider.GetDownloadUrlAsync(String, Date, Boolean)
 - uid: Raytha.Application.Common.Interfaces.IFileStorageProvider.GetDownloadUrlAsync(System.String)
   name: GetDownloadUrlAsync(string)
   href: api/Raytha.Application.Common.Interfaces.IFileStorageProvider.html#Raytha_Application_Common_Interfaces_IFileStorageProvider_GetDownloadUrlAsync_System_String_
@@ -4086,6 +4099,15 @@ references:
   fullName.vb: Raytha.Application.Common.Interfaces.IFileStorageProvider.GetDownloadUrlAsync(String)
   nameWithType: IFileStorageProvider.GetDownloadUrlAsync(string)
   nameWithType.vb: IFileStorageProvider.GetDownloadUrlAsync(String)
+- uid: Raytha.Application.Common.Interfaces.IFileStorageProvider.GetDownloadUrlAsync(System.String,System.DateTime,System.Boolean)
+  name: GetDownloadUrlAsync(string, DateTime, bool)
+  href: api/Raytha.Application.Common.Interfaces.IFileStorageProvider.html#Raytha_Application_Common_Interfaces_IFileStorageProvider_GetDownloadUrlAsync_System_String_System_DateTime_System_Boolean_
+  commentId: M:Raytha.Application.Common.Interfaces.IFileStorageProvider.GetDownloadUrlAsync(System.String,System.DateTime,System.Boolean)
+  name.vb: GetDownloadUrlAsync(String, Date, Boolean)
+  fullName: Raytha.Application.Common.Interfaces.IFileStorageProvider.GetDownloadUrlAsync(string, System.DateTime, bool)
+  fullName.vb: Raytha.Application.Common.Interfaces.IFileStorageProvider.GetDownloadUrlAsync(String, Date, Boolean)
+  nameWithType: IFileStorageProvider.GetDownloadUrlAsync(string, DateTime, bool)
+  nameWithType.vb: IFileStorageProvider.GetDownloadUrlAsync(String, Date, Boolean)
 - uid: Raytha.Application.Common.Interfaces.IFileStorageProvider.GetDownloadUrlAsync*
   name: GetDownloadUrlAsync
   href: api/Raytha.Application.Common.Interfaces.IFileStorageProvider.html#Raytha_Application_Common_Interfaces_IFileStorageProvider_GetDownloadUrlAsync_
@@ -5217,15 +5239,6 @@ references:
   fullName.vb: Raytha.Application.Common.Models.CommandResponseDto(Of T)
   nameWithType: CommandResponseDto<T>
   nameWithType.vb: CommandResponseDto(Of T)
-- uid: Raytha.Application.Common.Models.CommandResponseDto`1.#ctor(`0)
-  name: CommandResponseDto(T)
-  href: api/Raytha.Application.Common.Models.CommandResponseDto-1.html#Raytha_Application_Common_Models_CommandResponseDto_1__ctor__0_
-  commentId: M:Raytha.Application.Common.Models.CommandResponseDto`1.#ctor(`0)
-  name.vb: New(T)
-  fullName: Raytha.Application.Common.Models.CommandResponseDto<T>.CommandResponseDto(T)
-  fullName.vb: Raytha.Application.Common.Models.CommandResponseDto(Of T).New(T)
-  nameWithType: CommandResponseDto<T>.CommandResponseDto(T)
-  nameWithType.vb: CommandResponseDto(Of T).New(T)
 - uid: Raytha.Application.Common.Models.CommandResponseDto`1.#ctor(System.Collections.Generic.IEnumerable{FluentValidation.Results.ValidationFailure})
   name: CommandResponseDto(IEnumerable<ValidationFailure>)
   href: api/Raytha.Application.Common.Models.CommandResponseDto-1.html#Raytha_Application_Common_Models_CommandResponseDto_1__ctor_System_Collections_Generic_IEnumerable_FluentValidation_Results_ValidationFailure__
@@ -5244,6 +5257,15 @@ references:
   fullName.vb: Raytha.Application.Common.Models.CommandResponseDto(Of T).New(String, String)
   nameWithType: CommandResponseDto<T>.CommandResponseDto(string, string)
   nameWithType.vb: CommandResponseDto(Of T).New(String, String)
+- uid: Raytha.Application.Common.Models.CommandResponseDto`1.#ctor(`0)
+  name: CommandResponseDto(T)
+  href: api/Raytha.Application.Common.Models.CommandResponseDto-1.html#Raytha_Application_Common_Models_CommandResponseDto_1__ctor__0_
+  commentId: M:Raytha.Application.Common.Models.CommandResponseDto`1.#ctor(`0)
+  name.vb: New(T)
+  fullName: Raytha.Application.Common.Models.CommandResponseDto<T>.CommandResponseDto(T)
+  fullName.vb: Raytha.Application.Common.Models.CommandResponseDto(Of T).New(T)
+  nameWithType: CommandResponseDto<T>.CommandResponseDto(T)
+  nameWithType.vb: CommandResponseDto(Of T).New(T)
 - uid: Raytha.Application.Common.Models.CommandResponseDto`1.#ctor*
   name: CommandResponseDto
   href: api/Raytha.Application.Common.Models.CommandResponseDto-1.html#Raytha_Application_Common_Models_CommandResponseDto_1__ctor_
@@ -5801,15 +5823,6 @@ references:
   fullName.vb: Raytha.Application.Common.Models.QueryResponseDto(Of T)
   nameWithType: QueryResponseDto<T>
   nameWithType.vb: QueryResponseDto(Of T)
-- uid: Raytha.Application.Common.Models.QueryResponseDto`1.#ctor(`0)
-  name: QueryResponseDto(T)
-  href: api/Raytha.Application.Common.Models.QueryResponseDto-1.html#Raytha_Application_Common_Models_QueryResponseDto_1__ctor__0_
-  commentId: M:Raytha.Application.Common.Models.QueryResponseDto`1.#ctor(`0)
-  name.vb: New(T)
-  fullName: Raytha.Application.Common.Models.QueryResponseDto<T>.QueryResponseDto(T)
-  fullName.vb: Raytha.Application.Common.Models.QueryResponseDto(Of T).New(T)
-  nameWithType: QueryResponseDto<T>.QueryResponseDto(T)
-  nameWithType.vb: QueryResponseDto(Of T).New(T)
 - uid: Raytha.Application.Common.Models.QueryResponseDto`1.#ctor(System.Collections.Generic.IEnumerable{FluentValidation.Results.ValidationFailure})
   name: QueryResponseDto(IEnumerable<ValidationFailure>)
   href: api/Raytha.Application.Common.Models.QueryResponseDto-1.html#Raytha_Application_Common_Models_QueryResponseDto_1__ctor_System_Collections_Generic_IEnumerable_FluentValidation_Results_ValidationFailure__
@@ -5828,6 +5841,15 @@ references:
   fullName.vb: Raytha.Application.Common.Models.QueryResponseDto(Of T).New(String, String)
   nameWithType: QueryResponseDto<T>.QueryResponseDto(string, string)
   nameWithType.vb: QueryResponseDto(Of T).New(String, String)
+- uid: Raytha.Application.Common.Models.QueryResponseDto`1.#ctor(`0)
+  name: QueryResponseDto(T)
+  href: api/Raytha.Application.Common.Models.QueryResponseDto-1.html#Raytha_Application_Common_Models_QueryResponseDto_1__ctor__0_
+  commentId: M:Raytha.Application.Common.Models.QueryResponseDto`1.#ctor(`0)
+  name.vb: New(T)
+  fullName: Raytha.Application.Common.Models.QueryResponseDto<T>.QueryResponseDto(T)
+  fullName.vb: Raytha.Application.Common.Models.QueryResponseDto(Of T).New(T)
+  nameWithType: QueryResponseDto<T>.QueryResponseDto(T)
+  nameWithType.vb: QueryResponseDto(Of T).New(T)
 - uid: Raytha.Application.Common.Models.QueryResponseDto`1.#ctor*
   name: QueryResponseDto
   href: api/Raytha.Application.Common.Models.QueryResponseDto-1.html#Raytha_Application_Common_Models_QueryResponseDto_1__ctor_
@@ -7169,12 +7191,6 @@ references:
   commentId: T:Raytha.Application.Common.Utils.DateTimeExtensions
   fullName: Raytha.Application.Common.Utils.DateTimeExtensions
   nameWithType: DateTimeExtensions
-- uid: Raytha.Application.Common.Utils.DateTimeExtensions.dd_MM_yyyy
-  name: dd_MM_yyyy
-  href: api/Raytha.Application.Common.Utils.DateTimeExtensions.html#Raytha_Application_Common_Utils_DateTimeExtensions_dd_MM_yyyy
-  commentId: F:Raytha.Application.Common.Utils.DateTimeExtensions.dd_MM_yyyy
-  fullName: Raytha.Application.Common.Utils.DateTimeExtensions.dd_MM_yyyy
-  nameWithType: DateTimeExtensions.dd_MM_yyyy
 - uid: Raytha.Application.Common.Utils.DateTimeExtensions.DEFAULT_DATE_FORMAT
   name: DEFAULT_DATE_FORMAT
   href: api/Raytha.Application.Common.Utils.DateTimeExtensions.html#Raytha_Application_Common_Utils_DateTimeExtensions_DEFAULT_DATE_FORMAT
@@ -7315,6 +7331,12 @@ references:
   isSpec: "True"
   fullName: Raytha.Application.Common.Utils.DateTimeExtensions.UtcToTimeZone
   nameWithType: DateTimeExtensions.UtcToTimeZone
+- uid: Raytha.Application.Common.Utils.DateTimeExtensions.dd_MM_yyyy
+  name: dd_MM_yyyy
+  href: api/Raytha.Application.Common.Utils.DateTimeExtensions.html#Raytha_Application_Common_Utils_DateTimeExtensions_dd_MM_yyyy
+  commentId: F:Raytha.Application.Common.Utils.DateTimeExtensions.dd_MM_yyyy
+  fullName: Raytha.Application.Common.Utils.DateTimeExtensions.dd_MM_yyyy
+  nameWithType: DateTimeExtensions.dd_MM_yyyy
 - uid: Raytha.Application.Common.Utils.FileStorageUtility
   name: FileStorageUtility
   href: api/Raytha.Application.Common.Utils.FileStorageUtility.html
@@ -7714,15 +7736,6 @@ references:
   fullName.vb: Raytha.Application.Common.Utils.PasswordUtility.Hash(Byte(), Byte())
   nameWithType: PasswordUtility.Hash(byte[], byte[])
   nameWithType.vb: PasswordUtility.Hash(Byte(), Byte())
-- uid: Raytha.Application.Common.Utils.PasswordUtility.Hash(System.String,System.Byte[])
-  name: Hash(string, byte[])
-  href: api/Raytha.Application.Common.Utils.PasswordUtility.html#Raytha_Application_Common_Utils_PasswordUtility_Hash_System_String_System_Byte___
-  commentId: M:Raytha.Application.Common.Utils.PasswordUtility.Hash(System.String,System.Byte[])
-  name.vb: Hash(String, Byte())
-  fullName: Raytha.Application.Common.Utils.PasswordUtility.Hash(string, byte[])
-  fullName.vb: Raytha.Application.Common.Utils.PasswordUtility.Hash(String, Byte())
-  nameWithType: PasswordUtility.Hash(string, byte[])
-  nameWithType.vb: PasswordUtility.Hash(String, Byte())
 - uid: Raytha.Application.Common.Utils.PasswordUtility.Hash(System.String)
   name: Hash(string)
   href: api/Raytha.Application.Common.Utils.PasswordUtility.html#Raytha_Application_Common_Utils_PasswordUtility_Hash_System_String_
@@ -7732,6 +7745,15 @@ references:
   fullName.vb: Raytha.Application.Common.Utils.PasswordUtility.Hash(String)
   nameWithType: PasswordUtility.Hash(string)
   nameWithType.vb: PasswordUtility.Hash(String)
+- uid: Raytha.Application.Common.Utils.PasswordUtility.Hash(System.String,System.Byte[])
+  name: Hash(string, byte[])
+  href: api/Raytha.Application.Common.Utils.PasswordUtility.html#Raytha_Application_Common_Utils_PasswordUtility_Hash_System_String_System_Byte___
+  commentId: M:Raytha.Application.Common.Utils.PasswordUtility.Hash(System.String,System.Byte[])
+  name.vb: Hash(String, Byte())
+  fullName: Raytha.Application.Common.Utils.PasswordUtility.Hash(string, byte[])
+  fullName.vb: Raytha.Application.Common.Utils.PasswordUtility.Hash(String, Byte())
+  nameWithType: PasswordUtility.Hash(string, byte[])
+  nameWithType.vb: PasswordUtility.Hash(String, Byte())
 - uid: Raytha.Application.Common.Utils.PasswordUtility.Hash*
   name: Hash
   href: api/Raytha.Application.Common.Utils.PasswordUtility.html#Raytha_Application_Common_Utils_PasswordUtility_Hash_
@@ -8225,6 +8247,189 @@ references:
   fullName.vb: Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.Validator.New
   nameWithType: BeginExportContentItemsToCsv.Validator.Validator
   nameWithType.vb: BeginExportContentItemsToCsv.Validator.New
+- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv
+  name: BeginImportContentItemsFromCsv
+  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.html
+  commentId: T:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv
+  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv
+  nameWithType: BeginImportContentItemsFromCsv
+- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.ADD_NEW_RECORDS_ONLY
+  name: ADD_NEW_RECORDS_ONLY
+  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.html#Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_ADD_NEW_RECORDS_ONLY
+  commentId: F:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.ADD_NEW_RECORDS_ONLY
+  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.ADD_NEW_RECORDS_ONLY
+  nameWithType: BeginImportContentItemsFromCsv.ADD_NEW_RECORDS_ONLY
+- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask
+  name: BeginImportContentItemsFromCsv.BackgroundTask
+  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.html
+  commentId: T:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask
+  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask
+  nameWithType: BeginImportContentItemsFromCsv.BackgroundTask
+- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.#ctor(Raytha.Application.Common.Interfaces.IRaythaDbContext,Raytha.Application.Common.Interfaces.ICSVService)
+  name: BackgroundTask(IRaythaDbContext, ICSVService)
+  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.html#Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_BackgroundTask__ctor_Raytha_Application_Common_Interfaces_IRaythaDbContext_Raytha_Application_Common_Interfaces_ICSVService_
+  commentId: M:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.#ctor(Raytha.Application.Common.Interfaces.IRaythaDbContext,Raytha.Application.Common.Interfaces.ICSVService)
+  name.vb: New(IRaythaDbContext, ICSVService)
+  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.BackgroundTask(Raytha.Application.Common.Interfaces.IRaythaDbContext, Raytha.Application.Common.Interfaces.ICSVService)
+  fullName.vb: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.New(Raytha.Application.Common.Interfaces.IRaythaDbContext, Raytha.Application.Common.Interfaces.ICSVService)
+  nameWithType: BeginImportContentItemsFromCsv.BackgroundTask.BackgroundTask(IRaythaDbContext, ICSVService)
+  nameWithType.vb: BeginImportContentItemsFromCsv.BackgroundTask.New(IRaythaDbContext, ICSVService)
+- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.#ctor*
+  name: BackgroundTask
+  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.html#Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_BackgroundTask__ctor_
+  commentId: Overload:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.BackgroundTask
+  fullName.vb: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.New
+  nameWithType: BeginImportContentItemsFromCsv.BackgroundTask.BackgroundTask
+  nameWithType.vb: BeginImportContentItemsFromCsv.BackgroundTask.New
+- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.Execute(System.Guid,System.Text.Json.JsonElement,System.Threading.CancellationToken)
+  name: Execute(Guid, JsonElement, CancellationToken)
+  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.html#Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_BackgroundTask_Execute_System_Guid_System_Text_Json_JsonElement_System_Threading_CancellationToken_
+  commentId: M:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.Execute(System.Guid,System.Text.Json.JsonElement,System.Threading.CancellationToken)
+  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.Execute(System.Guid, System.Text.Json.JsonElement, System.Threading.CancellationToken)
+  nameWithType: BeginImportContentItemsFromCsv.BackgroundTask.Execute(Guid, JsonElement, CancellationToken)
+- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.Execute*
+  name: Execute
+  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.html#Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_BackgroundTask_Execute_
+  commentId: Overload:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.Execute
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.Execute
+  nameWithType: BeginImportContentItemsFromCsv.BackgroundTask.Execute
+- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command
+  name: BeginImportContentItemsFromCsv.Command
+  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.html
+  commentId: T:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command
+  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command
+  nameWithType: BeginImportContentItemsFromCsv.Command
+- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.ContentTypeId
+  name: ContentTypeId
+  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.html#Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_Command_ContentTypeId
+  commentId: P:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.ContentTypeId
+  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.ContentTypeId
+  nameWithType: BeginImportContentItemsFromCsv.Command.ContentTypeId
+- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.ContentTypeId*
+  name: ContentTypeId
+  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.html#Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_Command_ContentTypeId_
+  commentId: Overload:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.ContentTypeId
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.ContentTypeId
+  nameWithType: BeginImportContentItemsFromCsv.Command.ContentTypeId
+- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.CsvAsBytes
+  name: CsvAsBytes
+  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.html#Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_Command_CsvAsBytes
+  commentId: P:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.CsvAsBytes
+  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.CsvAsBytes
+  nameWithType: BeginImportContentItemsFromCsv.Command.CsvAsBytes
+- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.CsvAsBytes*
+  name: CsvAsBytes
+  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.html#Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_Command_CsvAsBytes_
+  commentId: Overload:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.CsvAsBytes
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.CsvAsBytes
+  nameWithType: BeginImportContentItemsFromCsv.Command.CsvAsBytes
+- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.ImportAsDraft
+  name: ImportAsDraft
+  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.html#Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_Command_ImportAsDraft
+  commentId: P:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.ImportAsDraft
+  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.ImportAsDraft
+  nameWithType: BeginImportContentItemsFromCsv.Command.ImportAsDraft
+- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.ImportAsDraft*
+  name: ImportAsDraft
+  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.html#Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_Command_ImportAsDraft_
+  commentId: Overload:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.ImportAsDraft
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.ImportAsDraft
+  nameWithType: BeginImportContentItemsFromCsv.Command.ImportAsDraft
+- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.ImportMethod
+  name: ImportMethod
+  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.html#Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_Command_ImportMethod
+  commentId: P:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.ImportMethod
+  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.ImportMethod
+  nameWithType: BeginImportContentItemsFromCsv.Command.ImportMethod
+- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.ImportMethod*
+  name: ImportMethod
+  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.html#Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_Command_ImportMethod_
+  commentId: Overload:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.ImportMethod
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.ImportMethod
+  nameWithType: BeginImportContentItemsFromCsv.Command.ImportMethod
+- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Handler
+  name: BeginImportContentItemsFromCsv.Handler
+  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Handler.html
+  commentId: T:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Handler
+  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Handler
+  nameWithType: BeginImportContentItemsFromCsv.Handler
+- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Handler.#ctor(Raytha.Application.Common.Interfaces.IBackgroundTaskQueue,Raytha.Application.Common.Interfaces.IRaythaDbContext,Raytha.Application.Common.Interfaces.IContentTypeInRoutePath)
+  name: Handler(IBackgroundTaskQueue, IRaythaDbContext, IContentTypeInRoutePath)
+  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Handler.html#Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_Handler__ctor_Raytha_Application_Common_Interfaces_IBackgroundTaskQueue_Raytha_Application_Common_Interfaces_IRaythaDbContext_Raytha_Application_Common_Interfaces_IContentTypeInRoutePath_
+  commentId: M:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Handler.#ctor(Raytha.Application.Common.Interfaces.IBackgroundTaskQueue,Raytha.Application.Common.Interfaces.IRaythaDbContext,Raytha.Application.Common.Interfaces.IContentTypeInRoutePath)
+  name.vb: New(IBackgroundTaskQueue, IRaythaDbContext, IContentTypeInRoutePath)
+  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Handler.Handler(Raytha.Application.Common.Interfaces.IBackgroundTaskQueue, Raytha.Application.Common.Interfaces.IRaythaDbContext, Raytha.Application.Common.Interfaces.IContentTypeInRoutePath)
+  fullName.vb: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Handler.New(Raytha.Application.Common.Interfaces.IBackgroundTaskQueue, Raytha.Application.Common.Interfaces.IRaythaDbContext, Raytha.Application.Common.Interfaces.IContentTypeInRoutePath)
+  nameWithType: BeginImportContentItemsFromCsv.Handler.Handler(IBackgroundTaskQueue, IRaythaDbContext, IContentTypeInRoutePath)
+  nameWithType.vb: BeginImportContentItemsFromCsv.Handler.New(IBackgroundTaskQueue, IRaythaDbContext, IContentTypeInRoutePath)
+- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Handler.#ctor*
+  name: Handler
+  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Handler.html#Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_Handler__ctor_
+  commentId: Overload:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Handler.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Handler.Handler
+  fullName.vb: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Handler.New
+  nameWithType: BeginImportContentItemsFromCsv.Handler.Handler
+  nameWithType.vb: BeginImportContentItemsFromCsv.Handler.New
+- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Handler.Handle(Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command,System.Threading.CancellationToken)
+  name: Handle(Command, CancellationToken)
+  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Handler.html#Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_Handler_Handle_Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_Command_System_Threading_CancellationToken_
+  commentId: M:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Handler.Handle(Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command,System.Threading.CancellationToken)
+  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Handler.Handle(Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command, System.Threading.CancellationToken)
+  nameWithType: BeginImportContentItemsFromCsv.Handler.Handle(BeginImportContentItemsFromCsv.Command, CancellationToken)
+- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Handler.Handle*
+  name: Handle
+  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Handler.html#Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_Handler_Handle_
+  commentId: Overload:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Handler.Handle
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Handler.Handle
+  nameWithType: BeginImportContentItemsFromCsv.Handler.Handle
+- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.UPDATE_EXISTING_RECORDS_ONLY
+  name: UPDATE_EXISTING_RECORDS_ONLY
+  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.html#Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_UPDATE_EXISTING_RECORDS_ONLY
+  commentId: F:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.UPDATE_EXISTING_RECORDS_ONLY
+  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.UPDATE_EXISTING_RECORDS_ONLY
+  nameWithType: BeginImportContentItemsFromCsv.UPDATE_EXISTING_RECORDS_ONLY
+- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.UPSERT_ALL_RECORDS
+  name: UPSERT_ALL_RECORDS
+  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.html#Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_UPSERT_ALL_RECORDS
+  commentId: F:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.UPSERT_ALL_RECORDS
+  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.UPSERT_ALL_RECORDS
+  nameWithType: BeginImportContentItemsFromCsv.UPSERT_ALL_RECORDS
+- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator
+  name: BeginImportContentItemsFromCsv.Validator
+  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator.html
+  commentId: T:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator
+  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator
+  nameWithType: BeginImportContentItemsFromCsv.Validator
+- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator.#ctor(Raytha.Application.Common.Interfaces.IRaythaDbContext,Raytha.Application.Common.Interfaces.ICSVService)
+  name: Validator(IRaythaDbContext, ICSVService)
+  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator.html#Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_Validator__ctor_Raytha_Application_Common_Interfaces_IRaythaDbContext_Raytha_Application_Common_Interfaces_ICSVService_
+  commentId: M:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator.#ctor(Raytha.Application.Common.Interfaces.IRaythaDbContext,Raytha.Application.Common.Interfaces.ICSVService)
+  name.vb: New(IRaythaDbContext, ICSVService)
+  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator.Validator(Raytha.Application.Common.Interfaces.IRaythaDbContext, Raytha.Application.Common.Interfaces.ICSVService)
+  fullName.vb: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator.New(Raytha.Application.Common.Interfaces.IRaythaDbContext, Raytha.Application.Common.Interfaces.ICSVService)
+  nameWithType: BeginImportContentItemsFromCsv.Validator.Validator(IRaythaDbContext, ICSVService)
+  nameWithType.vb: BeginImportContentItemsFromCsv.Validator.New(IRaythaDbContext, ICSVService)
+- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator.#ctor*
+  name: Validator
+  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator.html#Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_Validator__ctor_
+  commentId: Overload:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator.Validator
+  fullName.vb: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator.New
+  nameWithType: BeginImportContentItemsFromCsv.Validator.Validator
+  nameWithType.vb: BeginImportContentItemsFromCsv.Validator.New
 - uid: Raytha.Application.ContentItems.Commands.CreateContentItem
   name: CreateContentItem
   href: api/Raytha.Application.ContentItems.Commands.CreateContentItem.html
@@ -8945,213 +9150,6 @@ references:
   isSpec: "True"
   fullName: Raytha.Application.ContentItems.Commands.UnpublishContentItem.Handler.Handle
   nameWithType: UnpublishContentItem.Handler.Handle
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel
-  name: ContentItem_RenderModel
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html
-  commentId: T:Raytha.Application.ContentItems.ContentItem_RenderModel
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel
-  nameWithType: ContentItem_RenderModel
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.ContentType
-  name: ContentType
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_ContentType
-  commentId: P:Raytha.Application.ContentItems.ContentItem_RenderModel.ContentType
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.ContentType
-  nameWithType: ContentItem_RenderModel.ContentType
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.ContentType*
-  name: ContentType
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_ContentType_
-  commentId: Overload:Raytha.Application.ContentItems.ContentItem_RenderModel.ContentType
-  isSpec: "True"
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.ContentType
-  nameWithType: ContentItem_RenderModel.ContentType
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.CreationTime
-  name: CreationTime
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_CreationTime
-  commentId: P:Raytha.Application.ContentItems.ContentItem_RenderModel.CreationTime
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.CreationTime
-  nameWithType: ContentItem_RenderModel.CreationTime
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.CreationTime*
-  name: CreationTime
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_CreationTime_
-  commentId: Overload:Raytha.Application.ContentItems.ContentItem_RenderModel.CreationTime
-  isSpec: "True"
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.CreationTime
-  nameWithType: ContentItem_RenderModel.CreationTime
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.CreatorUser
-  name: CreatorUser
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_CreatorUser
-  commentId: P:Raytha.Application.ContentItems.ContentItem_RenderModel.CreatorUser
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.CreatorUser
-  nameWithType: ContentItem_RenderModel.CreatorUser
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.CreatorUser*
-  name: CreatorUser
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_CreatorUser_
-  commentId: Overload:Raytha.Application.ContentItems.ContentItem_RenderModel.CreatorUser
-  isSpec: "True"
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.CreatorUser
-  nameWithType: ContentItem_RenderModel.CreatorUser
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.GetDeveloperNames
-  name: GetDeveloperNames()
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_GetDeveloperNames
-  commentId: M:Raytha.Application.ContentItems.ContentItem_RenderModel.GetDeveloperNames
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.GetDeveloperNames()
-  nameWithType: ContentItem_RenderModel.GetDeveloperNames()
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.GetDeveloperNames*
-  name: GetDeveloperNames
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_GetDeveloperNames_
-  commentId: Overload:Raytha.Application.ContentItems.ContentItem_RenderModel.GetDeveloperNames
-  isSpec: "True"
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.GetDeveloperNames
-  nameWithType: ContentItem_RenderModel.GetDeveloperNames
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.GetProjection
-  name: GetProjection()
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_GetProjection
-  commentId: M:Raytha.Application.ContentItems.ContentItem_RenderModel.GetProjection
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.GetProjection()
-  nameWithType: ContentItem_RenderModel.GetProjection()
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.GetProjection(Raytha.Application.ContentItems.ContentItemDto)
-  name: GetProjection(ContentItemDto)
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_GetProjection_Raytha_Application_ContentItems_ContentItemDto_
-  commentId: M:Raytha.Application.ContentItems.ContentItem_RenderModel.GetProjection(Raytha.Application.ContentItems.ContentItemDto)
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.GetProjection(Raytha.Application.ContentItems.ContentItemDto)
-  nameWithType: ContentItem_RenderModel.GetProjection(ContentItemDto)
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.GetProjection*
-  name: GetProjection
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_GetProjection_
-  commentId: Overload:Raytha.Application.ContentItems.ContentItem_RenderModel.GetProjection
-  isSpec: "True"
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.GetProjection
-  nameWithType: ContentItem_RenderModel.GetProjection
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariables
-  name: GetTemplateVariables()
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_GetTemplateVariables
-  commentId: M:Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariables
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariables()
-  nameWithType: ContentItem_RenderModel.GetTemplateVariables()
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariables*
-  name: GetTemplateVariables
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_GetTemplateVariables_
-  commentId: Overload:Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariables
-  isSpec: "True"
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariables
-  nameWithType: ContentItem_RenderModel.GetTemplateVariables
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax
-  name: GetTemplateVariablesAsForEachLiquidSyntax()
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_GetTemplateVariablesAsForEachLiquidSyntax
-  commentId: M:Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax()
-  nameWithType: ContentItem_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax()
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax*
-  name: GetTemplateVariablesAsForEachLiquidSyntax
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_GetTemplateVariablesAsForEachLiquidSyntax_
-  commentId: Overload:Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax
-  isSpec: "True"
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax
-  nameWithType: ContentItem_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.Id
-  name: Id
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_Id
-  commentId: P:Raytha.Application.ContentItems.ContentItem_RenderModel.Id
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.Id
-  nameWithType: ContentItem_RenderModel.Id
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.Id*
-  name: Id
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_Id_
-  commentId: Overload:Raytha.Application.ContentItems.ContentItem_RenderModel.Id
-  isSpec: "True"
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.Id
-  nameWithType: ContentItem_RenderModel.Id
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.LastModificationTime
-  name: LastModificationTime
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_LastModificationTime
-  commentId: P:Raytha.Application.ContentItems.ContentItem_RenderModel.LastModificationTime
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.LastModificationTime
-  nameWithType: ContentItem_RenderModel.LastModificationTime
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.LastModificationTime*
-  name: LastModificationTime
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_LastModificationTime_
-  commentId: Overload:Raytha.Application.ContentItems.ContentItem_RenderModel.LastModificationTime
-  isSpec: "True"
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.LastModificationTime
-  nameWithType: ContentItem_RenderModel.LastModificationTime
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.LastModifierUser
-  name: LastModifierUser
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_LastModifierUser
-  commentId: P:Raytha.Application.ContentItems.ContentItem_RenderModel.LastModifierUser
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.LastModifierUser
-  nameWithType: ContentItem_RenderModel.LastModifierUser
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.LastModifierUser*
-  name: LastModifierUser
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_LastModifierUser_
-  commentId: Overload:Raytha.Application.ContentItems.ContentItem_RenderModel.LastModifierUser
-  isSpec: "True"
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.LastModifierUser
-  nameWithType: ContentItem_RenderModel.LastModifierUser
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.PrimaryField
-  name: PrimaryField
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_PrimaryField
-  commentId: P:Raytha.Application.ContentItems.ContentItem_RenderModel.PrimaryField
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.PrimaryField
-  nameWithType: ContentItem_RenderModel.PrimaryField
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.PrimaryField*
-  name: PrimaryField
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_PrimaryField_
-  commentId: Overload:Raytha.Application.ContentItems.ContentItem_RenderModel.PrimaryField
-  isSpec: "True"
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.PrimaryField
-  nameWithType: ContentItem_RenderModel.PrimaryField
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.PublishedContent
-  name: PublishedContent
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_PublishedContent
-  commentId: P:Raytha.Application.ContentItems.ContentItem_RenderModel.PublishedContent
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.PublishedContent
-  nameWithType: ContentItem_RenderModel.PublishedContent
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.PublishedContent*
-  name: PublishedContent
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_PublishedContent_
-  commentId: Overload:Raytha.Application.ContentItems.ContentItem_RenderModel.PublishedContent
-  isSpec: "True"
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.PublishedContent
-  nameWithType: ContentItem_RenderModel.PublishedContent
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.RoutePath
-  name: RoutePath
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_RoutePath
-  commentId: P:Raytha.Application.ContentItems.ContentItem_RenderModel.RoutePath
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.RoutePath
-  nameWithType: ContentItem_RenderModel.RoutePath
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.RoutePath*
-  name: RoutePath
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_RoutePath_
-  commentId: Overload:Raytha.Application.ContentItems.ContentItem_RenderModel.RoutePath
-  isSpec: "True"
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.RoutePath
-  nameWithType: ContentItem_RenderModel.RoutePath
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.Template
-  name: Template
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_Template
-  commentId: P:Raytha.Application.ContentItems.ContentItem_RenderModel.Template
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.Template
-  nameWithType: ContentItem_RenderModel.Template
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.Template*
-  name: Template
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_Template_
-  commentId: Overload:Raytha.Application.ContentItems.ContentItem_RenderModel.Template
-  isSpec: "True"
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.Template
-  nameWithType: ContentItem_RenderModel.Template
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.ToString
-  name: ToString()
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_ToString
-  commentId: M:Raytha.Application.ContentItems.ContentItem_RenderModel.ToString
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.ToString()
-  nameWithType: ContentItem_RenderModel.ToString()
-- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.ToString*
-  name: ToString
-  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_ToString_
-  commentId: Overload:Raytha.Application.ContentItems.ContentItem_RenderModel.ToString
-  isSpec: "True"
-  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.ToString
-  nameWithType: ContentItem_RenderModel.ToString
 - uid: Raytha.Application.ContentItems.ContentItemDto
   name: ContentItemDto
   href: api/Raytha.Application.ContentItems.ContentItemDto.html
@@ -9757,6 +9755,213 @@ references:
   isSpec: "True"
   fullName: Raytha.Application.ContentItems.ContentItemRevisionDto.PublishedContent
   nameWithType: ContentItemRevisionDto.PublishedContent
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel
+  name: ContentItem_RenderModel
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html
+  commentId: T:Raytha.Application.ContentItems.ContentItem_RenderModel
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel
+  nameWithType: ContentItem_RenderModel
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.ContentType
+  name: ContentType
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_ContentType
+  commentId: P:Raytha.Application.ContentItems.ContentItem_RenderModel.ContentType
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.ContentType
+  nameWithType: ContentItem_RenderModel.ContentType
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.ContentType*
+  name: ContentType
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_ContentType_
+  commentId: Overload:Raytha.Application.ContentItems.ContentItem_RenderModel.ContentType
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.ContentType
+  nameWithType: ContentItem_RenderModel.ContentType
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.CreationTime
+  name: CreationTime
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_CreationTime
+  commentId: P:Raytha.Application.ContentItems.ContentItem_RenderModel.CreationTime
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.CreationTime
+  nameWithType: ContentItem_RenderModel.CreationTime
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.CreationTime*
+  name: CreationTime
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_CreationTime_
+  commentId: Overload:Raytha.Application.ContentItems.ContentItem_RenderModel.CreationTime
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.CreationTime
+  nameWithType: ContentItem_RenderModel.CreationTime
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.CreatorUser
+  name: CreatorUser
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_CreatorUser
+  commentId: P:Raytha.Application.ContentItems.ContentItem_RenderModel.CreatorUser
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.CreatorUser
+  nameWithType: ContentItem_RenderModel.CreatorUser
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.CreatorUser*
+  name: CreatorUser
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_CreatorUser_
+  commentId: Overload:Raytha.Application.ContentItems.ContentItem_RenderModel.CreatorUser
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.CreatorUser
+  nameWithType: ContentItem_RenderModel.CreatorUser
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.GetDeveloperNames
+  name: GetDeveloperNames()
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_GetDeveloperNames
+  commentId: M:Raytha.Application.ContentItems.ContentItem_RenderModel.GetDeveloperNames
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.GetDeveloperNames()
+  nameWithType: ContentItem_RenderModel.GetDeveloperNames()
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.GetDeveloperNames*
+  name: GetDeveloperNames
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_GetDeveloperNames_
+  commentId: Overload:Raytha.Application.ContentItems.ContentItem_RenderModel.GetDeveloperNames
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.GetDeveloperNames
+  nameWithType: ContentItem_RenderModel.GetDeveloperNames
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.GetProjection
+  name: GetProjection()
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_GetProjection
+  commentId: M:Raytha.Application.ContentItems.ContentItem_RenderModel.GetProjection
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.GetProjection()
+  nameWithType: ContentItem_RenderModel.GetProjection()
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.GetProjection(Raytha.Application.ContentItems.ContentItemDto)
+  name: GetProjection(ContentItemDto)
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_GetProjection_Raytha_Application_ContentItems_ContentItemDto_
+  commentId: M:Raytha.Application.ContentItems.ContentItem_RenderModel.GetProjection(Raytha.Application.ContentItems.ContentItemDto)
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.GetProjection(Raytha.Application.ContentItems.ContentItemDto)
+  nameWithType: ContentItem_RenderModel.GetProjection(ContentItemDto)
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.GetProjection*
+  name: GetProjection
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_GetProjection_
+  commentId: Overload:Raytha.Application.ContentItems.ContentItem_RenderModel.GetProjection
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.GetProjection
+  nameWithType: ContentItem_RenderModel.GetProjection
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariables
+  name: GetTemplateVariables()
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_GetTemplateVariables
+  commentId: M:Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariables
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariables()
+  nameWithType: ContentItem_RenderModel.GetTemplateVariables()
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariables*
+  name: GetTemplateVariables
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_GetTemplateVariables_
+  commentId: Overload:Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariables
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariables
+  nameWithType: ContentItem_RenderModel.GetTemplateVariables
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax
+  name: GetTemplateVariablesAsForEachLiquidSyntax()
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_GetTemplateVariablesAsForEachLiquidSyntax
+  commentId: M:Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax()
+  nameWithType: ContentItem_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax()
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax*
+  name: GetTemplateVariablesAsForEachLiquidSyntax
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_GetTemplateVariablesAsForEachLiquidSyntax_
+  commentId: Overload:Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax
+  nameWithType: ContentItem_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.Id
+  name: Id
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_Id
+  commentId: P:Raytha.Application.ContentItems.ContentItem_RenderModel.Id
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.Id
+  nameWithType: ContentItem_RenderModel.Id
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.Id*
+  name: Id
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_Id_
+  commentId: Overload:Raytha.Application.ContentItems.ContentItem_RenderModel.Id
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.Id
+  nameWithType: ContentItem_RenderModel.Id
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.LastModificationTime
+  name: LastModificationTime
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_LastModificationTime
+  commentId: P:Raytha.Application.ContentItems.ContentItem_RenderModel.LastModificationTime
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.LastModificationTime
+  nameWithType: ContentItem_RenderModel.LastModificationTime
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.LastModificationTime*
+  name: LastModificationTime
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_LastModificationTime_
+  commentId: Overload:Raytha.Application.ContentItems.ContentItem_RenderModel.LastModificationTime
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.LastModificationTime
+  nameWithType: ContentItem_RenderModel.LastModificationTime
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.LastModifierUser
+  name: LastModifierUser
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_LastModifierUser
+  commentId: P:Raytha.Application.ContentItems.ContentItem_RenderModel.LastModifierUser
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.LastModifierUser
+  nameWithType: ContentItem_RenderModel.LastModifierUser
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.LastModifierUser*
+  name: LastModifierUser
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_LastModifierUser_
+  commentId: Overload:Raytha.Application.ContentItems.ContentItem_RenderModel.LastModifierUser
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.LastModifierUser
+  nameWithType: ContentItem_RenderModel.LastModifierUser
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.PrimaryField
+  name: PrimaryField
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_PrimaryField
+  commentId: P:Raytha.Application.ContentItems.ContentItem_RenderModel.PrimaryField
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.PrimaryField
+  nameWithType: ContentItem_RenderModel.PrimaryField
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.PrimaryField*
+  name: PrimaryField
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_PrimaryField_
+  commentId: Overload:Raytha.Application.ContentItems.ContentItem_RenderModel.PrimaryField
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.PrimaryField
+  nameWithType: ContentItem_RenderModel.PrimaryField
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.PublishedContent
+  name: PublishedContent
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_PublishedContent
+  commentId: P:Raytha.Application.ContentItems.ContentItem_RenderModel.PublishedContent
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.PublishedContent
+  nameWithType: ContentItem_RenderModel.PublishedContent
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.PublishedContent*
+  name: PublishedContent
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_PublishedContent_
+  commentId: Overload:Raytha.Application.ContentItems.ContentItem_RenderModel.PublishedContent
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.PublishedContent
+  nameWithType: ContentItem_RenderModel.PublishedContent
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.RoutePath
+  name: RoutePath
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_RoutePath
+  commentId: P:Raytha.Application.ContentItems.ContentItem_RenderModel.RoutePath
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.RoutePath
+  nameWithType: ContentItem_RenderModel.RoutePath
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.RoutePath*
+  name: RoutePath
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_RoutePath_
+  commentId: Overload:Raytha.Application.ContentItems.ContentItem_RenderModel.RoutePath
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.RoutePath
+  nameWithType: ContentItem_RenderModel.RoutePath
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.Template
+  name: Template
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_Template
+  commentId: P:Raytha.Application.ContentItems.ContentItem_RenderModel.Template
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.Template
+  nameWithType: ContentItem_RenderModel.Template
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.Template*
+  name: Template
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_Template_
+  commentId: Overload:Raytha.Application.ContentItems.ContentItem_RenderModel.Template
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.Template
+  nameWithType: ContentItem_RenderModel.Template
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.ToString
+  name: ToString()
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_ToString
+  commentId: M:Raytha.Application.ContentItems.ContentItem_RenderModel.ToString
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.ToString()
+  nameWithType: ContentItem_RenderModel.ToString()
+- uid: Raytha.Application.ContentItems.ContentItem_RenderModel.ToString*
+  name: ToString
+  href: api/Raytha.Application.ContentItems.ContentItem_RenderModel.html#Raytha_Application_ContentItems_ContentItem_RenderModel_ToString_
+  commentId: Overload:Raytha.Application.ContentItems.ContentItem_RenderModel.ToString
+  isSpec: "True"
+  fullName: Raytha.Application.ContentItems.ContentItem_RenderModel.ToString
+  nameWithType: ContentItem_RenderModel.ToString
 - uid: Raytha.Application.ContentItems.DeletedContentItemDto
   name: DeletedContentItemDto
   href: api/Raytha.Application.ContentItems.DeletedContentItemDto.html
@@ -11091,129 +11296,6 @@ references:
   fullName.vb: Raytha.Application.ContentTypes.Commands.ReorderContentTypeField.Validator.New
   nameWithType: ReorderContentTypeField.Validator.Validator
   nameWithType.vb: ReorderContentTypeField.Validator.New
-- uid: Raytha.Application.ContentTypes.ContentType_RenderModel
-  name: ContentType_RenderModel
-  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html
-  commentId: T:Raytha.Application.ContentTypes.ContentType_RenderModel
-  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel
-  nameWithType: ContentType_RenderModel
-- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.Description
-  name: Description
-  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_Description
-  commentId: P:Raytha.Application.ContentTypes.ContentType_RenderModel.Description
-  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.Description
-  nameWithType: ContentType_RenderModel.Description
-- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.Description*
-  name: Description
-  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_Description_
-  commentId: Overload:Raytha.Application.ContentTypes.ContentType_RenderModel.Description
-  isSpec: "True"
-  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.Description
-  nameWithType: ContentType_RenderModel.Description
-- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.DeveloperName
-  name: DeveloperName
-  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_DeveloperName
-  commentId: P:Raytha.Application.ContentTypes.ContentType_RenderModel.DeveloperName
-  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.DeveloperName
-  nameWithType: ContentType_RenderModel.DeveloperName
-- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.DeveloperName*
-  name: DeveloperName
-  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_DeveloperName_
-  commentId: Overload:Raytha.Application.ContentTypes.ContentType_RenderModel.DeveloperName
-  isSpec: "True"
-  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.DeveloperName
-  nameWithType: ContentType_RenderModel.DeveloperName
-- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.GetDeveloperNames
-  name: GetDeveloperNames()
-  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_GetDeveloperNames
-  commentId: M:Raytha.Application.ContentTypes.ContentType_RenderModel.GetDeveloperNames
-  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.GetDeveloperNames()
-  nameWithType: ContentType_RenderModel.GetDeveloperNames()
-- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.GetDeveloperNames*
-  name: GetDeveloperNames
-  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_GetDeveloperNames_
-  commentId: Overload:Raytha.Application.ContentTypes.ContentType_RenderModel.GetDeveloperNames
-  isSpec: "True"
-  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.GetDeveloperNames
-  nameWithType: ContentType_RenderModel.GetDeveloperNames
-- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.GetProjection(Raytha.Application.ContentTypes.ContentTypeDto)
-  name: GetProjection(ContentTypeDto)
-  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_GetProjection_Raytha_Application_ContentTypes_ContentTypeDto_
-  commentId: M:Raytha.Application.ContentTypes.ContentType_RenderModel.GetProjection(Raytha.Application.ContentTypes.ContentTypeDto)
-  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.GetProjection(Raytha.Application.ContentTypes.ContentTypeDto)
-  nameWithType: ContentType_RenderModel.GetProjection(ContentTypeDto)
-- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.GetProjection*
-  name: GetProjection
-  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_GetProjection_
-  commentId: Overload:Raytha.Application.ContentTypes.ContentType_RenderModel.GetProjection
-  isSpec: "True"
-  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.GetProjection
-  nameWithType: ContentType_RenderModel.GetProjection
-- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.GetTemplateVariables
-  name: GetTemplateVariables()
-  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_GetTemplateVariables
-  commentId: M:Raytha.Application.ContentTypes.ContentType_RenderModel.GetTemplateVariables
-  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.GetTemplateVariables()
-  nameWithType: ContentType_RenderModel.GetTemplateVariables()
-- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.GetTemplateVariables*
-  name: GetTemplateVariables
-  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_GetTemplateVariables_
-  commentId: Overload:Raytha.Application.ContentTypes.ContentType_RenderModel.GetTemplateVariables
-  isSpec: "True"
-  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.GetTemplateVariables
-  nameWithType: ContentType_RenderModel.GetTemplateVariables
-- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax
-  name: GetTemplateVariablesAsForEachLiquidSyntax()
-  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_GetTemplateVariablesAsForEachLiquidSyntax
-  commentId: M:Raytha.Application.ContentTypes.ContentType_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax
-  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax()
-  nameWithType: ContentType_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax()
-- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax*
-  name: GetTemplateVariablesAsForEachLiquidSyntax
-  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_GetTemplateVariablesAsForEachLiquidSyntax_
-  commentId: Overload:Raytha.Application.ContentTypes.ContentType_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax
-  isSpec: "True"
-  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax
-  nameWithType: ContentType_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax
-- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.Id
-  name: Id
-  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_Id
-  commentId: P:Raytha.Application.ContentTypes.ContentType_RenderModel.Id
-  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.Id
-  nameWithType: ContentType_RenderModel.Id
-- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.Id*
-  name: Id
-  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_Id_
-  commentId: Overload:Raytha.Application.ContentTypes.ContentType_RenderModel.Id
-  isSpec: "True"
-  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.Id
-  nameWithType: ContentType_RenderModel.Id
-- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.LabelPlural
-  name: LabelPlural
-  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_LabelPlural
-  commentId: P:Raytha.Application.ContentTypes.ContentType_RenderModel.LabelPlural
-  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.LabelPlural
-  nameWithType: ContentType_RenderModel.LabelPlural
-- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.LabelPlural*
-  name: LabelPlural
-  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_LabelPlural_
-  commentId: Overload:Raytha.Application.ContentTypes.ContentType_RenderModel.LabelPlural
-  isSpec: "True"
-  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.LabelPlural
-  nameWithType: ContentType_RenderModel.LabelPlural
-- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.LabelSingular
-  name: LabelSingular
-  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_LabelSingular
-  commentId: P:Raytha.Application.ContentTypes.ContentType_RenderModel.LabelSingular
-  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.LabelSingular
-  nameWithType: ContentType_RenderModel.LabelSingular
-- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.LabelSingular*
-  name: LabelSingular
-  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_LabelSingular_
-  commentId: Overload:Raytha.Application.ContentTypes.ContentType_RenderModel.LabelSingular
-  isSpec: "True"
-  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.LabelSingular
-  nameWithType: ContentType_RenderModel.LabelSingular
 - uid: Raytha.Application.ContentTypes.ContentTypeDto
   name: ContentTypeDto
   href: api/Raytha.Application.ContentTypes.ContentTypeDto.html
@@ -11675,6 +11757,129 @@ references:
   isSpec: "True"
   fullName: Raytha.Application.ContentTypes.ContentTypeListItemDto.PrimaryFieldId
   nameWithType: ContentTypeListItemDto.PrimaryFieldId
+- uid: Raytha.Application.ContentTypes.ContentType_RenderModel
+  name: ContentType_RenderModel
+  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html
+  commentId: T:Raytha.Application.ContentTypes.ContentType_RenderModel
+  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel
+  nameWithType: ContentType_RenderModel
+- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.Description
+  name: Description
+  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_Description
+  commentId: P:Raytha.Application.ContentTypes.ContentType_RenderModel.Description
+  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.Description
+  nameWithType: ContentType_RenderModel.Description
+- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.Description*
+  name: Description
+  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_Description_
+  commentId: Overload:Raytha.Application.ContentTypes.ContentType_RenderModel.Description
+  isSpec: "True"
+  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.Description
+  nameWithType: ContentType_RenderModel.Description
+- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.DeveloperName
+  name: DeveloperName
+  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_DeveloperName
+  commentId: P:Raytha.Application.ContentTypes.ContentType_RenderModel.DeveloperName
+  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.DeveloperName
+  nameWithType: ContentType_RenderModel.DeveloperName
+- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.DeveloperName*
+  name: DeveloperName
+  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_DeveloperName_
+  commentId: Overload:Raytha.Application.ContentTypes.ContentType_RenderModel.DeveloperName
+  isSpec: "True"
+  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.DeveloperName
+  nameWithType: ContentType_RenderModel.DeveloperName
+- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.GetDeveloperNames
+  name: GetDeveloperNames()
+  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_GetDeveloperNames
+  commentId: M:Raytha.Application.ContentTypes.ContentType_RenderModel.GetDeveloperNames
+  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.GetDeveloperNames()
+  nameWithType: ContentType_RenderModel.GetDeveloperNames()
+- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.GetDeveloperNames*
+  name: GetDeveloperNames
+  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_GetDeveloperNames_
+  commentId: Overload:Raytha.Application.ContentTypes.ContentType_RenderModel.GetDeveloperNames
+  isSpec: "True"
+  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.GetDeveloperNames
+  nameWithType: ContentType_RenderModel.GetDeveloperNames
+- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.GetProjection(Raytha.Application.ContentTypes.ContentTypeDto)
+  name: GetProjection(ContentTypeDto)
+  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_GetProjection_Raytha_Application_ContentTypes_ContentTypeDto_
+  commentId: M:Raytha.Application.ContentTypes.ContentType_RenderModel.GetProjection(Raytha.Application.ContentTypes.ContentTypeDto)
+  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.GetProjection(Raytha.Application.ContentTypes.ContentTypeDto)
+  nameWithType: ContentType_RenderModel.GetProjection(ContentTypeDto)
+- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.GetProjection*
+  name: GetProjection
+  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_GetProjection_
+  commentId: Overload:Raytha.Application.ContentTypes.ContentType_RenderModel.GetProjection
+  isSpec: "True"
+  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.GetProjection
+  nameWithType: ContentType_RenderModel.GetProjection
+- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.GetTemplateVariables
+  name: GetTemplateVariables()
+  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_GetTemplateVariables
+  commentId: M:Raytha.Application.ContentTypes.ContentType_RenderModel.GetTemplateVariables
+  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.GetTemplateVariables()
+  nameWithType: ContentType_RenderModel.GetTemplateVariables()
+- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.GetTemplateVariables*
+  name: GetTemplateVariables
+  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_GetTemplateVariables_
+  commentId: Overload:Raytha.Application.ContentTypes.ContentType_RenderModel.GetTemplateVariables
+  isSpec: "True"
+  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.GetTemplateVariables
+  nameWithType: ContentType_RenderModel.GetTemplateVariables
+- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax
+  name: GetTemplateVariablesAsForEachLiquidSyntax()
+  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_GetTemplateVariablesAsForEachLiquidSyntax
+  commentId: M:Raytha.Application.ContentTypes.ContentType_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax
+  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax()
+  nameWithType: ContentType_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax()
+- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax*
+  name: GetTemplateVariablesAsForEachLiquidSyntax
+  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_GetTemplateVariablesAsForEachLiquidSyntax_
+  commentId: Overload:Raytha.Application.ContentTypes.ContentType_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax
+  isSpec: "True"
+  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax
+  nameWithType: ContentType_RenderModel.GetTemplateVariablesAsForEachLiquidSyntax
+- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.Id
+  name: Id
+  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_Id
+  commentId: P:Raytha.Application.ContentTypes.ContentType_RenderModel.Id
+  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.Id
+  nameWithType: ContentType_RenderModel.Id
+- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.Id*
+  name: Id
+  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_Id_
+  commentId: Overload:Raytha.Application.ContentTypes.ContentType_RenderModel.Id
+  isSpec: "True"
+  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.Id
+  nameWithType: ContentType_RenderModel.Id
+- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.LabelPlural
+  name: LabelPlural
+  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_LabelPlural
+  commentId: P:Raytha.Application.ContentTypes.ContentType_RenderModel.LabelPlural
+  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.LabelPlural
+  nameWithType: ContentType_RenderModel.LabelPlural
+- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.LabelPlural*
+  name: LabelPlural
+  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_LabelPlural_
+  commentId: Overload:Raytha.Application.ContentTypes.ContentType_RenderModel.LabelPlural
+  isSpec: "True"
+  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.LabelPlural
+  nameWithType: ContentType_RenderModel.LabelPlural
+- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.LabelSingular
+  name: LabelSingular
+  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_LabelSingular
+  commentId: P:Raytha.Application.ContentTypes.ContentType_RenderModel.LabelSingular
+  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.LabelSingular
+  nameWithType: ContentType_RenderModel.LabelSingular
+- uid: Raytha.Application.ContentTypes.ContentType_RenderModel.LabelSingular*
+  name: LabelSingular
+  href: api/Raytha.Application.ContentTypes.ContentType_RenderModel.html#Raytha_Application_ContentTypes_ContentType_RenderModel_LabelSingular_
+  commentId: Overload:Raytha.Application.ContentTypes.ContentType_RenderModel.LabelSingular
+  isSpec: "True"
+  fullName: Raytha.Application.ContentTypes.ContentType_RenderModel.LabelSingular
+  nameWithType: ContentType_RenderModel.LabelSingular
 - uid: Raytha.Application.ContentTypes.Queries
   name: Raytha.Application.ContentTypes.Queries
   href: api/Raytha.Application.ContentTypes.Queries.html
@@ -12154,12 +12359,6 @@ references:
   commentId: T:Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler
   fullName: Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler
   nameWithType: GetDashboardMetrics.Handler
-- uid: Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler._rawSqlDb
-  name: _rawSqlDb
-  href: api/Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler.html#Raytha_Application_Dashboard_Queries_GetDashboardMetrics_Handler__rawSqlDb
-  commentId: F:Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler._rawSqlDb
-  fullName: Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler._rawSqlDb
-  nameWithType: GetDashboardMetrics.Handler._rawSqlDb
 - uid: Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler.#ctor(Raytha.Application.Common.Interfaces.IRaythaDbContext,Raytha.Application.Common.Interfaces.IRaythaRawDbInfo)
   name: Handler(IRaythaDbContext, IRaythaRawDbInfo)
   href: api/Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler.html#Raytha_Application_Dashboard_Queries_GetDashboardMetrics_Handler__ctor_Raytha_Application_Common_Interfaces_IRaythaDbContext_Raytha_Application_Common_Interfaces_IRaythaRawDbInfo_
@@ -12192,6 +12391,12 @@ references:
   isSpec: "True"
   fullName: Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler.Handle
   nameWithType: GetDashboardMetrics.Handler.Handle
+- uid: Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler._rawSqlDb
+  name: _rawSqlDb
+  href: api/Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler.html#Raytha_Application_Dashboard_Queries_GetDashboardMetrics_Handler__rawSqlDb
+  commentId: F:Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler._rawSqlDb
+  fullName: Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Handler._rawSqlDb
+  nameWithType: GetDashboardMetrics.Handler._rawSqlDb
 - uid: Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Query
   name: GetDashboardMetrics.Query
   href: api/Raytha.Application.Dashboard.Queries.GetDashboardMetrics.Query.html
@@ -13272,12 +13477,6 @@ references:
   commentId: T:Raytha.Application.Login.Commands.LoginWithSaml.Certificate
   fullName: Raytha.Application.Login.Commands.LoginWithSaml.Certificate
   nameWithType: LoginWithSaml.Certificate
-- uid: Raytha.Application.Login.Commands.LoginWithSaml.Certificate.cert
-  name: cert
-  href: api/Raytha.Application.Login.Commands.LoginWithSaml.Certificate.html#Raytha_Application_Login_Commands_LoginWithSaml_Certificate_cert
-  commentId: F:Raytha.Application.Login.Commands.LoginWithSaml.Certificate.cert
-  fullName: Raytha.Application.Login.Commands.LoginWithSaml.Certificate.cert
-  nameWithType: LoginWithSaml.Certificate.cert
 - uid: Raytha.Application.Login.Commands.LoginWithSaml.Certificate.LoadCertificate(System.String)
   name: LoadCertificate(string)
   href: api/Raytha.Application.Login.Commands.LoginWithSaml.Certificate.html#Raytha_Application_Login_Commands_LoginWithSaml_Certificate_LoadCertificate_System_String_
@@ -13294,6 +13493,12 @@ references:
   isSpec: "True"
   fullName: Raytha.Application.Login.Commands.LoginWithSaml.Certificate.LoadCertificate
   nameWithType: LoginWithSaml.Certificate.LoadCertificate
+- uid: Raytha.Application.Login.Commands.LoginWithSaml.Certificate.cert
+  name: cert
+  href: api/Raytha.Application.Login.Commands.LoginWithSaml.Certificate.html#Raytha_Application_Login_Commands_LoginWithSaml_Certificate_cert
+  commentId: F:Raytha.Application.Login.Commands.LoginWithSaml.Certificate.cert
+  fullName: Raytha.Application.Login.Commands.LoginWithSaml.Certificate.cert
+  nameWithType: LoginWithSaml.Certificate.cert
 - uid: Raytha.Application.Login.Commands.LoginWithSaml.Command
   name: LoginWithSaml.Command
   href: api/Raytha.Application.Login.Commands.LoginWithSaml.Command.html

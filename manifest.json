@@ -1095,6 +1095,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Common.Interfaces.ICSVService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Common.Interfaces.ICSVService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Raytha.Application.Common.Interfaces.IContentTypeInRoutePath.yml",
       "output": {
         ".html": {
@@ -1719,6 +1729,56 @@
       "output": {
         ".html": {
           "relative_path": "api/Raytha.Application.ContentItems.Commands.BeginExportContentItemsToCsv.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.html"
         }
       },
       "version": ""
