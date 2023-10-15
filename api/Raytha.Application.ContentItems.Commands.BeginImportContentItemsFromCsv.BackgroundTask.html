@@ -18,6 +18,17 @@
       
       
       <meta name="docfx:docurl" content="https://github.com/RaythaHQ/raytha/new/main/apiSpec/new?filename=Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_BackgroundTask.md&amp;value=---%0Auid%3A%20Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
   </head>
 
   <script type="module">
@@ -79,7 +90,7 @@
 
   <h1 id="Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_BackgroundTask" data-uid="Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask" class="text-break">
     Class BeginImportContentItemsFromCsv.BackgroundTask
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/ContentItems/Commands/BeginImportContentItemsFromCsv.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/ContentItems/Commands/BeginImportContentItemsFromCsv.cs/#L127"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -150,23 +161,29 @@
 
   <a id="Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_BackgroundTask__ctor_" data-uid="Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.#ctor*"></a>
 
-  <h3 id="Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_BackgroundTask__ctor_Raytha_Application_Common_Interfaces_IRaythaDbContext_Raytha_Application_Common_Interfaces_ICSVService_" data-uid="Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.#ctor(Raytha.Application.Common.Interfaces.IRaythaDbContext,Raytha.Application.Common.Interfaces.ICSVService)">
-  BackgroundTask(IRaythaDbContext, ICSVService)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/ContentItems/Commands/BeginImportContentItemsFromCsv.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_BackgroundTask__ctor_Raytha_Application_Common_Interfaces_IRaythaDbContext_Raytha_Application_Common_Interfaces_ICsvService_Raytha_Application_Common_Interfaces_IFileStorageProvider_Raytha_Application_Common_Interfaces_IFileStorageProviderSettings_Raytha_Application_Common_Interfaces_ICurrentOrganization_" data-uid="Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.#ctor(Raytha.Application.Common.Interfaces.IRaythaDbContext,Raytha.Application.Common.Interfaces.ICsvService,Raytha.Application.Common.Interfaces.IFileStorageProvider,Raytha.Application.Common.Interfaces.IFileStorageProviderSettings,Raytha.Application.Common.Interfaces.ICurrentOrganization)">
+  BackgroundTask(IRaythaDbContext, ICsvService, IFileStorageProvider, IFileStorageProviderSettings, ICurrentOrganization)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/ContentItems/Commands/BeginImportContentItemsFromCsv.cs/#L137"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BackgroundTask(IRaythaDbContext db, ICSVService csvService)</code></pre>
+    <pre><code class="lang-csharp hljs">public BackgroundTask(IRaythaDbContext db, ICsvService csvService, IFileStorageProvider fileStorageProvider, IFileStorageProviderSettings fileStorageProviderSettings, ICurrentOrganization currentOrganization)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>db</code> <a class="xref" href="Raytha.Application.Common.Interfaces.IRaythaDbContext.html">IRaythaDbContext</a></dt>
     <dd></dd>
-    <dt><code>csvService</code> <a class="xref" href="Raytha.Application.Common.Interfaces.ICSVService.html">ICSVService</a></dt>
+    <dt><code>csvService</code> <a class="xref" href="Raytha.Application.Common.Interfaces.ICsvService.html">ICsvService</a></dt>
+    <dd></dd>
+    <dt><code>fileStorageProvider</code> <a class="xref" href="Raytha.Application.Common.Interfaces.IFileStorageProvider.html">IFileStorageProvider</a></dt>
+    <dd></dd>
+    <dt><code>fileStorageProviderSettings</code> <a class="xref" href="Raytha.Application.Common.Interfaces.IFileStorageProviderSettings.html">IFileStorageProviderSettings</a></dt>
+    <dd></dd>
+    <dt><code>currentOrganization</code> <a class="xref" href="Raytha.Application.Common.Interfaces.ICurrentOrganization.html">ICurrentOrganization</a></dt>
     <dd></dd>
   </dl>
 
@@ -189,7 +206,7 @@
 
   <h3 id="Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_BackgroundTask_Execute_System_Guid_System_Text_Json_JsonElement_System_Threading_CancellationToken_" data-uid="Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.Execute(System.Guid,System.Text.Json.JsonElement,System.Threading.CancellationToken)">
   Execute(Guid, JsonElement, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/ContentItems/Commands/BeginImportContentItemsFromCsv.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/ContentItems/Commands/BeginImportContentItemsFromCsv.cs/#L150"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -229,7 +246,7 @@
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/ContentItems/Commands/BeginImportContentItemsFromCsv.cs/#L123" class="edit-link">Edit this page</a>
+          <a href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/ContentItems/Commands/BeginImportContentItemsFromCsv.cs/#L127" class="edit-link">Edit this page</a>
         </div>
 
         

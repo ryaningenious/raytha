@@ -3565,28 +3565,6 @@ references:
   fullName.vb: Raytha.Application.Common.Interfaces.IBackgroundTaskQueue.EnqueueAsync(Of T)(Object, System.Threading.CancellationToken)
   nameWithType: IBackgroundTaskQueue.EnqueueAsync<T>(object, CancellationToken)
   nameWithType.vb: IBackgroundTaskQueue.EnqueueAsync(Of T)(Object, CancellationToken)
-- uid: Raytha.Application.Common.Interfaces.ICSVService
-  name: ICSVService
-  href: api/Raytha.Application.Common.Interfaces.ICSVService.html
-  commentId: T:Raytha.Application.Common.Interfaces.ICSVService
-  fullName: Raytha.Application.Common.Interfaces.ICSVService
-  nameWithType: ICSVService
-- uid: Raytha.Application.Common.Interfaces.ICSVService.ReadCSV*
-  name: ReadCSV
-  href: api/Raytha.Application.Common.Interfaces.ICSVService.html#Raytha_Application_Common_Interfaces_ICSVService_ReadCSV_
-  commentId: Overload:Raytha.Application.Common.Interfaces.ICSVService.ReadCSV
-  isSpec: "True"
-  fullName: Raytha.Application.Common.Interfaces.ICSVService.ReadCSV
-  nameWithType: ICSVService.ReadCSV
-- uid: Raytha.Application.Common.Interfaces.ICSVService.ReadCSV``1(System.IO.Stream)
-  name: ReadCSV<T>(Stream)
-  href: api/Raytha.Application.Common.Interfaces.ICSVService.html#Raytha_Application_Common_Interfaces_ICSVService_ReadCSV__1_System_IO_Stream_
-  commentId: M:Raytha.Application.Common.Interfaces.ICSVService.ReadCSV``1(System.IO.Stream)
-  name.vb: ReadCSV(Of T)(Stream)
-  fullName: Raytha.Application.Common.Interfaces.ICSVService.ReadCSV<T>(System.IO.Stream)
-  fullName.vb: Raytha.Application.Common.Interfaces.ICSVService.ReadCSV(Of T)(System.IO.Stream)
-  nameWithType: ICSVService.ReadCSV<T>(Stream)
-  nameWithType.vb: ICSVService.ReadCSV(Of T)(Stream)
 - uid: Raytha.Application.Common.Interfaces.IContentTypeInRoutePath
   name: IContentTypeInRoutePath
   href: api/Raytha.Application.Common.Interfaces.IContentTypeInRoutePath.html
@@ -3622,6 +3600,28 @@ references:
   isSpec: "True"
   fullName: Raytha.Application.Common.Interfaces.IContentTypeInRoutePath.ValidateContentTypeInRoutePathMatchesValue
   nameWithType: IContentTypeInRoutePath.ValidateContentTypeInRoutePathMatchesValue
+- uid: Raytha.Application.Common.Interfaces.ICsvService
+  name: ICsvService
+  href: api/Raytha.Application.Common.Interfaces.ICsvService.html
+  commentId: T:Raytha.Application.Common.Interfaces.ICsvService
+  fullName: Raytha.Application.Common.Interfaces.ICsvService
+  nameWithType: ICsvService
+- uid: Raytha.Application.Common.Interfaces.ICsvService.ReadCsv*
+  name: ReadCsv
+  href: api/Raytha.Application.Common.Interfaces.ICsvService.html#Raytha_Application_Common_Interfaces_ICsvService_ReadCsv_
+  commentId: Overload:Raytha.Application.Common.Interfaces.ICsvService.ReadCsv
+  isSpec: "True"
+  fullName: Raytha.Application.Common.Interfaces.ICsvService.ReadCsv
+  nameWithType: ICsvService.ReadCsv
+- uid: Raytha.Application.Common.Interfaces.ICsvService.ReadCsv``1(System.IO.Stream)
+  name: ReadCsv<T>(Stream)
+  href: api/Raytha.Application.Common.Interfaces.ICsvService.html#Raytha_Application_Common_Interfaces_ICsvService_ReadCsv__1_System_IO_Stream_
+  commentId: M:Raytha.Application.Common.Interfaces.ICsvService.ReadCsv``1(System.IO.Stream)
+  name.vb: ReadCsv(Of T)(Stream)
+  fullName: Raytha.Application.Common.Interfaces.ICsvService.ReadCsv<T>(System.IO.Stream)
+  fullName.vb: Raytha.Application.Common.Interfaces.ICsvService.ReadCsv(Of T)(System.IO.Stream)
+  nameWithType: ICsvService.ReadCsv<T>(Stream)
+  nameWithType.vb: ICsvService.ReadCsv(Of T)(Stream)
 - uid: Raytha.Application.Common.Interfaces.ICurrentOrganization
   name: ICurrentOrganization
   href: api/Raytha.Application.Common.Interfaces.ICurrentOrganization.html
@@ -3758,6 +3758,19 @@ references:
   isSpec: "True"
   fullName: Raytha.Application.Common.Interfaces.ICurrentOrganization.PathBase
   nameWithType: ICurrentOrganization.PathBase
+- uid: Raytha.Application.Common.Interfaces.ICurrentOrganization.RedirectWebsite
+  name: RedirectWebsite
+  href: api/Raytha.Application.Common.Interfaces.ICurrentOrganization.html#Raytha_Application_Common_Interfaces_ICurrentOrganization_RedirectWebsite
+  commentId: P:Raytha.Application.Common.Interfaces.ICurrentOrganization.RedirectWebsite
+  fullName: Raytha.Application.Common.Interfaces.ICurrentOrganization.RedirectWebsite
+  nameWithType: ICurrentOrganization.RedirectWebsite
+- uid: Raytha.Application.Common.Interfaces.ICurrentOrganization.RedirectWebsite*
+  name: RedirectWebsite
+  href: api/Raytha.Application.Common.Interfaces.ICurrentOrganization.html#Raytha_Application_Common_Interfaces_ICurrentOrganization_RedirectWebsite_
+  commentId: Overload:Raytha.Application.Common.Interfaces.ICurrentOrganization.RedirectWebsite
+  isSpec: "True"
+  fullName: Raytha.Application.Common.Interfaces.ICurrentOrganization.RedirectWebsite
+  nameWithType: ICurrentOrganization.RedirectWebsite
 - uid: Raytha.Application.Common.Interfaces.ICurrentOrganization.SmtpDefaultFromAddress
   name: SmtpDefaultFromAddress
   href: api/Raytha.Application.Common.Interfaces.ICurrentOrganization.html#Raytha_Application_Common_Interfaces_ICurrentOrganization_SmtpDefaultFromAddress
@@ -7337,6 +7350,73 @@ references:
   commentId: F:Raytha.Application.Common.Utils.DateTimeExtensions.dd_MM_yyyy
   fullName: Raytha.Application.Common.Utils.DateTimeExtensions.dd_MM_yyyy
   nameWithType: DateTimeExtensions.dd_MM_yyyy
+- uid: Raytha.Application.Common.Utils.FileDownloadUtility
+  name: FileDownloadUtility
+  href: api/Raytha.Application.Common.Utils.FileDownloadUtility.html
+  commentId: T:Raytha.Application.Common.Utils.FileDownloadUtility
+  fullName: Raytha.Application.Common.Utils.FileDownloadUtility
+  nameWithType: FileDownloadUtility
+- uid: Raytha.Application.Common.Utils.FileDownloadUtility.DownloadFile(System.String)
+  name: DownloadFile(string)
+  href: api/Raytha.Application.Common.Utils.FileDownloadUtility.html#Raytha_Application_Common_Utils_FileDownloadUtility_DownloadFile_System_String_
+  commentId: M:Raytha.Application.Common.Utils.FileDownloadUtility.DownloadFile(System.String)
+  name.vb: DownloadFile(String)
+  fullName: Raytha.Application.Common.Utils.FileDownloadUtility.DownloadFile(string)
+  fullName.vb: Raytha.Application.Common.Utils.FileDownloadUtility.DownloadFile(String)
+  nameWithType: FileDownloadUtility.DownloadFile(string)
+  nameWithType.vb: FileDownloadUtility.DownloadFile(String)
+- uid: Raytha.Application.Common.Utils.FileDownloadUtility.DownloadFile*
+  name: DownloadFile
+  href: api/Raytha.Application.Common.Utils.FileDownloadUtility.html#Raytha_Application_Common_Utils_FileDownloadUtility_DownloadFile_
+  commentId: Overload:Raytha.Application.Common.Utils.FileDownloadUtility.DownloadFile
+  isSpec: "True"
+  fullName: Raytha.Application.Common.Utils.FileDownloadUtility.DownloadFile
+  nameWithType: FileDownloadUtility.DownloadFile
+- uid: Raytha.Application.Common.Utils.FileDownloadUtility.FileInfo
+  name: FileDownloadUtility.FileInfo
+  href: api/Raytha.Application.Common.Utils.FileDownloadUtility.FileInfo.html
+  commentId: T:Raytha.Application.Common.Utils.FileDownloadUtility.FileInfo
+  fullName: Raytha.Application.Common.Utils.FileDownloadUtility.FileInfo
+  nameWithType: FileDownloadUtility.FileInfo
+- uid: Raytha.Application.Common.Utils.FileDownloadUtility.FileInfo.ContentType
+  name: ContentType
+  href: api/Raytha.Application.Common.Utils.FileDownloadUtility.FileInfo.html#Raytha_Application_Common_Utils_FileDownloadUtility_FileInfo_ContentType
+  commentId: P:Raytha.Application.Common.Utils.FileDownloadUtility.FileInfo.ContentType
+  fullName: Raytha.Application.Common.Utils.FileDownloadUtility.FileInfo.ContentType
+  nameWithType: FileDownloadUtility.FileInfo.ContentType
+- uid: Raytha.Application.Common.Utils.FileDownloadUtility.FileInfo.ContentType*
+  name: ContentType
+  href: api/Raytha.Application.Common.Utils.FileDownloadUtility.FileInfo.html#Raytha_Application_Common_Utils_FileDownloadUtility_FileInfo_ContentType_
+  commentId: Overload:Raytha.Application.Common.Utils.FileDownloadUtility.FileInfo.ContentType
+  isSpec: "True"
+  fullName: Raytha.Application.Common.Utils.FileDownloadUtility.FileInfo.ContentType
+  nameWithType: FileDownloadUtility.FileInfo.ContentType
+- uid: Raytha.Application.Common.Utils.FileDownloadUtility.FileInfo.FileExt
+  name: FileExt
+  href: api/Raytha.Application.Common.Utils.FileDownloadUtility.FileInfo.html#Raytha_Application_Common_Utils_FileDownloadUtility_FileInfo_FileExt
+  commentId: P:Raytha.Application.Common.Utils.FileDownloadUtility.FileInfo.FileExt
+  fullName: Raytha.Application.Common.Utils.FileDownloadUtility.FileInfo.FileExt
+  nameWithType: FileDownloadUtility.FileInfo.FileExt
+- uid: Raytha.Application.Common.Utils.FileDownloadUtility.FileInfo.FileExt*
+  name: FileExt
+  href: api/Raytha.Application.Common.Utils.FileDownloadUtility.FileInfo.html#Raytha_Application_Common_Utils_FileDownloadUtility_FileInfo_FileExt_
+  commentId: Overload:Raytha.Application.Common.Utils.FileDownloadUtility.FileInfo.FileExt
+  isSpec: "True"
+  fullName: Raytha.Application.Common.Utils.FileDownloadUtility.FileInfo.FileExt
+  nameWithType: FileDownloadUtility.FileInfo.FileExt
+- uid: Raytha.Application.Common.Utils.FileDownloadUtility.FileInfo.FileMemoryStream
+  name: FileMemoryStream
+  href: api/Raytha.Application.Common.Utils.FileDownloadUtility.FileInfo.html#Raytha_Application_Common_Utils_FileDownloadUtility_FileInfo_FileMemoryStream
+  commentId: P:Raytha.Application.Common.Utils.FileDownloadUtility.FileInfo.FileMemoryStream
+  fullName: Raytha.Application.Common.Utils.FileDownloadUtility.FileInfo.FileMemoryStream
+  nameWithType: FileDownloadUtility.FileInfo.FileMemoryStream
+- uid: Raytha.Application.Common.Utils.FileDownloadUtility.FileInfo.FileMemoryStream*
+  name: FileMemoryStream
+  href: api/Raytha.Application.Common.Utils.FileDownloadUtility.FileInfo.html#Raytha_Application_Common_Utils_FileDownloadUtility_FileInfo_FileMemoryStream_
+  commentId: Overload:Raytha.Application.Common.Utils.FileDownloadUtility.FileInfo.FileMemoryStream
+  isSpec: "True"
+  fullName: Raytha.Application.Common.Utils.FileDownloadUtility.FileInfo.FileMemoryStream
+  nameWithType: FileDownloadUtility.FileInfo.FileMemoryStream
 - uid: Raytha.Application.Common.Utils.FileStorageUtility
   name: FileStorageUtility
   href: api/Raytha.Application.Common.Utils.FileStorageUtility.html
@@ -8253,27 +8333,21 @@ references:
   commentId: T:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv
   fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv
   nameWithType: BeginImportContentItemsFromCsv
-- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.ADD_NEW_RECORDS_ONLY
-  name: ADD_NEW_RECORDS_ONLY
-  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.html#Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_ADD_NEW_RECORDS_ONLY
-  commentId: F:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.ADD_NEW_RECORDS_ONLY
-  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.ADD_NEW_RECORDS_ONLY
-  nameWithType: BeginImportContentItemsFromCsv.ADD_NEW_RECORDS_ONLY
 - uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask
   name: BeginImportContentItemsFromCsv.BackgroundTask
   href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.html
   commentId: T:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask
   fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask
   nameWithType: BeginImportContentItemsFromCsv.BackgroundTask
-- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.#ctor(Raytha.Application.Common.Interfaces.IRaythaDbContext,Raytha.Application.Common.Interfaces.ICSVService)
-  name: BackgroundTask(IRaythaDbContext, ICSVService)
-  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.html#Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_BackgroundTask__ctor_Raytha_Application_Common_Interfaces_IRaythaDbContext_Raytha_Application_Common_Interfaces_ICSVService_
-  commentId: M:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.#ctor(Raytha.Application.Common.Interfaces.IRaythaDbContext,Raytha.Application.Common.Interfaces.ICSVService)
-  name.vb: New(IRaythaDbContext, ICSVService)
-  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.BackgroundTask(Raytha.Application.Common.Interfaces.IRaythaDbContext, Raytha.Application.Common.Interfaces.ICSVService)
-  fullName.vb: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.New(Raytha.Application.Common.Interfaces.IRaythaDbContext, Raytha.Application.Common.Interfaces.ICSVService)
-  nameWithType: BeginImportContentItemsFromCsv.BackgroundTask.BackgroundTask(IRaythaDbContext, ICSVService)
-  nameWithType.vb: BeginImportContentItemsFromCsv.BackgroundTask.New(IRaythaDbContext, ICSVService)
+- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.#ctor(Raytha.Application.Common.Interfaces.IRaythaDbContext,Raytha.Application.Common.Interfaces.ICsvService,Raytha.Application.Common.Interfaces.IFileStorageProvider,Raytha.Application.Common.Interfaces.IFileStorageProviderSettings,Raytha.Application.Common.Interfaces.ICurrentOrganization)
+  name: BackgroundTask(IRaythaDbContext, ICsvService, IFileStorageProvider, IFileStorageProviderSettings, ICurrentOrganization)
+  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.html#Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_BackgroundTask__ctor_Raytha_Application_Common_Interfaces_IRaythaDbContext_Raytha_Application_Common_Interfaces_ICsvService_Raytha_Application_Common_Interfaces_IFileStorageProvider_Raytha_Application_Common_Interfaces_IFileStorageProviderSettings_Raytha_Application_Common_Interfaces_ICurrentOrganization_
+  commentId: M:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.#ctor(Raytha.Application.Common.Interfaces.IRaythaDbContext,Raytha.Application.Common.Interfaces.ICsvService,Raytha.Application.Common.Interfaces.IFileStorageProvider,Raytha.Application.Common.Interfaces.IFileStorageProviderSettings,Raytha.Application.Common.Interfaces.ICurrentOrganization)
+  name.vb: New(IRaythaDbContext, ICsvService, IFileStorageProvider, IFileStorageProviderSettings, ICurrentOrganization)
+  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.BackgroundTask(Raytha.Application.Common.Interfaces.IRaythaDbContext, Raytha.Application.Common.Interfaces.ICsvService, Raytha.Application.Common.Interfaces.IFileStorageProvider, Raytha.Application.Common.Interfaces.IFileStorageProviderSettings, Raytha.Application.Common.Interfaces.ICurrentOrganization)
+  fullName.vb: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.New(Raytha.Application.Common.Interfaces.IRaythaDbContext, Raytha.Application.Common.Interfaces.ICsvService, Raytha.Application.Common.Interfaces.IFileStorageProvider, Raytha.Application.Common.Interfaces.IFileStorageProviderSettings, Raytha.Application.Common.Interfaces.ICurrentOrganization)
+  nameWithType: BeginImportContentItemsFromCsv.BackgroundTask.BackgroundTask(IRaythaDbContext, ICsvService, IFileStorageProvider, IFileStorageProviderSettings, ICurrentOrganization)
+  nameWithType.vb: BeginImportContentItemsFromCsv.BackgroundTask.New(IRaythaDbContext, ICsvService, IFileStorageProvider, IFileStorageProviderSettings, ICurrentOrganization)
 - uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.#ctor*
   name: BackgroundTask
   href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.BackgroundTask.html#Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_BackgroundTask__ctor_
@@ -8393,33 +8467,21 @@ references:
   isSpec: "True"
   fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Handler.Handle
   nameWithType: BeginImportContentItemsFromCsv.Handler.Handle
-- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.UPDATE_EXISTING_RECORDS_ONLY
-  name: UPDATE_EXISTING_RECORDS_ONLY
-  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.html#Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_UPDATE_EXISTING_RECORDS_ONLY
-  commentId: F:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.UPDATE_EXISTING_RECORDS_ONLY
-  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.UPDATE_EXISTING_RECORDS_ONLY
-  nameWithType: BeginImportContentItemsFromCsv.UPDATE_EXISTING_RECORDS_ONLY
-- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.UPSERT_ALL_RECORDS
-  name: UPSERT_ALL_RECORDS
-  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.html#Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_UPSERT_ALL_RECORDS
-  commentId: F:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.UPSERT_ALL_RECORDS
-  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.UPSERT_ALL_RECORDS
-  nameWithType: BeginImportContentItemsFromCsv.UPSERT_ALL_RECORDS
 - uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator
   name: BeginImportContentItemsFromCsv.Validator
   href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator.html
   commentId: T:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator
   fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator
   nameWithType: BeginImportContentItemsFromCsv.Validator
-- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator.#ctor(Raytha.Application.Common.Interfaces.IRaythaDbContext,Raytha.Application.Common.Interfaces.ICSVService)
-  name: Validator(IRaythaDbContext, ICSVService)
-  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator.html#Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_Validator__ctor_Raytha_Application_Common_Interfaces_IRaythaDbContext_Raytha_Application_Common_Interfaces_ICSVService_
-  commentId: M:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator.#ctor(Raytha.Application.Common.Interfaces.IRaythaDbContext,Raytha.Application.Common.Interfaces.ICSVService)
-  name.vb: New(IRaythaDbContext, ICSVService)
-  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator.Validator(Raytha.Application.Common.Interfaces.IRaythaDbContext, Raytha.Application.Common.Interfaces.ICSVService)
-  fullName.vb: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator.New(Raytha.Application.Common.Interfaces.IRaythaDbContext, Raytha.Application.Common.Interfaces.ICSVService)
-  nameWithType: BeginImportContentItemsFromCsv.Validator.Validator(IRaythaDbContext, ICSVService)
-  nameWithType.vb: BeginImportContentItemsFromCsv.Validator.New(IRaythaDbContext, ICSVService)
+- uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator.#ctor(Raytha.Application.Common.Interfaces.IRaythaDbContext,Raytha.Application.Common.Interfaces.ICsvService)
+  name: Validator(IRaythaDbContext, ICsvService)
+  href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator.html#Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_Validator__ctor_Raytha_Application_Common_Interfaces_IRaythaDbContext_Raytha_Application_Common_Interfaces_ICsvService_
+  commentId: M:Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator.#ctor(Raytha.Application.Common.Interfaces.IRaythaDbContext,Raytha.Application.Common.Interfaces.ICsvService)
+  name.vb: New(IRaythaDbContext, ICsvService)
+  fullName: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator.Validator(Raytha.Application.Common.Interfaces.IRaythaDbContext, Raytha.Application.Common.Interfaces.ICsvService)
+  fullName.vb: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator.New(Raytha.Application.Common.Interfaces.IRaythaDbContext, Raytha.Application.Common.Interfaces.ICsvService)
+  nameWithType: BeginImportContentItemsFromCsv.Validator.Validator(IRaythaDbContext, ICsvService)
+  nameWithType.vb: BeginImportContentItemsFromCsv.Validator.New(IRaythaDbContext, ICsvService)
 - uid: Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator.#ctor*
   name: Validator
   href: api/Raytha.Application.ContentItems.Commands.BeginImportContentItemsFromCsv.Validator.html#Raytha_Application_ContentItems_Commands_BeginImportContentItemsFromCsv_Validator__ctor_

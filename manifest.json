@@ -1,5 +1,4 @@
 {
-  "homepages": [],
   "source_base_path": "/home/runner/work/raytha/raytha/docfx_project",
   "xrefmap": "xrefmap.yml",
   "files": [
@@ -1095,20 +1094,20 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Common.Interfaces.ICSVService.yml",
+      "source_relative_path": "api/Raytha.Application.Common.Interfaces.IContentTypeInRoutePath.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Common.Interfaces.ICSVService.html"
+          "relative_path": "api/Raytha.Application.Common.Interfaces.IContentTypeInRoutePath.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Common.Interfaces.IContentTypeInRoutePath.yml",
+      "source_relative_path": "api/Raytha.Application.Common.Interfaces.ICsvService.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Common.Interfaces.IContentTypeInRoutePath.html"
+          "relative_path": "api/Raytha.Application.Common.Interfaces.ICsvService.html"
         }
       },
       "version": ""
@@ -1589,6 +1588,26 @@
       "output": {
         ".html": {
           "relative_path": "api/Raytha.Application.Common.Utils.DateTimeExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Common.Utils.FileDownloadUtility.FileInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Common.Utils.FileDownloadUtility.FileInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Common.Utils.FileDownloadUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Common.Utils.FileDownloadUtility.html"
         }
       },
       "version": ""
@@ -6306,7 +6325,6 @@
       "version": ""
     }
   ],
-  "version_info": {},
   "groups": [
     {
       "xrefmap": "xrefmap.yml"
