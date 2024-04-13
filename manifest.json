@@ -1044,6 +1044,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Common.Exceptions.RaythaFunctionExecuteTimeoutException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Common.Exceptions.RaythaFunctionExecuteTimeoutException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Common.Exceptions.RaythaFunctionScriptException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Common.Exceptions.RaythaFunctionScriptException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Raytha.Application.Common.Exceptions.ValidationException.yml",
       "output": {
         ".html": {
@@ -1124,6 +1144,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Common.Interfaces.ICurrentOrganizationConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Common.Interfaces.ICurrentOrganizationConfiguration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Raytha.Application.Common.Interfaces.ICurrentUser.yml",
       "output": {
         ".html": {
@@ -1148,6 +1178,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Raytha.Application.Common.Interfaces.IEmailer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Common.Interfaces.IEmailerConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Common.Interfaces.IEmailerConfiguration.html"
         }
       },
       "version": ""
@@ -1208,6 +1248,56 @@
       "output": {
         ".html": {
           "relative_path": "api/Raytha.Application.Common.Interfaces.IRaythaDbJsonQueryEngine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Common.Interfaces.IRaythaFunctionConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Common.Interfaces.IRaythaFunctionConfiguration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Common.Interfaces.IRaythaFunctionScriptEngine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Common.Interfaces.IRaythaFunctionScriptEngine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Common.Interfaces.IRaythaFunctionSemaphore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Common.Interfaces.IRaythaFunctionSemaphore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Common.Interfaces.IRaythaFunctionsHttpClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Common.Interfaces.IRaythaFunctionsHttpClient.html"
         }
       },
       "version": ""
@@ -3944,6 +4034,346 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Commands.CreateRaythaFunction.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Commands.CreateRaythaFunction.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Commands.CreateRaythaFunction.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Commands.CreateRaythaFunction.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Commands.CreateRaythaFunction.Validator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Commands.CreateRaythaFunction.Validator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Commands.CreateRaythaFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Commands.CreateRaythaFunction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Commands.DeleteRaythaFunction.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Commands.DeleteRaythaFunction.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Commands.DeleteRaythaFunction.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Commands.DeleteRaythaFunction.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Commands.DeleteRaythaFunction.Validator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Commands.DeleteRaythaFunction.Validator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Commands.DeleteRaythaFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Commands.DeleteRaythaFunction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Commands.EditRaythaFunction.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Commands.EditRaythaFunction.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Commands.EditRaythaFunction.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Commands.EditRaythaFunction.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Commands.EditRaythaFunction.Validator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Commands.EditRaythaFunction.Validator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Commands.EditRaythaFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Commands.EditRaythaFunction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Commands.ExecuteRaythaFunction.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Commands.ExecuteRaythaFunction.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Commands.ExecuteRaythaFunction.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Commands.ExecuteRaythaFunction.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Commands.ExecuteRaythaFunction.Validator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Commands.ExecuteRaythaFunction.Validator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Commands.ExecuteRaythaFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Commands.ExecuteRaythaFunction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Commands.RevertRaythaFunction.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Commands.RevertRaythaFunction.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Commands.RevertRaythaFunction.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Commands.RevertRaythaFunction.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Commands.RevertRaythaFunction.Validator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Commands.RevertRaythaFunction.Validator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Commands.RevertRaythaFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Commands.RevertRaythaFunction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Commands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Commands.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Queries.GetRaythaFunctionById.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Queries.GetRaythaFunctionById.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Queries.GetRaythaFunctionById.Query.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Queries.GetRaythaFunctionById.Query.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Queries.GetRaythaFunctionById.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Queries.GetRaythaFunctionById.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Queries.GetRaythaFunctionRevisionsByRaythaFunctionId.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Queries.GetRaythaFunctionRevisionsByRaythaFunctionId.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Queries.GetRaythaFunctionRevisionsByRaythaFunctionId.Query.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Queries.GetRaythaFunctionRevisionsByRaythaFunctionId.Query.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Queries.GetRaythaFunctionRevisionsByRaythaFunctionId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Queries.GetRaythaFunctionRevisionsByRaythaFunctionId.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Queries.GetRaythaFunctions.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Queries.GetRaythaFunctions.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Queries.GetRaythaFunctions.Query.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Queries.GetRaythaFunctions.Query.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Queries.GetRaythaFunctions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Queries.GetRaythaFunctions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.Queries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.Queries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.RaythaFunctionDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.RaythaFunctionDto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.RaythaFunctionRevisionDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.RaythaFunctionRevisionDto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.RaythaFunctions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.RaythaFunctions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Raytha.Application.Roles.Commands.CreateRole.Command.yml",
       "output": {
         ".html": {
@@ -6060,6 +6490,36 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/embeddable_functions_builtinobjects.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/embeddable_functions_builtinobjects.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/embeddable_functions_httprequest.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/embeddable_functions_httprequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/embeddable_functions_intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/embeddable_functions_intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/filestorage.md",
       "output": {
         ".html": {
@@ -6157,6 +6617,46 @@
         },
         ".html": {
           "relative_path": "articles/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/functions_developername.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/functions_developername.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/functions_httppost.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/functions_httppost.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/functions_sidebar.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/functions_sidebar.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/functions_triggertype.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/functions_triggertype.png"
         }
       },
       "version": ""

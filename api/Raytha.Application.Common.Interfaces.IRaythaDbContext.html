@@ -2,11 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface IRaythaDbContext
- </title>
+      <title>Interface IRaythaDbContext </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface IRaythaDbContext
- ">
+      <meta name="title" content="Interface IRaythaDbContext ">
+      
       
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
@@ -30,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -86,8 +85,7 @@
 
 
   <h1 id="Raytha_Application_Common_Interfaces_IRaythaDbContext" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbContext" class="text-break">
-    Interface IRaythaDbContext
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaDbContext.cs/#L6"><i class="bi bi-code-slash"></i></a>
+Interface IRaythaDbContext  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaDbContext.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -370,7 +368,7 @@
 
   <h3 id="Raytha_Application_Common_Interfaces_IRaythaDbContext_DbContext" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbContext.DbContext">
   DbContext
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaDbContext.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaDbContext.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -604,6 +602,68 @@
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<span class="xref">OrganizationSettings</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaDbContext_RaythaFunctionRevisions_" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbContext.RaythaFunctionRevisions*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaDbContext_RaythaFunctionRevisions" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbContext.RaythaFunctionRevisions">
+  RaythaFunctionRevisions
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaDbContext.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DbSet&lt;RaythaFunctionRevision&gt; RaythaFunctionRevisions { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<span class="xref">RaythaFunctionRevision</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaDbContext_RaythaFunctions_" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbContext.RaythaFunctions*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaDbContext_RaythaFunctions" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbContext.RaythaFunctions">
+  RaythaFunctions
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaDbContext.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DbSet&lt;RaythaFunction&gt; RaythaFunctions { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<span class="xref">RaythaFunction</span>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -901,7 +961,7 @@
 
   <h3 id="Raytha_Application_Common_Interfaces_IRaythaDbContext_SaveChangesAsync_System_Threading_CancellationToken_" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbContext.SaveChangesAsync(System.Threading.CancellationToken)">
   SaveChangesAsync(CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaDbContext.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaDbContext.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

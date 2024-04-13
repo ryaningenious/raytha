@@ -2,11 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class GetRouteByPath.Handler
- </title>
+      <title>Class GetRouteByPath.Handler </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class GetRouteByPath.Handler
- ">
+      <meta name="title" content="Class GetRouteByPath.Handler ">
+      
       
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
@@ -30,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -86,8 +85,7 @@
 
 
   <h1 id="Raytha_Application_Routes_Queries_GetRouteByPath_Handler" data-uid="Raytha.Application.Routes.Queries.GetRouteByPath.Handler" class="text-break">
-    Class GetRouteByPath.Handler
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Routes/Queries/GetRouteByPath.cs/#L15"><i class="bi bi-code-slash"></i></a>
+Class GetRouteByPath.Handler  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Routes/Queries/GetRouteByPath.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -99,7 +97,7 @@
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class GetRouteByPath.Handler : RequestHandler&lt;GetRouteByPath.Query, IQueryResponseDto&lt;RouteDto&gt;&gt;, IRequestHandler&lt;GetRouteByPath.Query, IQueryResponseDto&lt;RouteDto&gt;&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class GetRouteByPath.Handler : IRequestHandler&lt;GetRouteByPath.Query, IQueryResponseDto&lt;RouteDto&gt;&gt;</code></pre>
   </div>
 
 
@@ -109,7 +107,6 @@
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">RequestHandler</span>&lt;<a class="xref" href="Raytha.Application.Routes.Queries.GetRouteByPath.html">GetRouteByPath</a>.<a class="xref" href="Raytha.Application.Routes.Queries.GetRouteByPath.Query.html">Query</a>, <a class="xref" href="Raytha.Application.Common.Models.IQueryResponseDto-1.html">IQueryResponseDto</a>&lt;<a class="xref" href="Raytha.Application.Routes.RouteDto.html">RouteDto</a>&gt;&gt;</div>
       <div><span class="xref">GetRouteByPath.Handler</span></div>
     </dd>
   </dl>
@@ -122,12 +119,9 @@
   </dl>
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
-    <div>
-      <span class="xref">RequestHandler&lt;GetRouteByPath.Query, IQueryResponseDto&lt;RouteDto&gt;&gt;.Handle(GetRouteByPath.Query)</span>
-    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -197,30 +191,33 @@
 
   <a id="Raytha_Application_Routes_Queries_GetRouteByPath_Handler_Handle_" data-uid="Raytha.Application.Routes.Queries.GetRouteByPath.Handler.Handle*"></a>
 
-  <h3 id="Raytha_Application_Routes_Queries_GetRouteByPath_Handler_Handle_Raytha_Application_Routes_Queries_GetRouteByPath_Query_" data-uid="Raytha.Application.Routes.Queries.GetRouteByPath.Handler.Handle(Raytha.Application.Routes.Queries.GetRouteByPath.Query)">
-  Handle(Query)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Routes/Queries/GetRouteByPath.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Raytha_Application_Routes_Queries_GetRouteByPath_Handler_Handle_Raytha_Application_Routes_Queries_GetRouteByPath_Query_System_Threading_CancellationToken_" data-uid="Raytha.Application.Routes.Queries.GetRouteByPath.Handler.Handle(Raytha.Application.Routes.Queries.GetRouteByPath.Query,System.Threading.CancellationToken)">
+  Handle(Query, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Routes/Queries/GetRouteByPath.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Override in a derived class for the handler logic</p>
+  <div class="markdown level1 summary"><p>Handles a request</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override IQueryResponseDto&lt;RouteDto&gt; Handle(GetRouteByPath.Query request)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;IQueryResponseDto&lt;RouteDto&gt;&gt; Handle(GetRouteByPath.Query request, CancellationToken cancellationToken)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>request</code> <a class="xref" href="Raytha.Application.Routes.Queries.GetRouteByPath.html">GetRouteByPath</a>.<a class="xref" href="Raytha.Application.Routes.Queries.GetRouteByPath.Query.html">Query</a></dt>
-    <dd><p>Request</p>
+    <dd><p>The request</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>Cancellation token</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Raytha.Application.Common.Models.IQueryResponseDto-1.html">IQueryResponseDto</a>&lt;<a class="xref" href="Raytha.Application.Routes.RouteDto.html">RouteDto</a>&gt;</dt>
-    <dd><p>Response</p>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Raytha.Application.Common.Models.IQueryResponseDto-1.html">IQueryResponseDto</a>&lt;<a class="xref" href="Raytha.Application.Routes.RouteDto.html">RouteDto</a>&gt;&gt;</dt>
+    <dd><p>Response from the request</p>
 </dd>
   </dl>
 

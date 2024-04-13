@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Http Request Trigger Type for Raytha Functions </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Http Request Trigger Type for Raytha Functions ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/RaythaHQ/raytha/blob/main/docfx_project/articles/embeddable_functions_httprequest.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="http-request-trigger-type-for-raytha-functions">Http Request Trigger Type for Raytha Functions</h1>
+
+<h2 id="the-structure">The Structure</h2>
+<p>When you create a Raytha Function with an <code>Http Request</code> trigger, this automatically creates an endpoint that is accessible at the following URL pattern:</p>
+<blockquote>
+<p>/raytha/functions/execute/{developerName}</p>
+</blockquote>
+<p>The developer name is specified when you create the function in the Raytha platform.</p>
+<img class="inline-img" src="../images/functions_developername.png">
+<p>At this endpoint, you can submit GET and POST requests so long as you keep the structure of the functions that are provided to you in boilerplate fashion. This means you need to implement <code>get(query)</code> and <code>post(payload, query)</code></p>
+<p>The default code provided to you is the following:</p>
+<pre><code>    /** The following classes are available:
+     * API_V1
+     * CurrentOrganization
+     * CurrentUser
+     * Emailer
+     * HttpClient
+    */
+
+    /** 
+     * Receives a get request at /raytha/functions/execute/{developerName}
+     * @param {IQueryCollection} query Passed in from .NET's Request.Query
+     * @returns {object} of type JsonResult, HtmlResult, RedirectResult, or StatusCodeResult
+     */
+    function get(query) {
+        return new JsonResult({ success: true });
+        //example 1: return new HtmlResult(&quot;&lt;p&gt;Hello World&lt;/p&gt;&quot;);
+        //example 2: return new RedirectResult(&quot;https://raytha.com&quot;);
+        //example 3: return new StatusCodeResult(404, &quot;Not Found&quot;);
+    }
+
+    /** 
+     * Receives a post request at /raytha/functions/execute/{developerName}
+     * @param {IFormCollection} payload Passed in from .NET's Request.Form
+     * @param {IQueryCollection} query Passed in from .NET's Request.Query
+     * @returns {object} of type JsonResult, HtmlResult, RedirectResult, or StatusCodeResult
+     */
+    function post(payload, query) {
+        return new JsonResult({ success: true });
+        //example 1: return new HtmlResult(&quot;&lt;p&gt;Hello World&lt;/p&gt;&quot;);
+        //example 2: return new RedirectResult(&quot;https://raytha.com&quot;);
+        //example 3: return new StatusCodeResult(404, &quot;Not Found&quot;);
+    }
+</code></pre>
+<h2 id="return-types">Return types</h2>
+<p>When you return from the <code>get</code> or <code>post</code> functions, Raytha is expecting an object of one of the following types:</p>
+<ul>
+<li><code>JsonResult(object)</code></li>
+<li><code>HtmlResult(string: html)</code></li>
+<li><code>RedirectResult(string: url)</code></li>
+<li><code>StatusCodeResult(int: status_code, string: message)</code></li>
+</ul>
+<p>The above section includes commented out examples of each.</p>
+<h2 id="get-endpoint">GET endpoint</h2>
+<p>If you receive a GET request, Raytha will run the <code>get(query)</code> function. The paramater provided here will populate with a collection of query parameters that were provided as part of the request. For example, <code>/raytha/functions/execute/myfunction?bob=1&amp;jane=2</code> will come through in query parameter like so:</p>
+<pre><code>[
+  {
+    &quot;Key&quot;: &quot;bob&quot;,
+    &quot;Value&quot;: [
+      &quot;1&quot;
+    ]
+  },
+  {
+    &quot;Key&quot;: &quot;jane&quot;,
+    &quot;Value&quot;: [
+      &quot;2&quot;
+    ]
+  }
+]
+</code></pre>
+<p>A good way to test is to simply return the object back out in a JsonResult like so:</p>
+<pre><code>    function get(query) {
+        return new JsonResult(query);
+    }
+</code></pre>
+<p>To pull the values out in the example above, you can use standard javascript.</p>
+<pre><code>    function get(query) {
+        let bobsValue = query.find(item =&gt; item.Key === &quot;bob&quot;).Value[0];
+        let janesValue = query.find(item =&gt; item.Key === &quot;jane&quot;).Value[0];
+        return new JsonResult({
+            'Bob': bobsValue,
+            'Jane': janesValue
+        });
+    }
+</code></pre>
+<h2 id="post-endpoint">POST endpoint</h2>
+<p>Everything from the <code>GET endpoint</code> above applies to the POST endpoint as well, with the only difference being that there is a payload object which includes the body of the request, for situations such as receiving a form submission or posted JSON.</p>
+<p>If a Request.Form was submitted, <code>payload</code> outputs in a similar manner:</p>
+<pre><code>[
+    {
+        &quot;Key&quot;: &quot;bob&quot;,
+        &quot;Value&quot;: [
+            &quot;1&quot;
+        ]
+    },
+    {
+        &quot;Key&quot;: &quot;jane&quot;,
+        &quot;Value&quot;: [
+            &quot;2&quot;
+        ]
+    }
+]
+
+Otherwise, if you posted JSON, it will pass it through.
+</code></pre>
+<img class="inline-img" src="../images/functions_httppost.png">
+<h2 id="next">Next</h2>
+<p>To get the real value out of Raytha Functions, you pair the above with the built-in objects and API layer that is made accessible to you.</p>
+<p><a href="/articles/embeddable_functions_builtinobjects.html">Learn how to make use of built-in objects</a>.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/RaythaHQ/raytha/blob/main/docfx_project/articles/embeddable_functions_httprequest.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

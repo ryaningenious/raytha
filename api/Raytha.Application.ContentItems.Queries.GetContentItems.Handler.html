@@ -2,11 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class GetContentItems.Handler
- </title>
+      <title>Class GetContentItems.Handler </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class GetContentItems.Handler
- ">
+      <meta name="title" content="Class GetContentItems.Handler ">
+      
       
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
@@ -30,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -86,8 +85,7 @@
 
 
   <h1 id="Raytha_Application_ContentItems_Queries_GetContentItems_Handler" data-uid="Raytha.Application.ContentItems.Queries.GetContentItems.Handler" class="text-break">
-    Class GetContentItems.Handler
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/ContentItems/Queries/GetContentItems.cs/#L23"><i class="bi bi-code-slash"></i></a>
+Class GetContentItems.Handler  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/ContentItems/Queries/GetContentItems.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -99,7 +97,7 @@
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class GetContentItems.Handler : RequestHandler&lt;GetContentItems.Query, IQueryResponseDto&lt;ListResultDto&lt;ContentItemDto&gt;&gt;&gt;, IRequestHandler&lt;GetContentItems.Query, IQueryResponseDto&lt;ListResultDto&lt;ContentItemDto&gt;&gt;&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class GetContentItems.Handler : IRequestHandler&lt;GetContentItems.Query, IQueryResponseDto&lt;ListResultDto&lt;ContentItemDto&gt;&gt;&gt;</code></pre>
   </div>
 
 
@@ -109,7 +107,6 @@
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">RequestHandler</span>&lt;<a class="xref" href="Raytha.Application.ContentItems.Queries.GetContentItems.html">GetContentItems</a>.<a class="xref" href="Raytha.Application.ContentItems.Queries.GetContentItems.Query.html">Query</a>, <a class="xref" href="Raytha.Application.Common.Models.IQueryResponseDto-1.html">IQueryResponseDto</a>&lt;<a class="xref" href="Raytha.Application.Common.Models.ListResultDto-1.html">ListResultDto</a>&lt;<a class="xref" href="Raytha.Application.ContentItems.ContentItemDto.html">ContentItemDto</a>&gt;&gt;&gt;</div>
       <div><span class="xref">GetContentItems.Handler</span></div>
     </dd>
   </dl>
@@ -122,12 +119,9 @@
   </dl>
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
-    <div>
-      <span class="xref">RequestHandler&lt;GetContentItems.Query, IQueryResponseDto&lt;ListResultDto&lt;ContentItemDto&gt;&gt;&gt;.Handle(GetContentItems.Query)</span>
-    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -203,7 +197,7 @@
 
   <h3 id="Raytha_Application_ContentItems_Queries_GetContentItems_Handler_GetFiltersForView_Raytha_Domain_Entities_View_Raytha_Application_ContentItems_Queries_GetContentItems_Query_" data-uid="Raytha.Application.ContentItems.Queries.GetContentItems.Handler.GetFiltersForView(Raytha.Domain.Entities.View,Raytha.Application.ContentItems.Queries.GetContentItems.Query)">
   GetFiltersForView(View, Query)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/ContentItems/Queries/GetContentItems.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/ContentItems/Queries/GetContentItems.cs/#L86"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -241,7 +235,7 @@
 
   <h3 id="Raytha_Application_ContentItems_Queries_GetContentItems_Handler_GetPageSizeForView_Raytha_Application_ContentItems_Queries_GetContentItems_Query_" data-uid="Raytha.Application.ContentItems.Queries.GetContentItems.Handler.GetPageSizeForView(Raytha.Application.ContentItems.Queries.GetContentItems.Query)">
   GetPageSizeForView(Query)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/ContentItems/Queries/GetContentItems.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/ContentItems/Queries/GetContentItems.cs/#L116"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -277,7 +271,7 @@
 
   <h3 id="Raytha_Application_ContentItems_Queries_GetContentItems_Handler_GetPageSizeForView_Raytha_Domain_Entities_View_Raytha_Application_ContentItems_Queries_GetContentItems_Query_" data-uid="Raytha.Application.ContentItems.Queries.GetContentItems.Handler.GetPageSizeForView(Raytha.Domain.Entities.View,Raytha.Application.ContentItems.Queries.GetContentItems.Query)">
   GetPageSizeForView(View, Query)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/ContentItems/Queries/GetContentItems.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/ContentItems/Queries/GetContentItems.cs/#L106"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -315,7 +309,7 @@
 
   <h3 id="Raytha_Application_ContentItems_Queries_GetContentItems_Handler_GetSearchForView_Raytha_Domain_Entities_View_" data-uid="Raytha.Application.ContentItems.Queries.GetContentItems.Handler.GetSearchForView(Raytha.Domain.Entities.View)">
   GetSearchForView(View)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/ContentItems/Queries/GetContentItems.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/ContentItems/Queries/GetContentItems.cs/#L81"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -351,7 +345,7 @@
 
   <h3 id="Raytha_Application_ContentItems_Queries_GetContentItems_Handler_GetSortForView_Raytha_Domain_Entities_View_Raytha_Application_ContentItems_Queries_GetContentItems_Query_" data-uid="Raytha.Application.ContentItems.Queries.GetContentItems.Handler.GetSortForView(Raytha.Domain.Entities.View,Raytha.Application.ContentItems.Queries.GetContentItems.Query)">
   GetSortForView(View, Query)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/ContentItems/Queries/GetContentItems.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/ContentItems/Queries/GetContentItems.cs/#L95"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -387,30 +381,33 @@
 
   <a id="Raytha_Application_ContentItems_Queries_GetContentItems_Handler_Handle_" data-uid="Raytha.Application.ContentItems.Queries.GetContentItems.Handler.Handle*"></a>
 
-  <h3 id="Raytha_Application_ContentItems_Queries_GetContentItems_Handler_Handle_Raytha_Application_ContentItems_Queries_GetContentItems_Query_" data-uid="Raytha.Application.ContentItems.Queries.GetContentItems.Handler.Handle(Raytha.Application.ContentItems.Queries.GetContentItems.Query)">
-  Handle(Query)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/ContentItems/Queries/GetContentItems.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Raytha_Application_ContentItems_Queries_GetContentItems_Handler_Handle_Raytha_Application_ContentItems_Queries_GetContentItems_Query_System_Threading_CancellationToken_" data-uid="Raytha.Application.ContentItems.Queries.GetContentItems.Handler.Handle(Raytha.Application.ContentItems.Queries.GetContentItems.Query,System.Threading.CancellationToken)">
+  Handle(Query, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/ContentItems/Queries/GetContentItems.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Override in a derived class for the handler logic</p>
+  <div class="markdown level1 summary"><p>Handles a request</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override IQueryResponseDto&lt;ListResultDto&lt;ContentItemDto&gt;&gt; Handle(GetContentItems.Query request)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;IQueryResponseDto&lt;ListResultDto&lt;ContentItemDto&gt;&gt;&gt; Handle(GetContentItems.Query request, CancellationToken cancellationToken)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>request</code> <a class="xref" href="Raytha.Application.ContentItems.Queries.GetContentItems.html">GetContentItems</a>.<a class="xref" href="Raytha.Application.ContentItems.Queries.GetContentItems.Query.html">Query</a></dt>
-    <dd><p>Request</p>
+    <dd><p>The request</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>Cancellation token</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Raytha.Application.Common.Models.IQueryResponseDto-1.html">IQueryResponseDto</a>&lt;<a class="xref" href="Raytha.Application.Common.Models.ListResultDto-1.html">ListResultDto</a>&lt;<a class="xref" href="Raytha.Application.ContentItems.ContentItemDto.html">ContentItemDto</a>&gt;&gt;</dt>
-    <dd><p>Response</p>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Raytha.Application.Common.Models.IQueryResponseDto-1.html">IQueryResponseDto</a>&lt;<a class="xref" href="Raytha.Application.Common.Models.ListResultDto-1.html">ListResultDto</a>&lt;<a class="xref" href="Raytha.Application.ContentItems.ContentItemDto.html">ContentItemDto</a>&gt;&gt;&gt;</dt>
+    <dd><p>Response from the request</p>
 </dd>
   </dl>
 

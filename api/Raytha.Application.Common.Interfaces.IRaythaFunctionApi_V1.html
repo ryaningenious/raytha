@@ -1,0 +1,1247 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IRaythaFunctionApi_V1 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IRaythaFunctionApi_V1 ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/RaythaHQ/raytha/new/main/apiSpec/new?filename=Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1.md&amp;value=---%0Auid%3A%20Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1">
+
+
+
+  <h1 id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1" class="text-break">
+Interface IRaythaFunctionApi_V1  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionApi_V1.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Raytha.html">Raytha</a>.<a class="xref" href="Raytha.Application.html">Application</a>.<a class="xref" href="Raytha.Application.Common.html">Common</a>.<a class="xref" href="Raytha.Application.Common.Interfaces.html">Interfaces</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Raytha.Application.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IRaythaFunctionApi_V1</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_CreateContentItem_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.CreateContentItem*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_CreateContentItem_System_String_System_Boolean_System_String_System_Collections_Generic_IDictionary_System_String_System_Object__" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.CreateContentItem(System.String,System.Boolean,System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+  CreateContentItem(string, bool, string, IDictionary&lt;string, object&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionApi_V1.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ICommandResponseDto&lt;ShortGuid&gt; CreateContentItem(string contentTypeDeveloperName, bool saveAsDraft, string templateId, IDictionary&lt;string, object&gt; content)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contentTypeDeveloperName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>saveAsDraft</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>templateId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>content</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.Common.Models.ICommandResponseDto-1.html">ICommandResponseDto</a>&lt;<span class="xref">ShortGuid</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_CreateUser_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.CreateUser*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_CreateUser_System_String_System_String_System_String_System_Boolean_System_Object_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.CreateUser(System.String,System.String,System.String,System.Boolean,System.Object)">
+  CreateUser(string, string, string, bool, dynamic)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionApi_V1.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ICommandResponseDto&lt;ShortGuid&gt; CreateUser(string emailAddress, string firstName, string lastName, bool sendEmail, dynamic userGroups)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>emailAddress</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>firstName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>lastName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>sendEmail</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>userGroups</code> <span class="xref">dynamic</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.Common.Models.ICommandResponseDto-1.html">ICommandResponseDto</a>&lt;<span class="xref">ShortGuid</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_CreateUserGroup_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.CreateUserGroup*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_CreateUserGroup_System_String_System_String_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.CreateUserGroup(System.String,System.String)">
+  CreateUserGroup(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionApi_V1.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ICommandResponseDto&lt;ShortGuid&gt; CreateUserGroup(string developerName, string label)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>developerName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.Common.Models.ICommandResponseDto-1.html">ICommandResponseDto</a>&lt;<span class="xref">ShortGuid</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_DeleteContentItem_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.DeleteContentItem*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_DeleteContentItem_System_String_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.DeleteContentItem(System.String)">
+  DeleteContentItem(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionApi_V1.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ICommandResponseDto&lt;ShortGuid&gt; DeleteContentItem(string contentItemId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contentItemId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.Common.Models.ICommandResponseDto-1.html">ICommandResponseDto</a>&lt;<span class="xref">ShortGuid</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_DeleteUser_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.DeleteUser*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_DeleteUser_System_String_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.DeleteUser(System.String)">
+  DeleteUser(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionApi_V1.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ICommandResponseDto&lt;ShortGuid&gt; DeleteUser(string userId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.Common.Models.ICommandResponseDto-1.html">ICommandResponseDto</a>&lt;<span class="xref">ShortGuid</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_DeleteUserGroup_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.DeleteUserGroup*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_DeleteUserGroup_System_String_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.DeleteUserGroup(System.String)">
+  DeleteUserGroup(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionApi_V1.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ICommandResponseDto&lt;ShortGuid&gt; DeleteUserGroup(string userGroupId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userGroupId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.Common.Models.ICommandResponseDto-1.html">ICommandResponseDto</a>&lt;<span class="xref">ShortGuid</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_EditContentItem_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.EditContentItem*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_EditContentItem_System_String_System_Boolean_System_Collections_Generic_IDictionary_System_String_System_Object__" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.EditContentItem(System.String,System.Boolean,System.Collections.Generic.IDictionary{System.String,System.Object})">
+  EditContentItem(string, bool, IDictionary&lt;string, object&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionApi_V1.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ICommandResponseDto&lt;ShortGuid&gt; EditContentItem(string contentItemId, bool saveAsDraft, IDictionary&lt;string, object&gt; content)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contentItemId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>saveAsDraft</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>content</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.Common.Models.ICommandResponseDto-1.html">ICommandResponseDto</a>&lt;<span class="xref">ShortGuid</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_EditContentItemSettings_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.EditContentItemSettings*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_EditContentItemSettings_System_String_System_String_System_String_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.EditContentItemSettings(System.String,System.String,System.String)">
+  EditContentItemSettings(string, string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionApi_V1.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ICommandResponseDto&lt;ShortGuid&gt; EditContentItemSettings(string contentItemId, string templateId, string routePath)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contentItemId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>templateId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>routePath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.Common.Models.ICommandResponseDto-1.html">ICommandResponseDto</a>&lt;<span class="xref">ShortGuid</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_EditUser_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.EditUser*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_EditUser_System_String_System_String_System_String_System_String_System_Object_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.EditUser(System.String,System.String,System.String,System.String,System.Object)">
+  EditUser(string, string, string, string, dynamic)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionApi_V1.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ICommandResponseDto&lt;ShortGuid&gt; EditUser(string userId, string emailAddress, string firstName, string lastName, dynamic userGroups)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>emailAddress</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>firstName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>lastName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>userGroups</code> <span class="xref">dynamic</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.Common.Models.ICommandResponseDto-1.html">ICommandResponseDto</a>&lt;<span class="xref">ShortGuid</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_EditUserGroup_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.EditUserGroup*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_EditUserGroup_System_String_System_String_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.EditUserGroup(System.String,System.String)">
+  EditUserGroup(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionApi_V1.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ICommandResponseDto&lt;ShortGuid&gt; EditUserGroup(string userGroupId, string label)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userGroupId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.Common.Models.ICommandResponseDto-1.html">ICommandResponseDto</a>&lt;<span class="xref">ShortGuid</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_ExecuteRaythaFunction_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.ExecuteRaythaFunction*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_ExecuteRaythaFunction_System_String_System_String_System_String_System_String_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.ExecuteRaythaFunction(System.String,System.String,System.String,System.String)">
+  ExecuteRaythaFunction(string, string, string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionApi_V1.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ICommandResponseDto&lt;object&gt; ExecuteRaythaFunction(string developerName, string requestMethod, string queryJson, string payloadJson)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>developerName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>requestMethod</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>queryJson</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>payloadJson</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.Common.Models.ICommandResponseDto-1.html">ICommandResponseDto</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_GetContentItemById_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.GetContentItemById*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_GetContentItemById_System_String_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.GetContentItemById(System.String)">
+  GetContentItemById(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionApi_V1.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IQueryResponseDto&lt;ContentItemDto&gt; GetContentItemById(string contentItemId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contentItemId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.Common.Models.IQueryResponseDto-1.html">IQueryResponseDto</a>&lt;<a class="xref" href="Raytha.Application.ContentItems.ContentItemDto.html">ContentItemDto</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_GetContentItems_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.GetContentItems*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_GetContentItems_System_String_System_String_System_String_System_String_System_String_System_Int32_System_Int32_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.GetContentItems(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+  GetContentItems(string, string, string, string, string, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionApi_V1.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IQueryResponseDto&lt;ListResultDto&lt;ContentItemDto&gt;&gt; GetContentItems(string contentTypeDeveloperName, string viewId = &quot;&quot;, string search = &quot;&quot;, string filter = &quot;&quot;, string orderBy = &quot;&quot;, int pageNumber = 1, int pageSize = 50)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contentTypeDeveloperName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>viewId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>search</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>filter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>orderBy</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>pageNumber</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pageSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.Common.Models.IQueryResponseDto-1.html">IQueryResponseDto</a>&lt;<a class="xref" href="Raytha.Application.Common.Models.ListResultDto-1.html">ListResultDto</a>&lt;<a class="xref" href="Raytha.Application.ContentItems.ContentItemDto.html">ContentItemDto</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_GetContentTypeByDeveloperName_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.GetContentTypeByDeveloperName*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_GetContentTypeByDeveloperName_System_String_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.GetContentTypeByDeveloperName(System.String)">
+  GetContentTypeByDeveloperName(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionApi_V1.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IQueryResponseDto&lt;ContentTypeDto&gt; GetContentTypeByDeveloperName(string contentTypeDeveloperName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contentTypeDeveloperName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.Common.Models.IQueryResponseDto-1.html">IQueryResponseDto</a>&lt;<a class="xref" href="Raytha.Application.ContentTypes.ContentTypeDto.html">ContentTypeDto</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_GetContentTypes_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.GetContentTypes*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_GetContentTypes_System_String_System_String_System_Int32_System_Int32_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.GetContentTypes(System.String,System.String,System.Int32,System.Int32)">
+  GetContentTypes(string, string, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionApi_V1.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IQueryResponseDto&lt;ListResultDto&lt;ContentTypeDto&gt;&gt; GetContentTypes(string search = &quot;&quot;, string orderBy = &quot;&quot;, int pageNumber = 1, int pageSize = 50)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>search</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>orderBy</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>pageNumber</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pageSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.Common.Models.IQueryResponseDto-1.html">IQueryResponseDto</a>&lt;<a class="xref" href="Raytha.Application.Common.Models.ListResultDto-1.html">ListResultDto</a>&lt;<a class="xref" href="Raytha.Application.ContentTypes.ContentTypeDto.html">ContentTypeDto</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_GetDeletedContentItems_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.GetDeletedContentItems*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_GetDeletedContentItems_System_String_System_String_System_String_System_Int32_System_Int32_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.GetDeletedContentItems(System.String,System.String,System.String,System.Int32,System.Int32)">
+  GetDeletedContentItems(string, string, string, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionApi_V1.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IQueryResponseDto&lt;ListResultDto&lt;DeletedContentItemDto&gt;&gt; GetDeletedContentItems(string contentTypeDeveloperName, string search = &quot;&quot;, string orderBy = &quot;&quot;, int pageNumber = 1, int pageSize = 50)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contentTypeDeveloperName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>search</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>orderBy</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>pageNumber</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pageSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.Common.Models.IQueryResponseDto-1.html">IQueryResponseDto</a>&lt;<a class="xref" href="Raytha.Application.Common.Models.ListResultDto-1.html">ListResultDto</a>&lt;<a class="xref" href="Raytha.Application.ContentItems.DeletedContentItemDto.html">DeletedContentItemDto</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_GetMediaItemUrlByObjectKey_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.GetMediaItemUrlByObjectKey*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_GetMediaItemUrlByObjectKey_System_String_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.GetMediaItemUrlByObjectKey(System.String)">
+  GetMediaItemUrlByObjectKey(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionApi_V1.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IQueryResponseDto&lt;string&gt; GetMediaItemUrlByObjectKey(string objectKey)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>objectKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.Common.Models.IQueryResponseDto-1.html">IQueryResponseDto</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_GetMediaItems_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.GetMediaItems*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_GetMediaItems_System_String_System_String_System_Int32_System_Int32_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.GetMediaItems(System.String,System.String,System.Int32,System.Int32)">
+  GetMediaItems(string, string, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionApi_V1.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IQueryResponseDto&lt;ListResultDto&lt;MediaItemDto&gt;&gt; GetMediaItems(string search = &quot;&quot;, string orderBy = &quot;&quot;, int pageNumber = 1, int pageSize = 50)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>search</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>orderBy</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>pageNumber</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pageSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.Common.Models.IQueryResponseDto-1.html">IQueryResponseDto</a>&lt;<a class="xref" href="Raytha.Application.Common.Models.ListResultDto-1.html">ListResultDto</a>&lt;<a class="xref" href="Raytha.Application.MediaItems.MediaItemDto.html">MediaItemDto</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_GetRouteByPath_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.GetRouteByPath*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_GetRouteByPath_System_String_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.GetRouteByPath(System.String)">
+  GetRouteByPath(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionApi_V1.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IQueryResponseDto&lt;RouteDto&gt; GetRouteByPath(string routePath)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>routePath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.Common.Models.IQueryResponseDto-1.html">IQueryResponseDto</a>&lt;<a class="xref" href="Raytha.Application.Routes.RouteDto.html">RouteDto</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_GetUserById_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.GetUserById*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_GetUserById_System_String_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.GetUserById(System.String)">
+  GetUserById(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionApi_V1.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IQueryResponseDto&lt;UserDto&gt; GetUserById(string userId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.Common.Models.IQueryResponseDto-1.html">IQueryResponseDto</a>&lt;<a class="xref" href="Raytha.Application.Users.UserDto.html">UserDto</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_GetUserGroupById_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.GetUserGroupById*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_GetUserGroupById_System_String_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.GetUserGroupById(System.String)">
+  GetUserGroupById(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionApi_V1.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IQueryResponseDto&lt;UserGroupDto&gt; GetUserGroupById(string userGroupId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userGroupId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.Common.Models.IQueryResponseDto-1.html">IQueryResponseDto</a>&lt;<a class="xref" href="Raytha.Application.UserGroups.UserGroupDto.html">UserGroupDto</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_GetUserGroups_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.GetUserGroups*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_GetUserGroups_System_String_System_String_System_Int32_System_Int32_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.GetUserGroups(System.String,System.String,System.Int32,System.Int32)">
+  GetUserGroups(string, string, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionApi_V1.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IQueryResponseDto&lt;ListResultDto&lt;UserGroupDto&gt;&gt; GetUserGroups(string search = &quot;&quot;, string orderBy = &quot;&quot;, int pageNumber = 1, int pageSize = 50)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>search</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>orderBy</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>pageNumber</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pageSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.Common.Models.IQueryResponseDto-1.html">IQueryResponseDto</a>&lt;<a class="xref" href="Raytha.Application.Common.Models.ListResultDto-1.html">ListResultDto</a>&lt;<a class="xref" href="Raytha.Application.UserGroups.UserGroupDto.html">UserGroupDto</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_GetUsers_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.GetUsers*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_GetUsers_System_String_System_String_System_Int32_System_Int32_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.GetUsers(System.String,System.String,System.Int32,System.Int32)">
+  GetUsers(string, string, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionApi_V1.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IQueryResponseDto&lt;ListResultDto&lt;UserDto&gt;&gt; GetUsers(string search = &quot;&quot;, string orderBy = &quot;&quot;, int pageNumber = 1, int pageSize = 50)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>search</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>orderBy</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>pageNumber</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pageSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.Common.Models.IQueryResponseDto-1.html">IQueryResponseDto</a>&lt;<a class="xref" href="Raytha.Application.Common.Models.ListResultDto-1.html">ListResultDto</a>&lt;<a class="xref" href="Raytha.Application.Users.UserDto.html">UserDto</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_GetWebTemplateById_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.GetWebTemplateById*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_GetWebTemplateById_System_String_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.GetWebTemplateById(System.String)">
+  GetWebTemplateById(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionApi_V1.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IQueryResponseDto&lt;WebTemplateDto&gt; GetWebTemplateById(string webTemplateId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>webTemplateId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.Common.Models.IQueryResponseDto-1.html">IQueryResponseDto</a>&lt;<a class="xref" href="Raytha.Application.Templates.Web.WebTemplateDto.html">WebTemplateDto</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_GetWebTemplates_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.GetWebTemplates*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_GetWebTemplates_System_String_System_String_System_Int32_System_Int32_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.GetWebTemplates(System.String,System.String,System.Int32,System.Int32)">
+  GetWebTemplates(string, string, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionApi_V1.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IQueryResponseDto&lt;ListResultDto&lt;WebTemplateDto&gt;&gt; GetWebTemplates(string search = &quot;&quot;, string orderBy = &quot;&quot;, int pageNumber = 1, int pageSize = 50)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>search</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>orderBy</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>pageNumber</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>pageSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.Common.Models.IQueryResponseDto-1.html">IQueryResponseDto</a>&lt;<a class="xref" href="Raytha.Application.Common.Models.ListResultDto-1.html">ListResultDto</a>&lt;<a class="xref" href="Raytha.Application.Templates.Web.WebTemplateDto.html">WebTemplateDto</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_ResetPassword_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.ResetPassword*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_ResetPassword_System_String_System_Boolean_System_String_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.ResetPassword(System.String,System.Boolean,System.String)">
+  ResetPassword(string, bool, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionApi_V1.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ICommandResponseDto&lt;ShortGuid&gt; ResetPassword(string userId, bool sendEmail, string newPassword)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>sendEmail</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>newPassword</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.Common.Models.ICommandResponseDto-1.html">ICommandResponseDto</a>&lt;<span class="xref">ShortGuid</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_SetIsActive_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.SetIsActive*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_SetIsActive_System_String_System_Boolean_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.SetIsActive(System.String,System.Boolean)">
+  SetIsActive(string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionApi_V1.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ICommandResponseDto&lt;ShortGuid&gt; SetIsActive(string userId, bool isActive)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>isActive</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.Common.Models.ICommandResponseDto-1.html">ICommandResponseDto</a>&lt;<span class="xref">ShortGuid</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_UnpublishContentItem_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.UnpublishContentItem*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionApi_V1_UnpublishContentItem_System_String_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionApi_V1.UnpublishContentItem(System.String)">
+  UnpublishContentItem(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionApi_V1.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ICommandResponseDto&lt;ShortGuid&gt; UnpublishContentItem(string contentItemId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>contentItemId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Raytha.Application.Common.Models.ICommandResponseDto-1.html">ICommandResponseDto</a>&lt;<span class="xref">ShortGuid</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionApi_V1.cs/#L13" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
