@@ -1664,6 +1664,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Common.Shared.RaythaFunctionAsBackgroundTask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Common.Shared.RaythaFunctionAsBackgroundTask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Common.Shared.RaythaFunctionAsBackgroundTaskPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Common.Shared.RaythaFunctionAsBackgroundTaskPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Common.Shared.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Common.Shared.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Raytha.Application.Common.Utils.Constants.yml",
       "output": {
         ".html": {
@@ -1724,6 +1754,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Common.Utils.NavigationMenuItemExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Common.Utils.NavigationMenuItemExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Raytha.Application.Common.Utils.OrganizationTimeZoneConverter.yml",
       "output": {
         ".html": {
@@ -1768,6 +1808,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Raytha.Application.Common.Utils.StringExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Common.Utils.WebTemplateExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Common.Utils.WebTemplateExtensions.html"
         }
       },
       "version": ""
@@ -2264,6 +2314,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.ContentItems.ContentItemRaythaFunctionTargetDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.ContentItems.ContentItemRaythaFunctionTargetDto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Raytha.Application.ContentItems.ContentItemRevisionDto.yml",
       "output": {
         ".html": {
@@ -2288,6 +2348,46 @@
       "output": {
         ".html": {
           "relative_path": "api/Raytha.Application.ContentItems.DeletedContentItemDto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.ContentItems.EventHandlers.ContentItemCreatedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.ContentItems.EventHandlers.ContentItemCreatedEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.ContentItems.EventHandlers.ContentItemDeletedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.ContentItems.EventHandlers.ContentItemDeletedEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.ContentItems.EventHandlers.ContentItemUpdatedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.ContentItems.EventHandlers.ContentItemUpdatedEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.ContentItems.EventHandlers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.ContentItems.EventHandlers.html"
         }
       },
       "version": ""
@@ -3004,6 +3104,246 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.EmailTemplates.Commands.EditEmailTemplate.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.EmailTemplates.Commands.EditEmailTemplate.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.EmailTemplates.Commands.EditEmailTemplate.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.EmailTemplates.Commands.EditEmailTemplate.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.EmailTemplates.Commands.EditEmailTemplate.Validator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.EmailTemplates.Commands.EditEmailTemplate.Validator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.EmailTemplates.Commands.EditEmailTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.EmailTemplates.Commands.EditEmailTemplate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.EmailTemplates.Commands.RevertEmailTemplate.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.EmailTemplates.Commands.RevertEmailTemplate.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.EmailTemplates.Commands.RevertEmailTemplate.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.EmailTemplates.Commands.RevertEmailTemplate.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.EmailTemplates.Commands.RevertEmailTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.EmailTemplates.Commands.RevertEmailTemplate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.EmailTemplates.Commands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.EmailTemplates.Commands.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.EmailTemplates.EmailTemplateDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.EmailTemplates.EmailTemplateDto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.EmailTemplates.EmailTemplateRevisionDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.EmailTemplates.EmailTemplateRevisionDto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.EmailTemplates.Queries.GetEmailTemplateById.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.EmailTemplates.Queries.GetEmailTemplateById.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.EmailTemplates.Queries.GetEmailTemplateById.Query.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.EmailTemplates.Queries.GetEmailTemplateById.Query.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.EmailTemplates.Queries.GetEmailTemplateById.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.EmailTemplates.Queries.GetEmailTemplateById.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.EmailTemplates.Queries.GetEmailTemplateByName.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.EmailTemplates.Queries.GetEmailTemplateByName.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.EmailTemplates.Queries.GetEmailTemplateByName.Query.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.EmailTemplates.Queries.GetEmailTemplateByName.Query.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.EmailTemplates.Queries.GetEmailTemplateByName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.EmailTemplates.Queries.GetEmailTemplateByName.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.EmailTemplates.Queries.GetEmailTemplateRevisionsByTemplateId.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.EmailTemplates.Queries.GetEmailTemplateRevisionsByTemplateId.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.EmailTemplates.Queries.GetEmailTemplateRevisionsByTemplateId.Query.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.EmailTemplates.Queries.GetEmailTemplateRevisionsByTemplateId.Query.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.EmailTemplates.Queries.GetEmailTemplateRevisionsByTemplateId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.EmailTemplates.Queries.GetEmailTemplateRevisionsByTemplateId.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.EmailTemplates.Queries.GetEmailTemplates.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.EmailTemplates.Queries.GetEmailTemplates.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.EmailTemplates.Queries.GetEmailTemplates.Query.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.EmailTemplates.Queries.GetEmailTemplates.Query.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.EmailTemplates.Queries.GetEmailTemplates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.EmailTemplates.Queries.GetEmailTemplates.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.EmailTemplates.Queries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.EmailTemplates.Queries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.EmailTemplates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.EmailTemplates.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Raytha.Application.Login.Commands.BeginForgotPassword.Command.yml",
       "output": {
         ".html": {
@@ -3714,6 +4054,46 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.MediaItems.Commands.DeleteMediaItem.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.MediaItems.Commands.DeleteMediaItem.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.MediaItems.Commands.DeleteMediaItem.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.MediaItems.Commands.DeleteMediaItem.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.MediaItems.Commands.DeleteMediaItem.Validator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.MediaItems.Commands.DeleteMediaItem.Validator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.MediaItems.Commands.DeleteMediaItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.MediaItems.Commands.DeleteMediaItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Raytha.Application.MediaItems.Commands.yml",
       "output": {
         ".html": {
@@ -3728,6 +4108,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Raytha.Application.MediaItems.MediaItemDto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.MediaItems.MediaItemJson.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.MediaItems.MediaItemJson.html"
         }
       },
       "version": ""
@@ -3838,6 +4228,796 @@
       "output": {
         ".html": {
           "relative_path": "api/Raytha.Application.MediaItems.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.CreateNavigationMenuItem.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.CreateNavigationMenuItem.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.CreateNavigationMenuItem.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.CreateNavigationMenuItem.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.CreateNavigationMenuItem.Validator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.CreateNavigationMenuItem.Validator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.CreateNavigationMenuItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.CreateNavigationMenuItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.DeleteNavigationMenuItem.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.DeleteNavigationMenuItem.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.DeleteNavigationMenuItem.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.DeleteNavigationMenuItem.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.DeleteNavigationMenuItem.Validator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.DeleteNavigationMenuItem.Validator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.DeleteNavigationMenuItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.DeleteNavigationMenuItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.EditNavigationMenuItem.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.EditNavigationMenuItem.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.EditNavigationMenuItem.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.EditNavigationMenuItem.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.EditNavigationMenuItem.Validator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.EditNavigationMenuItem.Validator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.EditNavigationMenuItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.EditNavigationMenuItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.ReorderNavigationMenuItems.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.ReorderNavigationMenuItems.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.ReorderNavigationMenuItems.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.ReorderNavigationMenuItems.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.ReorderNavigationMenuItems.Validator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.ReorderNavigationMenuItems.Validator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.ReorderNavigationMenuItems.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.ReorderNavigationMenuItems.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.Commands.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.NavigationMenuItemDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.NavigationMenuItemDto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.NavigationMenuItemJson.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.NavigationMenuItemJson.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.NavigationMenuItem_RenderModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.NavigationMenuItem_RenderModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.Queries.GetNavigationMenuItemById.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.Queries.GetNavigationMenuItemById.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.Queries.GetNavigationMenuItemById.Query.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.Queries.GetNavigationMenuItemById.Query.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.Queries.GetNavigationMenuItemById.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.Queries.GetNavigationMenuItemById.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.Queries.GetNavigationMenuItemsByNavigationMenuDeveloperName.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.Queries.GetNavigationMenuItemsByNavigationMenuDeveloperName.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.Queries.GetNavigationMenuItemsByNavigationMenuDeveloperName.Query.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.Queries.GetNavigationMenuItemsByNavigationMenuDeveloperName.Query.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.Queries.GetNavigationMenuItemsByNavigationMenuDeveloperName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.Queries.GetNavigationMenuItemsByNavigationMenuDeveloperName.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.Queries.GetNavigationMenuItemsByNavigationMenuId.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.Queries.GetNavigationMenuItemsByNavigationMenuId.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.Queries.GetNavigationMenuItemsByNavigationMenuId.Query.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.Queries.GetNavigationMenuItemsByNavigationMenuId.Query.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.Queries.GetNavigationMenuItemsByNavigationMenuId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.Queries.GetNavigationMenuItemsByNavigationMenuId.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.Queries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.Queries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenuItems.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenuItems.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Commands.CreateNavigationMenu.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Commands.CreateNavigationMenu.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Commands.CreateNavigationMenu.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Commands.CreateNavigationMenu.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Commands.CreateNavigationMenu.Validator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Commands.CreateNavigationMenu.Validator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Commands.CreateNavigationMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Commands.CreateNavigationMenu.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Commands.CreateNavigationMenuRevision.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Commands.CreateNavigationMenuRevision.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Commands.CreateNavigationMenuRevision.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Commands.CreateNavigationMenuRevision.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Commands.CreateNavigationMenuRevision.Validator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Commands.CreateNavigationMenuRevision.Validator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Commands.CreateNavigationMenuRevision.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Commands.CreateNavigationMenuRevision.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Commands.DeleteNavigationMenu.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Commands.DeleteNavigationMenu.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Commands.DeleteNavigationMenu.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Commands.DeleteNavigationMenu.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Commands.DeleteNavigationMenu.Validator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Commands.DeleteNavigationMenu.Validator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Commands.DeleteNavigationMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Commands.DeleteNavigationMenu.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Commands.EditNavigationMenu.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Commands.EditNavigationMenu.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Commands.EditNavigationMenu.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Commands.EditNavigationMenu.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Commands.EditNavigationMenu.Validator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Commands.EditNavigationMenu.Validator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Commands.EditNavigationMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Commands.EditNavigationMenu.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Commands.RevertNavigationMenu.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Commands.RevertNavigationMenu.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Commands.RevertNavigationMenu.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Commands.RevertNavigationMenu.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Commands.RevertNavigationMenu.Validator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Commands.RevertNavigationMenu.Validator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Commands.RevertNavigationMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Commands.RevertNavigationMenu.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Commands.SetAsMainMenu.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Commands.SetAsMainMenu.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Commands.SetAsMainMenu.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Commands.SetAsMainMenu.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Commands.SetAsMainMenu.Validator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Commands.SetAsMainMenu.Validator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Commands.SetAsMainMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Commands.SetAsMainMenu.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Commands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Commands.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.NavigationMenuDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.NavigationMenuDto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.NavigationMenuRevisionDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.NavigationMenuRevisionDto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.NavigationMenu_RenderModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.NavigationMenu_RenderModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetLatestNavigationMenuRevisions.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetLatestNavigationMenuRevisions.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetLatestNavigationMenuRevisions.Query.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetLatestNavigationMenuRevisions.Query.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetLatestNavigationMenuRevisions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetLatestNavigationMenuRevisions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetMainMenu.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetMainMenu.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetMainMenu.Query.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetMainMenu.Query.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetMainMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetMainMenu.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetNavigationMenuByDeveloperName.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetNavigationMenuByDeveloperName.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetNavigationMenuByDeveloperName.Query.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetNavigationMenuByDeveloperName.Query.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetNavigationMenuByDeveloperName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetNavigationMenuByDeveloperName.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetNavigationMenuById.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetNavigationMenuById.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetNavigationMenuById.Query.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetNavigationMenuById.Query.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetNavigationMenuById.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetNavigationMenuById.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetNavigationMenuRevisionsByNavigationMenuId.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetNavigationMenuRevisionsByNavigationMenuId.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetNavigationMenuRevisionsByNavigationMenuId.Query.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetNavigationMenuRevisionsByNavigationMenuId.Query.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetNavigationMenuRevisionsByNavigationMenuId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetNavigationMenuRevisionsByNavigationMenuId.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetNavigationMenus.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetNavigationMenus.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetNavigationMenus.Query.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetNavigationMenus.Query.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetNavigationMenus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Queries.GetNavigationMenus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.Queries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.Queries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.NavigationMenus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.NavigationMenus.html"
         }
       },
       "version": ""
@@ -4654,610 +5834,1100 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Email.Commands.EditEmailTemplate.Command.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.BeginDuplicateTheme.BackgroundTask.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Email.Commands.EditEmailTemplate.Command.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.BeginDuplicateTheme.BackgroundTask.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Email.Commands.EditEmailTemplate.Handler.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.BeginDuplicateTheme.Command.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Email.Commands.EditEmailTemplate.Handler.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.BeginDuplicateTheme.Command.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Email.Commands.EditEmailTemplate.Validator.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.BeginDuplicateTheme.Handler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Email.Commands.EditEmailTemplate.Validator.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.BeginDuplicateTheme.Handler.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Email.Commands.EditEmailTemplate.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.BeginDuplicateTheme.Validator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Email.Commands.EditEmailTemplate.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.BeginDuplicateTheme.Validator.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Email.Commands.RevertEmailTemplate.Command.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.BeginDuplicateTheme.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Email.Commands.RevertEmailTemplate.Command.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.BeginDuplicateTheme.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Email.Commands.RevertEmailTemplate.Handler.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.BeginImportThemeFromUrl.BackgroundTask.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Email.Commands.RevertEmailTemplate.Handler.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.BeginImportThemeFromUrl.BackgroundTask.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Email.Commands.RevertEmailTemplate.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.BeginImportThemeFromUrl.Command.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Email.Commands.RevertEmailTemplate.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.BeginImportThemeFromUrl.Command.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Email.Commands.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.BeginImportThemeFromUrl.Handler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Email.Commands.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.BeginImportThemeFromUrl.Handler.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Email.EmailTemplateDto.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.BeginImportThemeFromUrl.Validator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Email.EmailTemplateDto.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.BeginImportThemeFromUrl.Validator.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Email.EmailTemplateRevisionDto.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.BeginImportThemeFromUrl.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Email.EmailTemplateRevisionDto.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.BeginImportThemeFromUrl.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Email.Queries.GetEmailTemplateById.Handler.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.BeginMatchWebTemplates.BackgroundTask.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Email.Queries.GetEmailTemplateById.Handler.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.BeginMatchWebTemplates.BackgroundTask.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Email.Queries.GetEmailTemplateById.Query.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.BeginMatchWebTemplates.Command.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Email.Queries.GetEmailTemplateById.Query.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.BeginMatchWebTemplates.Command.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Email.Queries.GetEmailTemplateById.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.BeginMatchWebTemplates.Handler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Email.Queries.GetEmailTemplateById.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.BeginMatchWebTemplates.Handler.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Email.Queries.GetEmailTemplateByName.Handler.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.BeginMatchWebTemplates.Validator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Email.Queries.GetEmailTemplateByName.Handler.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.BeginMatchWebTemplates.Validator.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Email.Queries.GetEmailTemplateByName.Query.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.BeginMatchWebTemplates.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Email.Queries.GetEmailTemplateByName.Query.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.BeginMatchWebTemplates.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Email.Queries.GetEmailTemplateByName.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.CreateTheme.Command.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Email.Queries.GetEmailTemplateByName.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.CreateTheme.Command.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Email.Queries.GetEmailTemplateRevisionsByTemplateId.Handler.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.CreateTheme.Handler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Email.Queries.GetEmailTemplateRevisionsByTemplateId.Handler.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.CreateTheme.Handler.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Email.Queries.GetEmailTemplateRevisionsByTemplateId.Query.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.CreateTheme.Validator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Email.Queries.GetEmailTemplateRevisionsByTemplateId.Query.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.CreateTheme.Validator.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Email.Queries.GetEmailTemplateRevisionsByTemplateId.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.CreateTheme.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Email.Queries.GetEmailTemplateRevisionsByTemplateId.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.CreateTheme.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Email.Queries.GetEmailTemplates.Handler.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.DeleteTheme.Command.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Email.Queries.GetEmailTemplates.Handler.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.DeleteTheme.Command.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Email.Queries.GetEmailTemplates.Query.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.DeleteTheme.Handler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Email.Queries.GetEmailTemplates.Query.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.DeleteTheme.Handler.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Email.Queries.GetEmailTemplates.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.DeleteTheme.Validator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Email.Queries.GetEmailTemplates.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.DeleteTheme.Validator.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Email.Queries.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.DeleteTheme.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Email.Queries.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.DeleteTheme.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Email.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.EditTheme.Command.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Email.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.EditTheme.Command.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Commands.CreateWebTemplate.Command.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.EditTheme.Handler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Commands.CreateWebTemplate.Command.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.EditTheme.Handler.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Commands.CreateWebTemplate.Handler.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.EditTheme.Validator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Commands.CreateWebTemplate.Handler.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.EditTheme.Validator.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Commands.CreateWebTemplate.Validator.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.EditTheme.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Commands.CreateWebTemplate.Validator.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.EditTheme.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Commands.CreateWebTemplate.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.ExportTheme.Command.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Commands.CreateWebTemplate.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.ExportTheme.Command.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Commands.DeleteWebTemplate.Command.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.ExportTheme.Handler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Commands.DeleteWebTemplate.Command.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.ExportTheme.Handler.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Commands.DeleteWebTemplate.Handler.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.ExportTheme.Validator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Commands.DeleteWebTemplate.Handler.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.ExportTheme.Validator.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Commands.DeleteWebTemplate.Validator.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.ExportTheme.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Commands.DeleteWebTemplate.Validator.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.ExportTheme.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Commands.DeleteWebTemplate.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.SetAsActiveTheme.Command.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Commands.DeleteWebTemplate.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.SetAsActiveTheme.Command.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Commands.EditWebTemplate.Command.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.SetAsActiveTheme.Handler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Commands.EditWebTemplate.Command.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.SetAsActiveTheme.Handler.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Commands.EditWebTemplate.Handler.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.SetAsActiveTheme.Validator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Commands.EditWebTemplate.Handler.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.SetAsActiveTheme.Validator.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Commands.EditWebTemplate.Validator.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.SetAsActiveTheme.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Commands.EditWebTemplate.Validator.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.SetAsActiveTheme.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Commands.EditWebTemplate.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.SetAsActiveThemeInternal.Command.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Commands.EditWebTemplate.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.SetAsActiveThemeInternal.Command.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Commands.RevertWebTemplate.Command.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.SetAsActiveThemeInternal.Handler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Commands.RevertWebTemplate.Command.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.SetAsActiveThemeInternal.Handler.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Commands.RevertWebTemplate.Handler.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.SetAsActiveThemeInternal.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Commands.RevertWebTemplate.Handler.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.SetAsActiveThemeInternal.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Commands.RevertWebTemplate.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.ToggleThemeExportability.Command.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Commands.RevertWebTemplate.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.ToggleThemeExportability.Command.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Commands.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.ToggleThemeExportability.Handler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Commands.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.ToggleThemeExportability.Handler.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Queries.GetWebTemplateById.Handler.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.ToggleThemeExportability.Validator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Queries.GetWebTemplateById.Handler.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.ToggleThemeExportability.Validator.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Queries.GetWebTemplateById.Query.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.ToggleThemeExportability.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Queries.GetWebTemplateById.Query.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.ToggleThemeExportability.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Queries.GetWebTemplateById.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Commands.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Queries.GetWebTemplateById.html"
+          "relative_path": "api/Raytha.Application.Themes.Commands.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Queries.GetWebTemplateByName.Handler.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.MediaItems.Queries.GetMediaItemsByThemeId.Handler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Queries.GetWebTemplateByName.Handler.html"
+          "relative_path": "api/Raytha.Application.Themes.MediaItems.Queries.GetMediaItemsByThemeId.Handler.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Queries.GetWebTemplateByName.Query.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.MediaItems.Queries.GetMediaItemsByThemeId.Query.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Queries.GetWebTemplateByName.Query.html"
+          "relative_path": "api/Raytha.Application.Themes.MediaItems.Queries.GetMediaItemsByThemeId.Query.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Queries.GetWebTemplateByName.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.MediaItems.Queries.GetMediaItemsByThemeId.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Queries.GetWebTemplateByName.html"
+          "relative_path": "api/Raytha.Application.Themes.MediaItems.Queries.GetMediaItemsByThemeId.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Queries.GetWebTemplateRevisionsByTemplateId.Handler.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.MediaItems.Queries.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Queries.GetWebTemplateRevisionsByTemplateId.Handler.html"
+          "relative_path": "api/Raytha.Application.Themes.MediaItems.Queries.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Queries.GetWebTemplateRevisionsByTemplateId.Query.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Queries.GetThemeById.Handler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Queries.GetWebTemplateRevisionsByTemplateId.Query.html"
+          "relative_path": "api/Raytha.Application.Themes.Queries.GetThemeById.Handler.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Queries.GetWebTemplateRevisionsByTemplateId.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Queries.GetThemeById.Query.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Queries.GetWebTemplateRevisionsByTemplateId.html"
+          "relative_path": "api/Raytha.Application.Themes.Queries.GetThemeById.Query.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Queries.GetWebTemplates.Handler.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Queries.GetThemeById.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Queries.GetWebTemplates.Handler.html"
+          "relative_path": "api/Raytha.Application.Themes.Queries.GetThemeById.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Queries.GetWebTemplates.Query.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Queries.GetThemes.Handler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Queries.GetWebTemplates.Query.html"
+          "relative_path": "api/Raytha.Application.Themes.Queries.GetThemes.Handler.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Queries.GetWebTemplates.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Queries.GetThemes.Query.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Queries.GetWebTemplates.html"
+          "relative_path": "api/Raytha.Application.Themes.Queries.GetThemes.Query.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Queries.GetWebTemplatesAsListItems.Handler.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Queries.GetThemes.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Queries.GetWebTemplatesAsListItems.Handler.html"
+          "relative_path": "api/Raytha.Application.Themes.Queries.GetThemes.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Queries.GetWebTemplatesAsListItems.Query.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Queries.GetWebTemplateContentItemRelationsByContentTypeId.Handler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Queries.GetWebTemplatesAsListItems.Query.html"
+          "relative_path": "api/Raytha.Application.Themes.Queries.GetWebTemplateContentItemRelationsByContentTypeId.Handler.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Queries.GetWebTemplatesAsListItems.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Queries.GetWebTemplateContentItemRelationsByContentTypeId.Query.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Queries.GetWebTemplatesAsListItems.html"
+          "relative_path": "api/Raytha.Application.Themes.Queries.GetWebTemplateContentItemRelationsByContentTypeId.Query.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.Queries.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Queries.GetWebTemplateContentItemRelationsByContentTypeId.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.Queries.html"
+          "relative_path": "api/Raytha.Application.Themes.Queries.GetWebTemplateContentItemRelationsByContentTypeId.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.WebTemplateDto.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Queries.GetWebTemplateDeveloperNamesWithoutRelation.Handler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.WebTemplateDto.html"
+          "relative_path": "api/Raytha.Application.Themes.Queries.GetWebTemplateDeveloperNamesWithoutRelation.Handler.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.WebTemplateExtensions.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Queries.GetWebTemplateDeveloperNamesWithoutRelation.Query.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.WebTemplateExtensions.html"
+          "relative_path": "api/Raytha.Application.Themes.Queries.GetWebTemplateDeveloperNamesWithoutRelation.Query.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.WebTemplateListItemDto.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Queries.GetWebTemplateDeveloperNamesWithoutRelation.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.WebTemplateListItemDto.html"
+          "relative_path": "api/Raytha.Application.Themes.Queries.GetWebTemplateDeveloperNamesWithoutRelation.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.WebTemplateRevisionDto.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.Queries.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.WebTemplateRevisionDto.html"
+          "relative_path": "api/Raytha.Application.Themes.Queries.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Raytha.Application.Templates.Web.yml",
+      "source_relative_path": "api/Raytha.Application.Themes.ThemeDto.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Raytha.Application.Templates.Web.html"
+          "relative_path": "api/Raytha.Application.Themes.ThemeDto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.ThemeJson.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.ThemeJson.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplateContentItemRelationDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplateContentItemRelationDto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.CreateWebTemplate.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.CreateWebTemplate.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.CreateWebTemplate.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.CreateWebTemplate.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.CreateWebTemplate.Validator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.CreateWebTemplate.Validator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.CreateWebTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.CreateWebTemplate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.DeleteWebTemplate.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.DeleteWebTemplate.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.DeleteWebTemplate.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.DeleteWebTemplate.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.DeleteWebTemplate.Validator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.DeleteWebTemplate.Validator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.DeleteWebTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.DeleteWebTemplate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.EditWebTemplate.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.EditWebTemplate.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.EditWebTemplate.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.EditWebTemplate.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.EditWebTemplate.Validator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.EditWebTemplate.Validator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.EditWebTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.EditWebTemplate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.RevertWebTemplate.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.RevertWebTemplate.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.RevertWebTemplate.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.RevertWebTemplate.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.RevertWebTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.RevertWebTemplate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Commands.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateByContentItemId.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateByContentItemId.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateByContentItemId.Query.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateByContentItemId.Query.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateByContentItemId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateByContentItemId.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateByDeveloperName.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateByDeveloperName.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateByDeveloperName.Query.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateByDeveloperName.Query.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateByDeveloperName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateByDeveloperName.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateById.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateById.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateById.Query.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateById.Query.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateById.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateById.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateByViewId.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateByViewId.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateByViewId.Query.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateByViewId.Query.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateByViewId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateByViewId.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateDeveloperNamesByThemeId.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateDeveloperNamesByThemeId.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateDeveloperNamesByThemeId.Query.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateDeveloperNamesByThemeId.Query.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateDeveloperNamesByThemeId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateDeveloperNamesByThemeId.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateRevisionsByTemplateId.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateRevisionsByTemplateId.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateRevisionsByTemplateId.Query.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateRevisionsByTemplateId.Query.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateRevisionsByTemplateId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplateRevisionsByTemplateId.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplates.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplates.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplates.Query.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplates.Query.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplates.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplatesAsListItems.Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplatesAsListItems.Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplatesAsListItems.Query.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplatesAsListItems.Query.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplatesAsListItems.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.GetWebTemplatesAsListItems.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.Queries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.WebTemplateDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.WebTemplateDto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.WebTemplateJson.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.WebTemplateJson.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.WebTemplateListItemDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.WebTemplateListItemDto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.WebTemplateRevisionDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.WebTemplateRevisionDto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.WebTemplates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.WebTemplates.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Raytha.Application.Themes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Raytha.Application.Themes.html"
         }
       },
       "version": ""

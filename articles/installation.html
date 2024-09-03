@@ -73,7 +73,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -100,12 +100,13 @@
 <ol start="2">
 <li><p>Ensure your appsettings.config has a valid database connection string and SMTP credentials. If you do not have access to an SMTP server for local development, <a href="https://github.com/ChangemakerStudios/Papercut-SMTP">check out Papercut-SMTP</a>. Super convenient.</p>
 </li>
-<li><p>Make sure Raytha.Web is set as the Default Project. Open the <code>Package Manager Console</code> and run Entity Framework database migrations:</p>
+<li><p>Make sure Raytha.Web is set as the Default Project. Compile and run. Raytha will apply the database migrations to your database on first run.</p>
 </li>
 </ol>
+<p>If you prefer to run migrations manually, you can set <code>APPLY_PENDING_MIGRATIONS</code> to <code>false</code> in appsettings.json or env variables and then open the <code>Package Manager Console</code> and run Entity Framework database migrations:</p>
 <pre><code>dotnet ef database update --project .\src\Raytha.Infrastructure --startup-project .\src\Raytha.Web
 </code></pre>
-<p>Alternatively you can create your database manually and then run the <code>FreshCreateOnLatestVersion.sql</code> script in the /db directory.</p>
+<p>or run the <code>FreshCreateOnLatestVersion.sql</code> script in the /db directory.</p>
 <ol start="4">
 <li>Compile and run. If everything works, the first screen you see will be an Initial Setup screen. Complete the details and you are good to go.</li>
 </ol>

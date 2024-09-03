@@ -73,7 +73,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -97,7 +97,7 @@ Class ExecuteRaythaFunction.Command  <a class="header-action link-secondary" tit
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public record ExecuteRaythaFunction.Command : LoggableRequest&lt;CommandResponseDto&lt;object&gt;&gt;, IRequest&lt;CommandResponseDto&lt;object&gt;&gt;, IBaseRequest, ILoggableRequest, IEquatable&lt;LoggableRequest&lt;CommandResponseDto&lt;object&gt;&gt;&gt;, IEquatable&lt;ExecuteRaythaFunction.Command&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public record ExecuteRaythaFunction.Command : IRequest&lt;CommandResponseDto&lt;object&gt;&gt;, IBaseRequest, IEquatable&lt;ExecuteRaythaFunction.Command&gt;</code></pre>
   </div>
 
 
@@ -107,7 +107,6 @@ Class ExecuteRaythaFunction.Command  <a class="header-action link-secondary" tit
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="Raytha.Application.Common.Models.LoggableRequest-1.html">LoggableRequest</a>&lt;<a class="xref" href="Raytha.Application.Common.Models.CommandResponseDto-1.html">CommandResponseDto</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;&gt;</div>
       <div><span class="xref">ExecuteRaythaFunction.Command</span></div>
     </dd>
   </dl>
@@ -117,8 +116,6 @@ Class ExecuteRaythaFunction.Command  <a class="header-action link-secondary" tit
     <dd>
       <div><span class="xref">IRequest</span>&lt;<a class="xref" href="Raytha.Application.Common.Models.CommandResponseDto-1.html">CommandResponseDto</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;&gt;</div>
       <div><span class="xref">IBaseRequest</span></div>
-      <div><a class="xref" href="Raytha.Application.Common.Models.ILoggableRequest.html">ILoggableRequest</a></div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Raytha.Application.Common.Models.LoggableRequest-1.html">LoggableRequest</a>&lt;<a class="xref" href="Raytha.Application.Common.Models.CommandResponseDto-1.html">CommandResponseDto</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;&gt;&gt;</div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Raytha.Application.RaythaFunctions.Commands.ExecuteRaythaFunction.html">ExecuteRaythaFunction</a>.<a class="xref" href="Raytha.Application.RaythaFunctions.Commands.ExecuteRaythaFunction.Command.html">Command</a>&gt;</div>
     </dd>
   </dl>
@@ -127,9 +124,6 @@ Class ExecuteRaythaFunction.Command  <a class="header-action link-secondary" tit
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
-    <div>
-      <a class="xref" href="Raytha.Application.Common.Models.LoggableRequest-1.html#Raytha_Application_Common_Models_LoggableRequest_1_GetLogName">LoggableRequest&lt;CommandResponseDto&lt;object&gt;&gt;.GetLogName()</a>
-    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>

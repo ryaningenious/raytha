@@ -73,7 +73,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -85,7 +85,7 @@
 
 
   <h1 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler" class="text-break">
-Class InitialSetup.Handler  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L66"><i class="bi bi-code-slash"></i></a>
+Class InitialSetup.Handler  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L67"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -156,16 +156,16 @@ Class InitialSetup.Handler  <a class="header-action link-secondary" title="View 
 
   <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler__ctor_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.#ctor*"></a>
 
-  <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler__ctor_Raytha_Application_Common_Interfaces_IRaythaDbContext_Raytha_Application_Common_Interfaces_IEmailerConfiguration_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.#ctor(Raytha.Application.Common.Interfaces.IRaythaDbContext,Raytha.Application.Common.Interfaces.IEmailerConfiguration)">
-  Handler(IRaythaDbContext, IEmailerConfiguration)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler__ctor_Raytha_Application_Common_Interfaces_IRaythaDbContext_Raytha_Application_Common_Interfaces_IEmailerConfiguration_Raytha_Application_Common_Interfaces_IFileStorageProvider_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.#ctor(Raytha.Application.Common.Interfaces.IRaythaDbContext,Raytha.Application.Common.Interfaces.IEmailerConfiguration,Raytha.Application.Common.Interfaces.IFileStorageProvider)">
+  Handler(IRaythaDbContext, IEmailerConfiguration, IFileStorageProvider)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L97"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Handler(IRaythaDbContext db, IEmailerConfiguration emailerConfiguration)</code></pre>
+    <pre><code class="lang-csharp hljs">public Handler(IRaythaDbContext db, IEmailerConfiguration emailerConfiguration, IFileStorageProvider fileStorageProvider)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -173,6 +173,8 @@ Class InitialSetup.Handler  <a class="header-action link-secondary" title="View 
     <dt><code>db</code> <a class="xref" href="Raytha.Application.Common.Interfaces.IRaythaDbContext.html">IRaythaDbContext</a></dt>
     <dd></dd>
     <dt><code>emailerConfiguration</code> <a class="xref" href="Raytha.Application.Common.Interfaces.IEmailerConfiguration.html">IEmailerConfiguration</a></dt>
+    <dd></dd>
+    <dt><code>fileStorageProvider</code> <a class="xref" href="Raytha.Application.Common.Interfaces.IFileStorageProvider.html">IFileStorageProvider</a></dt>
     <dd></dd>
   </dl>
 
@@ -195,7 +197,7 @@ Class InitialSetup.Handler  <a class="header-action link-secondary" title="View 
 
   <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_Handle_Raytha_Application_OrganizationSettings_Commands_InitialSetup_Command_System_Threading_CancellationToken_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.Handle(Raytha.Application.OrganizationSettings.Commands.InitialSetup.Command,System.Threading.CancellationToken)">
   Handle(Command, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L104"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Handles a request</p>
@@ -237,7 +239,7 @@ Class InitialSetup.Handler  <a class="header-action link-secondary" title="View 
 
   <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultAuthentications" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultAuthentications">
   InsertDefaultAuthentications()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L379"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L465"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -263,7 +265,7 @@ Class InitialSetup.Handler  <a class="header-action link-secondary" title="View 
 
   <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultContentTypeFields" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultContentTypeFields">
   InsertDefaultContentTypeFields()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L199"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L213"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -289,7 +291,7 @@ Class InitialSetup.Handler  <a class="header-action link-secondary" title="View 
 
   <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultContentTypes" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultContentTypes">
   InsertDefaultContentTypes()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L246"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L260"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -315,7 +317,7 @@ Class InitialSetup.Handler  <a class="header-action link-secondary" title="View 
 
   <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultEmailTemplates" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultEmailTemplates">
   InsertDefaultEmailTemplates()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L359"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L445"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -341,7 +343,7 @@ Class InitialSetup.Handler  <a class="header-action link-secondary" title="View 
 
   <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultPages" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultPages">
   InsertDefaultPages()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L409"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L495"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -367,7 +369,7 @@ Class InitialSetup.Handler  <a class="header-action link-secondary" title="View 
 
   <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultPosts" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultPosts">
   InsertDefaultPosts()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L478"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L588"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -393,7 +395,7 @@ Class InitialSetup.Handler  <a class="header-action link-secondary" title="View 
 
   <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultRolesAndSuperAdmin_Raytha_Application_OrganizationSettings_Commands_InitialSetup_Command_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultRolesAndSuperAdmin(Raytha.Application.OrganizationSettings.Commands.InitialSetup.Command)">
   InsertDefaultRolesAndSuperAdmin(Command)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L152"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -420,11 +422,49 @@ Class InitialSetup.Handler  <a class="header-action link-secondary" title="View 
 
 
 
+  <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultThemeAssetsToFileStorage_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultThemeAssetsToFileStorage*"></a>
+
+  <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultThemeAssetsToFileStorage_System_Threading_CancellationToken_System_Guid_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultThemeAssetsToFileStorage(System.Threading.CancellationToken,System.Guid)">
+  InsertDefaultThemeAssetsToFileStorage(CancellationToken, Guid)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L287"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Task&lt;IReadOnlyCollection&lt;MediaItem&gt;&gt; InsertDefaultThemeAssetsToFileStorage(CancellationToken cancellationToken, Guid defaultThemeId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+    <dt><code>defaultThemeId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<span class="xref">MediaItem</span>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultViews_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultViews*"></a>
 
   <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultViews" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultViews">
   InsertDefaultViews()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L513"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L634"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -448,18 +488,25 @@ Class InitialSetup.Handler  <a class="header-action link-secondary" title="View 
 
   <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultWebTemplates_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultWebTemplates*"></a>
 
-  <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultWebTemplates" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultWebTemplates">
-  InsertDefaultWebTemplates()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L273"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertDefaultWebTemplates_System_Collections_Generic_IReadOnlyCollection_Raytha_Domain_Entities_MediaItem__System_Guid_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertDefaultWebTemplates(System.Collections.Generic.IReadOnlyCollection{Raytha.Domain.Entities.MediaItem},System.Guid)">
+  InsertDefaultWebTemplates(IReadOnlyCollection&lt;MediaItem&gt;, Guid)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L333"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void InsertDefaultWebTemplates()</code></pre>
+    <pre><code class="lang-csharp hljs">protected void InsertDefaultWebTemplates(IReadOnlyCollection&lt;MediaItem&gt; mediaItems, Guid defaultThemeId)</code></pre>
   </div>
 
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mediaItems</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<span class="xref">MediaItem</span>&gt;</dt>
+    <dd></dd>
+    <dt><code>defaultThemeId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
 
 
 
@@ -474,21 +521,23 @@ Class InitialSetup.Handler  <a class="header-action link-secondary" title="View 
 
   <a id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertOrganizationSettings_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertOrganizationSettings*"></a>
 
-  <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertOrganizationSettings_Raytha_Application_OrganizationSettings_Commands_InitialSetup_Command_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertOrganizationSettings(Raytha.Application.OrganizationSettings.Commands.InitialSetup.Command)">
-  InsertOrganizationSettings(Command)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_InsertOrganizationSettings_Raytha_Application_OrganizationSettings_Commands_InitialSetup_Command_System_Guid_" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.InsertOrganizationSettings(Raytha.Application.OrganizationSettings.Commands.InitialSetup.Command,System.Guid)">
+  InsertOrganizationSettings(Command, Guid)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L131"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void InsertOrganizationSettings(InitialSetup.Command request)</code></pre>
+    <pre><code class="lang-csharp hljs">protected void InsertOrganizationSettings(InitialSetup.Command request, Guid defaultThemeId)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>request</code> <a class="xref" href="Raytha.Application.OrganizationSettings.Commands.InitialSetup.html">InitialSetup</a>.<a class="xref" href="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Command.html">Command</a></dt>
+    <dd></dd>
+    <dt><code>defaultThemeId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
     <dd></dd>
   </dl>
 
@@ -507,7 +556,7 @@ Class InitialSetup.Handler  <a class="header-action link-secondary" title="View 
 
   <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_SetHomePage" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.SetHomePage">
   SetHomePage()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L564"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L704"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -533,7 +582,7 @@ Class InitialSetup.Handler  <a class="header-action link-secondary" title="View 
 
   <h3 id="Raytha_Application_OrganizationSettings_Commands_InitialSetup_Handler_SetPrimaryFieldsOnContentTypes" data-uid="Raytha.Application.OrganizationSettings.Commands.InitialSetup.Handler.SetPrimaryFieldsOnContentTypes">
   SetPrimaryFieldsOnContentTypes()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L555"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L695"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -559,7 +608,7 @@ Class InitialSetup.Handler  <a class="header-action link-secondary" title="View 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L66" class="edit-link">Edit this page</a>
+          <a href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/OrganizationSettings/Commands/InitialSetup.cs/#L67" class="edit-link">Edit this page</a>
         </div>
 
 

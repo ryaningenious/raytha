@@ -73,7 +73,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -118,20 +118,22 @@ Interface IRaythaFunctionScriptEngine  <a class="header-action link-secondary" t
 
   <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionScriptEngine_EvaluateGet_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionScriptEngine.EvaluateGet*"></a>
 
-  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionScriptEngine_EvaluateGet_System_String_System_TimeSpan_System_Threading_CancellationToken_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionScriptEngine.EvaluateGet(System.String,System.TimeSpan,System.Threading.CancellationToken)">
-  EvaluateGet(string, TimeSpan, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionScriptEngine.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionScriptEngine_EvaluateGet_System_String_System_String_System_TimeSpan_System_Threading_CancellationToken_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionScriptEngine.EvaluateGet(System.String,System.String,System.TimeSpan,System.Threading.CancellationToken)">
+  EvaluateGet(string, string, TimeSpan, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionScriptEngine.cs/#L5"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;object&gt; EvaluateGet(string query, TimeSpan executeTimeout, CancellationToken cancellationToken)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;object&gt; EvaluateGet(string code, string query, TimeSpan executeTimeout, CancellationToken cancellationToken)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
+    <dt><code>code</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
     <dt><code>query</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
     <dt><code>executeTimeout</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
@@ -158,20 +160,22 @@ Interface IRaythaFunctionScriptEngine  <a class="header-action link-secondary" t
 
   <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionScriptEngine_EvaluatePost_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionScriptEngine.EvaluatePost*"></a>
 
-  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionScriptEngine_EvaluatePost_System_String_System_String_System_TimeSpan_System_Threading_CancellationToken_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionScriptEngine.EvaluatePost(System.String,System.String,System.TimeSpan,System.Threading.CancellationToken)">
-  EvaluatePost(string, string, TimeSpan, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionScriptEngine.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionScriptEngine_EvaluatePost_System_String_System_String_System_String_System_TimeSpan_System_Threading_CancellationToken_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionScriptEngine.EvaluatePost(System.String,System.String,System.String,System.TimeSpan,System.Threading.CancellationToken)">
+  EvaluatePost(string, string, string, TimeSpan, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionScriptEngine.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;object&gt; EvaluatePost(string payload, string query, TimeSpan executeTimeout, CancellationToken cancellationToken)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;object&gt; EvaluatePost(string code, string payload, string query, TimeSpan executeTimeout, CancellationToken cancellationToken)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
+    <dt><code>code</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
     <dt><code>payload</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
     <dt><code>query</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
@@ -198,26 +202,37 @@ Interface IRaythaFunctionScriptEngine  <a class="header-action link-secondary" t
 
 
 
-  <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionScriptEngine_Initialize_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionScriptEngine.Initialize*"></a>
+  <a id="Raytha_Application_Common_Interfaces_IRaythaFunctionScriptEngine_EvaluateRun_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionScriptEngine.EvaluateRun*"></a>
 
-  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionScriptEngine_Initialize_System_String_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionScriptEngine.Initialize(System.String)">
-  Initialize(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionScriptEngine.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaFunctionScriptEngine_EvaluateRun_System_String_System_String_System_TimeSpan_System_Threading_CancellationToken_" data-uid="Raytha.Application.Common.Interfaces.IRaythaFunctionScriptEngine.EvaluateRun(System.String,System.String,System.TimeSpan,System.Threading.CancellationToken)">
+  EvaluateRun(string, string, TimeSpan, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaFunctionScriptEngine.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Initialize(string code)</code></pre>
+    <pre><code class="lang-csharp hljs">Task EvaluateRun(string code, string payload, TimeSpan executeTimeout, CancellationToken cancellationToken)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>code</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
+    <dt><code>payload</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>executeTimeout</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
   </dl>
 
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
 
 
 

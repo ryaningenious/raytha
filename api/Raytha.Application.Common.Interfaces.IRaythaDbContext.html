@@ -73,7 +73,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -368,7 +368,7 @@ Interface IRaythaDbContext  <a class="header-action link-secondary" title="View 
 
   <h3 id="Raytha_Application_Common_Interfaces_IRaythaDbContext_DbContext" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbContext.DbContext">
   DbContext
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaDbContext.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaDbContext.cs/#L41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -540,6 +540,99 @@ Interface IRaythaDbContext  <a class="header-action link-secondary" title="View 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<span class="xref">MediaItem</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaDbContext_NavigationMenuItems_" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbContext.NavigationMenuItems*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaDbContext_NavigationMenuItems" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbContext.NavigationMenuItems">
+  NavigationMenuItems
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaDbContext.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DbSet&lt;NavigationMenuItem&gt; NavigationMenuItems { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<span class="xref">NavigationMenuItem</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaDbContext_NavigationMenuRevisions_" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbContext.NavigationMenuRevisions*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaDbContext_NavigationMenuRevisions" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbContext.NavigationMenuRevisions">
+  NavigationMenuRevisions
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaDbContext.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DbSet&lt;NavigationMenuRevision&gt; NavigationMenuRevisions { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<span class="xref">NavigationMenuRevision</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaDbContext_NavigationMenus_" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbContext.NavigationMenus*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaDbContext_NavigationMenus" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbContext.NavigationMenus">
+  NavigationMenus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaDbContext.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DbSet&lt;NavigationMenu&gt; NavigationMenus { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<span class="xref">NavigationMenu</span>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -736,6 +829,68 @@ Interface IRaythaDbContext  <a class="header-action link-secondary" title="View 
 
 
 
+  <a id="Raytha_Application_Common_Interfaces_IRaythaDbContext_ThemeAccessToMediaItems_" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbContext.ThemeAccessToMediaItems*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaDbContext_ThemeAccessToMediaItems" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbContext.ThemeAccessToMediaItems">
+  ThemeAccessToMediaItems
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaDbContext.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DbSet&lt;ThemeAccessToMediaItem&gt; ThemeAccessToMediaItems { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<span class="xref">ThemeAccessToMediaItem</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaDbContext_Themes_" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbContext.Themes*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaDbContext_Themes" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbContext.Themes">
+  Themes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaDbContext.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DbSet&lt;Theme&gt; Themes { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<span class="xref">Theme</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Raytha_Application_Common_Interfaces_IRaythaDbContext_UserGroups_" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbContext.UserGroups*"></a>
 
   <h3 id="Raytha_Application_Common_Interfaces_IRaythaDbContext_UserGroups" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbContext.UserGroups">
@@ -891,6 +1046,37 @@ Interface IRaythaDbContext  <a class="header-action link-secondary" title="View 
 
 
 
+  <a id="Raytha_Application_Common_Interfaces_IRaythaDbContext_WebTemplateContentItemRelations_" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbContext.WebTemplateContentItemRelations*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaDbContext_WebTemplateContentItemRelations" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbContext.WebTemplateContentItemRelations">
+  WebTemplateContentItemRelations
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaDbContext.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DbSet&lt;WebTemplateContentItemRelation&gt; WebTemplateContentItemRelations { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<span class="xref">WebTemplateContentItemRelation</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Raytha_Application_Common_Interfaces_IRaythaDbContext_WebTemplateRevisions_" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbContext.WebTemplateRevisions*"></a>
 
   <h3 id="Raytha_Application_Common_Interfaces_IRaythaDbContext_WebTemplateRevisions" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbContext.WebTemplateRevisions">
@@ -912,6 +1098,37 @@ Interface IRaythaDbContext  <a class="header-action link-secondary" title="View 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<span class="xref">WebTemplateRevision</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Raytha_Application_Common_Interfaces_IRaythaDbContext_WebTemplateViewRelations_" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbContext.WebTemplateViewRelations*"></a>
+
+  <h3 id="Raytha_Application_Common_Interfaces_IRaythaDbContext_WebTemplateViewRelations" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbContext.WebTemplateViewRelations">
+  WebTemplateViewRelations
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaDbContext.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DbSet&lt;WebTemplateViewRelation&gt; WebTemplateViewRelations { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<span class="xref">WebTemplateViewRelation</span>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -961,7 +1178,7 @@ Interface IRaythaDbContext  <a class="header-action link-secondary" title="View 
 
   <h3 id="Raytha_Application_Common_Interfaces_IRaythaDbContext_SaveChangesAsync_System_Threading_CancellationToken_" data-uid="Raytha.Application.Common.Interfaces.IRaythaDbContext.SaveChangesAsync(System.Threading.CancellationToken)">
   SaveChangesAsync(CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaDbContext.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Application/Common/Interfaces/IRaythaDbContext.cs/#L43"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

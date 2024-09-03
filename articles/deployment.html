@@ -73,7 +73,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -83,14 +83,40 @@
         <article data-uid="">
 <h1 id="deploy-raytha-to-production">Deploy Raytha to Production</h1>
 
-<p>Deploying Raytha CMS to production is similar to deploying any other .NET 6+ web application. However, there are some important considerations to keep in mind before deploying:</p>
+<p>Deploying Raytha CMS to production is similar to deploying any other .NET 8+ web application. However, there are some important considerations to keep in mind before deploying:</p>
 <ul>
 <li>Choose the deployment environment that best fits your needs, such as a bare metal VM, a PaaS solution like Azure App Service, or a containerized solution like Docker.</li>
-<li>Decide on a file storage provider, such as Azure Blob Storage or an S3-compatible storage, that best suits your requirements.</li>
+<li>Decide on a file storage provider, such as local storage, Azure Blob Storage, or an S3-compatible storage, that best suits your requirements.</li>
 <li>Choose between self-hosting your SQL Server database or using a managed provider like Azure SQL.</li>
 </ul>
 <p>Our team has extensively tested Raytha on various deployment environments and storage providers. For instance, we have successfully deployed Raytha on Azure App Service's Windows environment as well as Web Apps for Containers. We have also tested Raytha's file storage in both <code>Local</code> mode and with Azure Blob Storage. While using Azure Blob Storage is recommended for production, Local mode is sufficient for testing and development purposes.</p>
 <p>Furthermore, we have deployed Raytha's database on Azure SQL and tested it in Azure Kubernetes Service. We found that this setup was not only effective but also easy to configure.</p>
+<h2 id="minimum-docker-deployment">Minimum Docker Deployment</h2>
+<p><strong>Dependencies</strong></p>
+<ul>
+<li>SQL Server or Azure SQL</li>
+<li>SMTP for email</li>
+</ul>
+<p><strong>Running Raytha</strong></p>
+<ol>
+<li>Pull the docker image</li>
+</ol>
+<pre><code>docker pull raythahq/raytha
+</code></pre>
+<ol start="2">
+<li><p>Create your database and run the Create Database Script with <a href="https://github.com/RaythaHQ/raytha/blob/main/db/FreshCreateOnLatestVersion.sql">this SQL script</a></p>
+</li>
+<li><p>Create an environment file that sets the SQL server connection string for setting:</p>
+</li>
+</ol>
+<pre><code>ConnectionStrings__DefaultConnection
+</code></pre>
+<p><a href="https://github.com/RaythaHQ/raytha/blob/main/src/Raytha.Web/appsettings.json">View all available environment variables</a>, including if you wish to use a storage provider such as Azure Blob or S3-compatible, and also receive emails for password retrieval and other functionality.</p>
+<ol start="4">
+<li>Run with command.</li>
+</ol>
+<pre><code> docker run -p 8080:8080 --env-file your-env-file
+</code></pre>
 <h2 id="installation-support">Installation Support</h2>
 <p>If you are not comfortable with setting up hosting for Raytha, don't worry! Our team at Raytha is here to help. We offer guided installation services to help you get up and running quickly. Additionally, we also offer managed hosting services so that you don't have to worry about the technical details of hosting Raytha yourself. Please reach out to us at hello@raytha.com to learn more about our services and how we can help you.</p>
 <h2 id="run-at-a-different-path-base">Run at a different path base</h2>
