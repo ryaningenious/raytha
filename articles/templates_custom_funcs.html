@@ -119,6 +119,37 @@
 	&lt;a href=&quot;{{ PathBase }}/{{ category.DeveloperName }}&quot;&gt;{{ choice.Label }}&lt;/a&gt;
 {% endfor %}
 </code></pre>
+<h3 id="get_main_menu-and-get_menudevelopername">get_main_menu() and get_menu('developerName')</h3>
+<p>Retrieve the Navigation Menu that is set to the <code>default</code>.</p>
+<p>Example usage:</p>
+<pre><code>{% assign menu = get_main_menu() %}
+&lt;ul class=&quot;navbar-nav me-auto mb-2 mb-lg-0&quot;&gt;
+{% for menuItem in menu.MenuItems %}
+    {% assign menuLabelDownCase = menuItem.Label | downcase %}
+    &lt;li class=&quot;nav-item&quot;&gt;
+        &lt;a class=&quot;{{ menuItem.CssClassName }} {% if Target.RoutePath == menuItem.Label or ContentType.DeveloperName == menuLabelDownCase %} active {% endif %}&quot; href=&quot;{{ menuItem.Url }}&quot;&gt;
+        {{ menuItem.Label }}
+        &lt;/a&gt;
+    &lt;/li&gt;
+{% endfor %}
+&lt;/ul&gt;
+
+{% assign footerMenu = get_menu('footer') %}
+...
+
+</code></pre>
+<p>The function builds a tree out of the navigation menu so that you can reach child items as well. The model of a menu item object is the following:</p>
+<pre><code>string Id
+string Label
+string Url
+bool IsDisabled
+bool OpenInNewTab
+string? CssClassName
+int Ordinal
+bool IsFirstItem
+bool IsLastItem
+IEnumerable&lt;NavigationMenuItem_RenderModel&gt; MenuItems
+</code></pre>
 <h2 id="filters">Filters</h2>
 <h3 id="attachment_redirect_url">attachment_redirect_url</h3>
 <p>Output a url that is relative to the current website such as yourdomain.com/raytha/media-items/objectkey/{key}.</p>
